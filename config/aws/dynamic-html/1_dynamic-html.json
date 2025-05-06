@@ -15,15 +15,9 @@
       "benchmark": "110.dynamic-html",
       "experiments": ["cold", "warm"],
       "input-size": "large",
-      "repetitions": 100,
+      "repetitions": 120,
       "concurrent-invocations": 30, 
       "memory-sizes": [128]
-    },
-    "eviction-model": {
-      "invocations": 1,
-      "function_copy_idx": 0,
-      "repetitions": 5,
-      "sleep": 1
     }
   },
   "deployment": {
