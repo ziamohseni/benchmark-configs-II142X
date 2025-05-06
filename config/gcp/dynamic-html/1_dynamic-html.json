@@ -16,16 +16,16 @@
       "experiments": ["cold", "warm"],
       "input-size": "large",
       "repetitions": 120,
-      "concurrent-invocations": 30, 
+      "concurrent-invocations": 30,
       "memory-sizes": [128]
     }
   },
   "deployment": {
     "name": "gcp",
     "gcp": {
-      "region": "europe-west3",
-      "project_name": "",
+      "region": "europe-west1",
       "credentials": ""
-    }
+    },
+
   }
 }
