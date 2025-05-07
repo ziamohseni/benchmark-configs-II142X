@@ -1,0 +1,71 @@
+22:38:34,775 INFO SeBS-6e9b: Created experiment output at /home/zia/serverless-benchmarks/experiments-result/aws/1_dynamic-html
+22:38:35,429 INFO AWS.Resources-1d25: Using cached resources for AWS
+22:38:35,429 INFO AWS.Config-b16c: Using cached config for AWS
+22:38:35,501 INFO AWS-de50: Using existing resource name: e5c49fb6.
+22:38:35,508 INFO Benchmark-04d7: Using cached benchmark 110.dynamic-html at /home/zia/serverless-benchmarks/cache/110.dynamic-html/aws/python/3.8/x64/package/110.dynamic-html.zip
+22:38:35,509 INFO AWS-de50: Using cached function sebs_e5c49fb6_110_dynamic_html_python_3_8_x64 in /home/zia/serverless-benchmarks/cache/110.dynamic-html/aws/python/3.8/x64/package/110.dynamic-html.zip
+22:38:35,509 INFO AWS-de50: Cached function sebs_e5c49fb6_110_dynamic_html_python_3_8_x64 is up to date.
+22:38:35,509 INFO Experiment.PerfCost-c221: Begin experiment on memory size 128
+22:38:36,198 INFO AWS-de50: Waiting for Lambda function to be updated...
+22:38:37,402 INFO AWS-de50: Lambda function has been updated.
+22:38:37,402 INFO AWS-de50: Updated code of sebs_e5c49fb6_110_dynamic_html_python_3_8_x64 function. 
+22:38:37,589 INFO AWS-de50: Waiting for Lambda function to be updated...
+22:38:38,768 INFO AWS-de50: Lambda function has been updated.
+22:38:38,768 INFO AWS-de50: Updated configuration of sebs_e5c49fb6_110_dynamic_html_python_3_8_x64 function. 
+22:38:38,769 INFO Experiment.PerfCost-c221: Begin cold experiments
+22:38:39,95 INFO AWS-de50: Waiting for Lambda function to be updated...
+22:38:40,263 INFO AWS-de50: Lambda function has been updated.
+22:38:40,263 INFO AWS-de50: Updated configuration of sebs_e5c49fb6_110_dynamic_html_python_3_8_x64 function. 
+22:38:40,263 INFO AWS-de50: Sent function updates enforcing cold starts.
+22:38:40,264 INFO AWS-de50: Waiting for Lambda function to be updated...
+22:38:40,348 INFO AWS-de50: Lambda function has been updated.
+22:38:40,348 INFO AWS-de50: Finished function updates enforcing cold starts.
+22:39:04,32 INFO Experiment.PerfCost-c221: Processed 0 warm-up samples, ignoring these results.
+22:39:09,373 INFO AWS-de50: Waiting for Lambda function to be updated...
+22:39:10,544 INFO AWS-de50: Lambda function has been updated.
+22:39:10,544 INFO AWS-de50: Updated configuration of sebs_e5c49fb6_110_dynamic_html_python_3_8_x64 function. 
+22:39:10,544 INFO AWS-de50: Sent function updates enforcing cold starts.
+22:39:10,544 INFO AWS-de50: Waiting for Lambda function to be updated...
+22:39:10,657 INFO AWS-de50: Lambda function has been updated.
+22:39:10,657 INFO AWS-de50: Finished function updates enforcing cold starts.
+22:39:33,687 INFO Experiment.PerfCost-c221: Processed 30 samples out of 120, 0 errors
+22:39:38,979 INFO AWS-de50: Waiting for Lambda function to be updated...
+22:39:40,210 INFO AWS-de50: Lambda function has been updated.
+22:39:40,210 INFO AWS-de50: Updated configuration of sebs_e5c49fb6_110_dynamic_html_python_3_8_x64 function. 
+22:39:40,210 INFO AWS-de50: Sent function updates enforcing cold starts.
+22:39:40,210 INFO AWS-de50: Waiting for Lambda function to be updated...
+22:39:40,330 INFO AWS-de50: Lambda function has been updated.
+22:39:40,330 INFO AWS-de50: Finished function updates enforcing cold starts.
+22:40:02,634 INFO Experiment.PerfCost-c221: Processed 60 samples out of 120, 0 errors
+22:40:07,942 INFO AWS-de50: Waiting for Lambda function to be updated...
+22:40:09,157 INFO AWS-de50: Lambda function has been updated.
+22:40:09,157 INFO AWS-de50: Updated configuration of sebs_e5c49fb6_110_dynamic_html_python_3_8_x64 function. 
+22:40:09,157 INFO AWS-de50: Sent function updates enforcing cold starts.
+22:40:09,157 INFO AWS-de50: Waiting for Lambda function to be updated...
+22:40:09,239 INFO AWS-de50: Lambda function has been updated.
+22:40:09,239 INFO AWS-de50: Finished function updates enforcing cold starts.
+22:40:31,509 INFO Experiment.PerfCost-c221: Processed 90 samples out of 120, 0 errors
+22:40:36,795 INFO AWS-de50: Waiting for Lambda function to be updated...
+22:40:37,961 INFO AWS-de50: Lambda function has been updated.
+22:40:37,961 INFO AWS-de50: Updated configuration of sebs_e5c49fb6_110_dynamic_html_python_3_8_x64 function. 
+22:40:37,961 INFO AWS-de50: Sent function updates enforcing cold starts.
+22:40:37,961 INFO AWS-de50: Waiting for Lambda function to be updated...
+22:40:38,47 INFO AWS-de50: Lambda function has been updated.
+22:40:38,47 INFO AWS-de50: Finished function updates enforcing cold starts.
+22:40:57,795 INFO Experiment.PerfCost-c221: Processed 120 samples out of 120, 0 errors
+22:41:05,737 INFO Experiment.PerfCost-c221: Mean 14389.581666666669 [ms], median 14605.374 [ms], std 2159.6145580888515, CV 15.0081816700174
+22:41:05,738 INFO Experiment.PerfCost-c221: Parametric CI (Student's t-distribution) 0.95 from 13997.57824090367 to 14781.585092429668, within 2.724216970609172% of mean
+22:41:05,738 INFO Experiment.PerfCost-c221: Non-parametric CI 0.95 from 14267.46 to 15010.448, within 2.543543219091826% of median
+22:41:05,739 INFO Experiment.PerfCost-c221: Parametric CI (Student's t-distribution) 0.99 from 13871.336520105322 to 14907.826813228015, within 3.6015303194105823% of mean
+22:41:05,739 INFO Experiment.PerfCost-c221: Non-parametric CI 0.99 from 14173.851 to 15532.373, within 4.650760740532899% of median
+22:41:08,723 INFO Experiment.PerfCost-c221: Begin warm experiments
+22:41:27,36 INFO Experiment.PerfCost-c221: Processed 0 warm-up samples, ignoring these results.
+22:41:53,916 INFO Experiment.PerfCost-c221: Processed 30 samples out of 120, 0 errors
+22:42:20,83 INFO Experiment.PerfCost-c221: Processed 60 samples out of 120, 0 errors
+22:42:43,412 INFO Experiment.PerfCost-c221: Processed 90 samples out of 120, 0 errors
+22:43:09,607 INFO Experiment.PerfCost-c221: Processed 120 samples out of 120, 0 errors
+22:43:14,611 INFO Experiment.PerfCost-c221: Mean 12643.762966666665 [ms], median 12651.775 [ms], std 1933.170574434401, CV 15.289519263615647
+22:43:14,612 INFO Experiment.PerfCost-c221: Parametric CI (Student's t-distribution) 0.95 from 12292.86262432357 to 12994.66330900976, within 2.775284092783056% of mean
+22:43:14,612 INFO Experiment.PerfCost-c221: Non-parametric CI 0.95 from 12464.361 to 12923.27, within 1.8136150856302757% of median
+22:43:14,613 INFO Experiment.PerfCost-c221: Parametric CI (Student's t-distribution) 0.99 from 12179.857838817172 to 13107.668094516159, within 3.669043219748013% of mean
+22:43:14,613 INFO Experiment.PerfCost-c221: Non-parametric CI 0.99 from 12363.407 to 13019.535, within 2.5930274605737162% of median
