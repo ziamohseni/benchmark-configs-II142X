@@ -1,0 +1,14 @@
+14:51:51,101 INFO SeBS-a74b: Created experiment output at /home/pontus/serverless-benchmarks/experiments-result/aws/exp_1
+14:51:52,151 INFO AWS.Resources-9d07: Using cached resources for AWS
+14:51:52,151 INFO AWS.Config-7b85: Using cached config for AWS
+14:51:52,264 INFO AWS-544f: Using existing resource name: 446ee480.
+14:51:52,273 INFO Experiment.PerfCost-4a5e: Processing data in /home/pontus/serverless-benchmarks/experiments-result/aws/exp_1/perf-cost/cold_results_128.json
+14:51:54,251 INFO AWS.Resources-43d8: Using cached resources for AWS
+14:51:54,251 INFO AWS.Config-5681: Using cached config for AWS
+14:51:54,490 INFO AWS-544f: Waiting for AWS query to complete ...
+14:51:55,653 INFO AWS-544f: Received 130 entries, found results for 120 out of 120 invocations
+14:51:55,688 INFO Experiment.PerfCost-4a5e: Processing data in /home/pontus/serverless-benchmarks/experiments-result/aws/exp_1/perf-cost/warm_results_128.json
+14:51:57,388 INFO AWS.Resources-b5c5: Using cached resources for AWS
+14:51:57,388 INFO AWS.Config-4915: Using cached config for AWS
+14:51:57,468 INFO AWS-544f: Waiting for AWS query to complete ...
+14:51:58,607 INFO AWS-544f: Received 130 entries, found results for 120 out of 120 invocations

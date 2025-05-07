@@ -1,0 +1,17 @@
+[14:40:58.343061] Experiment.PerfCost-12aa Begin experiment on memory size 128
+
+[14:41:03.898214] Experiment.PerfCost-12aa Begin cold experiments
+[14:45:38.568526] AWS-1a2a Finished function updates enforcing cold starts.
+[14:45:53.729260] Experiment.PerfCost-12aa Processed 120 samples out of 120, 0 errors
+[14:45:58.746071] Experiment.PerfCost-12aa Mean 9786.637958333335 [ms], median 9939.681499999999 [ms], std 1065.507009659098, CV 10.88736514209987
+[14:45:58.749433] Experiment.PerfCost-12aa Parametric CI (Student's t-distribution) 0.95 from 9593.231965399817 to 9980.043951266853, within 1.9762250709277809% of mean
+[14:45:58.749724] Experiment.PerfCost-12aa Non-parametric CI 0.95 from 9793.993 to 10145.78, within 1.7696090161440299% of median
+[14:45:58.750938] Experiment.PerfCost-12aa Parametric CI (Student's t-distribution) 0.99 from 9530.947036860947 to 10042.328879805722, within 2.612653319362511% of mean
+[14:45:58.751072] Experiment.PerfCost-12aa Non-parametric CI 0.99 from 9743.022 to 10250.065, within 2.550599835618474% of median
+
+[14:46:02.649711] Experiment.PerfCost-12aa Begin warm experiments
+[14:50:12.477988] Experiment.PerfCost-12aa Mean 7937.9877 [ms], median 8076.3525 [ms], std 933.7553370392909, CV 11.7631240098708
+[14:50:12.479186] Experiment.PerfCost-12aa Parametric CI (Student's t-distribution) 0.95 from 7768.4966722733625 to 8107.478727726637, within 2.1351888429688195% of mean
+[14:50:12.479309] Experiment.PerfCost-12aa Non-parametric CI 0.95 from 7969.308 to 8249.495, within 1.7346134904339603% of median
+[14:50:12.479949] Experiment.PerfCost-12aa Parametric CI (Student's t-distribution) 0.99 from 7713.913376327813 to 8162.062023672186, within 2.8228101647497694% of mean
+[14:50:12.480062] Experiment.PerfCost-12aa Non-parametric CI 0.99 from 7909.788 to 8340.837, within 2.668587088045005% of median
