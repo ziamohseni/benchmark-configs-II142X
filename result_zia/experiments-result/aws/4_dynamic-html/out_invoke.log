@@ -1,0 +1,83 @@
+08:52:07,101 INFO SeBS-c456: Created experiment output at /home/zia/serverless-benchmarks/experiments-result/aws/4_dynamic-html
+08:52:07,754 INFO AWS.Resources-e701: Using cached resources for AWS
+08:52:07,755 INFO AWS.Config-3d89: Using cached config for AWS
+08:52:07,827 INFO AWS-f0f8: Using existing resource name: e5c49fb6.
+08:52:07,832 INFO Benchmark-2ba8: Building benchmark 110.dynamic-html. Reason: no cached code package.
+08:52:07,841 INFO Benchmark-2ba8: Docker build of benchmark dependencies in container of image spcleth/serverless-benchmarks:build.aws.nodejs.16-1.2.0
+08:52:07,841 INFO Benchmark-2ba8: Docker mount of benchmark code from path /home/zia/serverless-benchmarks/experiments-result/aws/4_dynamic-html/110.dynamic-html_code/nodejs/16/x64/package
+08:52:09,177 INFO AWS-f0f8: Created /home/zia/serverless-benchmarks/experiments-result/aws/4_dynamic-html/110.dynamic-html_code/nodejs/16/x64/package/110.dynamic-html.zip archive
+08:52:09,177 INFO AWS-f0f8: Zip archive size 0.061261 MB
+08:52:09,177 INFO Benchmark-2ba8: Created code package (source hash: e24104f4dbb49102ff345288854228d5), for run on aws with nodejs:16
+08:52:09,179 INFO AWS-f0f8: Creating new function! Reason: function sebs_e5c49fb6_110_dynamic_html_nodejs_16_x64 not found in cache.
+08:52:09,405 INFO AWS-f0f8: Creating function sebs_e5c49fb6_110_dynamic_html_nodejs_16_x64 from /home/zia/serverless-benchmarks/cache/110.dynamic-html/aws/nodejs/16/x64/package/110.dynamic-html.zip
+08:52:09,867 INFO AWS-f0f8: Waiting for Lambda function to be created...
+08:52:11,8 INFO AWS-f0f8: Lambda function has been created.
+08:52:11,183 INFO AWS-f0f8: Waiting for Lambda function to be updated...
+08:52:12,317 INFO AWS-f0f8: Lambda function has been updated.
+08:52:12,317 INFO AWS-f0f8: Updated configuration of sebs_e5c49fb6_110_dynamic_html_nodejs_16_x64 function. 
+08:52:12,588 INFO AWS.Resources-e701: Creating HTTP API sebs_e5c49fb6_110_dynamic_html_nodejs_16_x64-http-api
+08:52:13,589 INFO AWS-f0f8: Created HTTP trigger for sebs_e5c49fb6_110_dynamic_html_nodejs_16_x64 function. Sleep 5 seconds to avoid cloud errors.
+08:52:18,591 INFO Experiment.PerfCost-1cd0: Begin experiment on memory size 128
+08:52:18,960 INFO AWS-f0f8: Waiting for Lambda function to be updated...
+08:52:20,133 INFO AWS-f0f8: Lambda function has been updated.
+08:52:20,133 INFO AWS-f0f8: Updated code of sebs_e5c49fb6_110_dynamic_html_nodejs_16_x64 function. 
+08:52:20,310 INFO AWS-f0f8: Waiting for Lambda function to be updated...
+08:52:21,492 INFO AWS-f0f8: Lambda function has been updated.
+08:52:21,492 INFO AWS-f0f8: Updated configuration of sebs_e5c49fb6_110_dynamic_html_nodejs_16_x64 function. 
+08:52:21,493 INFO Experiment.PerfCost-1cd0: Begin cold experiments
+08:52:21,837 INFO AWS-f0f8: Waiting for Lambda function to be updated...
+08:52:23,42 INFO AWS-f0f8: Lambda function has been updated.
+08:52:23,42 INFO AWS-f0f8: Updated configuration of sebs_e5c49fb6_110_dynamic_html_nodejs_16_x64 function. 
+08:52:23,42 INFO AWS-f0f8: Sent function updates enforcing cold starts.
+08:52:23,43 INFO AWS-f0f8: Waiting for Lambda function to be updated...
+08:52:23,119 INFO AWS-f0f8: Lambda function has been updated.
+08:52:23,119 INFO AWS-f0f8: Finished function updates enforcing cold starts.
+08:52:39,354 INFO Experiment.PerfCost-1cd0: Processed 0 warm-up samples, ignoring these results.
+08:52:44,705 INFO AWS-f0f8: Waiting for Lambda function to be updated...
+08:52:45,867 INFO AWS-f0f8: Lambda function has been updated.
+08:52:45,867 INFO AWS-f0f8: Updated configuration of sebs_e5c49fb6_110_dynamic_html_nodejs_16_x64 function. 
+08:52:45,867 INFO AWS-f0f8: Sent function updates enforcing cold starts.
+08:52:45,867 INFO AWS-f0f8: Waiting for Lambda function to be updated...
+08:52:45,954 INFO AWS-f0f8: Lambda function has been updated.
+08:52:45,954 INFO AWS-f0f8: Finished function updates enforcing cold starts.
+08:52:58,680 INFO Experiment.PerfCost-1cd0: Processed 30 samples out of 120, 0 errors
+08:53:03,979 INFO AWS-f0f8: Waiting for Lambda function to be updated...
+08:53:05,139 INFO AWS-f0f8: Lambda function has been updated.
+08:53:05,139 INFO AWS-f0f8: Updated configuration of sebs_e5c49fb6_110_dynamic_html_nodejs_16_x64 function. 
+08:53:05,139 INFO AWS-f0f8: Sent function updates enforcing cold starts.
+08:53:05,139 INFO AWS-f0f8: Waiting for Lambda function to be updated...
+08:53:05,223 INFO AWS-f0f8: Lambda function has been updated.
+08:53:05,223 INFO AWS-f0f8: Finished function updates enforcing cold starts.
+08:53:21,448 INFO Experiment.PerfCost-1cd0: Processed 60 samples out of 120, 0 errors
+08:53:26,740 INFO AWS-f0f8: Waiting for Lambda function to be updated...
+08:53:27,943 INFO AWS-f0f8: Lambda function has been updated.
+08:53:27,943 INFO AWS-f0f8: Updated configuration of sebs_e5c49fb6_110_dynamic_html_nodejs_16_x64 function. 
+08:53:27,943 INFO AWS-f0f8: Sent function updates enforcing cold starts.
+08:53:27,943 INFO AWS-f0f8: Waiting for Lambda function to be updated...
+08:53:28,28 INFO AWS-f0f8: Lambda function has been updated.
+08:53:28,28 INFO AWS-f0f8: Finished function updates enforcing cold starts.
+08:53:40,435 INFO Experiment.PerfCost-1cd0: Processed 90 samples out of 120, 0 errors
+08:53:49,295 INFO AWS-f0f8: Waiting for Lambda function to be updated...
+08:53:50,465 INFO AWS-f0f8: Lambda function has been updated.
+08:53:50,465 INFO AWS-f0f8: Updated configuration of sebs_e5c49fb6_110_dynamic_html_nodejs_16_x64 function. 
+08:53:50,465 INFO AWS-f0f8: Sent function updates enforcing cold starts.
+08:53:50,465 INFO AWS-f0f8: Waiting for Lambda function to be updated...
+08:53:50,544 INFO AWS-f0f8: Lambda function has been updated.
+08:53:50,544 INFO AWS-f0f8: Finished function updates enforcing cold starts.
+08:54:03,127 INFO Experiment.PerfCost-1cd0: Processed 120 samples out of 120, 0 errors
+08:54:08,132 INFO Experiment.PerfCost-1cd0: Mean 6778.689833333334 [ms], median 6982.3825 [ms], std 639.5951755693641, CV 9.435380453966742
+08:54:08,134 INFO Experiment.PerfCost-1cd0: Parametric CI (Student's t-distribution) 0.95 from 6662.593422061428 to 6894.7862446052395, within 1.7126674051527857% of mean
+08:54:08,134 INFO Experiment.PerfCost-1cd0: Non-parametric CI 0.95 from 6832.523 to 7049.456, within 1.5534310817260442% of median
+08:54:08,134 INFO Experiment.PerfCost-1cd0: Parametric CI (Student's t-distribution) 0.99 from 6625.205456104368 to 6932.1742105623, within 2.264218912543045% of mean
+08:54:08,134 INFO Experiment.PerfCost-1cd0: Non-parametric CI 0.99 from 6822.67 to 7064.81, within 1.7339353723460462% of median
+08:54:10,9 INFO Experiment.PerfCost-1cd0: Begin warm experiments
+08:54:25,294 INFO Experiment.PerfCost-1cd0: Processed 0 warm-up samples, ignoring these results.
+08:54:41,796 INFO Experiment.PerfCost-1cd0: Processed 30 samples out of 120, 0 errors
+08:55:01,597 INFO Experiment.PerfCost-1cd0: Processed 60 samples out of 120, 0 errors
+08:55:17,904 INFO Experiment.PerfCost-1cd0: Processed 90 samples out of 120, 0 errors
+08:55:37,712 INFO Experiment.PerfCost-1cd0: Processed 120 samples out of 120, 0 errors
+08:55:42,717 INFO Experiment.PerfCost-1cd0: Mean 6423.272 [ms], median 5847.3994999999995 [ms], std 2069.0330760163793, CV 32.211512699701636
+08:55:42,718 INFO Experiment.PerfCost-1cd0: Parametric CI (Student's t-distribution) 0.95 from 6047.7105134479125 to 6798.833486552087, within 5.846887482767154% of mean
+08:55:42,719 INFO Experiment.PerfCost-1cd0: Non-parametric CI 0.95 from 5487.566 to 6020.759, within 4.559231843146686% of median
+08:55:42,719 INFO Experiment.PerfCost-1cd0: Parametric CI (Student's t-distribution) 0.99 from 5926.763794077698 to 6919.780205922302, within 7.729833111882889% of mean
+08:55:42,719 INFO Experiment.PerfCost-1cd0: Non-parametric CI 0.99 from 5296.22 to 6180.67, within 7.562763584051337% of median
