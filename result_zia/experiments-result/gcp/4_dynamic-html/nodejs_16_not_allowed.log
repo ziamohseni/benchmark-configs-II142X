@@ -1,0 +1,60 @@
+(python-venv) zia@Zia:~/serverless-benchmarks$ ./sebs.py experiment invoke perf-cost --config config/dynamic_config.json --deployment gcp --output-dir experiments-result/gcp/4_dynamic-html --output-file out_invoke.log
+[20:32:32.836447] SeBS-9ab6 Created experiment output at /home/zia/serverless-benchmarks/experiments-result/gcp/4_dynamic-html
+[20:32:33.057067] GCPResources-0580 Using cached resources for GCP
+[20:32:33.057260] GCPConfig-e836 Loading cached config for GCP
+[20:32:33.487345] GCP-e5c8 Using existing resource name: 2b487156.
+[20:32:33.488927] Benchmark-3ee4 Building benchmark 110.dynamic-html. Reason: no cached code package.
+[20:32:33.500313] Benchmark-3ee4 Docker build of benchmark dependencies in container of image spcleth/serverless-benchmarks:build.gcp.nodejs.16-1.2.0
+[20:32:33.500448] Benchmark-3ee4 Docker mount of benchmark code from path /home/zia/serverless-benchmarks/experiments-result/gcp/4_dynamic-html/110.dynamic-html_code/nodejs/16/x64/package
+[20:32:38.585620] Benchmark-3ee4 Created code package (source hash: 9765d181f1bf6bd52f9860d69d8d9c6c), for run on gcp with nodejs:16
+[20:32:38.588525] GCP-e5c8 Creating new function! Reason: function sebs_2b487156_110_dynamic_html_nodejs_16 not found in cache.
+[20:32:39.887663] GCP-e5c8 Uploading function sebs_2b487156_110_dynamic_html_nodejs_16 code to sebs-deployment-2b487156
+ERROR:root:<HttpError 400 when requesting https://cloudfunctions.googleapis.com/v1/projects/grounded-braid-458419-c5/locations/europe-west1/functions?alt=json returned "Failed to create 1st Gen function projects/grounded-braid-458419-c5/locations/europe-west1/functions/sebs_2b487156_110_dynamic_html_nodejs_16: runtime: Runtime validation errors: [error_code: DEPLOYS_NOT_ALLOWED
+message: "Runtime nodejs16 is decommissioned and no longer allowed. Please use the latest Node.js runtime for Cloud Functions."
+]">
+Traceback (most recent call last):
+  File "/home/zia/serverless-benchmarks/sebs/gcp/gcp.py", line 221, in create_function
+    get_req.execute()
+  File "/home/zia/serverless-benchmarks/python-venv/lib/python3.10/site-packages/googleapiclient/_helpers.py", line 134, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/home/zia/serverless-benchmarks/python-venv/lib/python3.10/site-packages/googleapiclient/http.py", line 915, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 404 when requesting https://cloudfunctions.googleapis.com/v1/projects/grounded-braid-458419-c5/locations/europe-west1/functions/sebs_2b487156_110_dynamic_html_nodejs_16?alt=json returned "Resource 'projects/grounded-braid-458419-c5/locations/europe-west1/functions/sebs_2b487156_110_dynamic_html_nodejs_16' was not found". Details: "[{'@type': 'type.googleapis.com/google.rpc.ResourceInfo', 'resourceName': 'projects/grounded-braid-458419-c5/locations/europe-west1/functions/sebs_2b487156_110_dynamic_html_nodejs_16'}]">
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/zia/serverless-benchmarks/./sebs.py", line 31, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/zia/serverless-benchmarks/python-venv/lib/python3.10/site-packages/click/core.py", line 1082, in main
+    rv = self.invoke(ctx)
+  File "/home/zia/serverless-benchmarks/python-venv/lib/python3.10/site-packages/click/core.py", line 1697, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/zia/serverless-benchmarks/python-venv/lib/python3.10/site-packages/click/core.py", line 1697, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/zia/serverless-benchmarks/python-venv/lib/python3.10/site-packages/click/core.py", line 1443, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/zia/serverless-benchmarks/python-venv/lib/python3.10/site-packages/click/core.py", line 788, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/zia/serverless-benchmarks/./sebs.py", line 73, in wrapper
+    return func(*args, **kwargs)
+  File "/home/zia/serverless-benchmarks/./sebs.py", line 116, in wrapper
+    return func(*args, **kwargs)
+  File "/home/zia/serverless-benchmarks/./sebs.py", line 594, in experiment_invoke
+    experiment.prepare(sebs_client, deployment_client)
+  File "/home/zia/serverless-benchmarks/sebs/experiments/perf_cost.py", line 57, in prepare
+    self._function = deployment_client.get_function(self._benchmark)
+  File "/home/zia/serverless-benchmarks/sebs/faas/system.py", line 298, in get_function
+    function = self.create_function(
+  File "/home/zia/serverless-benchmarks/sebs/gcp/gcp.py", line 247, in create_function
+    create_req.execute()
+  File "/home/zia/serverless-benchmarks/python-venv/lib/python3.10/site-packages/googleapiclient/_helpers.py", line 134, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/home/zia/serverless-benchmarks/python-venv/lib/python3.10/site-packages/googleapiclient/http.py", line 915, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 400 when requesting https://cloudfunctions.googleapis.com/v1/projects/grounded-braid-458419-c5/locations/europe-west1/functions?alt=json returned "Failed to create 1st Gen function projects/grounded-braid-458419-c5/locations/europe-west1/functions/sebs_2b487156_110_dynamic_html_nodejs_16: runtime: Runtime validation errors: [error_code: DEPLOYS_NOT_ALLOWED
+message: "Runtime nodejs16 is decommissioned and no longer allowed. Please use the latest Node.js runtime for Cloud Functions."
+]">
+[20:32:40.758329] Benchmark-d1d6 Update cached config /home/zia/serverless-benchmarks/cache/azure.json
+[20:32:40.758540] Benchmark-d1d6 Update cached config /home/zia/serverless-benchmarks/cache/aws.json
+[20:32:40.758684] Benchmark-d1d6 Update cached config /home/zia/serverless-benchmarks/cache/gcp.json

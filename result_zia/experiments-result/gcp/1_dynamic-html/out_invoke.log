@@ -1,0 +1,95 @@
+19:02:04,328 INFO SeBS-9dbf: Created experiment output at /home/zia/serverless-benchmarks/experiments-result/gcp/1_dynamic-html
+19:02:04,553 INFO GCPResources-7eb6: No resources for GCP found, initialize!
+19:02:04,553 INFO GCPConfig-c903: Using user-provided config for GCP
+19:02:05,476 WARNING GCP-f2a2: We found 2 existing deployments! If you want to use any of them, please abort, and provide the resource id in your input config.
+19:02:05,476 WARNING GCP-f2a2: Deployment resource IDs in the cloud: ['bbfe86a4', 'c43d440e']
+19:02:05,477 INFO GCP-f2a2: Generating unique resource name 2b487156
+19:02:05,914 INFO GCP.GCPStorage-7fa9: Initialize a new bucket for benchmarks
+19:02:07,8 INFO Benchmark-5368: Using cached benchmark 110.dynamic-html at /home/zia/serverless-benchmarks/cache/110.dynamic-html/gcp/python/3.8/x64/package/110.dynamic-html.zip
+19:02:07,8 INFO GCP-f2a2: Creating new function! Reason: function sebs_2b487156_110_dynamic_html_python_3_8 not found in cache.
+19:02:07,374 INFO GCP.GCPStorage-7fa9: Initialize a new bucket for code deployment
+19:02:09,168 INFO GCP-f2a2: Uploading function sebs_2b487156_110_dynamic_html_python_3_8 code to sebs-deployment-2b487156
+19:02:10,187 INFO GCP-f2a2: Function sebs_2b487156_110_dynamic_html_python_3_8 has been created!
+19:02:10,450 INFO GCP-f2a2: Sleeping for 5 seconds because the created functions is not yet available!
+19:02:16,19 INFO GCP-f2a2: Function sebs_2b487156_110_dynamic_html_python_3_8 accepts now unauthenticated invocations!
+19:02:16,21 INFO GCP-f2a2: Function sebs_2b487156_110_dynamic_html_python_3_8 - waiting for deployment...
+19:02:57,296 INFO GCP-f2a2: Function sebs_2b487156_110_dynamic_html_python_3_8 - deployed!
+19:02:57,297 INFO Experiment.PerfCost-b0ce: Begin experiment on memory size 128
+19:02:57,958 INFO GCP-f2a2: Uploaded new code package to sebs-deployment-2b487156/x64-110.dynamic-html.zip
+19:03:52,526 INFO GCP-f2a2: Waiting for function deployment, 10 retries.
+19:04:16,306 INFO GCP-f2a2: Published new function code and configuration.
+19:04:16,307 INFO Experiment.PerfCost-b0ce: Begin cold experiments
+19:05:10,996 INFO GCP-f2a2: Waiting for function deployment, 10 retries.
+19:05:19,99 INFO GCP-f2a2: Published new function configuration.
+19:05:19,414 INFO GCP-f2a2: Redeployed 1 out of 1
+19:05:33,971 INFO Experiment.PerfCost-b0ce: Processed 0 warm-up samples, ignoring these results.
+19:06:31,999 INFO GCP-f2a2: Published new function configuration.
+19:06:32,311 INFO GCP-f2a2: Redeployed 1 out of 1
+19:06:49,912 ERROR GCP.HTTPTrigger-577f: Invocation on URL https://europe-west1-grounded-braid-458419-c5.cloudfunctions.net/sebs_2b487156_110_dynamic_html_python_3_8 failed!
+19:06:49,912 ERROR GCP.HTTPTrigger-577f: No output provided!
+19:06:49,912 INFO Experiment.PerfCost-b0ce: Invocation pb55fy3lkjn7 is not cold!
+19:06:49,913 INFO Experiment.PerfCost-b0ce: Processed 28 samples out of 120, 1 errors
+19:07:52,442 INFO GCP-f2a2: Waiting for function deployment, 10 retries.
+19:08:07,876 INFO GCP-f2a2: Published new function configuration.
+19:08:07,963 INFO GCP-f2a2: Redeployed 1 out of 1
+19:08:24,262 INFO Experiment.PerfCost-b0ce: Invocation hldaj1camv87 is not cold!
+19:08:25,53 INFO Experiment.PerfCost-b0ce: Processed 57 samples out of 120, 1 errors
+19:09:27,860 INFO GCP-f2a2: Waiting for function deployment, 10 retries.
+19:09:38,310 INFO GCP-f2a2: Published new function configuration.
+19:09:38,393 INFO GCP-f2a2: Redeployed 1 out of 1
+19:09:52,23 INFO Experiment.PerfCost-b0ce: Invocation yds7tyst3p6g is not cold!
+19:09:52,35 INFO Experiment.PerfCost-b0ce: Invocation jkesqxg6x2n8 is not cold!
+19:09:52,35 INFO Experiment.PerfCost-b0ce: Processed 85 samples out of 120, 1 errors
+19:10:44,495 INFO GCP-f2a2: Published new function configuration.
+19:10:44,577 INFO GCP-f2a2: Redeployed 1 out of 1
+19:10:53,267 INFO Experiment.PerfCost-b0ce: Invocation 1m9yenh70kzh is not cold!
+19:10:58,970 INFO Experiment.PerfCost-b0ce: Invocation 58xa5d1viclj is not cold!
+19:10:58,970 INFO Experiment.PerfCost-b0ce: Processed 113 samples out of 120, 1 errors
+19:11:56,147 INFO GCP-f2a2: Published new function configuration.
+19:11:56,254 INFO GCP-f2a2: Redeployed 1 out of 1
+19:12:10,147 INFO Experiment.PerfCost-b0ce: Invocation u5tejf1vnn4g is not cold!
+19:12:10,147 INFO Experiment.PerfCost-b0ce: Invocation p22ljnv3e5by is not cold!
+19:12:10,147 INFO Experiment.PerfCost-b0ce: Invocation lj0mnw1xf99i is not cold!
+19:12:10,148 INFO Experiment.PerfCost-b0ce: Processed 140 samples out of 120, 1 errors
+19:12:15,152 INFO Experiment.PerfCost-b0ce: Mean 6169.221314285714 [ms], median 7412.8945 [ms], std 2348.531585396823, CV 38.068525438671855
+19:12:15,153 INFO Experiment.PerfCost-b0ce: Parametric CI (Student's t-distribution) 0.95 from 5775.367809780404 to 6563.074818791023, within 6.384168834943325% of mean
+19:12:15,153 INFO Experiment.PerfCost-b0ce: Non-parametric CI 0.95 from 6098.153 to 7911.916, within 12.233837942790093% of median
+19:12:15,153 INFO Experiment.PerfCost-b0ce: Parametric CI (Student's t-distribution) 0.99 from 5648.978644532897 to 6689.46398403853, within 8.432874154605543% of mean
+19:12:15,153 INFO Experiment.PerfCost-b0ce: Non-parametric CI 0.99 from 5562.256 to 8009.013, within 16.50338474397551% of median
+19:12:21,893 INFO Experiment.PerfCost-b0ce: Begin warm experiments
+19:12:38,465 ERROR GCP.HTTPTrigger-577f: Invocation on URL https://europe-west1-grounded-braid-458419-c5.cloudfunctions.net/sebs_2b487156_110_dynamic_html_python_3_8 failed!
+19:12:38,465 ERROR GCP.HTTPTrigger-577f: No output provided!
+19:12:38,465 INFO Experiment.PerfCost-b0ce: Processed 0 warm-up samples, ignoring these results.
+19:13:01,405 INFO Experiment.PerfCost-b0ce: Invocation 4ezvjy9pt0w6 is cold!
+19:13:01,405 INFO Experiment.PerfCost-b0ce: Invocation 8d770h9osqmg is cold!
+19:13:01,450 INFO Experiment.PerfCost-b0ce: Invocation ssyl11xvy387 is cold!
+19:13:01,450 INFO Experiment.PerfCost-b0ce: Invocation kx3hnz0k9mft is cold!
+19:13:01,451 INFO Experiment.PerfCost-b0ce: Invocation r3aj3fxqdjmi is cold!
+19:13:01,451 INFO Experiment.PerfCost-b0ce: Invocation 45auu5i1d3tq is cold!
+19:13:01,451 INFO Experiment.PerfCost-b0ce: Invocation y2crdcpof2qk is cold!
+19:13:01,451 INFO Experiment.PerfCost-b0ce: Invocation ndpyshnsehrx is cold!
+19:13:01,451 INFO Experiment.PerfCost-b0ce: Invocation hh6br6ecawoj is cold!
+19:13:01,451 INFO Experiment.PerfCost-b0ce: Invocation 0acb04xc1e3f is cold!
+19:13:01,451 INFO Experiment.PerfCost-b0ce: Invocation j84icm86w42j is cold!
+19:13:01,451 INFO Experiment.PerfCost-b0ce: Invocation h5d2w24v0vz9 is cold!
+19:13:01,451 INFO Experiment.PerfCost-b0ce: Processed 18 samples out of 120, 1 errors
+19:13:21,289 INFO Experiment.PerfCost-b0ce: Invocation 2tq9or49gmia is cold!
+19:13:21,336 INFO Experiment.PerfCost-b0ce: Invocation ik3djexk6gtb is cold!
+19:13:21,336 INFO Experiment.PerfCost-b0ce: Invocation luc12w5xufb3 is cold!
+19:13:21,372 INFO Experiment.PerfCost-b0ce: Processed 45 samples out of 120, 1 errors
+19:13:44,366 INFO Experiment.PerfCost-b0ce: Invocation 8n5wsgl5v1b9 is cold!
+19:13:44,366 INFO Experiment.PerfCost-b0ce: Invocation ad82vnq5xs05 is cold!
+19:13:44,366 INFO Experiment.PerfCost-b0ce: Invocation t9ku4gahofoz is cold!
+19:13:44,366 INFO Experiment.PerfCost-b0ce: Invocation a5pit6kptboz is cold!
+19:13:44,367 INFO Experiment.PerfCost-b0ce: Processed 71 samples out of 120, 1 errors
+19:14:07,314 INFO Experiment.PerfCost-b0ce: Invocation 0nb8h7nc2y2u is cold!
+19:14:07,315 INFO Experiment.PerfCost-b0ce: Invocation nb3vfer5n2qw is cold!
+19:14:07,315 INFO Experiment.PerfCost-b0ce: Processed 99 samples out of 120, 1 errors
+19:14:27,118 INFO Experiment.PerfCost-b0ce: Invocation ck0mh1x1j6gy is cold!
+19:14:27,293 INFO Experiment.PerfCost-b0ce: Invocation v0v7f0vu27r3 is cold!
+19:14:27,293 INFO Experiment.PerfCost-b0ce: Processed 127 samples out of 120, 1 errors
+19:14:32,298 INFO Experiment.PerfCost-b0ce: Mean 9828.46118110236 [ms], median 9644.656 [ms], std 2172.51366613253, CV 22.104311408480946
+19:14:32,299 INFO Experiment.PerfCost-b0ce: Parametric CI (Student's t-distribution) 0.95 from 9445.445471464696 to 10211.476890740025, within 3.8970058748780163% of mean
+19:14:32,299 INFO Experiment.PerfCost-b0ce: Non-parametric CI 0.95 from 9472.494 to 9815.484, within 1.7781349588829283% of median
+19:14:32,300 INFO Experiment.PerfCost-b0ce: Parametric CI (Student's t-distribution) 0.99 from 9322.266732911898 to 10334.655629292824, within 5.150291982266222% of mean
+19:14:32,300 INFO Experiment.PerfCost-b0ce: Non-parametric CI 0.99 from 9406.38 to 9862.186, within 2.3629977056724494% of median
