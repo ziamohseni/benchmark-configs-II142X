@@ -7,13 +7,13 @@
     "architecture": "x64",
     "container_deployment": false,
     "runtime": {
-      "language": "python",
-      "version": "3.8"
+      "language": "nodejs",
+      "version": "20"
     },
     "type": "perf-cost",
     "perf-cost": {
       "benchmark": "110.dynamic-html",
-      "experiments": ["cold", "warm"],
+      "experiments": ["warm"],
       "input-size": "large",
       "repetitions": 120,
       "concurrent-invocations": 30,

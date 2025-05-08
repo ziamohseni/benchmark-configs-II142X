@@ -1,0 +1,8 @@
+21:13:44,475 INFO SeBS-f64f: Created experiment output at /home/zia/serverless-benchmarks/experiments-result/azure/1_dynamic-html
+21:13:44,695 INFO AzureConfig-9b23: Using cached config for Azure
+21:13:44,695 INFO Azure-c6c6: Using existing resource name: cbd0fe40.
+21:13:46,708 INFO Experiment.PerfCost-3d15: Processing data in /home/zia/serverless-benchmarks/experiments-result/azure/1_dynamic-html/perf-cost/warm_results_128.json
+21:13:47,477 INFO AzureConfig-7eb3: Using cached config for Azure
+21:13:57,558 INFO Azure-c6c6: Azure: Running App Insights query.
+21:14:02,504 INFO Azure-c6c6: Azure: Found time metrics for 101 out of 120 invocations.
+21:14:07,508 INFO Azure-c6c6: Missing the requests: {'c5c512ef-29fb-488b-be9b-3a3f1daca8c6', '0bcd9c09-d595-4cbb-8adc-036b0431c5d9', 'f6f65cff-b507-4f79-8cc8-37d2a5701e38', 'd69beb5b-61e3-4b7a-9e4e-b779f1b4127a', '45796120-36ad-4e89-b260-5358e195db72', 'b5ce1b53-2d08-4739-add9-e67817988532', 'c3101ba6-6b98-412e-bab8-137eb69c0937', '6fe3dd29-6790-41f9-9755-5b0461ffedb6', '83729ab7-caf9-4694-bae1-6c99030f843c', '03339a76-00cc-4f09-8d49-7e162f415c53', 'd64d3af4-bc15-46d5-bec1-45ca99b540e2', '1993d73c-af2e-4a94-8615-893dc6669ee0', 'a4051a49-77aa-41af-98e2-29e1651b23b8', 'ac5c7341-36df-46b6-8852-51f19fc0b030', '867ff1b1-fd0c-4364-9e0c-047ac3ac88d3', '1b06ad75-c4cc-4fb1-b21f-779627bde750', '1c81cd9b-e47a-4b74-a42f-20c29baa82a2', 'd37f8fe0-7c38-40b2-b111-0843fda89a18', '36bc7af8-5a5a-4ac4-84f3-801facf7fd83'}

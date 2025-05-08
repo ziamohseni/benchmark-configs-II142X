@@ -1,0 +1,63 @@
+(python-venv) zia@Zia:~/serverless-benchmarks$ ./sebs.py experiment invoke perf-cost --config config/dynamic_config.json --deployment azure --output-dir experiments-result/azure/4_dynamic-html --output-file out_invoke.log
+[21:29:30.811467] SeBS-d2d1 Created experiment output at /home/zia/serverless-benchmarks/experiments-result/azure/4_dynamic-html
+[21:29:31.033256] AzureConfig-0faf Using cached config for Azure
+[21:29:31.033506] Azure-2294 Using existing resource name: cbd0fe40.
+[21:29:31.252324] Azure.CLI-cacd Started Azure CLI container: b7110a7461db9a3cbaab5fbfc5e8513b2946c69614fe65f1c372cdf86c7b42e1.
+[21:29:33.558372] Azure.CLI-cacd Azure login succesful
+[21:29:33.560085] Benchmark-72be Building benchmark 110.dynamic-html. Reason: no cached code package.
+[21:29:33.566430] Benchmark-72be Docker build of benchmark dependencies in container of image spcleth/serverless-benchmarks:build.azure.nodejs.16-1.2.0
+[21:29:33.566568] Benchmark-72be Docker mount of benchmark code from path /home/zia/serverless-benchmarks/experiments-result/azure/4_dynamic-html/110.dynamic-html_code/nodejs/16/x64/package
+[21:29:38.793543] Benchmark-72be Created code package (source hash: 42bcfdf6cb03dc709995dec0a23048c6), for run on azure with nodejs:16
+[21:29:38.932214] Azure-2294 Creating new function! Reason: function sebs-cbd0fe40-110-dynamic-html-nodejs-16 not found in cache.
+[21:29:40.042381] AzureResources-ddd9 Starting allocation of storage account functionc903def8.
+[21:30:04.049446] AzureResources-ddd9 Storage account functionc903def8 created.
+ERROR:root:Command  az functionapp create --resource-group sebs_resource_group_cbd0fe40  --os-type Linux --consumption-plan-location westeurope  --runtime node --runtime-version 16  --name sebs-cbd0fe40-110-dynamic-html-nodejs-16 --storage-account functionc903def8 --functions-version 4  failed at Azure CLI docker!
+ Output ERROR: Invalid version: 16 for runtime node and os linux. Supported versions for runtime node and os linux are: ['22', '20', '18']. Run 'az functionapp list-runtimes' for more details on supported runtimes.
+
+Traceback (most recent call last):
+  File "/home/zia/serverless-benchmarks/sebs/azure/azure.py", line 437, in create_function
+    ret = self.cli_instance.execute(
+  File "/home/zia/serverless-benchmarks/sebs/azure/cli.py", line 65, in execute
+    raise RuntimeError(
+RuntimeError: Command  az functionapp config appsettings list  --resource-group sebs_resource_group_cbd0fe40  --name sebs-cbd0fe40-110-dynamic-html-nodejs-16  failed at Azure CLI docker!
+ Output ERROR: (ResourceNotFound) The Resource 'Microsoft.Web/sites/sebs-cbd0fe40-110-dynamic-html-nodejs-16' under resource group 'sebs_resource_group_cbd0fe40' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Web/sites/sebs-cbd0fe40-110-dynamic-html-nodejs-16' under resource group 'sebs_resource_group_cbd0fe40' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/zia/serverless-benchmarks/./sebs.py", line 31, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/zia/serverless-benchmarks/python-venv/lib/python3.10/site-packages/click/core.py", line 1082, in main
+    rv = self.invoke(ctx)
+  File "/home/zia/serverless-benchmarks/python-venv/lib/python3.10/site-packages/click/core.py", line 1697, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/zia/serverless-benchmarks/python-venv/lib/python3.10/site-packages/click/core.py", line 1697, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/zia/serverless-benchmarks/python-venv/lib/python3.10/site-packages/click/core.py", line 1443, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/zia/serverless-benchmarks/python-venv/lib/python3.10/site-packages/click/core.py", line 788, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/zia/serverless-benchmarks/./sebs.py", line 73, in wrapper
+    return func(*args, **kwargs)
+  File "/home/zia/serverless-benchmarks/./sebs.py", line 116, in wrapper
+    return func(*args, **kwargs)
+  File "/home/zia/serverless-benchmarks/./sebs.py", line 594, in experiment_invoke
+    experiment.prepare(sebs_client, deployment_client)
+  File "/home/zia/serverless-benchmarks/sebs/experiments/perf_cost.py", line 57, in prepare
+    self._function = deployment_client.get_function(self._benchmark)
+  File "/home/zia/serverless-benchmarks/sebs/faas/system.py", line 298, in get_function
+    function = self.create_function(
+  File "/home/zia/serverless-benchmarks/sebs/azure/azure.py", line 460, in create_function
+    self.cli_instance.execute(
+  File "/home/zia/serverless-benchmarks/sebs/azure/cli.py", line 65, in execute
+    raise RuntimeError(
+RuntimeError: Command  az functionapp create --resource-group sebs_resource_group_cbd0fe40  --os-type Linux --consumption-plan-location westeurope  --runtime node --runtime-version 16  --name sebs-cbd0fe40-110-dynamic-html-nodejs-16 --storage-account functionc903def8 --functions-version 4  failed at Azure CLI docker!
+ Output ERROR: Invalid version: 16 for runtime node and os linux. Supported versions for runtime node and os linux are: ['22', '20', '18']. Run 'az functionapp list-runtimes' for more details on supported runtimes.
+
+[21:30:08.221930] Azure.CLI-cacd Stopping Azure manage Docker instance
+[21:30:18.587376] Benchmark-4bfd Update cached config /home/zia/serverless-benchmarks/cache/azure.json
+[21:30:18.587604] Benchmark-4bfd Update cached config /home/zia/serverless-benchmarks/cache/aws.json
+[21:30:18.587747] Benchmark-4bfd Update cached config /home/zia/serverless-benchmarks/cache/gcp.json

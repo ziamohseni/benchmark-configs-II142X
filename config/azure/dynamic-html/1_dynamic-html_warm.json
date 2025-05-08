@@ -1,0 +1,30 @@
+{
+  "experiments": {
+    "deployment": "azure",
+    "update_code": false,
+    "update_storage": false,
+    "download_results": true,
+    "architecture": "x64",
+    "container_deployment": false,
+    "runtime": {
+      "language": "python",
+      "version": "3.8"
+    },
+    "type": "perf-cost",
+    "perf-cost": {
+      "benchmark": "110.dynamic-html",
+      "experiments": ["warm"],
+      "input-size": "large",
+      "repetitions": 120,
+      "concurrent-invocations": 30,
+      "memory-sizes": [128]
+    }
+  },
+  "deployment": {
+    "name": "azure",
+    "azure": {
+      "region": "westeurope",
+      "credentials": ""
+    }
+  }
+}

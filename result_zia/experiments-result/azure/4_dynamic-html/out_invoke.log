@@ -1,0 +1,28 @@
+21:33:11,341 INFO SeBS-533e: Created experiment output at /home/zia/serverless-benchmarks/experiments-result/azure/4_dynamic-html
+21:33:11,556 INFO AzureConfig-4957: Using cached config for Azure
+21:33:11,556 INFO Azure-b71b: Using existing resource name: cbd0fe40.
+21:33:13,608 INFO Benchmark-7439: Building benchmark 110.dynamic-html. Reason: no cached code package.
+21:33:13,614 INFO Benchmark-7439: Docker build of benchmark dependencies in container of image spcleth/serverless-benchmarks:build.azure.nodejs.20-1.2.0
+21:33:13,614 INFO Benchmark-7439: Docker mount of benchmark code from path /home/zia/serverless-benchmarks/experiments-result/azure/4_dynamic-html/110.dynamic-html_code/nodejs/20/x64/package
+21:33:17,558 INFO Benchmark-7439: Created code package (source hash: 42bcfdf6cb03dc709995dec0a23048c6), for run on azure with nodejs:20
+21:33:17,710 INFO Azure-b71b: Creating new function! Reason: function sebs-cbd0fe40-110-dynamic-html-nodejs-20 not found in cache.
+21:34:26,584 INFO Azure-b71b: Azure: Created function app sebs-cbd0fe40-110-dynamic-html-nodejs-20
+21:34:27,706 INFO Azure-b71b: Attempting publish of function sebs-cbd0fe40-110-dynamic-html-nodejs-20
+21:34:43,111 INFO Experiment.PerfCost-4247: Begin experiment on memory size 128
+21:34:44,236 INFO Azure-b71b: Attempting publish of function sebs-cbd0fe40-110-dynamic-html-nodejs-20
+21:34:55,477 INFO Experiment.PerfCost-4247: Begin warm experiments
+21:35:11,273 INFO Experiment.PerfCost-4247: Processed 0 warm-up samples, ignoring these results.
+21:35:24,185 INFO Experiment.PerfCost-4247: Invocation c29e77cc-6636-4b36-85c4-4b6405e5efd8 is cold!
+21:35:30,627 INFO Experiment.PerfCost-4247: Processed 29 samples out of 120, 0 errors
+21:35:47,605 INFO Experiment.PerfCost-4247: Invocation a85bee7b-6ab5-4d40-b446-8997a6fb2c14 is cold!
+21:35:47,605 INFO Experiment.PerfCost-4247: Processed 58 samples out of 120, 0 errors
+21:36:03,763 INFO Experiment.PerfCost-4247: Invocation c5db955c-e0b3-48f0-ad4c-821742b6c38b is cold!
+21:36:03,763 INFO Experiment.PerfCost-4247: Processed 87 samples out of 120, 0 errors
+21:36:20,304 INFO Experiment.PerfCost-4247: Invocation dea020bb-f5c1-4847-b1cb-60e9c6c67399 is cold!
+21:36:20,304 INFO Experiment.PerfCost-4247: Processed 116 samples out of 120, 0 errors
+21:36:46,60 INFO Experiment.PerfCost-4247: Processed 146 samples out of 120, 0 errors
+21:36:51,61 INFO Experiment.PerfCost-4247: Mean 4727.933945205479 [ms], median 4948.7385 [ms], std 1845.0501883216446, CV 39.024449362129516
+21:36:51,104 INFO Experiment.PerfCost-4247: Parametric CI (Student's t-distribution) 0.95 from 4425.094726997013 to 5030.773163413945, within 6.405318300091112% of mean
+21:36:51,104 INFO Experiment.PerfCost-4247: Non-parametric CI 0.95 from 4685.372 to 5198.914, within 5.188615240025306% of median
+21:36:51,105 INFO Experiment.PerfCost-4247: Parametric CI (Student's t-distribution) 0.99 from 4327.997081603632 to 5127.870808807326, within 8.459019695218386% of mean
+21:36:51,105 INFO Experiment.PerfCost-4247: Non-parametric CI 0.99 from 4551.586 to 5297.489, within 7.536294350570345% of median
