@@ -1,0 +1,14 @@
+22:30:44,818 INFO SeBS-eacc: Created experiment output at /home/pontus/serverless-benchmarks/experiments-result/aws/exp_3
+22:30:45,868 INFO AWS.Resources-6151: Using cached resources for AWS
+22:30:45,868 INFO AWS.Config-b3b5: Using cached config for AWS
+22:30:45,975 INFO AWS-2076: Using existing resource name: 446ee480.
+22:30:45,983 INFO Experiment.PerfCost-c06d: Processing data in /home/pontus/serverless-benchmarks/experiments-result/aws/exp_3/perf-cost/cold_results_128.json
+22:30:47,977 INFO AWS.Resources-db27: Using cached resources for AWS
+22:30:47,977 INFO AWS.Config-cc85: Using cached config for AWS
+22:30:48,211 INFO AWS-2076: Waiting for AWS query to complete ...
+22:30:49,365 INFO AWS-2076: Received 130 entries, found results for 120 out of 120 invocations
+22:30:49,402 INFO Experiment.PerfCost-c06d: Processing data in /home/pontus/serverless-benchmarks/experiments-result/aws/exp_3/perf-cost/warm_results_128.json
+22:30:51,108 INFO AWS.Resources-14ca: Using cached resources for AWS
+22:30:51,109 INFO AWS.Config-b1c9: Using cached config for AWS
+22:30:51,192 INFO AWS-2076: Waiting for AWS query to complete ...
+22:30:52,320 INFO AWS-2076: Received 130 entries, found results for 120 out of 120 invocations

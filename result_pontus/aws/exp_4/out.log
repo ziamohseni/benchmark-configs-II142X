@@ -1,0 +1,155 @@
+15:42:39,170 INFO SeBS-8be1: Created experiment output at /home/pontus/serverless-benchmarks/experiments-result/aws/exp_4
+15:42:39,982 INFO AWS.Resources-4ac9: Using cached resources for AWS
+15:42:39,982 INFO AWS.Config-d9d4: Using cached config for AWS
+15:42:40,79 INFO AWS-c29f: Using existing resource name: 446ee480.
+15:42:40,89 INFO Benchmark-28b5: Building benchmark 110.dynamic-html. Reason: no cached code package.
+15:42:40,99 INFO Benchmark-28b5: Docker build of benchmark dependencies in container of image spcleth/serverless-benchmarks:build.aws.nodejs.16-1.2.0
+15:42:40,99 INFO Benchmark-28b5: Docker mount of benchmark code from path /home/pontus/serverless-benchmarks/experiments-result/aws/exp_4/110.dynamic-html_code/nodejs/16/x64/package
+15:42:41,522 INFO AWS-c29f: Created /home/pontus/serverless-benchmarks/experiments-result/aws/exp_4/110.dynamic-html_code/nodejs/16/x64/package/110.dynamic-html.zip archive
+15:42:41,522 INFO AWS-c29f: Zip archive size 0.061261 MB
+15:42:41,523 INFO Benchmark-28b5: Created code package (source hash: d9053d216786c53ffdbbbd0a894b3d35), for run on aws with nodejs:16
+15:42:41,526 INFO AWS-c29f: Creating new function! Reason: function sebs_446ee480_110_dynamic_html_nodejs_16_x64 not found in cache.
+15:42:41,778 INFO AWS-c29f: Creating function sebs_446ee480_110_dynamic_html_nodejs_16_x64 from /home/pontus/serverless-benchmarks/cache/110.dynamic-html/aws/nodejs/16/x64/package/110.dynamic-html.zip
+15:42:42,170 INFO AWS-c29f: Waiting for Lambda function to be created...
+15:42:43,332 INFO AWS-c29f: Lambda function has been created.
+15:42:43,523 INFO AWS-c29f: Waiting for Lambda function to be updated...
+15:42:44,671 INFO AWS-c29f: Lambda function has been updated.
+15:42:44,671 INFO AWS-c29f: Updated configuration of sebs_446ee480_110_dynamic_html_nodejs_16_x64 function. 
+15:42:44,877 INFO AWS.Resources-4ac9: Creating HTTP API sebs_446ee480_110_dynamic_html_nodejs_16_x64-http-api
+15:42:45,826 INFO AWS-c29f: Created HTTP trigger for sebs_446ee480_110_dynamic_html_nodejs_16_x64 function. Sleep 5 seconds to avoid cloud errors.
+15:42:50,831 INFO Experiment.PerfCost-6883: Begin experiment on memory size 128
+15:42:51,881 INFO AWS-c29f: Waiting for Lambda function to be updated...
+15:42:53,38 INFO AWS-c29f: Lambda function has been updated.
+15:42:53,38 INFO AWS-c29f: Updated code of sebs_446ee480_110_dynamic_html_nodejs_16_x64 function. 
+15:42:53,217 INFO AWS-c29f: Waiting for Lambda function to be updated...
+15:42:55,485 INFO AWS-c29f: Lambda function has been updated.
+15:42:55,485 INFO AWS-c29f: Updated configuration of sebs_446ee480_110_dynamic_html_nodejs_16_x64 function. 
+15:42:55,486 INFO Experiment.PerfCost-6883: Begin cold experiments
+15:42:55,855 INFO AWS-c29f: Waiting for Lambda function to be updated...
+15:42:57,76 INFO AWS-c29f: Lambda function has been updated.
+15:42:57,76 INFO AWS-c29f: Updated configuration of sebs_446ee480_110_dynamic_html_nodejs_16_x64 function. 
+15:42:57,76 INFO AWS-c29f: Sent function updates enforcing cold starts.
+15:42:57,76 INFO AWS-c29f: Waiting for Lambda function to be updated...
+15:42:57,163 INFO AWS-c29f: Lambda function has been updated.
+15:42:57,164 INFO AWS-c29f: Finished function updates enforcing cold starts.
+15:43:07,528 INFO Experiment.PerfCost-6883: Processed 0 warm-up samples, ignoring these results.
+15:43:12,891 INFO AWS-c29f: Waiting for Lambda function to be updated...
+15:43:14,67 INFO AWS-c29f: Lambda function has been updated.
+15:43:14,67 INFO AWS-c29f: Updated configuration of sebs_446ee480_110_dynamic_html_nodejs_16_x64 function. 
+15:43:14,67 INFO AWS-c29f: Sent function updates enforcing cold starts.
+15:43:14,67 INFO AWS-c29f: Waiting for Lambda function to be updated...
+15:43:14,154 INFO AWS-c29f: Lambda function has been updated.
+15:43:14,154 INFO AWS-c29f: Finished function updates enforcing cold starts.
+15:43:25,146 INFO Experiment.PerfCost-6883: Processed 10 samples out of 120, 0 errors
+15:43:30,465 INFO AWS-c29f: Waiting for Lambda function to be updated...
+15:43:31,650 INFO AWS-c29f: Lambda function has been updated.
+15:43:31,650 INFO AWS-c29f: Updated configuration of sebs_446ee480_110_dynamic_html_nodejs_16_x64 function. 
+15:43:31,650 INFO AWS-c29f: Sent function updates enforcing cold starts.
+15:43:31,650 INFO AWS-c29f: Waiting for Lambda function to be updated...
+15:43:31,740 INFO AWS-c29f: Lambda function has been updated.
+15:43:31,740 INFO AWS-c29f: Finished function updates enforcing cold starts.
+15:43:41,652 INFO Experiment.PerfCost-6883: Processed 20 samples out of 120, 0 errors
+15:43:46,966 INFO AWS-c29f: Waiting for Lambda function to be updated...
+15:43:48,140 INFO AWS-c29f: Lambda function has been updated.
+15:43:48,140 INFO AWS-c29f: Updated configuration of sebs_446ee480_110_dynamic_html_nodejs_16_x64 function. 
+15:43:48,140 INFO AWS-c29f: Sent function updates enforcing cold starts.
+15:43:48,140 INFO AWS-c29f: Waiting for Lambda function to be updated...
+15:43:48,270 INFO AWS-c29f: Lambda function has been updated.
+15:43:48,270 INFO AWS-c29f: Finished function updates enforcing cold starts.
+15:43:59,61 INFO Experiment.PerfCost-6883: Processed 30 samples out of 120, 0 errors
+15:44:04,378 INFO AWS-c29f: Waiting for Lambda function to be updated...
+15:44:05,565 INFO AWS-c29f: Lambda function has been updated.
+15:44:05,565 INFO AWS-c29f: Updated configuration of sebs_446ee480_110_dynamic_html_nodejs_16_x64 function. 
+15:44:05,565 INFO AWS-c29f: Sent function updates enforcing cold starts.
+15:44:05,565 INFO AWS-c29f: Waiting for Lambda function to be updated...
+15:44:05,646 INFO AWS-c29f: Lambda function has been updated.
+15:44:05,646 INFO AWS-c29f: Finished function updates enforcing cold starts.
+15:44:16,41 INFO Experiment.PerfCost-6883: Processed 40 samples out of 120, 0 errors
+15:44:21,327 INFO AWS-c29f: Waiting for Lambda function to be updated...
+15:44:22,507 INFO AWS-c29f: Lambda function has been updated.
+15:44:22,507 INFO AWS-c29f: Updated configuration of sebs_446ee480_110_dynamic_html_nodejs_16_x64 function. 
+15:44:22,507 INFO AWS-c29f: Sent function updates enforcing cold starts.
+15:44:22,507 INFO AWS-c29f: Waiting for Lambda function to be updated...
+15:44:22,594 INFO AWS-c29f: Lambda function has been updated.
+15:44:22,594 INFO AWS-c29f: Finished function updates enforcing cold starts.
+15:44:33,592 INFO Experiment.PerfCost-6883: Processed 50 samples out of 120, 0 errors
+15:44:38,903 INFO AWS-c29f: Waiting for Lambda function to be updated...
+15:44:40,127 INFO AWS-c29f: Lambda function has been updated.
+15:44:40,127 INFO AWS-c29f: Updated configuration of sebs_446ee480_110_dynamic_html_nodejs_16_x64 function. 
+15:44:40,127 INFO AWS-c29f: Sent function updates enforcing cold starts.
+15:44:40,127 INFO AWS-c29f: Waiting for Lambda function to be updated...
+15:44:40,210 INFO AWS-c29f: Lambda function has been updated.
+15:44:40,210 INFO AWS-c29f: Finished function updates enforcing cold starts.
+15:44:50,206 INFO Experiment.PerfCost-6883: Processed 60 samples out of 120, 0 errors
+15:44:55,551 INFO AWS-c29f: Waiting for Lambda function to be updated...
+15:44:56,790 INFO AWS-c29f: Lambda function has been updated.
+15:44:56,790 INFO AWS-c29f: Updated configuration of sebs_446ee480_110_dynamic_html_nodejs_16_x64 function. 
+15:44:56,790 INFO AWS-c29f: Sent function updates enforcing cold starts.
+15:44:56,791 INFO AWS-c29f: Waiting for Lambda function to be updated...
+15:44:56,929 INFO AWS-c29f: Lambda function has been updated.
+15:44:56,929 INFO AWS-c29f: Finished function updates enforcing cold starts.
+15:45:07,963 INFO Experiment.PerfCost-6883: Processed 70 samples out of 120, 0 errors
+15:45:13,327 INFO AWS-c29f: Waiting for Lambda function to be updated...
+15:45:14,506 INFO AWS-c29f: Lambda function has been updated.
+15:45:14,507 INFO AWS-c29f: Updated configuration of sebs_446ee480_110_dynamic_html_nodejs_16_x64 function. 
+15:45:14,507 INFO AWS-c29f: Sent function updates enforcing cold starts.
+15:45:14,507 INFO AWS-c29f: Waiting for Lambda function to be updated...
+15:45:14,645 INFO AWS-c29f: Lambda function has been updated.
+15:45:14,646 INFO AWS-c29f: Finished function updates enforcing cold starts.
+15:45:24,759 INFO Experiment.PerfCost-6883: Processed 80 samples out of 120, 0 errors
+15:45:30,128 INFO AWS-c29f: Waiting for Lambda function to be updated...
+15:45:31,305 INFO AWS-c29f: Lambda function has been updated.
+15:45:31,306 INFO AWS-c29f: Updated configuration of sebs_446ee480_110_dynamic_html_nodejs_16_x64 function. 
+15:45:31,306 INFO AWS-c29f: Sent function updates enforcing cold starts.
+15:45:31,306 INFO AWS-c29f: Waiting for Lambda function to be updated...
+15:45:31,446 INFO AWS-c29f: Lambda function has been updated.
+15:45:31,446 INFO AWS-c29f: Finished function updates enforcing cold starts.
+15:45:42,346 INFO Experiment.PerfCost-6883: Processed 90 samples out of 120, 0 errors
+15:45:47,703 INFO AWS-c29f: Waiting for Lambda function to be updated...
+15:45:48,881 INFO AWS-c29f: Lambda function has been updated.
+15:45:48,881 INFO AWS-c29f: Updated configuration of sebs_446ee480_110_dynamic_html_nodejs_16_x64 function. 
+15:45:48,881 INFO AWS-c29f: Sent function updates enforcing cold starts.
+15:45:48,881 INFO AWS-c29f: Waiting for Lambda function to be updated...
+15:45:48,968 INFO AWS-c29f: Lambda function has been updated.
+15:45:48,968 INFO AWS-c29f: Finished function updates enforcing cold starts.
+15:45:59,5 INFO Experiment.PerfCost-6883: Processed 100 samples out of 120, 0 errors
+15:46:04,323 INFO AWS-c29f: Waiting for Lambda function to be updated...
+15:46:05,505 INFO AWS-c29f: Lambda function has been updated.
+15:46:05,505 INFO AWS-c29f: Updated configuration of sebs_446ee480_110_dynamic_html_nodejs_16_x64 function. 
+15:46:05,505 INFO AWS-c29f: Sent function updates enforcing cold starts.
+15:46:05,505 INFO AWS-c29f: Waiting for Lambda function to be updated...
+15:46:05,589 INFO AWS-c29f: Lambda function has been updated.
+15:46:05,589 INFO AWS-c29f: Finished function updates enforcing cold starts.
+15:46:16,710 INFO Experiment.PerfCost-6883: Processed 110 samples out of 120, 0 errors
+15:46:22,106 INFO AWS-c29f: Waiting for Lambda function to be updated...
+15:46:23,293 INFO AWS-c29f: Lambda function has been updated.
+15:46:23,293 INFO AWS-c29f: Updated configuration of sebs_446ee480_110_dynamic_html_nodejs_16_x64 function. 
+15:46:23,293 INFO AWS-c29f: Sent function updates enforcing cold starts.
+15:46:23,293 INFO AWS-c29f: Waiting for Lambda function to be updated...
+15:46:23,397 INFO AWS-c29f: Lambda function has been updated.
+15:46:23,397 INFO AWS-c29f: Finished function updates enforcing cold starts.
+15:46:33,304 INFO Experiment.PerfCost-6883: Processed 120 samples out of 120, 0 errors
+15:46:38,319 INFO Experiment.PerfCost-6883: Mean 4863.856391666666 [ms], median 4861.3865000000005 [ms], std 612.8149884076528, CV 12.599364353306154
+15:46:38,321 INFO Experiment.PerfCost-6883: Parametric CI (Student's t-distribution) 0.95 from 4752.62099833458 to 4975.091784998753, within 2.2869793919628894% of mean
+15:46:38,322 INFO Experiment.PerfCost-6883: Non-parametric CI 0.95 from 4735.672 to 4973.95, within 2.450720591748879% of median
+15:46:38,322 INFO Experiment.PerfCost-6883: Parametric CI (Student's t-distribution) 0.99 from 4716.798486221093 to 5010.914297112239, within 3.0234837051836054% of mean
+15:46:38,322 INFO Experiment.PerfCost-6883: Non-parametric CI 0.99 from 4691.689 to 5028.19, within 3.4609570746946297% of median
+15:46:40,628 INFO Experiment.PerfCost-6883: Begin warm experiments
+15:46:50,369 INFO Experiment.PerfCost-6883: Processed 0 warm-up samples, ignoring these results.
+15:47:04,333 INFO Experiment.PerfCost-6883: Processed 10 samples out of 120, 0 errors
+15:47:18,962 INFO Experiment.PerfCost-6883: Processed 20 samples out of 120, 0 errors
+15:47:32,905 INFO Experiment.PerfCost-6883: Processed 30 samples out of 120, 0 errors
+15:47:46,832 INFO Experiment.PerfCost-6883: Processed 40 samples out of 120, 0 errors
+15:48:01,9 INFO Experiment.PerfCost-6883: Processed 50 samples out of 120, 0 errors
+15:48:14,646 INFO Experiment.PerfCost-6883: Processed 60 samples out of 120, 0 errors
+15:48:29,270 INFO Experiment.PerfCost-6883: Processed 70 samples out of 120, 0 errors
+15:48:42,882 INFO Experiment.PerfCost-6883: Processed 80 samples out of 120, 0 errors
+15:48:57,259 INFO Experiment.PerfCost-6883: Processed 90 samples out of 120, 0 errors
+15:49:10,995 INFO Experiment.PerfCost-6883: Processed 100 samples out of 120, 0 errors
+15:49:24,791 INFO Experiment.PerfCost-6883: Processed 110 samples out of 120, 0 errors
+15:49:39,178 INFO Experiment.PerfCost-6883: Processed 120 samples out of 120, 0 errors
+15:49:44,180 INFO Experiment.PerfCost-6883: Mean 3308.45115 [ms], median 3337.89 [ms], std 471.501325232967, CV 14.251421703263384
+15:49:44,182 INFO Experiment.PerfCost-6883: Parametric CI (Student's t-distribution) 0.95 from 3222.866370970411 to 3394.0359290295887, within 2.586853338595882% of mean
+15:49:44,182 INFO Experiment.PerfCost-6883: Non-parametric CI 0.95 from 3262.723 to 3417.708, within 2.321601370925946% of median
+15:49:44,183 INFO Experiment.PerfCost-6883: Parametric CI (Student's t-distribution) 0.99 from 3195.304444036197 to 3421.597855963803, within 3.4199297748072546% of mean
+15:49:44,183 INFO Experiment.PerfCost-6883: Non-parametric CI 0.99 from 3230.418 to 3456.937, within 3.3931465686406654% of median

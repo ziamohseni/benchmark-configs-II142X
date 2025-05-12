@@ -1,0 +1,95 @@
+14:54:33,93 INFO SeBS-9949: Created experiment output at /home/pontus/serverless-benchmarks/experiments-result/gcp/exp_4
+14:54:33,365 INFO GCPResources-9333: Using cached resources for GCP
+14:54:33,365 INFO GCPConfig-e027: Loading cached config for GCP
+14:54:33,653 INFO GCP-aabe: Using existing resource name: 2afc7128.
+14:54:33,676 INFO Benchmark-a3cd: Building benchmark 110.dynamic-html. Reason: no cached code package.
+14:54:33,694 INFO Benchmark-a3cd: Docker build of benchmark dependencies in container of image spcleth/serverless-benchmarks:build.gcp.nodejs.20-1.2.0
+14:54:33,695 INFO Benchmark-a3cd: Docker mount of benchmark code from path /home/pontus/serverless-benchmarks/experiments-result/gcp/exp_4/110.dynamic-html_code/nodejs/20/x64/package
+14:54:40,680 INFO Benchmark-a3cd: Created code package (source hash: 7573e46896e26763e176da4167b0cdc1), for run on gcp with nodejs:20
+14:54:40,686 INFO GCP-aabe: Creating new function! Reason: function sebs_2afc7128_110_dynamic_html_nodejs_20 not found in cache.
+14:54:42,79 INFO GCP-aabe: Uploading function sebs_2afc7128_110_dynamic_html_nodejs_20 code to sebs-deployment-2afc7128
+14:54:43,14 INFO GCP-aabe: Function sebs_2afc7128_110_dynamic_html_nodejs_20 has been created!
+14:54:43,145 INFO GCP-aabe: Sleeping for 5 seconds because the created functions is not yet available!
+14:54:48,862 INFO GCP-aabe: Function sebs_2afc7128_110_dynamic_html_nodejs_20 accepts now unauthenticated invocations!
+14:54:48,867 INFO GCP-aabe: Function sebs_2afc7128_110_dynamic_html_nodejs_20 - waiting for deployment...
+14:55:33,780 INFO GCP-aabe: Function sebs_2afc7128_110_dynamic_html_nodejs_20 - deployed!
+14:55:33,782 INFO Experiment.PerfCost-3df7: Begin experiment on memory size 128
+14:55:34,788 INFO GCP-aabe: Uploaded new code package to sebs-deployment-2afc7128/x64-110.dynamic-html.zip
+14:56:27,384 INFO GCP-aabe: Waiting for function deployment, 10 retries.
+14:56:42,759 INFO GCP-aabe: Published new function code and configuration.
+14:56:42,760 INFO Experiment.PerfCost-3df7: Begin cold experiments
+14:57:36,89 INFO GCP-aabe: Waiting for function deployment, 10 retries.
+14:57:36,168 INFO GCP-aabe: Published new function configuration.
+14:57:36,516 INFO GCP-aabe: Redeployed 1 out of 1
+14:57:51,788 INFO Experiment.PerfCost-3df7: Processed 0 warm-up samples, ignoring these results.
+14:58:44,702 INFO GCP-aabe: Published new function configuration.
+14:58:44,782 INFO GCP-aabe: Redeployed 1 out of 1
+14:58:56,484 INFO Experiment.PerfCost-3df7: Invocation k5iux1bv4a7s is not cold!
+14:58:56,484 INFO Experiment.PerfCost-3df7: Invocation im8g5kewsd94 is not cold!
+14:58:56,484 INFO Experiment.PerfCost-3df7: Invocation marduh77qulx is not cold!
+14:58:56,484 INFO Experiment.PerfCost-3df7: Processed 27 samples out of 120, 0 errors
+14:59:54,157 INFO GCP-aabe: Waiting for function deployment, 10 retries.
+15:00:10,105 INFO GCP-aabe: Published new function configuration.
+15:00:10,192 INFO GCP-aabe: Redeployed 1 out of 1
+15:00:22,725 INFO Experiment.PerfCost-3df7: Invocation suu61s6ntzwp is not cold!
+15:00:22,725 INFO Experiment.PerfCost-3df7: Processed 56 samples out of 120, 0 errors
+15:01:20,497 INFO GCP-aabe: Waiting for function deployment, 10 retries.
+15:01:25,816 INFO GCP-aabe: Published new function configuration.
+15:01:25,889 INFO GCP-aabe: Redeployed 1 out of 1
+15:01:37,632 INFO Experiment.PerfCost-3df7: Invocation hmo82dbbc80t is not cold!
+15:01:37,632 INFO Experiment.PerfCost-3df7: Invocation 3p7dxfoft7vh is not cold!
+15:01:37,633 INFO Experiment.PerfCost-3df7: Invocation eiozpd8ar1hy is not cold!
+15:01:37,735 INFO Experiment.PerfCost-3df7: Processed 83 samples out of 120, 0 errors
+15:02:35,813 INFO GCP-aabe: Waiting for function deployment, 10 retries.
+15:02:40,973 INFO GCP-aabe: Published new function configuration.
+15:02:41,60 INFO GCP-aabe: Redeployed 1 out of 1
+15:02:53,594 INFO Experiment.PerfCost-3df7: Invocation b4jw8z25gifw is not cold!
+15:02:53,711 INFO Experiment.PerfCost-3df7: Invocation fnab2ilgy2xw is not cold!
+15:02:53,711 INFO Experiment.PerfCost-3df7: Processed 111 samples out of 120, 0 errors
+15:03:50,609 INFO GCP-aabe: Waiting for function deployment, 10 retries.
+15:03:50,753 INFO GCP-aabe: Published new function configuration.
+15:03:50,839 INFO GCP-aabe: Redeployed 1 out of 1
+15:04:03,556 INFO Experiment.PerfCost-3df7: Invocation qzztxdygcuxx is not cold!
+15:04:03,749 INFO Experiment.PerfCost-3df7: Invocation e7j2f3jrvp5r is not cold!
+15:04:03,749 INFO Experiment.PerfCost-3df7: Invocation 1y04fqj754xm is not cold!
+15:04:03,749 INFO Experiment.PerfCost-3df7: Invocation zhe8nw2hf1o5 is not cold!
+15:04:03,749 INFO Experiment.PerfCost-3df7: Processed 137 samples out of 120, 0 errors
+15:04:08,754 INFO Experiment.PerfCost-3df7: Mean 5045.074905109489 [ms], median 5868.282 [ms], std 1850.7399517294236, CV 36.68409263567234
+15:04:08,756 INFO Experiment.PerfCost-3df7: Parametric CI (Student's t-distribution) 0.95 from 4731.236718641441 to 5358.913091577537, within 6.220684377752302% of mean
+15:04:08,756 INFO Experiment.PerfCost-3df7: Non-parametric CI 0.95 from 3820.3 to 6321.772, within 21.313495159230587% of median
+15:04:08,757 INFO Experiment.PerfCost-3df7: Parametric CI (Student's t-distribution) 0.99 from 4630.477977597392 to 5459.671832621586, within 8.21785474566902% of mean
+15:04:08,757 INFO Experiment.PerfCost-3df7: Non-parametric CI 0.99 from 3740.103 to 6384.882, within 22.534525436916628% of median
+15:04:11,544 INFO Experiment.PerfCost-3df7: Begin warm experiments
+15:04:24,97 INFO Experiment.PerfCost-3df7: Processed 0 warm-up samples, ignoring these results.
+15:04:41,782 INFO Experiment.PerfCost-3df7: Invocation beuxns3xr0pk is cold!
+15:04:41,783 INFO Experiment.PerfCost-3df7: Invocation mxm2sp65z7i5 is cold!
+15:04:41,783 INFO Experiment.PerfCost-3df7: Invocation cof8kh45momq is cold!
+15:04:41,783 INFO Experiment.PerfCost-3df7: Invocation tihgxzi0v3u8 is cold!
+15:04:41,783 INFO Experiment.PerfCost-3df7: Invocation dcypcsi1hnl2 is cold!
+15:04:41,784 INFO Experiment.PerfCost-3df7: Invocation d1ab4ndknond is cold!
+15:04:41,784 INFO Experiment.PerfCost-3df7: Invocation ramhwtjy592m is cold!
+15:04:41,784 INFO Experiment.PerfCost-3df7: Processed 23 samples out of 120, 0 errors
+15:04:58,636 INFO Experiment.PerfCost-3df7: Invocation 2zjtfhat93aq is cold!
+15:04:58,636 INFO Experiment.PerfCost-3df7: Invocation j85ezr64vruv is cold!
+15:05:04,885 ERROR GCP.HTTPTrigger-e05c: Invocation on URL  failed!
+15:05:04,885 ERROR GCP.HTTPTrigger-e05c: No output provided!
+15:05:04,886 INFO Experiment.PerfCost-3df7: Invocation o3o59gk136os is cold!
+15:05:04,886 INFO Experiment.PerfCost-3df7: Invocation zhzomyksht5u is cold!
+15:05:04,886 INFO Experiment.PerfCost-3df7: Processed 48 samples out of 120, 1 errors
+15:05:21,556 INFO Experiment.PerfCost-3df7: Invocation 7c6htj5ita79 is cold!
+15:05:22,204 INFO Experiment.PerfCost-3df7: Invocation 37g8oa7dhszn is cold!
+15:05:22,341 INFO Experiment.PerfCost-3df7: Invocation 0f9auwhd8cfi is cold!
+15:05:22,341 INFO Experiment.PerfCost-3df7: Invocation uxf0xvd5rc5t is cold!
+15:05:22,341 INFO Experiment.PerfCost-3df7: Processed 74 samples out of 120, 1 errors
+15:05:40,160 INFO Experiment.PerfCost-3df7: Processed 104 samples out of 120, 1 errors
+15:05:57,13 INFO Experiment.PerfCost-3df7: Invocation l1ohkxed1rz7 is cold!
+15:05:57,13 INFO Experiment.PerfCost-3df7: Invocation miuytdwldu78 is cold!
+15:06:02,656 ERROR GCP.HTTPTrigger-e05c: Invocation on URL failed!
+15:06:02,656 ERROR GCP.HTTPTrigger-e05c: No output provided!
+15:06:02,657 INFO Experiment.PerfCost-3df7: Invocation xjf60ggjas9w is cold!
+15:06:02,657 INFO Experiment.PerfCost-3df7: Processed 130 samples out of 120, 2 errors
+15:06:08,288 INFO Experiment.PerfCost-3df7: Mean 6341.348607692307 [ms], median 6646.1175 [ms], std 1152.2612188032545, CV 18.1706020294408
+15:06:08,289 INFO Experiment.PerfCost-3df7: Parametric CI (Student's t-distribution) 0.95 from 6140.625431410888 to 6542.071783973726, within 3.1653073927828825% of mean
+15:06:08,289 INFO Experiment.PerfCost-3df7: Non-parametric CI 0.95 from 6357.704 to 6799.75, within 3.325595733147964% of median
+15:06:08,290 INFO Experiment.PerfCost-3df7: Parametric CI (Student's t-distribution) 0.99 from 6076.107279003832 to 6606.589936380782, within 4.182727446441386% of mean
+15:06:08,290 INFO Experiment.PerfCost-3df7: Non-parametric CI 0.99 from 6309.731 to 6835.474, within 3.955264107202441% of median

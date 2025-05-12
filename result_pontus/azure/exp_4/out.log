@@ -1,0 +1,28 @@
+15:35:49,624 INFO SeBS-8dd1: Created experiment output at /home/pontus/serverless-benchmarks/experiments-result/azure/exp_4
+15:35:49,894 INFO AzureConfig-21d1: Using cached config for Azure
+15:35:49,894 INFO Azure-ed3f: Using existing resource name: b3130a90.
+15:35:53,56 INFO Benchmark-397b: Building benchmark 110.dynamic-html. Reason: no cached code package.
+15:35:53,77 INFO Benchmark-397b: Docker build of benchmark dependencies in container of image spcleth/serverless-benchmarks:build.azure.nodejs.20-1.2.0
+15:35:53,77 INFO Benchmark-397b: Docker mount of benchmark code from path /home/pontus/serverless-benchmarks/experiments-result/azure/exp_4/110.dynamic-html_code/nodejs/20/x64/package
+15:35:57,668 INFO Benchmark-397b: Created code package (source hash: c86c268b4e75d87d7269f97b3cbc47bf), for run on azure with nodejs:20
+15:35:58,52 INFO Azure-ed3f: Creating new function! Reason: function sebs-b3130a90-110-dynamic-html-nodejs-20 not found in cache.
+15:37:06,485 INFO Azure-ed3f: Azure: Created function app sebs-b3130a90-110-dynamic-html-nodejs-20
+15:37:08,170 INFO Azure-ed3f: Attempting publish of function sebs-b3130a90-110-dynamic-html-nodejs-20
+15:37:20,325 INFO Experiment.PerfCost-fd71: Begin experiment on memory size 128
+15:37:22,642 INFO Azure-ed3f: Attempting publish of function sebs-b3130a90-110-dynamic-html-nodejs-20
+15:37:32,904 INFO Experiment.PerfCost-fd71: Begin warm experiments
+15:37:49,452 INFO Experiment.PerfCost-fd71: Processed 0 warm-up samples, ignoring these results.
+15:38:08,563 INFO Experiment.PerfCost-fd71: Invocation 54281599-7344-4363-905b-68f5eb1847af is cold!
+15:38:09,319 INFO Experiment.PerfCost-fd71: Processed 29 samples out of 120, 0 errors
+15:38:22,236 INFO Experiment.PerfCost-fd71: Invocation e601d9b2-4ca8-44a1-9bec-5c1c7ea3018c is cold!
+15:38:27,727 INFO Experiment.PerfCost-fd71: Processed 58 samples out of 120, 0 errors
+15:38:44,921 INFO Experiment.PerfCost-fd71: Invocation 9dda534c-b388-49d3-a384-743e34de395d is cold!
+15:38:45,707 INFO Experiment.PerfCost-fd71: Processed 87 samples out of 120, 0 errors
+15:38:57,858 INFO Experiment.PerfCost-fd71: Invocation 23a22aa0-f166-4854-9172-d1bccc08d816 is cold!
+15:39:03,719 INFO Experiment.PerfCost-fd71: Processed 116 samples out of 120, 0 errors
+15:39:20,759 INFO Experiment.PerfCost-fd71: Processed 146 samples out of 120, 0 errors
+15:39:25,768 INFO Experiment.PerfCost-fd71: Mean 6080.593739726028 [ms], median 6569.269 [ms], std 1938.2133962930316, CV 31.875397029572994
+15:39:25,812 INFO Experiment.PerfCost-fd71: Parametric CI (Student's t-distribution) 0.95 from 5762.463082159204 to 6398.724397292852, within 5.231901212021411% of mean
+15:39:25,812 INFO Experiment.PerfCost-fd71: Non-parametric CI 0.95 from 6269.04 to 6790.675, within 3.9702667069958637% of median
+15:39:25,813 INFO Experiment.PerfCost-fd71: Parametric CI (Student's t-distribution) 0.99 from 5660.462628057109 to 6500.724851394946, within 6.909376446646939% of mean
+15:39:25,813 INFO Experiment.PerfCost-fd71: Non-parametric CI 0.99 from 6150.077 to 6868.179, within 5.4656157328920445% of median

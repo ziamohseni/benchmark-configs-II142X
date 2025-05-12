@@ -1,0 +1,155 @@
+22:18:17,300 INFO SeBS-201c: Created experiment output at /home/pontus/serverless-benchmarks/experiments-result/aws/exp_3
+22:18:18,108 INFO AWS.Resources-41ef: Using cached resources for AWS
+22:18:18,108 INFO AWS.Config-7033: Using cached config for AWS
+22:18:18,214 INFO AWS-b55c: Using existing resource name: 446ee480.
+22:18:18,225 INFO Benchmark-76cb: Building benchmark 110.dynamic-html. Reason: no cached code package.
+22:18:18,240 INFO Benchmark-76cb: Docker build of benchmark dependencies in container of image spcleth/serverless-benchmarks:build.aws.python.3.11-1.2.0
+22:18:18,240 INFO Benchmark-76cb: Docker mount of benchmark code from path /home/pontus/serverless-benchmarks/experiments-result/aws/exp_3/110.dynamic-html_code/python/3.11/x64/package
+22:18:19,880 INFO AWS-b55c: Created /home/pontus/serverless-benchmarks/experiments-result/aws/exp_3/110.dynamic-html_code/python/3.11/x64/package/110.dynamic-html.zip archive
+22:18:19,881 INFO AWS-b55c: Zip archive size 0.447764 MB
+22:18:19,881 INFO Benchmark-76cb: Created code package (source hash: c5d4e17a12eb0ea2f596ed38622c7761), for run on aws with python:3.11
+22:18:19,885 INFO AWS-b55c: Creating new function! Reason: function sebs_446ee480_110_dynamic_html_python_3_11_x64 not found in cache.
+22:18:20,60 INFO AWS-b55c: Creating function sebs_446ee480_110_dynamic_html_python_3_11_x64 from /home/pontus/serverless-benchmarks/cache/110.dynamic-html/aws/python/3.11/x64/package/110.dynamic-html.zip
+22:18:20,664 INFO AWS-b55c: Waiting for Lambda function to be created...
+22:18:21,822 INFO AWS-b55c: Lambda function has been created.
+22:18:22,7 INFO AWS-b55c: Waiting for Lambda function to be updated...
+22:18:23,193 INFO AWS-b55c: Lambda function has been updated.
+22:18:23,193 INFO AWS-b55c: Updated configuration of sebs_446ee480_110_dynamic_html_python_3_11_x64 function. 
+22:18:23,413 INFO AWS.Resources-41ef: Creating HTTP API sebs_446ee480_110_dynamic_html_python_3_11_x64-http-api
+22:18:24,773 INFO AWS-b55c: Created HTTP trigger for sebs_446ee480_110_dynamic_html_python_3_11_x64 function. Sleep 5 seconds to avoid cloud errors.
+22:18:29,780 INFO Experiment.PerfCost-5a06: Begin experiment on memory size 128
+22:18:30,375 INFO AWS-b55c: Waiting for Lambda function to be updated...
+22:18:31,521 INFO AWS-b55c: Lambda function has been updated.
+22:18:31,522 INFO AWS-b55c: Updated code of sebs_446ee480_110_dynamic_html_python_3_11_x64 function. 
+22:18:31,718 INFO AWS-b55c: Waiting for Lambda function to be updated...
+22:18:32,890 INFO AWS-b55c: Lambda function has been updated.
+22:18:32,890 INFO AWS-b55c: Updated configuration of sebs_446ee480_110_dynamic_html_python_3_11_x64 function. 
+22:18:32,891 INFO Experiment.PerfCost-5a06: Begin cold experiments
+22:18:33,208 INFO AWS-b55c: Waiting for Lambda function to be updated...
+22:18:34,391 INFO AWS-b55c: Lambda function has been updated.
+22:18:34,392 INFO AWS-b55c: Updated configuration of sebs_446ee480_110_dynamic_html_python_3_11_x64 function. 
+22:18:34,392 INFO AWS-b55c: Sent function updates enforcing cold starts.
+22:18:34,392 INFO AWS-b55c: Waiting for Lambda function to be updated...
+22:18:34,481 INFO AWS-b55c: Lambda function has been updated.
+22:18:34,481 INFO AWS-b55c: Finished function updates enforcing cold starts.
+22:18:47,841 INFO Experiment.PerfCost-5a06: Processed 0 warm-up samples, ignoring these results.
+22:18:53,142 INFO AWS-b55c: Waiting for Lambda function to be updated...
+22:18:54,313 INFO AWS-b55c: Lambda function has been updated.
+22:18:54,313 INFO AWS-b55c: Updated configuration of sebs_446ee480_110_dynamic_html_python_3_11_x64 function. 
+22:18:54,313 INFO AWS-b55c: Sent function updates enforcing cold starts.
+22:18:54,313 INFO AWS-b55c: Waiting for Lambda function to be updated...
+22:18:54,398 INFO AWS-b55c: Lambda function has been updated.
+22:18:54,398 INFO AWS-b55c: Finished function updates enforcing cold starts.
+22:19:07,451 INFO Experiment.PerfCost-5a06: Processed 10 samples out of 120, 0 errors
+22:19:12,771 INFO AWS-b55c: Waiting for Lambda function to be updated...
+22:19:14,775 INFO AWS-b55c: Lambda function has been updated.
+22:19:14,775 INFO AWS-b55c: Updated configuration of sebs_446ee480_110_dynamic_html_python_3_11_x64 function. 
+22:19:14,776 INFO AWS-b55c: Sent function updates enforcing cold starts.
+22:19:14,776 INFO AWS-b55c: Waiting for Lambda function to be updated...
+22:19:14,878 INFO AWS-b55c: Lambda function has been updated.
+22:19:14,878 INFO AWS-b55c: Finished function updates enforcing cold starts.
+22:19:27,377 INFO Experiment.PerfCost-5a06: Processed 20 samples out of 120, 0 errors
+22:19:32,677 INFO AWS-b55c: Waiting for Lambda function to be updated...
+22:19:33,841 INFO AWS-b55c: Lambda function has been updated.
+22:19:33,841 INFO AWS-b55c: Updated configuration of sebs_446ee480_110_dynamic_html_python_3_11_x64 function. 
+22:19:33,841 INFO AWS-b55c: Sent function updates enforcing cold starts.
+22:19:33,841 INFO AWS-b55c: Waiting for Lambda function to be updated...
+22:19:33,926 INFO AWS-b55c: Lambda function has been updated.
+22:19:33,926 INFO AWS-b55c: Finished function updates enforcing cold starts.
+22:19:48,469 INFO Experiment.PerfCost-5a06: Processed 30 samples out of 120, 0 errors
+22:19:53,766 INFO AWS-b55c: Waiting for Lambda function to be updated...
+22:19:54,947 INFO AWS-b55c: Lambda function has been updated.
+22:19:54,947 INFO AWS-b55c: Updated configuration of sebs_446ee480_110_dynamic_html_python_3_11_x64 function. 
+22:19:54,947 INFO AWS-b55c: Sent function updates enforcing cold starts.
+22:19:54,947 INFO AWS-b55c: Waiting for Lambda function to be updated...
+22:19:55,26 INFO AWS-b55c: Lambda function has been updated.
+22:19:55,26 INFO AWS-b55c: Finished function updates enforcing cold starts.
+22:20:08,718 INFO Experiment.PerfCost-5a06: Processed 40 samples out of 120, 0 errors
+22:20:14,30 INFO AWS-b55c: Waiting for Lambda function to be updated...
+22:20:15,216 INFO AWS-b55c: Lambda function has been updated.
+22:20:15,216 INFO AWS-b55c: Updated configuration of sebs_446ee480_110_dynamic_html_python_3_11_x64 function. 
+22:20:15,216 INFO AWS-b55c: Sent function updates enforcing cold starts.
+22:20:15,216 INFO AWS-b55c: Waiting for Lambda function to be updated...
+22:20:15,308 INFO AWS-b55c: Lambda function has been updated.
+22:20:15,308 INFO AWS-b55c: Finished function updates enforcing cold starts.
+22:20:29,491 INFO Experiment.PerfCost-5a06: Processed 50 samples out of 120, 0 errors
+22:20:34,795 INFO AWS-b55c: Waiting for Lambda function to be updated...
+22:20:35,974 INFO AWS-b55c: Lambda function has been updated.
+22:20:35,975 INFO AWS-b55c: Updated configuration of sebs_446ee480_110_dynamic_html_python_3_11_x64 function. 
+22:20:35,975 INFO AWS-b55c: Sent function updates enforcing cold starts.
+22:20:35,975 INFO AWS-b55c: Waiting for Lambda function to be updated...
+22:20:36,65 INFO AWS-b55c: Lambda function has been updated.
+22:20:36,66 INFO AWS-b55c: Finished function updates enforcing cold starts.
+22:20:48,492 INFO Experiment.PerfCost-5a06: Processed 60 samples out of 120, 0 errors
+22:20:54,615 INFO AWS-b55c: Waiting for Lambda function to be updated...
+22:20:55,800 INFO AWS-b55c: Lambda function has been updated.
+22:20:55,800 INFO AWS-b55c: Updated configuration of sebs_446ee480_110_dynamic_html_python_3_11_x64 function. 
+22:20:55,800 INFO AWS-b55c: Sent function updates enforcing cold starts.
+22:20:55,800 INFO AWS-b55c: Waiting for Lambda function to be updated...
+22:20:55,886 INFO AWS-b55c: Lambda function has been updated.
+22:20:55,887 INFO AWS-b55c: Finished function updates enforcing cold starts.
+22:21:08,750 INFO Experiment.PerfCost-5a06: Processed 70 samples out of 120, 0 errors
+22:21:14,44 INFO AWS-b55c: Waiting for Lambda function to be updated...
+22:21:15,225 INFO AWS-b55c: Lambda function has been updated.
+22:21:15,226 INFO AWS-b55c: Updated configuration of sebs_446ee480_110_dynamic_html_python_3_11_x64 function. 
+22:21:15,226 INFO AWS-b55c: Sent function updates enforcing cold starts.
+22:21:15,226 INFO AWS-b55c: Waiting for Lambda function to be updated...
+22:21:15,332 INFO AWS-b55c: Lambda function has been updated.
+22:21:15,333 INFO AWS-b55c: Finished function updates enforcing cold starts.
+22:21:28,693 INFO Experiment.PerfCost-5a06: Processed 80 samples out of 120, 0 errors
+22:21:34,53 INFO AWS-b55c: Waiting for Lambda function to be updated...
+22:21:35,251 INFO AWS-b55c: Lambda function has been updated.
+22:21:35,251 INFO AWS-b55c: Updated configuration of sebs_446ee480_110_dynamic_html_python_3_11_x64 function. 
+22:21:35,251 INFO AWS-b55c: Sent function updates enforcing cold starts.
+22:21:35,251 INFO AWS-b55c: Waiting for Lambda function to be updated...
+22:21:35,371 INFO AWS-b55c: Lambda function has been updated.
+22:21:35,371 INFO AWS-b55c: Finished function updates enforcing cold starts.
+22:21:48,157 INFO Experiment.PerfCost-5a06: Processed 90 samples out of 120, 0 errors
+22:21:53,479 INFO AWS-b55c: Waiting for Lambda function to be updated...
+22:21:54,660 INFO AWS-b55c: Lambda function has been updated.
+22:21:54,660 INFO AWS-b55c: Updated configuration of sebs_446ee480_110_dynamic_html_python_3_11_x64 function. 
+22:21:54,660 INFO AWS-b55c: Sent function updates enforcing cold starts.
+22:21:54,660 INFO AWS-b55c: Waiting for Lambda function to be updated...
+22:21:54,748 INFO AWS-b55c: Lambda function has been updated.
+22:21:54,748 INFO AWS-b55c: Finished function updates enforcing cold starts.
+22:22:08,703 INFO Experiment.PerfCost-5a06: Processed 100 samples out of 120, 0 errors
+22:22:13,996 INFO AWS-b55c: Waiting for Lambda function to be updated...
+22:22:15,188 INFO AWS-b55c: Lambda function has been updated.
+22:22:15,188 INFO AWS-b55c: Updated configuration of sebs_446ee480_110_dynamic_html_python_3_11_x64 function. 
+22:22:15,188 INFO AWS-b55c: Sent function updates enforcing cold starts.
+22:22:15,188 INFO AWS-b55c: Waiting for Lambda function to be updated...
+22:22:15,276 INFO AWS-b55c: Lambda function has been updated.
+22:22:15,276 INFO AWS-b55c: Finished function updates enforcing cold starts.
+22:22:27,917 INFO Experiment.PerfCost-5a06: Processed 110 samples out of 120, 0 errors
+22:22:34,44 INFO AWS-b55c: Waiting for Lambda function to be updated...
+22:22:35,236 INFO AWS-b55c: Lambda function has been updated.
+22:22:35,236 INFO AWS-b55c: Updated configuration of sebs_446ee480_110_dynamic_html_python_3_11_x64 function. 
+22:22:35,236 INFO AWS-b55c: Sent function updates enforcing cold starts.
+22:22:35,237 INFO AWS-b55c: Waiting for Lambda function to be updated...
+22:22:35,318 INFO AWS-b55c: Lambda function has been updated.
+22:22:35,318 INFO AWS-b55c: Finished function updates enforcing cold starts.
+22:22:48,162 INFO Experiment.PerfCost-5a06: Processed 120 samples out of 120, 0 errors
+22:22:53,167 INFO Experiment.PerfCost-5a06: Mean 7237.03615 [ms], median 7245.1075 [ms], std 979.7342417454903, CV 13.537782891211483
+22:22:53,169 INFO Experiment.PerfCost-5a06: Parametric CI (Student's t-distribution) 0.95 from 7059.1992403241275 to 7414.873059675872, within 2.45731686273078% of mean
+22:22:53,169 INFO Experiment.PerfCost-5a06: Non-parametric CI 0.95 from 7129.794 to 7431.052, within 2.079044375808087% of median
+22:22:53,170 INFO Experiment.PerfCost-5a06: Parametric CI (Student's t-distribution) 0.99 from 7001.928216594565 to 7472.144083405435, within 3.248677062438534% of mean
+22:22:53,170 INFO Experiment.PerfCost-5a06: Non-parametric CI 0.99 from 7076.218 to 7462.073, within 2.662865940912543% of median
+22:22:56,892 INFO Experiment.PerfCost-5a06: Begin warm experiments
+22:23:09,446 INFO Experiment.PerfCost-5a06: Processed 0 warm-up samples, ignoring these results.
+22:23:27,59 INFO Experiment.PerfCost-5a06: Processed 10 samples out of 120, 0 errors
+22:23:42,551 INFO Experiment.PerfCost-5a06: Processed 20 samples out of 120, 0 errors
+22:23:59,282 INFO Experiment.PerfCost-5a06: Processed 30 samples out of 120, 0 errors
+22:24:15,373 INFO Experiment.PerfCost-5a06: Processed 40 samples out of 120, 0 errors
+22:24:32,209 INFO Experiment.PerfCost-5a06: Processed 50 samples out of 120, 0 errors
+22:24:48,254 INFO Experiment.PerfCost-5a06: Processed 60 samples out of 120, 0 errors
+22:25:05,169 INFO Experiment.PerfCost-5a06: Processed 70 samples out of 120, 0 errors
+22:25:21,237 INFO Experiment.PerfCost-5a06: Processed 80 samples out of 120, 0 errors
+22:25:38,347 INFO Experiment.PerfCost-5a06: Processed 90 samples out of 120, 0 errors
+22:25:54,352 INFO Experiment.PerfCost-5a06: Processed 100 samples out of 120, 0 errors
+22:26:12,1 INFO Experiment.PerfCost-5a06: Processed 110 samples out of 120, 0 errors
+22:26:27,979 INFO Experiment.PerfCost-5a06: Processed 120 samples out of 120, 0 errors
+22:26:32,984 INFO Experiment.PerfCost-5a06: Mean 5806.985158333334 [ms], median 5797.7564999999995 [ms], std 778.0544263046769, CV 13.398595055613793
+22:26:32,985 INFO Experiment.PerfCost-5a06: Parametric CI (Student's t-distribution) 0.95 from 5665.75625274038 to 5948.214063926288, within 2.432052118994709% of mean
+22:26:32,986 INFO Experiment.PerfCost-5a06: Non-parametric CI 0.95 from 5630.323 to 5958.207, within 2.8276799827657477% of median
+22:26:32,986 INFO Experiment.PerfCost-5a06: Parametric CI (Student's t-distribution) 0.99 from 5620.274558202076 to 5993.695758464592, within 3.2152760002032728% of mean
+22:26:32,986 INFO Experiment.PerfCost-5a06: Non-parametric CI 0.99 from 5595.31 to 5987.998, within 3.3865513323989993% of median

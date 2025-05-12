@@ -1,0 +1,19 @@
+15:15:18,849 INFO SeBS-834a: Created experiment output at /home/pontus/serverless-benchmarks/experiments-result/azure/exp_1
+15:15:19,268 INFO AzureConfig-84a5: Using cached config for Azure
+15:15:19,268 INFO Azure-f73f: Using existing resource name: b3130a90.
+15:15:22,766 INFO Benchmark-0900: Using cached benchmark 110.dynamic-html at /home/pontus/serverless-benchmarks/cache/110.dynamic-html/azure/python/3.8/x64/package/code
+15:15:22,767 INFO Azure-f73f: Using cached function sebs-b3130a90-110-dynamic-html-python-3-8 in /home/pontus/serverless-benchmarks/cache/110.dynamic-html/azure/python/3.8/x64/package/code
+15:15:22,767 INFO Azure-f73f: Cached function sebs-b3130a90-110-dynamic-html-python-3-8 is up to date.
+15:15:22,767 INFO Experiment.PerfCost-5367: Begin experiment on memory size 128
+15:15:23,47 INFO Azure-f73f: Attempting publish of function sebs-b3130a90-110-dynamic-html-python-3-8
+15:15:38,574 INFO Experiment.PerfCost-5367: Begin warm experiments
+15:15:54,973 INFO Experiment.PerfCost-5367: Processed 0 warm-up samples, ignoring these results.
+15:16:15,441 INFO Experiment.PerfCost-5367: Processed 30 samples out of 120, 0 errors
+15:16:35,999 INFO Experiment.PerfCost-5367: Processed 60 samples out of 120, 0 errors
+15:17:01,972 INFO Experiment.PerfCost-5367: Processed 90 samples out of 120, 0 errors
+15:17:28,337 INFO Experiment.PerfCost-5367: Processed 120 samples out of 120, 0 errors
+15:17:33,345 INFO Experiment.PerfCost-5367: Mean 7805.913908333333 [ms], median 7766.477 [ms], std 3645.8268280836146, CV 46.70595744325916
+15:17:33,347 INFO Experiment.PerfCost-5367: Parametric CI (Student's t-distribution) 0.95 from 7144.139981595139 to 8467.687835071527, within 8.477853259843236% of mean
+15:17:33,347 INFO Experiment.PerfCost-5367: Non-parametric CI 0.95 from 7099.445 to 8663.286, within 10.067891786713592% of median
+15:17:33,348 INFO Experiment.PerfCost-5367: Parametric CI (Student's t-distribution) 0.99 from 6931.020723445039 to 8680.807093221627, within 11.208081400363476% of mean
+15:17:33,348 INFO Experiment.PerfCost-5367: Non-parametric CI 0.99 from 7002.61 to 8860.781, within 11.962766386870143% of median

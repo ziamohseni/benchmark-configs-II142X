@@ -1,0 +1,36 @@
+[15:20:52.647294] SeBS-f779 Created experiment output at /home/pontus/serverless-benchmarks/experiments-result/azure/exp_3
+[15:20:52.913974] AzureConfig-19ef Using cached config for Azure
+[15:20:52.914256] Azure-51ff Using existing resource name: b3130a90.
+[15:20:53.798231] Azure.CLI-30ec Started Azure CLI container: d8be35f2397375ef0d40d9de1080b6d0601f90fce3bf156b0b49b1e070f7f577.
+[15:20:56.040033] Azure.CLI-30ec Azure login succesful
+[15:20:56.042617] Benchmark-8b8e Building benchmark 110.dynamic-html. Reason: no cached code package.
+[15:20:56.055954] Benchmark-8b8e Docker build of benchmark dependencies in container of image spcleth/serverless-benchmarks:build.azure.python.3.11-1.2.0
+[15:20:56.056100] Benchmark-8b8e Docker mount of benchmark code from path /home/pontus/serverless-benchmarks/experiments-result/azure/exp_3/110.dynamic-html_code/python/3.11/x64/package
+[15:20:57.616640] Benchmark-8b8e Created code package (source hash: bb98f5644df76979974b5ace293e0f99), for run on azure with python:3.11
+[15:20:57.633832] Azure-51ff Creating new function! Reason: function sebs-b3130a90-110-dynamic-html-python-3-11 not found in cache.
+[15:20:59.068457] AzureResources-f635 Starting allocation of storage account functionf18a1cea.
+[15:21:21.134083] AzureResources-f635 Storage account functionf18a1cea created.
+[15:22:07.000845] Azure-51ff Azure: Created function app sebs-b3130a90-110-dynamic-html-python-3-11
+[15:22:07.297349] Azure-51ff Attempting publish of function sebs-b3130a90-110-dynamic-html-python-3-11
+[15:22:18.919109] Experiment.PerfCost-0de4 Begin experiment on memory size 128
+[15:22:19.214059] Azure-51ff Attempting publish of function sebs-b3130a90-110-dynamic-html-python-3-11
+[15:22:33.366152] Experiment.PerfCost-0de4 Begin warm experiments
+[15:22:50.531913] Experiment.PerfCost-0de4 Processed 0 warm-up samples, ignoring these results.
+[15:23:12.561501] Experiment.PerfCost-0de4 Invocation fb6ed313-5f23-469d-ae7a-04c19bf19604 is cold!
+[15:23:12.989056] Experiment.PerfCost-0de4 Processed 29 samples out of 120, 0 errors
+[15:23:33.390214] Experiment.PerfCost-0de4 Invocation eb6f37fe-46a5-4be9-bb63-1398af3140b3 is cold!
+[15:23:33.580047] Experiment.PerfCost-0de4 Processed 58 samples out of 120, 0 errors
+[15:23:52.012977] Experiment.PerfCost-0de4 Invocation ef8d9c0e-c651-416c-a589-65bf904c7c67 is cold!
+[15:23:54.674697] Experiment.PerfCost-0de4 Processed 87 samples out of 120, 0 errors
+[15:24:06.317071] Experiment.PerfCost-0de4 Invocation 114ede0b-e775-4c9e-af55-c7ec0d0c4737 is cold!
+[15:24:15.310626] Experiment.PerfCost-0de4 Processed 116 samples out of 120, 0 errors
+[15:24:35.263903] Experiment.PerfCost-0de4 Processed 146 samples out of 120, 0 errors
+[15:24:40.269699] Experiment.PerfCost-0de4 Mean 7993.354424657533 [ms], median 8863.157500000001 [ms], std 2604.2676614791894, CV 32.58041021483626
+[15:24:40.270878] Experiment.PerfCost-0de4 Parametric CI (Student's t-distribution) 0.95 from 7565.900262380588 to 8420.808586934478, within 5.347619279314749% of mean
+[15:24:40.271065] Experiment.PerfCost-0de4 Non-parametric CI 0.95 from 8113.532 to 9160.622, within 5.906980666878588% of median
+[15:24:40.271831] Experiment.PerfCost-0de4 Parametric CI (Student's t-distribution) 0.99 from 7428.848024178993 to 8557.860825136073, within 7.062196550889531% of mean
+[15:24:40.271978] Experiment.PerfCost-0de4 Non-parametric CI 0.99 from 7985.539 to 9220.609, within 6.967437958763569% of median
+[15:24:45.689171] Azure.CLI-30ec Stopping Azure manage Docker instance
+[15:24:56.083967] Benchmark-878b Update cached config /home/pontus/serverless-benchmarks/cache/azure.json
+[15:24:56.084477] Benchmark-878b Update cached config /home/pontus/serverless-benchmarks/cache/aws.json
+[15:24:56.084724] Benchmark-878b Update cached config /home/pontus/serverless-benchmarks/cache/gcp.json

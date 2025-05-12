@@ -1,0 +1,12 @@
+15:07:34,7 INFO SeBS-e17b: Created experiment output at /home/pontus/serverless-benchmarks/experiments-result/gcp/exp_4
+15:07:34,406 INFO GCPResources-2142: Using cached resources for GCP
+15:07:34,406 INFO GCPConfig-795a: Loading cached config for GCP
+15:07:34,856 INFO GCP-3320: Using existing resource name: 2afc7128.
+15:07:34,857 INFO Experiment.PerfCost-0407: Processing data in /home/pontus/serverless-benchmarks/experiments-result/gcp/exp_4/perf-cost/cold_results_128.json
+15:07:35,851 INFO GCPResources-3e3b: Using cached resources for GCP
+15:07:35,851 INFO GCPConfig-6c53: Loading cached config for GCP
+15:07:37,448 INFO GCP-3320: GCP: Received 360 entries, found time metrics for 137 out of 137 invocations.
+15:07:38,189 INFO Experiment.PerfCost-0407: Processing data in /home/pontus/serverless-benchmarks/experiments-result/gcp/exp_4/perf-cost/warm_results_128.json
+15:07:38,859 INFO GCPResources-2b7f: Using cached resources for GCP
+15:07:38,859 INFO GCPConfig-2959: Loading cached config for GCP
+15:07:40,176 INFO GCP-3320: GCP: Received 362 entries, found time metrics for 130 out of 130 invocations.

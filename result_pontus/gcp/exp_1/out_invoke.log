@@ -1,0 +1,82 @@
+14:16:11,853 INFO SeBS-4812: Created experiment output at /home/pontus/serverless-benchmarks/experiments-result/gcp/exp_1
+14:16:12,312 INFO GCPResources-7598: Using cached resources for GCP
+14:16:12,312 INFO GCPConfig-5614: Loading cached config for GCP
+14:16:12,768 INFO GCP-fa68: Using existing resource name: 2afc7128.
+14:16:12,787 INFO Benchmark-fc8d: Using cached benchmark 110.dynamic-html at /home/pontus/serverless-benchmarks/cache/110.dynamic-html/gcp/python/3.8/x64/package/110.dynamic-html.zip
+14:16:12,787 INFO GCP-fa68: Using cached function sebs_2afc7128_110_dynamic_html_python_3_8 in /home/pontus/serverless-benchmarks/cache/110.dynamic-html/gcp/python/3.8/x64/package/110.dynamic-html.zip
+14:16:12,788 INFO GCP-fa68: Cached function sebs_2afc7128_110_dynamic_html_python_3_8 is up to date.
+14:16:12,788 INFO Experiment.PerfCost-b8ba: Begin experiment on memory size 128
+14:16:13,822 INFO GCP-fa68: Uploaded new code package to sebs-deployment-2afc7128/x64-110.dynamic-html.zip
+14:17:07,424 INFO GCP-fa68: Waiting for function deployment, 10 retries.
+14:17:33,298 INFO GCP-fa68: Published new function code and configuration.
+14:17:33,299 INFO Experiment.PerfCost-b8ba: Begin cold experiments
+14:18:15,268 INFO GCP-fa68: Published new function configuration.
+14:18:15,403 INFO GCP-fa68: Redeployed 1 out of 1
+14:18:31,493 INFO Experiment.PerfCost-b8ba: Processed 0 warm-up samples, ignoring these results.
+14:19:28,528 INFO GCP-fa68: Waiting for function deployment, 10 retries.
+14:19:44,130 INFO GCP-fa68: Published new function configuration.
+14:19:44,264 INFO GCP-fa68: Redeployed 1 out of 1
+14:19:58,890 INFO Experiment.PerfCost-b8ba: Invocation xngc7h8gv3vx is not cold!
+14:19:58,891 INFO Experiment.PerfCost-b8ba: Invocation 8yp2ue0d6j1d is not cold!
+14:19:59,347 INFO Experiment.PerfCost-b8ba: Invocation xngcgewatnzl is not cold!
+14:19:59,373 INFO Experiment.PerfCost-b8ba: Invocation cg8xy9s5j1an is not cold!
+14:19:59,540 INFO Experiment.PerfCost-b8ba: Processed 26 samples out of 120, 0 errors
+14:20:51,552 INFO GCP-fa68: Published new function configuration.
+14:20:51,806 INFO GCP-fa68: Redeployed 1 out of 1
+14:21:07,892 INFO Experiment.PerfCost-b8ba: Invocation 8sgp51gye6kj is not cold!
+14:21:07,892 INFO Experiment.PerfCost-b8ba: Invocation a8w7p69p2nzw is not cold!
+14:21:07,892 INFO Experiment.PerfCost-b8ba: Invocation yuyz4kvv1zbh is not cold!
+14:21:07,893 INFO Experiment.PerfCost-b8ba: Processed 53 samples out of 120, 0 errors
+14:22:04,675 INFO GCP-fa68: Waiting for function deployment, 10 retries.
+14:22:14,982 INFO GCP-fa68: Published new function configuration.
+14:22:15,96 INFO GCP-fa68: Redeployed 1 out of 1
+14:22:34,530 INFO Experiment.PerfCost-b8ba: Invocation hjwj61sw2i4x is not cold!
+14:22:34,531 INFO Experiment.PerfCost-b8ba: Invocation 3zqs8krk5kzj is not cold!
+14:22:34,531 INFO Experiment.PerfCost-b8ba: Processed 79 samples out of 120, 2 errors
+14:23:31,117 INFO GCP-fa68: Waiting for function deployment, 10 retries.
+14:23:41,553 INFO GCP-fa68: Published new function configuration.
+14:23:41,768 INFO GCP-fa68: Redeployed 1 out of 1
+14:23:56,711 INFO Experiment.PerfCost-b8ba: Invocation w6ewbqwrx82w is not cold!
+14:23:56,712 INFO Experiment.PerfCost-b8ba: Invocation 2e3gyr8blvbh is not cold!
+14:23:56,712 INFO Experiment.PerfCost-b8ba: Processed 107 samples out of 120, 2 errors
+14:24:53,199 INFO GCP-fa68: Waiting for function deployment, 10 retries.
+14:25:08,879 INFO GCP-fa68: Published new function configuration.
+14:25:08,970 INFO GCP-fa68: Redeployed 1 out of 1
+14:25:25,188 INFO Experiment.PerfCost-b8ba: Invocation lxt3mygig1p8 is not cold!
+14:25:25,188 INFO Experiment.PerfCost-b8ba: Invocation lp8fw2p7ggn8 is not cold!
+14:25:25,189 INFO Experiment.PerfCost-b8ba: Processed 134 samples out of 120, 3 errors
+14:25:30,205 INFO Experiment.PerfCost-b8ba: Mean 7248.382313432836 [ms], median 8608.3155 [ms], std 2715.0329363146548, CV 37.45708792544104
+14:25:30,209 INFO Experiment.PerfCost-b8ba: Parametric CI (Student's t-distribution) 0.95 from 6782.724318096794 to 7714.040308768877, within 6.4243023505131% of mean
+14:25:30,209 INFO Experiment.PerfCost-b8ba: Non-parametric CI 0.95 from 5459.216 to 9232.054, within 21.913915678392595% of median
+14:25:30,210 INFO Experiment.PerfCost-b8ba: Parametric CI (Student's t-distribution) 0.99 from 6633.150719459918 to 7863.613907405754, within 8.487846906650596% of mean
+14:25:30,210 INFO Experiment.PerfCost-b8ba: Non-parametric CI 0.99 from 5293.436 to 9270.191, within 23.098334395387813% of median
+14:25:35,75 INFO Experiment.PerfCost-b8ba: Begin warm experiments
+14:25:52,266 INFO Experiment.PerfCost-b8ba: Processed 0 warm-up samples, ignoring these results.
+14:26:14,617 INFO Experiment.PerfCost-b8ba: Invocation g4umimxor3zg is cold!
+14:26:14,741 INFO Experiment.PerfCost-b8ba: Invocation lsmb72yk9tz6 is cold!
+14:26:14,741 INFO Experiment.PerfCost-b8ba: Invocation b120ioozyx9t is cold!
+14:26:14,753 INFO Experiment.PerfCost-b8ba: Invocation 9rjg3n06klbu is cold!
+14:26:14,753 INFO Experiment.PerfCost-b8ba: Invocation eektjcfzyc5b is cold!
+14:26:14,753 INFO Experiment.PerfCost-b8ba: Processed 25 samples out of 120, 0 errors
+14:26:36,90 INFO Experiment.PerfCost-b8ba: Invocation arrmftryd0e1 is cold!
+14:26:36,99 INFO Experiment.PerfCost-b8ba: Invocation g3r666vxsox9 is cold!
+14:26:36,99 INFO Experiment.PerfCost-b8ba: Invocation mnq0lirbhmyn is cold!
+14:26:36,99 INFO Experiment.PerfCost-b8ba: Invocation rj4ubd57vscb is cold!
+14:26:36,99 INFO Experiment.PerfCost-b8ba: Processed 51 samples out of 120, 0 errors
+14:26:57,990 INFO Experiment.PerfCost-b8ba: Invocation o8ofqcyu687u is cold!
+14:26:57,991 INFO Experiment.PerfCost-b8ba: Invocation n4l89vmkbd59 is cold!
+14:26:57,991 INFO Experiment.PerfCost-b8ba: Invocation 1jzyiqe1nemb is cold!
+14:26:57,991 INFO Experiment.PerfCost-b8ba: Processed 78 samples out of 120, 0 errors
+14:27:19,848 INFO Experiment.PerfCost-b8ba: Invocation l8prh4nyt7gh is cold!
+14:27:19,849 INFO Experiment.PerfCost-b8ba: Invocation lhl2mqx5n2yo is cold!
+14:27:19,849 INFO Experiment.PerfCost-b8ba: Invocation 5b9s2fzg89i8 is cold!
+14:27:19,849 INFO Experiment.PerfCost-b8ba: Processed 105 samples out of 120, 0 errors
+14:27:41,546 INFO Experiment.PerfCost-b8ba: Invocation 78fbupc0gkhn is cold!
+14:27:41,546 INFO Experiment.PerfCost-b8ba: Invocation 2saxzcragm7c is cold!
+14:27:41,546 INFO Experiment.PerfCost-b8ba: Invocation ht0zospk52ir is cold!
+14:27:41,546 INFO Experiment.PerfCost-b8ba: Processed 131 samples out of 120, 1 errors
+14:27:46,552 INFO Experiment.PerfCost-b8ba: Mean 10193.595641221375 [ms], median 10999.175 [ms], std 2301.7290638286363, CV 22.580148799710955
+14:27:46,554 INFO Experiment.PerfCost-b8ba: Parametric CI (Student's t-distribution) 0.95 from 9794.210109991844 to 10592.981172450905, within 3.9180044538403664% of mean
+14:27:46,562 INFO Experiment.PerfCost-b8ba: Non-parametric CI 0.95 from 10656.04 to 11304.25, within 2.9466300881656995% of median
+14:27:46,563 INFO Experiment.PerfCost-b8ba: Parametric CI (Student's t-distribution) 0.99 from 9665.858628720907 to 10721.332653721842, within 5.177142895156424% of mean
+14:27:46,563 INFO Experiment.PerfCost-b8ba: Non-parametric CI 0.99 from 10558.951 to 11353.528, within 3.6119845352037823% of median
