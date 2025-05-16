@@ -1,0 +1,61 @@
+11:05:44,466 INFO SeBS-6348: Created experiment output at /home/zia/serverless-benchmarks/experiments-result/gcp/256/cold_only/1_dynamic-html
+11:05:44,657 INFO GCPResources-6e09: Using cached resources for GCP
+11:05:44,658 INFO GCPConfig-2eb8: Loading cached config for GCP
+11:05:44,934 INFO GCP-f8d5: Using existing resource name: 2b487156.
+11:05:44,937 INFO Benchmark-019e: Using cached benchmark 110.dynamic-html at /home/zia/serverless-benchmarks/cache/110.dynamic-html/gcp/python/3.8/x64/package/110.dynamic-html.zip
+11:05:44,937 INFO GCP-f8d5: Using cached function sebs_2b487156_110_dynamic_html_python_3_8 in /home/zia/serverless-benchmarks/cache/110.dynamic-html/gcp/python/3.8/x64/package/110.dynamic-html.zip
+11:05:44,937 INFO GCP-f8d5: Updating function configuration due to changed attribute memory: cached function has value 256 whereas 128 has been requested.
+11:06:44,207 INFO GCP-f8d5: Waiting for function deployment, 10 retries.
+11:06:54,551 INFO GCP-f8d5: Published new function configuration.
+11:06:54,553 INFO Experiment.PerfCost-1346: Begin experiment on memory size 256
+11:06:55,464 INFO GCP-f8d5: Uploaded new code package to sebs-deployment-2b487156/x64-110.dynamic-html.zip
+11:07:54,154 INFO GCP-f8d5: Waiting for function deployment, 10 retries.
+11:08:04,565 INFO GCP-f8d5: Published new function code and configuration.
+11:08:04,566 INFO Experiment.PerfCost-1346: Begin cold experiments
+11:09:03,231 INFO GCP-f8d5: Waiting for function deployment, 10 retries.
+11:09:03,313 INFO GCP-f8d5: Published new function configuration.
+11:09:03,400 INFO GCP-f8d5: Redeployed 1 out of 1
+11:09:17,244 INFO Experiment.PerfCost-1346: Processed 0 warm-up samples, ignoring these results.
+11:10:10,707 INFO GCP-f8d5: Published new function configuration.
+11:10:10,796 INFO GCP-f8d5: Redeployed 1 out of 1
+11:10:24,312 INFO Experiment.PerfCost-1346: Invocation m5tnwyyw1171 is not cold!
+11:10:24,312 INFO Experiment.PerfCost-1346: Invocation c76cg4wtq6jd is not cold!
+11:10:24,386 INFO Experiment.PerfCost-1346: Invocation nbltwr53rtmn is not cold!
+11:10:24,494 INFO Experiment.PerfCost-1346: Invocation 5jhdythtvf90 is not cold!
+11:10:24,494 INFO Experiment.PerfCost-1346: Invocation b0v6x1j5fuk5 is not cold!
+11:10:24,494 INFO Experiment.PerfCost-1346: Processed 25 samples out of 120, 0 errors
+11:11:28,92 INFO GCP-f8d5: Waiting for function deployment, 10 retries.
+11:11:33,274 INFO GCP-f8d5: Published new function configuration.
+11:11:33,355 INFO GCP-f8d5: Redeployed 1 out of 1
+11:11:46,358 INFO Experiment.PerfCost-1346: Invocation lrnpkzxu1ura is not cold!
+11:11:47,66 INFO Experiment.PerfCost-1346: Invocation 9utgc6cgm340 is not cold!
+11:11:47,66 INFO Experiment.PerfCost-1346: Invocation f1v9wsfwgq8b is not cold!
+11:11:47,66 INFO Experiment.PerfCost-1346: Invocation 9utg1r1rfli6 is not cold!
+11:11:47,66 INFO Experiment.PerfCost-1346: Processed 51 samples out of 120, 0 errors
+11:12:50,632 INFO GCP-f8d5: Waiting for function deployment, 10 retries.
+11:13:01,22 INFO GCP-f8d5: Published new function configuration.
+11:13:01,108 INFO GCP-f8d5: Redeployed 1 out of 1
+11:13:17,946 INFO Experiment.PerfCost-1346: Invocation l9fwl1uaiahg is not cold!
+11:13:18,67 INFO Experiment.PerfCost-1346: Invocation 14fwbwxduew0 is not cold!
+11:13:18,191 INFO Experiment.PerfCost-1346: Invocation c9svd4gihext is not cold!
+11:13:18,191 INFO Experiment.PerfCost-1346: Invocation efgt5opwei6t is not cold!
+11:13:18,198 INFO Experiment.PerfCost-1346: Invocation b5pdfxs6bhfp is not cold!
+11:13:18,198 INFO Experiment.PerfCost-1346: Processed 76 samples out of 120, 0 errors
+11:14:18,42 INFO GCP-f8d5: Waiting for function deployment, 10 retries.
+11:14:23,224 INFO GCP-f8d5: Published new function configuration.
+11:14:23,310 INFO GCP-f8d5: Redeployed 1 out of 1
+11:14:42,240 INFO Experiment.PerfCost-1346: Invocation oorcl85guq84 is not cold!
+11:14:42,375 INFO Experiment.PerfCost-1346: Invocation j8k717p7zpiy is not cold!
+11:14:42,375 INFO Experiment.PerfCost-1346: Invocation bjhm620x8em6 is not cold!
+11:14:42,375 INFO Experiment.PerfCost-1346: Invocation bjhmla18taqd is not cold!
+11:14:42,375 INFO Experiment.PerfCost-1346: Processed 102 samples out of 120, 0 errors
+11:15:41,598 INFO GCP-f8d5: Waiting for function deployment, 10 retries.
+11:15:59,883 INFO GCP-f8d5: Published new function configuration.
+11:15:59,973 INFO GCP-f8d5: Redeployed 1 out of 1
+11:16:13,681 INFO Experiment.PerfCost-1346: Invocation 25yhase221a4 is not cold!
+11:16:13,719 INFO Experiment.PerfCost-1346: Processed 131 samples out of 120, 0 errors
+11:16:18,722 INFO Experiment.PerfCost-1346: Mean 8510.624694656488 [ms], median 8169.18 [ms], std 2569.9892084794365, CV 30.197421466523362
+11:16:18,723 INFO Experiment.PerfCost-1346: Parametric CI (Student's t-distribution) 0.95 from 8064.691886398245 to 8956.557502914731, within 5.23971887208501% of mean
+11:16:18,723 INFO Experiment.PerfCost-1346: Non-parametric CI 0.95 from 8029.078 to 8398.079, within 2.2584947326414606% of median
+11:16:18,723 INFO Experiment.PerfCost-1346: Parametric CI (Student's t-distribution) 0.99 from 7921.381395627461 to 9099.867993685515, within 6.923619830151735% of mean
+11:16:18,724 INFO Experiment.PerfCost-1346: Non-parametric CI 0.99 from 7919.504 to 8464.262, within 3.3342269358736174% of median
