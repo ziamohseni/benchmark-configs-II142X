@@ -14,6 +14,9 @@ echo "Process benchmark 3_dynamic-html, Python, Concurrent: 1"
 echo "Process benchmark 4_dynamic-html, Python, Concurrent: 25"
 ../../../sebs.py experiment process perf-cost --config 4_dynamic-html.json --output-dir 4_dynamic-html --output-file process.log
 
+echo "Process benchmark 5_dynamic-html, Python, Burst"
+../../../sebs.py experiment process perf-cost --config 5_dynamic-html.json --output-dir 5_dynamic-html --output-file process.log
+
 echo "Process benchmark 6_thumbnailer, Python, Concurrent: 50"
 ../../../sebs.py experiment process perf-cost --config 6_thumbnailer.json --output-dir 6_thumbnailer --output-file process.log
 
