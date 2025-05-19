@@ -1,0 +1,102 @@
+22:02:03,908 INFO SeBS-6298: Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/aws/6_thumbnailer
+22:02:04,575 INFO AWS.Resources-83cc: Using cached resources for AWS
+22:02:04,576 INFO AWS.Config-5014: Using cached config for AWS
+22:02:04,648 INFO AWS-3b89: Using existing resource name: 3e0b343e.
+22:02:04,845 INFO AWS.S3-2bca: Upload /home/zia/serverless-benchmarks/sebs/../benchmarks-data/200.multimedia/210.thumbnailer/7_beach-bird-s-eye-view-coast-2499700.jpg to sebs-benchmarks-3e0b343e
+22:02:05,289 INFO AWS.S3-2bca: Upload /home/zia/serverless-benchmarks/sebs/../benchmarks-data/200.multimedia/210.thumbnailer/4_altitude-astrology-astronomy-1819650.jpg to sebs-benchmarks-3e0b343e
+22:02:05,826 INFO AWS.S3-2bca: Upload /home/zia/serverless-benchmarks/sebs/../benchmarks-data/200.multimedia/210.thumbnailer/0_action-adrenaline-adventure-1047051.jpg to sebs-benchmarks-3e0b343e
+22:02:06,829 INFO AWS.S3-2bca: Upload /home/zia/serverless-benchmarks/sebs/../benchmarks-data/200.multimedia/210.thumbnailer/8_close-up-elder-elderly-2050990.jpg to sebs-benchmarks-3e0b343e
+22:02:07,719 INFO AWS.S3-2bca: Upload /home/zia/serverless-benchmarks/sebs/../benchmarks-data/200.multimedia/210.thumbnailer/6_astronomy-desktop-wallpaper-evening-1624438.jpg to sebs-benchmarks-3e0b343e
+22:02:08,151 INFO AWS.S3-2bca: Upload /home/zia/serverless-benchmarks/sebs/../benchmarks-data/200.multimedia/210.thumbnailer/5_asphalt-atmosphere-cloudy-sky-2739010.jpg to sebs-benchmarks-3e0b343e
+22:02:08,857 INFO AWS.S3-2bca: Upload /home/zia/serverless-benchmarks/sebs/../benchmarks-data/200.multimedia/210.thumbnailer/3_aerial-shot-architecture-bridge-2887493.jpg to sebs-benchmarks-3e0b343e
+22:02:09,134 INFO AWS.S3-2bca: Upload /home/zia/serverless-benchmarks/sebs/../benchmarks-data/200.multimedia/210.thumbnailer/9_cobblestone-granite-pebbles-1029604.jpg to sebs-benchmarks-3e0b343e
+22:02:09,969 INFO AWS.S3-2bca: Upload /home/zia/serverless-benchmarks/sebs/../benchmarks-data/200.multimedia/210.thumbnailer/2_aerial-shot-architecture-bird-s-eye-view-2440013.jpg to sebs-benchmarks-3e0b343e
+22:02:10,640 INFO AWS.S3-2bca: Upload /home/zia/serverless-benchmarks/sebs/../benchmarks-data/200.multimedia/210.thumbnailer/1_adult-adventure-back-view-2819546.jpg to sebs-benchmarks-3e0b343e
+22:02:10,948 INFO Benchmark-df6f: Building benchmark 210.thumbnailer. Reason: no cached code package.
+22:02:10,954 INFO Benchmark-df6f: Docker build of benchmark dependencies in container of image spcleth/serverless-benchmarks:build.aws.python.3.11-1.2.0
+22:02:10,954 INFO Benchmark-df6f: Docker mount of benchmark code from path /home/zia/serverless-benchmarks/experiments/perf_cost/aws/6_thumbnailer/210.thumbnailer_code/python/3.11/x64/package
+22:02:14,819 INFO AWS-3b89: Created /home/zia/serverless-benchmarks/experiments/perf_cost/aws/6_thumbnailer/210.thumbnailer_code/python/3.11/x64/package/210.thumbnailer.zip archive
+22:02:14,819 INFO AWS-3b89: Zip archive size 4.808820 MB
+22:02:14,820 INFO Benchmark-df6f: Created code package (source hash: 9adc50f18ca9cfa4adeb504e4c121660), for run on aws with python:3.11
+22:02:14,823 INFO AWS-3b89: Creating new function! Reason: function sebs_3e0b343e_210_thumbnailer_python_3_11_x64 not found in cache.
+22:02:14,987 INFO AWS-3b89: Creating function sebs_3e0b343e_210_thumbnailer_python_3_11_x64 from /home/zia/serverless-benchmarks/experiments/perf_cost/aws/cache/210.thumbnailer/aws/python/3.11/x64/package/210.thumbnailer.zip
+22:02:16,517 INFO AWS-3b89: Waiting for Lambda function to be created...
+22:02:19,826 INFO AWS-3b89: Lambda function has been created.
+22:02:19,998 INFO AWS-3b89: Waiting for Lambda function to be updated...
+22:02:21,138 INFO AWS-3b89: Lambda function has been updated.
+22:02:21,138 INFO AWS-3b89: Updated configuration of sebs_3e0b343e_210_thumbnailer_python_3_11_x64 function. 
+22:02:21,391 INFO AWS.Resources-83cc: Creating HTTP API sebs_3e0b343e_210_thumbnailer_python_3_11_x64-http-api
+22:02:22,444 INFO AWS-3b89: Created HTTP trigger for sebs_3e0b343e_210_thumbnailer_python_3_11_x64 function. Sleep 5 seconds to avoid cloud errors.
+22:02:27,446 INFO Experiment.PerfCost-d578: Begin experiment on memory size 128
+22:02:31,767 INFO AWS-3b89: Waiting for Lambda function to be updated...
+22:02:32,912 INFO AWS-3b89: Lambda function has been updated.
+22:02:32,912 INFO AWS-3b89: Updated code of sebs_3e0b343e_210_thumbnailer_python_3_11_x64 function. 
+22:02:33,89 INFO AWS-3b89: Waiting for Lambda function to be updated...
+22:02:34,228 INFO AWS-3b89: Lambda function has been updated.
+22:02:34,229 INFO AWS-3b89: Updated configuration of sebs_3e0b343e_210_thumbnailer_python_3_11_x64 function. 
+22:02:34,229 INFO Experiment.PerfCost-d578: Begin cold experiments
+22:02:34,547 INFO AWS-3b89: Waiting for Lambda function to be updated...
+22:02:35,714 INFO AWS-3b89: Lambda function has been updated.
+22:02:35,714 INFO AWS-3b89: Updated configuration of sebs_3e0b343e_210_thumbnailer_python_3_11_x64 function. 
+22:02:35,714 INFO AWS-3b89: Sent function updates enforcing cold starts.
+22:02:35,714 INFO AWS-3b89: Waiting for Lambda function to be updated...
+22:02:35,796 INFO AWS-3b89: Lambda function has been updated.
+22:02:35,796 INFO AWS-3b89: Finished function updates enforcing cold starts.
+22:02:49,306 INFO Experiment.PerfCost-d578: Processed 0 warm-up samples, ignoring these results.
+22:02:54,649 INFO AWS-3b89: Waiting for Lambda function to be updated...
+22:02:55,834 INFO AWS-3b89: Lambda function has been updated.
+22:02:55,834 INFO AWS-3b89: Updated configuration of sebs_3e0b343e_210_thumbnailer_python_3_11_x64 function. 
+22:02:55,834 INFO AWS-3b89: Sent function updates enforcing cold starts.
+22:02:55,834 INFO AWS-3b89: Waiting for Lambda function to be updated...
+22:02:55,915 INFO AWS-3b89: Lambda function has been updated.
+22:02:55,915 INFO AWS-3b89: Finished function updates enforcing cold starts.
+22:03:09,645 INFO Experiment.PerfCost-d578: Processed 50 samples out of 250, 0 errors
+22:03:14,930 INFO AWS-3b89: Waiting for Lambda function to be updated...
+22:03:16,93 INFO AWS-3b89: Lambda function has been updated.
+22:03:16,93 INFO AWS-3b89: Updated configuration of sebs_3e0b343e_210_thumbnailer_python_3_11_x64 function. 
+22:03:16,93 INFO AWS-3b89: Sent function updates enforcing cold starts.
+22:03:16,93 INFO AWS-3b89: Waiting for Lambda function to be updated...
+22:03:16,176 INFO AWS-3b89: Lambda function has been updated.
+22:03:16,176 INFO AWS-3b89: Finished function updates enforcing cold starts.
+22:03:34,136 INFO Experiment.PerfCost-d578: Processed 100 samples out of 250, 0 errors
+22:03:39,412 INFO AWS-3b89: Waiting for Lambda function to be updated...
+22:03:40,595 INFO AWS-3b89: Lambda function has been updated.
+22:03:40,595 INFO AWS-3b89: Updated configuration of sebs_3e0b343e_210_thumbnailer_python_3_11_x64 function. 
+22:03:40,595 INFO AWS-3b89: Sent function updates enforcing cold starts.
+22:03:40,595 INFO AWS-3b89: Waiting for Lambda function to be updated...
+22:03:40,675 INFO AWS-3b89: Lambda function has been updated.
+22:03:40,675 INFO AWS-3b89: Finished function updates enforcing cold starts.
+22:03:54,204 INFO Experiment.PerfCost-d578: Processed 150 samples out of 250, 0 errors
+22:04:02,429 INFO AWS-3b89: Waiting for Lambda function to be updated...
+22:04:03,595 INFO AWS-3b89: Lambda function has been updated.
+22:04:03,595 INFO AWS-3b89: Updated configuration of sebs_3e0b343e_210_thumbnailer_python_3_11_x64 function. 
+22:04:03,595 INFO AWS-3b89: Sent function updates enforcing cold starts.
+22:04:03,595 INFO AWS-3b89: Waiting for Lambda function to be updated...
+22:04:03,676 INFO AWS-3b89: Lambda function has been updated.
+22:04:03,676 INFO AWS-3b89: Finished function updates enforcing cold starts.
+22:04:17,441 INFO Experiment.PerfCost-d578: Processed 200 samples out of 250, 0 errors
+22:04:22,736 INFO AWS-3b89: Waiting for Lambda function to be updated...
+22:04:23,902 INFO AWS-3b89: Lambda function has been updated.
+22:04:23,902 INFO AWS-3b89: Updated configuration of sebs_3e0b343e_210_thumbnailer_python_3_11_x64 function. 
+22:04:23,902 INFO AWS-3b89: Sent function updates enforcing cold starts.
+22:04:23,902 INFO AWS-3b89: Waiting for Lambda function to be updated...
+22:04:23,984 INFO AWS-3b89: Lambda function has been updated.
+22:04:23,984 INFO AWS-3b89: Finished function updates enforcing cold starts.
+22:04:40,492 INFO Experiment.PerfCost-d578: Processed 250 samples out of 250, 0 errors
+22:04:45,494 INFO Experiment.PerfCost-d578: Mean 8605.00394 [ms], median 8093.381 [ms], std 1195.1434082558997, CV 13.888935049760123
+22:04:45,495 INFO Experiment.PerfCost-d578: Parametric CI (Student's t-distribution) 0.95 from 8455.832919193614 to 8754.174960806387, within 1.733538088378689% of mean
+22:04:45,495 INFO Experiment.PerfCost-d578: Non-parametric CI 0.95 from 8061.257 to 8124.81, within 0.39262330538992785% of median
+22:04:45,496 INFO Experiment.PerfCost-d578: Parametric CI (Student's t-distribution) 0.99 from 8408.406519516244 to 8801.601360483757, within 2.2846871640567388% of mean
+22:04:45,496 INFO Experiment.PerfCost-d578: Non-parametric CI 0.99 from 8047.913 to 8139.253, within 0.5642882745789438% of median
+22:04:45,526 INFO Experiment.PerfCost-d578: Begin warm experiments
+22:04:51,796 INFO Experiment.PerfCost-d578: Processed 0 warm-up samples, ignoring these results.
+22:05:03,61 INFO Experiment.PerfCost-d578: Processed 50 samples out of 250, 0 errors
+22:05:17,218 INFO Experiment.PerfCost-d578: Processed 100 samples out of 250, 0 errors
+22:05:29,316 INFO Experiment.PerfCost-d578: Processed 150 samples out of 250, 0 errors
+22:05:43,472 INFO Experiment.PerfCost-d578: Processed 200 samples out of 250, 0 errors
+22:05:54,745 INFO Experiment.PerfCost-d578: Processed 250 samples out of 250, 0 errors
+22:05:59,748 INFO Experiment.PerfCost-d578: Mean 1763.486348 [ms], median 1197.3829999999998 [ms], std 1166.4157600006727, CV 66.14260219953077
+22:05:59,749 INFO Experiment.PerfCost-d578: Parametric CI (Student's t-distribution) 0.95 from 1617.90094929218 to 1909.0717467078198, within 8.255544414785563% of mean
+22:05:59,749 INFO Experiment.PerfCost-d578: Non-parametric CI 0.95 from 1189.391 to 1205.983, within 0.6928443113022263% of median
+22:05:59,750 INFO Experiment.PerfCost-d578: Parametric CI (Student's t-distribution) 0.99 from 1571.6145374342896 to 1955.3581585657103, within 10.880254944038294% of mean
+22:05:59,750 INFO Experiment.PerfCost-d578: Non-parametric CI 0.99 from 1186.573 to 1209.474, within 0.9562938508396998% of median

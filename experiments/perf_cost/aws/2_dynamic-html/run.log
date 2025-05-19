@@ -1,0 +1,92 @@
+22:26:29,410 INFO SeBS-1c3c: Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/aws/2_dynamic-html
+22:26:30,184 INFO AWS.Resources-e4e0: Using cached resources for AWS
+22:26:30,184 INFO AWS.Config-ae4c: Using cached config for AWS
+22:26:30,253 INFO AWS-1210: Using existing resource name: 3e0b343e.
+22:26:30,259 INFO Benchmark-3487: Building benchmark 110.dynamic-html. Reason: no cached code package.
+22:26:30,270 INFO Benchmark-3487: Docker build of benchmark dependencies in container of image spcleth/serverless-benchmarks:build.aws.nodejs.16-1.2.0
+22:26:30,270 INFO Benchmark-3487: Docker mount of benchmark code from path /home/zia/serverless-benchmarks/experiments/perf_cost/aws/2_dynamic-html/110.dynamic-html_code/nodejs/16/x64/package
+22:26:31,957 INFO AWS-1210: Created /home/zia/serverless-benchmarks/experiments/perf_cost/aws/2_dynamic-html/110.dynamic-html_code/nodejs/16/x64/package/110.dynamic-html.zip archive
+22:26:31,957 INFO AWS-1210: Zip archive size 0.061261 MB
+22:26:31,957 INFO Benchmark-3487: Created code package (source hash: e24104f4dbb49102ff345288854228d5), for run on aws with nodejs:16
+22:26:31,959 INFO AWS-1210: Creating new function! Reason: function sebs_3e0b343e_110_dynamic_html_nodejs_16_x64 not found in cache.
+22:26:32,194 INFO AWS-1210: Creating function sebs_3e0b343e_110_dynamic_html_nodejs_16_x64 from /home/zia/serverless-benchmarks/experiments/perf_cost/aws/cache/110.dynamic-html/aws/nodejs/16/x64/package/110.dynamic-html.zip
+22:26:32,565 INFO AWS-1210: Waiting for Lambda function to be created...
+22:26:33,697 INFO AWS-1210: Lambda function has been created.
+22:26:33,868 INFO AWS-1210: Waiting for Lambda function to be updated...
+22:26:35,47 INFO AWS-1210: Lambda function has been updated.
+22:26:35,47 INFO AWS-1210: Updated configuration of sebs_3e0b343e_110_dynamic_html_nodejs_16_x64 function. 
+22:26:35,249 INFO AWS.Resources-e4e0: Creating HTTP API sebs_3e0b343e_110_dynamic_html_nodejs_16_x64-http-api
+22:26:36,17 INFO AWS-1210: Created HTTP trigger for sebs_3e0b343e_110_dynamic_html_nodejs_16_x64 function. Sleep 5 seconds to avoid cloud errors.
+22:26:41,21 INFO Experiment.PerfCost-1db5: Begin experiment on memory size 128
+22:26:47,495 INFO AWS-1210: Waiting for Lambda function to be updated...
+22:26:48,631 INFO AWS-1210: Lambda function has been updated.
+22:26:48,631 INFO AWS-1210: Updated code of sebs_3e0b343e_110_dynamic_html_nodejs_16_x64 function. 
+22:26:48,838 INFO AWS-1210: Waiting for Lambda function to be updated...
+22:26:50,37 INFO AWS-1210: Lambda function has been updated.
+22:26:50,37 INFO AWS-1210: Updated configuration of sebs_3e0b343e_110_dynamic_html_nodejs_16_x64 function. 
+22:26:50,38 INFO Experiment.PerfCost-1db5: Begin cold experiments
+22:26:50,345 INFO AWS-1210: Waiting for Lambda function to be updated...
+22:26:51,566 INFO AWS-1210: Lambda function has been updated.
+22:26:51,567 INFO AWS-1210: Updated configuration of sebs_3e0b343e_110_dynamic_html_nodejs_16_x64 function. 
+22:26:51,567 INFO AWS-1210: Sent function updates enforcing cold starts.
+22:26:51,567 INFO AWS-1210: Waiting for Lambda function to be updated...
+22:26:51,683 INFO AWS-1210: Lambda function has been updated.
+22:26:51,683 INFO AWS-1210: Finished function updates enforcing cold starts.
+22:27:07,618 INFO Experiment.PerfCost-1db5: Processed 0 warm-up samples, ignoring these results.
+22:27:12,948 INFO AWS-1210: Waiting for Lambda function to be updated...
+22:27:14,109 INFO AWS-1210: Lambda function has been updated.
+22:27:14,110 INFO AWS-1210: Updated configuration of sebs_3e0b343e_110_dynamic_html_nodejs_16_x64 function. 
+22:27:14,110 INFO AWS-1210: Sent function updates enforcing cold starts.
+22:27:14,110 INFO AWS-1210: Waiting for Lambda function to be updated...
+22:27:14,190 INFO AWS-1210: Lambda function has been updated.
+22:27:14,190 INFO AWS-1210: Finished function updates enforcing cold starts.
+22:27:33,79 INFO Experiment.PerfCost-1db5: Processed 50 samples out of 250, 0 errors
+22:27:38,369 INFO AWS-1210: Waiting for Lambda function to be updated...
+22:27:39,537 INFO AWS-1210: Lambda function has been updated.
+22:27:39,537 INFO AWS-1210: Updated configuration of sebs_3e0b343e_110_dynamic_html_nodejs_16_x64 function. 
+22:27:39,537 INFO AWS-1210: Sent function updates enforcing cold starts.
+22:27:39,538 INFO AWS-1210: Waiting for Lambda function to be updated...
+22:27:39,631 INFO AWS-1210: Lambda function has been updated.
+22:27:39,631 INFO AWS-1210: Finished function updates enforcing cold starts.
+22:27:58,758 INFO Experiment.PerfCost-1db5: Processed 100 samples out of 250, 0 errors
+22:28:04,37 INFO AWS-1210: Waiting for Lambda function to be updated...
+22:28:05,200 INFO AWS-1210: Lambda function has been updated.
+22:28:05,200 INFO AWS-1210: Updated configuration of sebs_3e0b343e_110_dynamic_html_nodejs_16_x64 function. 
+22:28:05,200 INFO AWS-1210: Sent function updates enforcing cold starts.
+22:28:05,200 INFO AWS-1210: Waiting for Lambda function to be updated...
+22:28:05,284 INFO AWS-1210: Lambda function has been updated.
+22:28:05,284 INFO AWS-1210: Finished function updates enforcing cold starts.
+22:28:21,141 INFO Experiment.PerfCost-1db5: Processed 150 samples out of 250, 0 errors
+22:28:26,428 INFO AWS-1210: Waiting for Lambda function to be updated...
+22:28:27,643 INFO AWS-1210: Lambda function has been updated.
+22:28:27,643 INFO AWS-1210: Updated configuration of sebs_3e0b343e_110_dynamic_html_nodejs_16_x64 function. 
+22:28:27,644 INFO AWS-1210: Sent function updates enforcing cold starts.
+22:28:27,644 INFO AWS-1210: Waiting for Lambda function to be updated...
+22:28:27,728 INFO AWS-1210: Lambda function has been updated.
+22:28:27,728 INFO AWS-1210: Finished function updates enforcing cold starts.
+22:28:43,930 INFO Experiment.PerfCost-1db5: Processed 200 samples out of 250, 0 errors
+22:28:53,538 INFO AWS-1210: Waiting for Lambda function to be updated...
+22:28:54,696 INFO AWS-1210: Lambda function has been updated.
+22:28:54,696 INFO AWS-1210: Updated configuration of sebs_3e0b343e_110_dynamic_html_nodejs_16_x64 function. 
+22:28:54,696 INFO AWS-1210: Sent function updates enforcing cold starts.
+22:28:54,696 INFO AWS-1210: Waiting for Lambda function to be updated...
+22:28:54,776 INFO AWS-1210: Lambda function has been updated.
+22:28:54,776 INFO AWS-1210: Finished function updates enforcing cold starts.
+22:29:10,780 INFO Experiment.PerfCost-1db5: Processed 250 samples out of 250, 0 errors
+22:29:15,782 INFO Experiment.PerfCost-1db5: Mean 10553.3676 [ms], median 10280.6795 [ms], std 1641.200062873935, CV 15.55143462333232
+22:29:15,783 INFO Experiment.PerfCost-1db5: Parametric CI (Student's t-distribution) 0.95 from 10348.522317806057 to 10758.212882193942, within 1.9410418546772% of mean
+22:29:15,783 INFO Experiment.PerfCost-1db5: Non-parametric CI 0.95 from 10074.666 to 10426.685, within 1.7120415046495723% of median
+22:29:15,783 INFO Experiment.PerfCost-1db5: Parametric CI (Student's t-distribution) 0.99 from 10283.395229630109 to 10823.33997036989, within 2.558163238527681% of mean
+22:29:15,783 INFO Experiment.PerfCost-1db5: Non-parametric CI 0.99 from 10051.962 to 10456.868, within 1.9692569931783246% of median
+22:29:19,571 INFO Experiment.PerfCost-1db5: Begin warm experiments
+22:29:37,316 INFO Experiment.PerfCost-1db5: Processed 0 warm-up samples, ignoring these results.
+22:30:00,603 INFO Experiment.PerfCost-1db5: Processed 50 samples out of 250, 0 errors
+22:30:20,176 INFO Experiment.PerfCost-1db5: Processed 100 samples out of 250, 0 errors
+22:30:42,535 INFO Experiment.PerfCost-1db5: Processed 150 samples out of 250, 0 errors
+22:31:02,188 INFO Experiment.PerfCost-1db5: Processed 200 samples out of 250, 0 errors
+22:31:24,885 INFO Experiment.PerfCost-1db5: Processed 250 samples out of 250, 0 errors
+22:31:29,889 INFO Experiment.PerfCost-1db5: Mean 8969.416315999999 [ms], median 8891.949499999999 [ms], std 1818.962223073902, CV 20.279605260703143
+22:31:29,890 INFO Experiment.PerfCost-1db5: Parametric CI (Student's t-distribution) 0.95 from 8742.383769319968 to 9196.44886268003, within 2.53118529323967% of mean
+22:31:29,890 INFO Experiment.PerfCost-1db5: Non-parametric CI 0.95 from 8669.033 to 8999.667, within 1.85917610080894% of median
+22:31:29,891 INFO Experiment.PerfCost-1db5: Parametric CI (Student's t-distribution) 0.99 from 8670.202616168288 to 9268.63001583171, within 3.3359327886025514% of mean
+22:31:29,891 INFO Experiment.PerfCost-1db5: Non-parametric CI 0.99 from 8607.959 to 9066.783, within 2.5799966587754395% of median

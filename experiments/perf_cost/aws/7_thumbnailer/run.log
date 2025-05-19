@@ -1,0 +1,92 @@
+22:31:59,619 INFO SeBS-30c5: Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/aws/7_thumbnailer
+22:32:00,277 INFO AWS.Resources-a4bf: Using cached resources for AWS
+22:32:00,277 INFO AWS.Config-a389: Using cached config for AWS
+22:32:00,344 INFO AWS-a51c: Using existing resource name: 3e0b343e.
+22:32:00,371 INFO Benchmark-a627: Building benchmark 210.thumbnailer. Reason: no cached code package.
+22:32:00,374 INFO Benchmark-a627: Docker build of benchmark dependencies in container of image spcleth/serverless-benchmarks:build.aws.nodejs.16-1.2.0
+22:32:00,374 INFO Benchmark-a627: Docker mount of benchmark code from path /home/zia/serverless-benchmarks/experiments/perf_cost/aws/7_thumbnailer/210.thumbnailer_code/nodejs/16/x64/package
+22:32:06,817 INFO AWS-a51c: Created /home/zia/serverless-benchmarks/experiments/perf_cost/aws/7_thumbnailer/210.thumbnailer_code/nodejs/16/x64/package/210.thumbnailer.zip archive
+22:32:06,817 INFO AWS-a51c: Zip archive size 8.060721 MB
+22:32:06,818 INFO Benchmark-a627: Created code package (source hash: 6fab797cc4d9991dbd7cbb4355e832a7), for run on aws with nodejs:16
+22:32:06,822 INFO AWS-a51c: Creating new function! Reason: function sebs_3e0b343e_210_thumbnailer_nodejs_16_x64 not found in cache.
+22:32:07,6 INFO AWS-a51c: Creating function sebs_3e0b343e_210_thumbnailer_nodejs_16_x64 from /home/zia/serverless-benchmarks/experiments/perf_cost/aws/cache/210.thumbnailer/aws/nodejs/16/x64/package/210.thumbnailer.zip
+22:32:09,150 INFO AWS-a51c: Waiting for Lambda function to be created...
+22:32:12,497 INFO AWS-a51c: Lambda function has been created.
+22:32:12,671 INFO AWS-a51c: Waiting for Lambda function to be updated...
+22:32:13,812 INFO AWS-a51c: Lambda function has been updated.
+22:32:13,812 INFO AWS-a51c: Updated configuration of sebs_3e0b343e_210_thumbnailer_nodejs_16_x64 function. 
+22:32:14,17 INFO AWS.Resources-a4bf: Creating HTTP API sebs_3e0b343e_210_thumbnailer_nodejs_16_x64-http-api
+22:32:15,290 INFO AWS-a51c: Created HTTP trigger for sebs_3e0b343e_210_thumbnailer_nodejs_16_x64 function. Sleep 5 seconds to avoid cloud errors.
+22:32:23,227 INFO Experiment.PerfCost-93a2: Begin experiment on memory size 128
+22:32:25,199 INFO AWS-a51c: Waiting for Lambda function to be updated...
+22:32:26,332 INFO AWS-a51c: Lambda function has been updated.
+22:32:26,332 INFO AWS-a51c: Updated code of sebs_3e0b343e_210_thumbnailer_nodejs_16_x64 function. 
+22:32:26,531 INFO AWS-a51c: Waiting for Lambda function to be updated...
+22:32:27,668 INFO AWS-a51c: Lambda function has been updated.
+22:32:27,668 INFO AWS-a51c: Updated configuration of sebs_3e0b343e_210_thumbnailer_nodejs_16_x64 function. 
+22:32:27,669 INFO Experiment.PerfCost-93a2: Begin cold experiments
+22:32:27,967 INFO AWS-a51c: Waiting for Lambda function to be updated...
+22:32:29,130 INFO AWS-a51c: Lambda function has been updated.
+22:32:29,130 INFO AWS-a51c: Updated configuration of sebs_3e0b343e_210_thumbnailer_nodejs_16_x64 function. 
+22:32:29,130 INFO AWS-a51c: Sent function updates enforcing cold starts.
+22:32:29,130 INFO AWS-a51c: Waiting for Lambda function to be updated...
+22:32:29,208 INFO AWS-a51c: Lambda function has been updated.
+22:32:29,208 INFO AWS-a51c: Finished function updates enforcing cold starts.
+22:32:45,840 INFO Experiment.PerfCost-93a2: Processed 0 warm-up samples, ignoring these results.
+22:32:51,121 INFO AWS-a51c: Waiting for Lambda function to be updated...
+22:32:52,322 INFO AWS-a51c: Lambda function has been updated.
+22:32:52,322 INFO AWS-a51c: Updated configuration of sebs_3e0b343e_210_thumbnailer_nodejs_16_x64 function. 
+22:32:52,322 INFO AWS-a51c: Sent function updates enforcing cold starts.
+22:32:52,322 INFO AWS-a51c: Waiting for Lambda function to be updated...
+22:32:52,441 INFO AWS-a51c: Lambda function has been updated.
+22:32:52,441 INFO AWS-a51c: Finished function updates enforcing cold starts.
+22:33:11,692 INFO Experiment.PerfCost-93a2: Processed 50 samples out of 250, 0 errors
+22:33:16,989 INFO AWS-a51c: Waiting for Lambda function to be updated...
+22:33:18,168 INFO AWS-a51c: Lambda function has been updated.
+22:33:18,168 INFO AWS-a51c: Updated configuration of sebs_3e0b343e_210_thumbnailer_nodejs_16_x64 function. 
+22:33:18,168 INFO AWS-a51c: Sent function updates enforcing cold starts.
+22:33:18,168 INFO AWS-a51c: Waiting for Lambda function to be updated...
+22:33:18,312 INFO AWS-a51c: Lambda function has been updated.
+22:33:18,312 INFO AWS-a51c: Finished function updates enforcing cold starts.
+22:33:37,532 INFO Experiment.PerfCost-93a2: Processed 100 samples out of 250, 0 errors
+22:33:42,819 INFO AWS-a51c: Waiting for Lambda function to be updated...
+22:33:43,986 INFO AWS-a51c: Lambda function has been updated.
+22:33:43,986 INFO AWS-a51c: Updated configuration of sebs_3e0b343e_210_thumbnailer_nodejs_16_x64 function. 
+22:33:43,986 INFO AWS-a51c: Sent function updates enforcing cold starts.
+22:33:43,986 INFO AWS-a51c: Waiting for Lambda function to be updated...
+22:33:44,66 INFO AWS-a51c: Lambda function has been updated.
+22:33:44,66 INFO AWS-a51c: Finished function updates enforcing cold starts.
+22:34:00,282 INFO Experiment.PerfCost-93a2: Processed 150 samples out of 250, 0 errors
+22:34:08,527 INFO AWS-a51c: Waiting for Lambda function to be updated...
+22:34:09,695 INFO AWS-a51c: Lambda function has been updated.
+22:34:09,695 INFO AWS-a51c: Updated configuration of sebs_3e0b343e_210_thumbnailer_nodejs_16_x64 function. 
+22:34:09,695 INFO AWS-a51c: Sent function updates enforcing cold starts.
+22:34:09,695 INFO AWS-a51c: Waiting for Lambda function to be updated...
+22:34:09,774 INFO AWS-a51c: Lambda function has been updated.
+22:34:09,774 INFO AWS-a51c: Finished function updates enforcing cold starts.
+22:34:26,397 INFO Experiment.PerfCost-93a2: Processed 200 samples out of 250, 0 errors
+22:34:31,694 INFO AWS-a51c: Waiting for Lambda function to be updated...
+22:34:32,900 INFO AWS-a51c: Lambda function has been updated.
+22:34:32,900 INFO AWS-a51c: Updated configuration of sebs_3e0b343e_210_thumbnailer_nodejs_16_x64 function. 
+22:34:32,900 INFO AWS-a51c: Sent function updates enforcing cold starts.
+22:34:32,901 INFO AWS-a51c: Waiting for Lambda function to be updated...
+22:34:32,982 INFO AWS-a51c: Lambda function has been updated.
+22:34:32,982 INFO AWS-a51c: Finished function updates enforcing cold starts.
+22:34:49,626 INFO Experiment.PerfCost-93a2: Processed 250 samples out of 250, 0 errors
+22:34:58,950 INFO Experiment.PerfCost-93a2: Mean 11034.885124000002 [ms], median 10636.581 [ms], std 1236.1040718728163, CV 11.20178468540998
+22:34:58,951 INFO Experiment.PerfCost-93a2: Parametric CI (Student's t-distribution) 0.95 from 10880.601625508983 to 11189.16862249102, within 1.3981432226735582% of mean
+22:34:58,951 INFO Experiment.PerfCost-93a2: Non-parametric CI 0.95 from 10544.533 to 10708.074, within 0.7687667681936567% of median
+22:34:58,952 INFO Experiment.PerfCost-93a2: Parametric CI (Student's t-distribution) 0.99 from 10831.549800137653 to 11238.220447862352, within 1.8426591811101978% of mean
+22:34:58,952 INFO Experiment.PerfCost-93a2: Non-parametric CI 0.99 from 10534.074 to 10728.786, within 0.915294115656147% of median
+22:34:58,978 INFO Experiment.PerfCost-93a2: Begin warm experiments
+22:35:05,999 INFO Experiment.PerfCost-93a2: Processed 0 warm-up samples, ignoring these results.
+22:35:18,77 INFO Experiment.PerfCost-93a2: Processed 50 samples out of 250, 0 errors
+22:35:30,112 INFO Experiment.PerfCost-93a2: Processed 100 samples out of 250, 0 errors
+22:35:45,67 INFO Experiment.PerfCost-93a2: Processed 150 samples out of 250, 0 errors
+22:35:57,22 INFO Experiment.PerfCost-93a2: Processed 200 samples out of 250, 0 errors
+22:36:11,849 INFO Experiment.PerfCost-93a2: Processed 250 samples out of 250, 0 errors
+22:36:16,853 INFO Experiment.PerfCost-93a2: Mean 1574.0121159999999 [ms], median 1536.8780000000002 [ms], std 163.12093452274772, CV 10.363384936151771
+22:36:16,854 INFO Experiment.PerfCost-93a2: Parametric CI (Student's t-distribution) 0.95 from 1553.6522862510665 to 1594.3719457489333, within 1.2934989217664579% of mean
+22:36:16,854 INFO Experiment.PerfCost-93a2: Non-parametric CI 0.95 from 1524.732 to 1546.084, within 0.6946550084001492% of median
+22:36:16,855 INFO Experiment.PerfCost-93a2: Parametric CI (Student's t-distribution) 0.99 from 1547.1792232002385 to 1600.8450087997612, within 1.704744997004924% of mean
+22:36:16,855 INFO Experiment.PerfCost-93a2: Non-parametric CI 0.99 from 1517.114 to 1547.806, within 0.9985177743451336% of median

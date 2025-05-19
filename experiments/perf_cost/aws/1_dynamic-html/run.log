@@ -1,0 +1,97 @@
+21:19:52,411 INFO SeBS-fc4d: Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/aws/1_dynamic-html
+21:19:53,353 INFO AWS.Resources-42fe: No resources for AWS found, initialize!
+21:19:53,353 INFO AWS.Config-eded: Using user-provided config for AWS
+21:19:53,609 WARNING AWS-225b: We found 4 existing deployments! If you want to use any of them, please abort, and provide the resource id in your input config.
+21:19:53,609 WARNING AWS-225b: Deployment resource IDs in the cloud: ['28d0647d', 'b3368918', 'd25a49ee', 'e5c49fb6']
+21:19:53,653 INFO AWS-225b: Generating unique resource name 3e0b343e
+21:19:53,834 INFO AWS.S3-ef8c: Initialize a new bucket for benchmarks
+21:19:54,484 INFO AWS.S3-ef8c: Created bucket sebs-benchmarks-3e0b343e
+21:19:54,493 INFO Benchmark-362d: Building benchmark 110.dynamic-html. Reason: no cached code package.
+21:19:54,505 INFO Benchmark-362d: Docker build of benchmark dependencies in container of image spcleth/serverless-benchmarks:build.aws.python.3.11-1.2.0
+21:19:54,505 INFO Benchmark-362d: Docker mount of benchmark code from path /home/zia/serverless-benchmarks/experiments/perf_cost/aws/1_dynamic-html/110.dynamic-html_code/python/3.11/x64/package
+21:19:56,257 INFO AWS-225b: Created /home/zia/serverless-benchmarks/experiments/perf_cost/aws/1_dynamic-html/110.dynamic-html_code/python/3.11/x64/package/110.dynamic-html.zip archive
+21:19:56,257 INFO AWS-225b: Zip archive size 0.447757 MB
+21:19:56,258 INFO Benchmark-362d: Created code package (source hash: 86764e2d9c7299e78e2f5a626761d864), for run on aws with python:3.11
+21:19:56,260 INFO AWS-225b: Creating new function! Reason: function sebs_3e0b343e_110_dynamic_html_python_3_11_x64 not found in cache.
+21:19:56,926 INFO AWS-225b: Creating function sebs_3e0b343e_110_dynamic_html_python_3_11_x64 from /home/zia/serverless-benchmarks/experiments/perf_cost/aws/cache/110.dynamic-html/aws/python/3.11/x64/package/110.dynamic-html.zip
+21:19:57,399 INFO AWS.Resources-42fe: AWS: Selected arn:aws:iam::103640144769:role/sebs-lambda-role IAM role
+21:19:58,341 INFO AWS-225b: Waiting for Lambda function to be created...
+21:19:59,488 INFO AWS-225b: Lambda function has been created.
+21:19:59,655 INFO AWS-225b: Waiting for Lambda function to be updated...
+21:20:00,801 INFO AWS-225b: Lambda function has been updated.
+21:20:00,801 INFO AWS-225b: Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function. 
+21:20:01,140 INFO AWS.Resources-42fe: Creating HTTP API sebs_3e0b343e_110_dynamic_html_python_3_11_x64-http-api
+21:20:02,526 INFO AWS-225b: Created HTTP trigger for sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function. Sleep 5 seconds to avoid cloud errors.
+21:20:07,529 INFO Experiment.PerfCost-0542: Begin experiment on memory size 128
+21:20:07,943 INFO AWS-225b: Waiting for Lambda function to be updated...
+21:20:09,104 INFO AWS-225b: Lambda function has been updated.
+21:20:09,104 INFO AWS-225b: Updated code of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function. 
+21:20:09,281 INFO AWS-225b: Waiting for Lambda function to be updated...
+21:20:10,423 INFO AWS-225b: Lambda function has been updated.
+21:20:10,423 INFO AWS-225b: Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function. 
+21:20:10,423 INFO Experiment.PerfCost-0542: Begin cold experiments
+21:20:10,744 INFO AWS-225b: Waiting for Lambda function to be updated...
+21:20:11,909 INFO AWS-225b: Lambda function has been updated.
+21:20:11,909 INFO AWS-225b: Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function. 
+21:20:11,909 INFO AWS-225b: Sent function updates enforcing cold starts.
+21:20:11,909 INFO AWS-225b: Waiting for Lambda function to be updated...
+21:20:11,989 INFO AWS-225b: Lambda function has been updated.
+21:20:11,989 INFO AWS-225b: Finished function updates enforcing cold starts.
+21:20:36,605 INFO Experiment.PerfCost-0542: Processed 0 warm-up samples, ignoring these results.
+21:20:41,894 INFO AWS-225b: Waiting for Lambda function to be updated...
+21:20:43,72 INFO AWS-225b: Lambda function has been updated.
+21:20:43,72 INFO AWS-225b: Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function. 
+21:20:43,72 INFO AWS-225b: Sent function updates enforcing cold starts.
+21:20:43,72 INFO AWS-225b: Waiting for Lambda function to be updated...
+21:20:43,154 INFO AWS-225b: Lambda function has been updated.
+21:20:43,154 INFO AWS-225b: Finished function updates enforcing cold starts.
+21:21:07,992 INFO Experiment.PerfCost-0542: Processed 50 samples out of 250, 0 errors
+21:21:13,301 INFO AWS-225b: Waiting for Lambda function to be updated...
+21:21:14,466 INFO AWS-225b: Lambda function has been updated.
+21:21:14,466 INFO AWS-225b: Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function. 
+21:21:14,466 INFO AWS-225b: Sent function updates enforcing cold starts.
+21:21:14,467 INFO AWS-225b: Waiting for Lambda function to be updated...
+21:21:14,551 INFO AWS-225b: Lambda function has been updated.
+21:21:14,552 INFO AWS-225b: Finished function updates enforcing cold starts.
+21:21:39,376 INFO Experiment.PerfCost-0542: Processed 100 samples out of 250, 0 errors
+21:21:44,659 INFO AWS-225b: Waiting for Lambda function to be updated...
+21:21:45,831 INFO AWS-225b: Lambda function has been updated.
+21:21:45,831 INFO AWS-225b: Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function. 
+21:21:45,831 INFO AWS-225b: Sent function updates enforcing cold starts.
+21:21:45,832 INFO AWS-225b: Waiting for Lambda function to be updated...
+21:21:45,916 INFO AWS-225b: Lambda function has been updated.
+21:21:45,916 INFO AWS-225b: Finished function updates enforcing cold starts.
+21:22:10,620 INFO Experiment.PerfCost-0542: Processed 150 samples out of 250, 0 errors
+21:22:15,924 INFO AWS-225b: Waiting for Lambda function to be updated...
+21:22:17,96 INFO AWS-225b: Lambda function has been updated.
+21:22:17,96 INFO AWS-225b: Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function. 
+21:22:17,96 INFO AWS-225b: Sent function updates enforcing cold starts.
+21:22:17,96 INFO AWS-225b: Waiting for Lambda function to be updated...
+21:22:17,181 INFO AWS-225b: Lambda function has been updated.
+21:22:17,181 INFO AWS-225b: Finished function updates enforcing cold starts.
+21:22:38,635 INFO Experiment.PerfCost-0542: Processed 200 samples out of 250, 0 errors
+21:22:46,877 INFO AWS-225b: Waiting for Lambda function to be updated...
+21:22:48,46 INFO AWS-225b: Lambda function has been updated.
+21:22:48,46 INFO AWS-225b: Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function. 
+21:22:48,46 INFO AWS-225b: Sent function updates enforcing cold starts.
+21:22:48,46 INFO AWS-225b: Waiting for Lambda function to be updated...
+21:22:48,133 INFO AWS-225b: Lambda function has been updated.
+21:22:48,133 INFO AWS-225b: Finished function updates enforcing cold starts.
+21:23:10,31 INFO Experiment.PerfCost-0542: Processed 250 samples out of 250, 0 errors
+21:23:17,968 INFO Experiment.PerfCost-0542: Mean 16142.297867999998 [ms], median 16382.0445 [ms], std 2884.131317167475, CV 17.866919200424928
+21:23:17,969 INFO Experiment.PerfCost-0542: Parametric CI (Student's t-distribution) 0.95 from 15782.316957132252 to 16502.278778867745, within 2.2300475050789497% of mean
+21:23:17,969 INFO Experiment.PerfCost-0542: Non-parametric CI 0.95 from 15949.291 to 16888.886, within 2.867758661014501% of median
+21:23:17,970 INFO Experiment.PerfCost-0542: Parametric CI (Student's t-distribution) 0.99 from 15667.86712322519 to 16616.728612774805, within 2.9390533408214705% of mean
+21:23:17,970 INFO Experiment.PerfCost-0542: Non-parametric CI 0.99 from 15876.425 to 16965.277, within 3.3233092487326563% of median
+21:23:24,144 INFO Experiment.PerfCost-0542: Begin warm experiments
+21:23:44,986 INFO Experiment.PerfCost-0542: Processed 0 warm-up samples, ignoring these results.
+21:24:13,858 INFO Experiment.PerfCost-0542: Processed 50 samples out of 250, 0 errors
+21:24:41,544 INFO Experiment.PerfCost-0542: Processed 100 samples out of 250, 0 errors
+21:25:09,924 INFO Experiment.PerfCost-0542: Processed 150 samples out of 250, 0 errors
+21:25:38,232 INFO Experiment.PerfCost-0542: Processed 200 samples out of 250, 0 errors
+21:26:04,488 INFO Experiment.PerfCost-0542: Processed 250 samples out of 250, 0 errors
+21:26:09,490 INFO Experiment.PerfCost-0542: Mean 15031.661204 [ms], median 15116.292 [ms], std 1880.869599533725, CV 12.512719479289597
+21:26:09,491 INFO Experiment.PerfCost-0542: Parametric CI (Student's t-distribution) 0.95 from 14796.901729757834 to 15266.420678242166, within 1.5617666674106214% of mean
+21:26:09,491 INFO Experiment.PerfCost-0542: Non-parametric CI 0.95 from 14850.906 to 15365.974, within 1.7036850042325171% of median
+21:26:09,491 INFO Experiment.PerfCost-0542: Parametric CI (Student's t-distribution) 0.99 from 14722.263930852447 to 15341.058477147553, within 2.0583039289444676% of mean
+21:26:09,492 INFO Experiment.PerfCost-0542: Non-parametric CI 0.99 from 14783.594 to 15478.379, within 2.2981330342123645% of median

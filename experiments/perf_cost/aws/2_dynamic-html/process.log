@@ -1,0 +1,14 @@
+22:39:04,929 INFO SeBS-3e7d: Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/aws/2_dynamic-html
+22:39:05,550 INFO AWS.Resources-b330: Using cached resources for AWS
+22:39:05,550 INFO AWS.Config-3b37: Using cached config for AWS
+22:39:05,621 INFO AWS-c5fc: Using existing resource name: 3e0b343e.
+22:39:05,629 INFO Experiment.PerfCost-e4ac: Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/aws/2_dynamic-html/perf-cost/cold_results_128.json
+22:39:06,905 INFO AWS.Resources-3dda: Using cached resources for AWS
+22:39:06,905 INFO AWS.Config-a527: Using cached config for AWS
+22:39:07,141 INFO AWS-c5fc: Waiting for AWS query to complete ...
+22:39:08,359 INFO AWS-c5fc: Received 300 entries, found results for 250 out of 250 invocations
+22:39:08,401 INFO Experiment.PerfCost-e4ac: Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/aws/2_dynamic-html/perf-cost/warm_results_128.json
+22:39:09,725 INFO AWS.Resources-1462: Using cached resources for AWS
+22:39:09,725 INFO AWS.Config-8901: Using cached config for AWS
+22:39:09,811 INFO AWS-c5fc: Waiting for AWS query to complete ...
+22:39:10,998 INFO AWS-c5fc: Received 300 entries, found results for 250 out of 250 invocations

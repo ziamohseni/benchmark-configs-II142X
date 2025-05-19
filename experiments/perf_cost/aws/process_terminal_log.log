@@ -1,0 +1,110 @@
+(python-venv) zia@Zia:~/serverless-benchmarks/experiments/perf_cost/aws$ ./process.sh
+**** Processing results for AWS with perf-cost ****
+Process benchmark 1_dynamic-html, Python, Concurrent: 50
+[22:38:53.736374] SeBS-6e18 Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/aws/1_dynamic-html
+[22:38:54.404594] AWS.Resources-7b4e Using cached resources for AWS
+[22:38:54.405065] AWS.Config-3da9 Using cached config for AWS
+[22:38:54.481031] AWS-7803 Using existing resource name: 3e0b343e.
+[22:38:54.486261] Experiment.PerfCost-2d90 Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/aws/1_dynamic-html/perf-cost/cold_results_128.json
+[22:38:56.455446] AWS.Resources-5c2f Using cached resources for AWS
+[22:38:56.455846] AWS.Config-ac62 Using cached config for AWS
+[22:38:56.719063] AWS-7803 Waiting for AWS query to complete ...
+[22:38:57.908394] AWS-7803 Received 300 entries, found results for 250 out of 250 invocations
+[22:38:57.944490] Experiment.PerfCost-2d90 Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/aws/1_dynamic-html/perf-cost/warm_results_128.json
+[22:38:59.781400] AWS.Resources-4d29 Using cached resources for AWS
+[22:38:59.781807] AWS.Config-e2ce Using cached config for AWS
+[22:38:59.855048] AWS-7803 Waiting for AWS query to complete ...
+[22:39:01.064586] AWS-7803 Received 300 entries, found results for 250 out of 250 invocations
+[22:39:01.086539] Benchmark-1e7d Update cached config /home/zia/serverless-benchmarks/experiments/perf_cost/aws/cache/aws.json
+Process benchmark 2_dynamic-html, Node.js, Concurrent: 50
+[22:39:04.928905] SeBS-3e7d Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/aws/2_dynamic-html
+[22:39:05.550023] AWS.Resources-b330 Using cached resources for AWS
+[22:39:05.550404] AWS.Config-3b37 Using cached config for AWS
+[22:39:05.621599] AWS-c5fc Using existing resource name: 3e0b343e.
+[22:39:05.629120] Experiment.PerfCost-e4ac Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/aws/2_dynamic-html/perf-cost/cold_results_128.json
+[22:39:06.905361] AWS.Resources-3dda Using cached resources for AWS
+[22:39:06.905755] AWS.Config-a527 Using cached config for AWS
+[22:39:07.141844] AWS-c5fc Waiting for AWS query to complete ...
+[22:39:08.359805] AWS-c5fc Received 300 entries, found results for 250 out of 250 invocations
+[22:39:08.401063] Experiment.PerfCost-e4ac Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/aws/2_dynamic-html/perf-cost/warm_results_128.json
+[22:39:09.725170] AWS.Resources-1462 Using cached resources for AWS
+[22:39:09.725523] AWS.Config-8901 Using cached config for AWS
+[22:39:09.811904] AWS-c5fc Waiting for AWS query to complete ...
+[22:39:10.998599] AWS-c5fc Received 300 entries, found results for 250 out of 250 invocations
+[22:39:11.029469] Benchmark-86cc Update cached config /home/zia/serverless-benchmarks/experiments/perf_cost/aws/cache/aws.json
+Process benchmark 3_dynamic-html, Python, Concurrent: 1
+[22:39:11.905274] SeBS-f06f Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/aws/3_dynamic-html
+[22:39:12.546087] AWS.Resources-887f Using cached resources for AWS
+[22:39:12.546443] AWS.Config-d4ee Using cached config for AWS
+[22:39:12.624546] AWS-3e25 Using existing resource name: 3e0b343e.
+[22:39:12.630038] Experiment.PerfCost-499e Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/aws/3_dynamic-html/perf-cost/cold_results_128.json
+[22:39:13.360639] AWS.Resources-0214 Using cached resources for AWS
+[22:39:13.360990] AWS.Config-994a Using cached config for AWS
+[22:39:13.581396] AWS-3e25 Waiting for AWS query to complete ...
+[22:39:14.695672] AWS-3e25 Received 51 entries, found results for 50 out of 50 invocations
+[22:39:14.704045] Experiment.PerfCost-499e Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/aws/3_dynamic-html/perf-cost/warm_results_128.json
+[22:39:15.403433] AWS.Resources-d570 Using cached resources for AWS
+[22:39:15.403789] AWS.Config-4b46 Using cached config for AWS
+[22:39:15.470881] AWS-3e25 Waiting for AWS query to complete ...
+[22:39:16.584011] AWS-3e25 Received 51 entries, found results for 50 out of 50 invocations
+[22:39:16.589602] Benchmark-4bd1 Update cached config /home/zia/serverless-benchmarks/experiments/perf_cost/aws/cache/aws.json
+Process benchmark 4_dynamic-html, Python, Concurrent: 25
+[22:39:17.432080] SeBS-ab68 Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/aws/4_dynamic-html
+[22:39:18.061278] AWS.Resources-bea4 Using cached resources for AWS
+[22:39:18.061671] AWS.Config-29dd Using cached config for AWS
+[22:39:18.136975] AWS-86b4 Using existing resource name: 3e0b343e.
+[22:39:18.142457] Experiment.PerfCost-c462 Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/aws/4_dynamic-html/perf-cost/cold_results_128.json
+[22:39:19.314364] AWS.Resources-5cf3 Using cached resources for AWS
+[22:39:19.314785] AWS.Config-0323 Using cached config for AWS
+[22:39:19.540549] AWS-86b4 Waiting for AWS query to complete ...
+[22:39:20.743634] AWS-86b4 Received 150 entries, found results for 125 out of 125 invocations
+[22:39:20.762103] Experiment.PerfCost-c462 Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/aws/4_dynamic-html/perf-cost/warm_results_128.json
+[22:39:21.906212] AWS.Resources-61c1 Using cached resources for AWS
+[22:39:21.906661] AWS.Config-9c95 Using cached config for AWS
+[22:39:21.980619] AWS-86b4 Waiting for AWS query to complete ...
+[22:39:23.138647] AWS-86b4 Received 150 entries, found results for 125 out of 125 invocations
+[22:39:23.149759] Benchmark-2fe9 Update cached config /home/zia/serverless-benchmarks/experiments/perf_cost/aws/cache/aws.json
+Process benchmark 5_dynamic-html, Python, Burst
+[22:39:23.994055] SeBS-9af7 Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/aws/5_dynamic-html
+[22:39:24.624271] AWS.Resources-f364 Using cached resources for AWS
+[22:39:24.624630] AWS.Config-d800 Using cached config for AWS
+[22:39:24.697055] AWS-f71f Using existing resource name: 3e0b343e.
+[22:39:24.702002] Experiment.PerfCost-7b31 Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/aws/5_dynamic-html/perf-cost/burst_results_128.json
+[22:39:26.786899] AWS.Resources-7598 Using cached resources for AWS
+[22:39:26.787275] AWS.Config-c696 Using cached config for AWS
+[22:39:27.030206] AWS-f71f Waiting for AWS query to complete ...
+[22:39:28.220631] AWS-f71f Received 300 entries, found results for 250 out of 250 invocations
+[22:39:28.258759] Benchmark-f981 Update cached config /home/zia/serverless-benchmarks/experiments/perf_cost/aws/cache/aws.json
+Process benchmark 6_thumbnailer, Python, Concurrent: 50
+[22:39:29.087545] SeBS-6575 Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/aws/6_thumbnailer
+[22:39:29.727036] AWS.Resources-0073 Using cached resources for AWS
+[22:39:29.727427] AWS.Config-9e33 Using cached config for AWS
+[22:39:29.797321] AWS-f371 Using existing resource name: 3e0b343e.
+[22:39:29.802328] Experiment.PerfCost-3968 Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/aws/6_thumbnailer/perf-cost/cold_results_128.json
+[22:39:30.204736] AWS.Resources-9877 Using cached resources for AWS
+[22:39:30.205092] AWS.Config-2c52 Using cached config for AWS
+[22:39:30.419149] AWS-f371 Waiting for AWS query to complete ...
+[22:39:31.612191] AWS-f371 Received 300 entries, found results for 250 out of 250 invocations
+[22:39:31.637880] Experiment.PerfCost-3968 Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/aws/6_thumbnailer/perf-cost/warm_results_128.json
+[22:39:32.038527] AWS.Resources-c36a Using cached resources for AWS
+[22:39:32.038893] AWS.Config-f87e Using cached config for AWS
+[22:39:32.116279] AWS-f371 Waiting for AWS query to complete ...
+[22:39:33.309049] AWS-f371 Received 300 entries, found results for 250 out of 250 invocations
+[22:39:33.336086] Benchmark-de57 Update cached config /home/zia/serverless-benchmarks/experiments/perf_cost/aws/cache/aws.json
+Process benchmark 7_thumbnailer, Node.js, Concurrent: 50
+[22:39:34.176741] SeBS-c5d8 Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/aws/7_thumbnailer
+[22:39:34.813146] AWS.Resources-4cee Using cached resources for AWS
+[22:39:34.813594] AWS.Config-198b Using cached config for AWS
+[22:39:34.884322] AWS-f02f Using existing resource name: 3e0b343e.
+[22:39:34.889307] Experiment.PerfCost-815a Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/aws/7_thumbnailer/perf-cost/cold_results_128.json
+[22:39:35.289121] AWS.Resources-8a7f Using cached resources for AWS
+[22:39:35.289472] AWS.Config-b5f5 Using cached config for AWS
+[22:39:35.511655] AWS-f02f Waiting for AWS query to complete ...
+[22:39:39.643857] AWS-f02f Received 300 entries, found results for 250 out of 250 invocations
+[22:39:39.665277] Experiment.PerfCost-815a Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/aws/7_thumbnailer/perf-cost/warm_results_128.json
+[22:39:40.066942] AWS.Resources-8fc0 Using cached resources for AWS
+[22:39:40.067332] AWS.Config-2e2b Using cached config for AWS
+[22:39:40.140865] AWS-f02f Waiting for AWS query to complete ...
+[22:39:41.342648] AWS-f02f Received 300 entries, found results for 250 out of 250 invocations
+[22:39:41.363725] Benchmark-075e Update cached config /home/zia/serverless-benchmarks/experiments/perf_cost/aws/cache/aws.json
+(python-venv) zia@Zia:~/serverless-benchmarks/experiments/perf_cost/aws$

@@ -1,0 +1,68 @@
+21:58:45,309 INFO SeBS-55fa: Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/aws/5_dynamic-html
+21:58:45,994 INFO AWS.Resources-9bc8: Using cached resources for AWS
+21:58:45,994 INFO AWS.Config-258c: Using cached config for AWS
+21:58:46,63 INFO AWS-5138: Using existing resource name: 3e0b343e.
+21:58:46,69 INFO Benchmark-5b5d: Using cached benchmark 110.dynamic-html at /home/zia/serverless-benchmarks/experiments/perf_cost/aws/cache/110.dynamic-html/aws/python/3.11/x64/package/110.dynamic-html.zip
+21:58:46,69 INFO AWS-5138: Using cached function sebs_3e0b343e_110_dynamic_html_python_3_11_x64 in /home/zia/serverless-benchmarks/experiments/perf_cost/aws/cache/110.dynamic-html/aws/python/3.11/x64/package/110.dynamic-html.zip
+21:58:46,70 INFO AWS-5138: Cached function sebs_3e0b343e_110_dynamic_html_python_3_11_x64 is up to date.
+21:58:46,70 INFO Experiment.PerfCost-2265: Begin experiment on memory size 128
+21:58:46,757 INFO AWS-5138: Waiting for Lambda function to be updated...
+21:58:47,924 INFO AWS-5138: Lambda function has been updated.
+21:58:47,924 INFO AWS-5138: Updated code of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function. 
+21:58:48,105 INFO AWS-5138: Waiting for Lambda function to be updated...
+21:58:49,268 INFO AWS-5138: Lambda function has been updated.
+21:58:49,268 INFO AWS-5138: Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function. 
+21:58:49,268 INFO Experiment.PerfCost-2265: Begin burst experiments
+21:58:49,562 INFO AWS-5138: Waiting for Lambda function to be updated...
+21:58:50,732 INFO AWS-5138: Lambda function has been updated.
+21:58:50,732 INFO AWS-5138: Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function. 
+21:58:50,732 INFO AWS-5138: Sent function updates enforcing cold starts.
+21:58:50,732 INFO AWS-5138: Waiting for Lambda function to be updated...
+21:58:50,815 INFO AWS-5138: Lambda function has been updated.
+21:58:50,815 INFO AWS-5138: Finished function updates enforcing cold starts.
+21:59:12,659 INFO Experiment.PerfCost-2265: Processed 0 warm-up samples, ignoring these results.
+21:59:17,919 INFO AWS-5138: Waiting for Lambda function to be updated...
+21:59:19,79 INFO AWS-5138: Lambda function has been updated.
+21:59:19,79 INFO AWS-5138: Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function. 
+21:59:19,79 INFO AWS-5138: Sent function updates enforcing cold starts.
+21:59:19,79 INFO AWS-5138: Waiting for Lambda function to be updated...
+21:59:19,159 INFO AWS-5138: Lambda function has been updated.
+21:59:19,159 INFO AWS-5138: Finished function updates enforcing cold starts.
+21:59:45,614 INFO Experiment.PerfCost-2265: Processed 50 samples out of 250, 0 errors
+21:59:50,911 INFO AWS-5138: Waiting for Lambda function to be updated...
+21:59:52,83 INFO AWS-5138: Lambda function has been updated.
+21:59:52,83 INFO AWS-5138: Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function. 
+21:59:52,83 INFO AWS-5138: Sent function updates enforcing cold starts.
+21:59:52,83 INFO AWS-5138: Waiting for Lambda function to be updated...
+21:59:52,165 INFO AWS-5138: Lambda function has been updated.
+21:59:52,165 INFO AWS-5138: Finished function updates enforcing cold starts.
+22:00:17,489 INFO Experiment.PerfCost-2265: Processed 100 samples out of 250, 0 errors
+22:00:22,801 INFO AWS-5138: Waiting for Lambda function to be updated...
+22:00:23,965 INFO AWS-5138: Lambda function has been updated.
+22:00:23,965 INFO AWS-5138: Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function. 
+22:00:23,965 INFO AWS-5138: Sent function updates enforcing cold starts.
+22:00:23,966 INFO AWS-5138: Waiting for Lambda function to be updated...
+22:00:24,44 INFO AWS-5138: Lambda function has been updated.
+22:00:24,44 INFO AWS-5138: Finished function updates enforcing cold starts.
+22:00:49,246 INFO Experiment.PerfCost-2265: Processed 150 samples out of 250, 0 errors
+22:00:54,551 INFO AWS-5138: Waiting for Lambda function to be updated...
+22:00:55,728 INFO AWS-5138: Lambda function has been updated.
+22:00:55,728 INFO AWS-5138: Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function. 
+22:00:55,728 INFO AWS-5138: Sent function updates enforcing cold starts.
+22:00:55,728 INFO AWS-5138: Waiting for Lambda function to be updated...
+22:00:55,809 INFO AWS-5138: Lambda function has been updated.
+22:00:55,810 INFO AWS-5138: Finished function updates enforcing cold starts.
+22:01:20,805 INFO Experiment.PerfCost-2265: Processed 200 samples out of 250, 0 errors
+22:01:26,97 INFO AWS-5138: Waiting for Lambda function to be updated...
+22:01:27,261 INFO AWS-5138: Lambda function has been updated.
+22:01:27,261 INFO AWS-5138: Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function. 
+22:01:27,261 INFO AWS-5138: Sent function updates enforcing cold starts.
+22:01:27,261 INFO AWS-5138: Waiting for Lambda function to be updated...
+22:01:27,346 INFO AWS-5138: Lambda function has been updated.
+22:01:27,346 INFO AWS-5138: Finished function updates enforcing cold starts.
+22:01:49,18 INFO Experiment.PerfCost-2265: Processed 250 samples out of 250, 0 errors
+22:01:56,956 INFO Experiment.PerfCost-2265: Mean 17087.253152 [ms], median 17665.8735 [ms], std 2822.866496885639, CV 16.52030593668142
+22:01:56,956 INFO Experiment.PerfCost-2265: Parametric CI (Student's t-distribution) 0.95 from 16734.918968477134 to 17439.58733552287, within 2.0619708761184246% of mean
+22:01:56,957 INFO Experiment.PerfCost-2265: Non-parametric CI 0.95 from 17244.012 to 18183.87, within 2.660094899921026% of median
+22:01:56,957 INFO Experiment.PerfCost-2265: Parametric CI (Student's t-distribution) 0.99 from 16622.900282022987 to 17551.606021977015, within 2.717539594259849% of mean
+22:01:56,957 INFO Experiment.PerfCost-2265: Non-parametric CI 0.99 from 17043.052 to 18389.79, within 3.8116937721760573% of median

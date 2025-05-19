@@ -1,0 +1,1103 @@
+(python-venv) zia@Zia:~/serverless-benchmarks/experiments/perf_cost/aws$ ./run.sh
+**** Running benchmarks for AWS with perf-cost ****
+Execute benchmark 1_dynamic-html, Python, Concurrent: 50
+[21:19:52.411768] SeBS-fc4d Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/aws/1_dynamic-html
+[21:19:53.353275] AWS.Resources-42fe No resources for AWS found, initialize!
+[21:19:53.353660] AWS.Config-eded Using user-provided config for AWS
+[21:19:53.422564] AWS.SystemResources-7166 Initialize S3 storage instance.
+[21:19:53.609530] AWS-225b We found 4 existing deployments! If you want to use any of them, please abort, and provide the resource id in your input config.
+[21:19:53.609676] AWS-225b Deployment resource IDs in the cloud: ['28d0647d', 'b3368918', 'd25a49ee', 'e5c49fb6']
+[21:19:53.653020] AWS-225b Generating unique resource name 3e0b343e
+[21:19:53.834303] AWS.S3-ef8c Initialize a new bucket for benchmarks
+[21:19:54.484932] AWS.S3-ef8c Created bucket sebs-benchmarks-3e0b343e
+[21:19:54.492974] Benchmark-362d Building benchmark 110.dynamic-html. Reason: no cached code package.
+[21:19:54.505081] Benchmark-362d Docker build of benchmark dependencies in container of image spcleth/serverless-benchmarks:build.aws.python.3.11-1.2.0
+[21:19:54.505205] Benchmark-362d Docker mount of benchmark code from path /home/zia/serverless-benchmarks/experiments/perf_cost/aws/1_dynamic-html/110.dynamic-html_code/python/3.11/x64/package
+[21:19:56.257721] AWS-225b Created /home/zia/serverless-benchmarks/experiments/perf_cost/aws/1_dynamic-html/110.dynamic-html_code/python/3.11/x64/package/110.dynamic-html.zip archive
+[21:19:56.257895] AWS-225b Zip archive size 0.447757 MB
+[21:19:56.258366] Benchmark-362d Created code package (source hash: 86764e2d9c7299e78e2f5a626761d864), for run on aws with python:3.11
+[21:19:56.260061] AWS-225b Creating new function! Reason: function sebs_3e0b343e_110_dynamic_html_python_3_11_x64 not found in cache.
+[21:19:56.926298] AWS-225b Creating function sebs_3e0b343e_110_dynamic_html_python_3_11_x64 from /home/zia/serverless-benchmarks/experiments/perf_cost/aws/cache/110.dynamic-html/aws/python/3.11/x64/package/110.dynamic-html.zip
+[21:19:57.399566] AWS.Resources-42fe AWS: Selected arn:aws:iam::103640144769:role/sebs-lambda-role IAM role
+[21:19:58.341003] AWS-225b Waiting for Lambda function to be created...
+[21:19:59.488505] AWS-225b Lambda function has been created.
+[21:19:59.655283] AWS-225b Waiting for Lambda function to be updated...
+[21:20:00.801507] AWS-225b Lambda function has been updated.
+[21:20:00.801652] AWS-225b Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:20:01.140119] AWS.Resources-42fe Creating HTTP API sebs_3e0b343e_110_dynamic_html_python_3_11_x64-http-api
+[21:20:02.526679] AWS-225b Created HTTP trigger for sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function. Sleep 5 seconds to avoid cloud errors.
+[21:20:07.529843] Experiment.PerfCost-0542 Begin experiment on memory size 128
+[21:20:07.943545] AWS-225b Waiting for Lambda function to be updated...
+[21:20:09.104638] AWS-225b Lambda function has been updated.
+[21:20:09.104779] AWS-225b Updated code of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:20:09.281896] AWS-225b Waiting for Lambda function to be updated...
+[21:20:10.422973] AWS-225b Lambda function has been updated.
+[21:20:10.423123] AWS-225b Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:20:10.423643] Experiment.PerfCost-0542 Begin cold experiments
+[21:20:10.743997] AWS-225b Waiting for Lambda function to be updated...
+[21:20:11.909470] AWS-225b Lambda function has been updated.
+[21:20:11.909610] AWS-225b Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:20:11.909674] AWS-225b Sent function updates enforcing cold starts.
+[21:20:11.909760] AWS-225b Waiting for Lambda function to be updated...
+[21:20:11.989280] AWS-225b Lambda function has been updated.
+[21:20:11.989452] AWS-225b Finished function updates enforcing cold starts.
+[21:20:36.605032] Experiment.PerfCost-0542 Processed 0 warm-up samples, ignoring these results.
+[21:20:41.894342] AWS-225b Waiting for Lambda function to be updated...
+[21:20:43.072308] AWS-225b Lambda function has been updated.
+[21:20:43.072460] AWS-225b Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:20:43.072524] AWS-225b Sent function updates enforcing cold starts.
+[21:20:43.072600] AWS-225b Waiting for Lambda function to be updated...
+[21:20:43.154020] AWS-225b Lambda function has been updated.
+[21:20:43.154164] AWS-225b Finished function updates enforcing cold starts.
+[21:21:07.992198] Experiment.PerfCost-0542 Processed 50 samples out of 250, 0 errors
+[21:21:13.300985] AWS-225b Waiting for Lambda function to be updated...
+[21:21:14.466730] AWS-225b Lambda function has been updated.
+[21:21:14.466865] AWS-225b Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:21:14.466949] AWS-225b Sent function updates enforcing cold starts.
+[21:21:14.467071] AWS-225b Waiting for Lambda function to be updated...
+[21:21:14.551892] AWS-225b Lambda function has been updated.
+[21:21:14.552037] AWS-225b Finished function updates enforcing cold starts.
+[21:21:39.376556] Experiment.PerfCost-0542 Processed 100 samples out of 250, 0 errors
+[21:21:44.659374] AWS-225b Waiting for Lambda function to be updated...
+[21:21:45.831612] AWS-225b Lambda function has been updated.
+[21:21:45.831802] AWS-225b Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:21:45.831918] AWS-225b Sent function updates enforcing cold starts.
+[21:21:45.832023] AWS-225b Waiting for Lambda function to be updated...
+[21:21:45.916084] AWS-225b Lambda function has been updated.
+[21:21:45.916228] AWS-225b Finished function updates enforcing cold starts.
+[21:22:10.619987] Experiment.PerfCost-0542 Processed 150 samples out of 250, 0 errors
+[21:22:15.924850] AWS-225b Waiting for Lambda function to be updated...
+[21:22:17.096029] AWS-225b Lambda function has been updated.
+[21:22:17.096173] AWS-225b Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:22:17.096290] AWS-225b Sent function updates enforcing cold starts.
+[21:22:17.096360] AWS-225b Waiting for Lambda function to be updated...
+[21:22:17.181716] AWS-225b Lambda function has been updated.
+[21:22:17.181860] AWS-225b Finished function updates enforcing cold starts.
+[21:22:38.634921] Experiment.PerfCost-0542 Processed 200 samples out of 250, 0 errors
+[21:22:46.877397] AWS-225b Waiting for Lambda function to be updated...
+[21:22:48.046173] AWS-225b Lambda function has been updated.
+[21:22:48.046336] AWS-225b Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:22:48.046429] AWS-225b Sent function updates enforcing cold starts.
+[21:22:48.046575] AWS-225b Waiting for Lambda function to be updated...
+[21:22:48.133156] AWS-225b Lambda function has been updated.
+[21:22:48.133300] AWS-225b Finished function updates enforcing cold starts.
+[21:23:10.031520] Experiment.PerfCost-0542 Processed 250 samples out of 250, 0 errors
+[21:23:17.968372] Experiment.PerfCost-0542 Mean 16142.297867999998 [ms], median 16382.0445 [ms], std 2884.131317167475, CV 17.866919200424928
+[21:23:17.969748] Experiment.PerfCost-0542 Parametric CI (Student's t-distribution) 0.95 from 15782.316957132252 to 16502.278778867745, within 2.2300475050789497% of mean
+[21:23:17.969891] Experiment.PerfCost-0542 Non-parametric CI 0.95 from 15949.291 to 16888.886, within 2.867758661014501% of median
+[21:23:17.970739] Experiment.PerfCost-0542 Parametric CI (Student's t-distribution) 0.99 from 15667.86712322519 to 16616.728612774805, within 2.9390533408214705% of mean
+[21:23:17.970921] Experiment.PerfCost-0542 Non-parametric CI 0.99 from 15876.425 to 16965.277, within 3.3233092487326563% of median
+[21:23:24.144524] Experiment.PerfCost-0542 Begin warm experiments
+[21:23:44.986061] Experiment.PerfCost-0542 Processed 0 warm-up samples, ignoring these results.
+[21:24:13.858783] Experiment.PerfCost-0542 Processed 50 samples out of 250, 0 errors
+[21:24:41.543994] Experiment.PerfCost-0542 Processed 100 samples out of 250, 0 errors
+[21:25:09.924406] Experiment.PerfCost-0542 Processed 150 samples out of 250, 0 errors
+[21:25:38.232068] Experiment.PerfCost-0542 Processed 200 samples out of 250, 0 errors
+[21:26:04.488247] Experiment.PerfCost-0542 Processed 250 samples out of 250, 0 errors
+[21:26:09.490227] Experiment.PerfCost-0542 Mean 15031.661204 [ms], median 15116.292 [ms], std 1880.869599533725, CV 12.512719479289597
+[21:26:09.491192] Experiment.PerfCost-0542 Parametric CI (Student's t-distribution) 0.95 from 14796.901729757834 to 15266.420678242166, within 1.5617666674106214% of mean
+[21:26:09.491308] Experiment.PerfCost-0542 Non-parametric CI 0.95 from 14850.906 to 15365.974, within 1.7036850042325171% of median
+[21:26:09.491872] Experiment.PerfCost-0542 Parametric CI (Student's t-distribution) 0.99 from 14722.263930852447 to 15341.058477147553, within 2.0583039289444676% of mean
+[21:26:09.491997] Experiment.PerfCost-0542 Non-parametric CI 0.99 from 14783.594 to 15478.379, within 2.2981330342123645% of median
+[21:26:18.514021] Benchmark-08b9 Update cached config /home/zia/serverless-benchmarks/experiments/perf_cost/aws/cache/aws.json
+Execute benchmark 2_dynamic-html, Node.js, Concurrent: 50
+[21:26:19.424179] SeBS-86d8 Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/aws/2_dynamic-html
+[21:26:20.089482] AWS.Resources-772b Using cached resources for AWS
+[21:26:20.089826] AWS.Config-76b2 Using cached config for AWS
+[21:26:20.169070] AWS-6e17 Using existing resource name: 3e0b343e.
+ERROR:root:Unsupported nodejs version 16.x in aws!
+Traceback (most recent call last):
+  File "/home/zia/serverless-benchmarks/experiments/perf_cost/aws/../../../sebs.py", line 31, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/zia/serverless-benchmarks/python-venv/lib/python3.10/site-packages/click/core.py", line 1082, in main
+    rv = self.invoke(ctx)
+  File "/home/zia/serverless-benchmarks/python-venv/lib/python3.10/site-packages/click/core.py", line 1697, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/zia/serverless-benchmarks/python-venv/lib/python3.10/site-packages/click/core.py", line 1697, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/zia/serverless-benchmarks/python-venv/lib/python3.10/site-packages/click/core.py", line 1443, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/zia/serverless-benchmarks/python-venv/lib/python3.10/site-packages/click/core.py", line 788, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/zia/serverless-benchmarks/experiments/perf_cost/aws/../../../sebs.py", line 73, in wrapper
+    return func(*args, **kwargs)
+  File "/home/zia/serverless-benchmarks/experiments/perf_cost/aws/../../../sebs.py", line 116, in wrapper
+    return func(*args, **kwargs)
+  File "/home/zia/serverless-benchmarks/experiments/perf_cost/aws/../../../sebs.py", line 594, in experiment_invoke
+    experiment.prepare(sebs_client, deployment_client)
+  File "/home/zia/serverless-benchmarks/sebs/experiments/perf_cost.py", line 57, in prepare
+    self._function = deployment_client.get_function(self._benchmark)
+  File "/home/zia/serverless-benchmarks/sebs/faas/system.py", line 254, in get_function
+    raise Exception(
+Exception: Unsupported nodejs version 16.x in aws!
+[21:26:20.178881] Benchmark-4379 Update cached config /home/zia/serverless-benchmarks/experiments/perf_cost/aws/cache/aws.json
+Execute benchmark 3_dynamic-html, Python, Concurrent: 1
+[21:26:21.121992] SeBS-b7ec Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/aws/3_dynamic-html
+[21:26:21.758784] AWS.Resources-6007 Using cached resources for AWS
+[21:26:21.759152] AWS.Config-6f76 Using cached config for AWS
+[21:26:21.833506] AWS-b266 Using existing resource name: 3e0b343e.
+[21:26:21.839608] Benchmark-23da Using cached benchmark 110.dynamic-html at /home/zia/serverless-benchmarks/experiments/perf_cost/aws/cache/110.dynamic-html/aws/python/3.11/x64/package/110.dynamic-html.zip
+[21:26:21.840136] AWS-b266 Using cached function sebs_3e0b343e_110_dynamic_html_python_3_11_x64 in /home/zia/serverless-benchmarks/experiments/perf_cost/aws/cache/110.dynamic-html/aws/python/3.11/x64/package/110.dynamic-html.zip
+[21:26:21.840423] AWS-b266 Cached function sebs_3e0b343e_110_dynamic_html_python_3_11_x64 is up to date.
+[21:26:21.840667] Experiment.PerfCost-c046 Begin experiment on memory size 128
+[21:26:22.467113] AWS-b266 Waiting for Lambda function to be updated...
+[21:26:23.638779] AWS-b266 Lambda function has been updated.
+[21:26:23.638935] AWS-b266 Updated code of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:26:23.819467] AWS-b266 Waiting for Lambda function to be updated...
+[21:26:24.989377] AWS-b266 Lambda function has been updated.
+[21:26:24.989540] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:26:24.990177] Experiment.PerfCost-c046 Begin cold experiments
+[21:26:25.282588] AWS-b266 Waiting for Lambda function to be updated...
+[21:26:26.451920] AWS-b266 Lambda function has been updated.
+[21:26:26.452078] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:26:26.452165] AWS-b266 Sent function updates enforcing cold starts.
+[21:26:26.452257] AWS-b266 Waiting for Lambda function to be updated...
+[21:26:26.530644] AWS-b266 Lambda function has been updated.
+[21:26:26.530844] AWS-b266 Finished function updates enforcing cold starts.
+[21:26:36.304206] Experiment.PerfCost-c046 Processed 0 warm-up samples, ignoring these results.
+[21:26:41.605064] AWS-b266 Waiting for Lambda function to be updated...
+[21:26:42.771525] AWS-b266 Lambda function has been updated.
+[21:26:42.771676] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:26:42.771742] AWS-b266 Sent function updates enforcing cold starts.
+[21:26:42.771857] AWS-b266 Waiting for Lambda function to be updated...
+[21:26:42.867697] AWS-b266 Lambda function has been updated.
+[21:26:42.867846] AWS-b266 Finished function updates enforcing cold starts.
+[21:26:55.557696] Experiment.PerfCost-c046 Processed 1 samples out of 50, 0 errors
+[21:27:00.848662] AWS-b266 Waiting for Lambda function to be updated...
+[21:27:02.011336] AWS-b266 Lambda function has been updated.
+[21:27:02.011490] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:27:02.011556] AWS-b266 Sent function updates enforcing cold starts.
+[21:27:02.011646] AWS-b266 Waiting for Lambda function to be updated...
+[21:27:02.090243] AWS-b266 Lambda function has been updated.
+[21:27:02.090440] AWS-b266 Finished function updates enforcing cold starts.
+[21:27:11.804056] Experiment.PerfCost-c046 Processed 2 samples out of 50, 0 errors
+[21:27:17.094944] AWS-b266 Waiting for Lambda function to be updated...
+[21:27:18.265290] AWS-b266 Lambda function has been updated.
+[21:27:18.265476] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:27:18.265583] AWS-b266 Sent function updates enforcing cold starts.
+[21:27:18.265691] AWS-b266 Waiting for Lambda function to be updated...
+[21:27:18.363911] AWS-b266 Lambda function has been updated.
+[21:27:18.364076] AWS-b266 Finished function updates enforcing cold starts.
+[21:27:30.320527] Experiment.PerfCost-c046 Processed 3 samples out of 50, 0 errors
+[21:27:35.604020] AWS-b266 Waiting for Lambda function to be updated...
+[21:27:36.774871] AWS-b266 Lambda function has been updated.
+[21:27:36.775015] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:27:36.775145] AWS-b266 Sent function updates enforcing cold starts.
+[21:27:36.775238] AWS-b266 Waiting for Lambda function to be updated...
+[21:27:36.859565] AWS-b266 Lambda function has been updated.
+[21:27:36.859728] AWS-b266 Finished function updates enforcing cold starts.
+[21:27:46.693684] Experiment.PerfCost-c046 Processed 4 samples out of 50, 0 errors
+[21:27:51.998577] AWS-b266 Waiting for Lambda function to be updated...
+[21:27:53.179162] AWS-b266 Lambda function has been updated.
+[21:27:53.179355] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:27:53.179426] AWS-b266 Sent function updates enforcing cold starts.
+[21:27:53.179503] AWS-b266 Waiting for Lambda function to be updated...
+[21:27:53.259692] AWS-b266 Lambda function has been updated.
+[21:27:53.259842] AWS-b266 Finished function updates enforcing cold starts.
+[21:28:05.943518] Experiment.PerfCost-c046 Processed 5 samples out of 50, 0 errors
+[21:28:11.234091] AWS-b266 Waiting for Lambda function to be updated...
+[21:28:12.393651] AWS-b266 Lambda function has been updated.
+[21:28:12.393876] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:28:12.393965] AWS-b266 Sent function updates enforcing cold starts.
+[21:28:12.394023] AWS-b266 Waiting for Lambda function to be updated...
+[21:28:12.475555] AWS-b266 Lambda function has been updated.
+[21:28:12.475791] AWS-b266 Finished function updates enforcing cold starts.
+[21:28:22.225074] Experiment.PerfCost-c046 Processed 6 samples out of 50, 0 errors
+[21:28:27.503744] AWS-b266 Waiting for Lambda function to be updated...
+[21:28:28.669362] AWS-b266 Lambda function has been updated.
+[21:28:28.669527] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:28:28.669638] AWS-b266 Sent function updates enforcing cold starts.
+[21:28:28.669730] AWS-b266 Waiting for Lambda function to be updated...
+[21:28:28.754996] AWS-b266 Lambda function has been updated.
+[21:28:28.755144] AWS-b266 Finished function updates enforcing cold starts.
+[21:28:41.477206] Experiment.PerfCost-c046 Processed 7 samples out of 50, 0 errors
+[21:28:46.771151] AWS-b266 Waiting for Lambda function to be updated...
+[21:28:47.936492] AWS-b266 Lambda function has been updated.
+[21:28:47.936644] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:28:47.936714] AWS-b266 Sent function updates enforcing cold starts.
+[21:28:47.936773] AWS-b266 Waiting for Lambda function to be updated...
+[21:28:48.022696] AWS-b266 Lambda function has been updated.
+[21:28:48.022891] AWS-b266 Finished function updates enforcing cold starts.
+[21:28:58.638056] Experiment.PerfCost-c046 Processed 8 samples out of 50, 0 errors
+[21:29:03.935692] AWS-b266 Waiting for Lambda function to be updated...
+[21:29:05.110287] AWS-b266 Lambda function has been updated.
+[21:29:05.110432] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:29:05.110517] AWS-b266 Sent function updates enforcing cold starts.
+[21:29:05.110622] AWS-b266 Waiting for Lambda function to be updated...
+[21:29:05.191023] AWS-b266 Lambda function has been updated.
+[21:29:05.191192] AWS-b266 Finished function updates enforcing cold starts.
+[21:29:17.404281] Experiment.PerfCost-c046 Processed 9 samples out of 50, 0 errors
+[21:29:22.703754] AWS-b266 Waiting for Lambda function to be updated...
+[21:29:23.866907] AWS-b266 Lambda function has been updated.
+[21:29:23.867054] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:29:23.867141] AWS-b266 Sent function updates enforcing cold starts.
+[21:29:23.867250] AWS-b266 Waiting for Lambda function to be updated...
+[21:29:23.950581] AWS-b266 Lambda function has been updated.
+[21:29:23.950730] AWS-b266 Finished function updates enforcing cold starts.
+[21:29:33.201169] Experiment.PerfCost-c046 Processed 10 samples out of 50, 0 errors
+[21:29:38.491889] AWS-b266 Waiting for Lambda function to be updated...
+[21:29:39.654764] AWS-b266 Lambda function has been updated.
+[21:29:39.654928] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:29:39.654993] AWS-b266 Sent function updates enforcing cold starts.
+[21:29:39.655082] AWS-b266 Waiting for Lambda function to be updated...
+[21:29:39.736435] AWS-b266 Lambda function has been updated.
+[21:29:39.736585] AWS-b266 Finished function updates enforcing cold starts.
+[21:29:52.565485] Experiment.PerfCost-c046 Processed 11 samples out of 50, 0 errors
+[21:29:57.852197] AWS-b266 Waiting for Lambda function to be updated...
+[21:29:59.006112] AWS-b266 Lambda function has been updated.
+[21:29:59.006331] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:29:59.006479] AWS-b266 Sent function updates enforcing cold starts.
+[21:29:59.006566] AWS-b266 Waiting for Lambda function to be updated...
+[21:29:59.093399] AWS-b266 Lambda function has been updated.
+[21:29:59.093548] AWS-b266 Finished function updates enforcing cold starts.
+[21:30:10.066860] Experiment.PerfCost-c046 Processed 12 samples out of 50, 0 errors
+[21:30:15.408601] AWS-b266 Waiting for Lambda function to be updated...
+[21:30:16.575665] AWS-b266 Lambda function has been updated.
+[21:30:16.575816] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:30:16.575906] AWS-b266 Sent function updates enforcing cold starts.
+[21:30:16.575965] AWS-b266 Waiting for Lambda function to be updated...
+[21:30:19.613347] AWS-b266 Lambda function has been updated.
+[21:30:19.613538] AWS-b266 Finished function updates enforcing cold starts.
+[21:30:29.540890] Experiment.PerfCost-c046 Processed 13 samples out of 50, 0 errors
+[21:30:34.849940] AWS-b266 Waiting for Lambda function to be updated...
+[21:30:36.019539] AWS-b266 Lambda function has been updated.
+[21:30:36.019686] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:30:36.019768] AWS-b266 Sent function updates enforcing cold starts.
+[21:30:36.019856] AWS-b266 Waiting for Lambda function to be updated...
+[21:30:36.103002] AWS-b266 Lambda function has been updated.
+[21:30:36.103195] AWS-b266 Finished function updates enforcing cold starts.
+[21:30:45.365610] Experiment.PerfCost-c046 Processed 14 samples out of 50, 0 errors
+[21:30:50.680574] AWS-b266 Waiting for Lambda function to be updated...
+[21:30:54.781119] AWS-b266 Lambda function has been updated.
+[21:30:54.781260] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:30:54.781399] AWS-b266 Sent function updates enforcing cold starts.
+[21:30:54.781509] AWS-b266 Waiting for Lambda function to be updated...
+[21:30:54.858530] AWS-b266 Lambda function has been updated.
+[21:30:54.858738] AWS-b266 Finished function updates enforcing cold starts.
+[21:31:04.929542] Experiment.PerfCost-c046 Processed 15 samples out of 50, 0 errors
+[21:31:10.209814] AWS-b266 Waiting for Lambda function to be updated...
+[21:31:11.375711] AWS-b266 Lambda function has been updated.
+[21:31:11.375868] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:31:11.375951] AWS-b266 Sent function updates enforcing cold starts.
+[21:31:11.376027] AWS-b266 Waiting for Lambda function to be updated...
+[21:31:11.459887] AWS-b266 Lambda function has been updated.
+[21:31:11.460032] AWS-b266 Finished function updates enforcing cold starts.
+[21:31:21.415392] Experiment.PerfCost-c046 Processed 16 samples out of 50, 0 errors
+[21:31:26.709583] AWS-b266 Waiting for Lambda function to be updated...
+[21:31:30.804918] AWS-b266 Lambda function has been updated.
+[21:31:30.805061] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:31:30.805150] AWS-b266 Sent function updates enforcing cold starts.
+[21:31:30.805239] AWS-b266 Waiting for Lambda function to be updated...
+[21:31:30.887952] AWS-b266 Lambda function has been updated.
+[21:31:30.888096] AWS-b266 Finished function updates enforcing cold starts.
+[21:31:40.928504] Experiment.PerfCost-c046 Processed 17 samples out of 50, 0 errors
+[21:31:46.235195] AWS-b266 Waiting for Lambda function to be updated...
+[21:31:47.393577] AWS-b266 Lambda function has been updated.
+[21:31:47.393728] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:31:47.393812] AWS-b266 Sent function updates enforcing cold starts.
+[21:31:47.393947] AWS-b266 Waiting for Lambda function to be updated...
+[21:31:47.486402] AWS-b266 Lambda function has been updated.
+[21:31:47.486642] AWS-b266 Finished function updates enforcing cold starts.
+[21:31:58.863437] Experiment.PerfCost-c046 Processed 18 samples out of 50, 0 errors
+[21:32:07.079779] AWS-b266 Waiting for Lambda function to be updated...
+[21:32:08.239924] AWS-b266 Lambda function has been updated.
+[21:32:08.240071] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:32:08.240182] AWS-b266 Sent function updates enforcing cold starts.
+[21:32:08.240264] AWS-b266 Waiting for Lambda function to be updated...
+[21:32:08.319470] AWS-b266 Lambda function has been updated.
+[21:32:08.319655] AWS-b266 Finished function updates enforcing cold starts.
+[21:32:18.613426] Experiment.PerfCost-c046 Processed 19 samples out of 50, 0 errors
+[21:32:23.909620] AWS-b266 Waiting for Lambda function to be updated...
+[21:32:25.076524] AWS-b266 Lambda function has been updated.
+[21:32:25.076715] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:32:25.076823] AWS-b266 Sent function updates enforcing cold starts.
+[21:32:25.076917] AWS-b266 Waiting for Lambda function to be updated...
+[21:32:25.164166] AWS-b266 Lambda function has been updated.
+[21:32:25.164313] AWS-b266 Finished function updates enforcing cold starts.
+[21:32:35.811937] Experiment.PerfCost-c046 Processed 20 samples out of 50, 0 errors
+[21:32:44.044064] AWS-b266 Waiting for Lambda function to be updated...
+[21:32:45.224952] AWS-b266 Lambda function has been updated.
+[21:32:45.225097] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:32:45.225167] AWS-b266 Sent function updates enforcing cold starts.
+[21:32:45.225260] AWS-b266 Waiting for Lambda function to be updated...
+[21:32:45.308381] AWS-b266 Lambda function has been updated.
+[21:32:45.308609] AWS-b266 Finished function updates enforcing cold starts.
+[21:32:55.174029] Experiment.PerfCost-c046 Processed 21 samples out of 50, 0 errors
+[21:33:00.470023] AWS-b266 Waiting for Lambda function to be updated...
+[21:33:01.636915] AWS-b266 Lambda function has been updated.
+[21:33:01.637063] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:33:01.637150] AWS-b266 Sent function updates enforcing cold starts.
+[21:33:01.637207] AWS-b266 Waiting for Lambda function to be updated...
+[21:33:01.720849] AWS-b266 Lambda function has been updated.
+[21:33:01.720998] AWS-b266 Finished function updates enforcing cold starts.
+[21:33:11.848825] Experiment.PerfCost-c046 Processed 22 samples out of 50, 0 errors
+[21:33:20.079307] AWS-b266 Waiting for Lambda function to be updated...
+[21:33:21.289387] AWS-b266 Lambda function has been updated.
+[21:33:21.289575] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:33:21.289644] AWS-b266 Sent function updates enforcing cold starts.
+[21:33:21.289723] AWS-b266 Waiting for Lambda function to be updated...
+[21:33:21.373563] AWS-b266 Lambda function has been updated.
+[21:33:21.373778] AWS-b266 Finished function updates enforcing cold starts.
+[21:33:31.066961] Experiment.PerfCost-c046 Processed 23 samples out of 50, 0 errors
+[21:33:36.388449] AWS-b266 Waiting for Lambda function to be updated...
+[21:33:37.550345] AWS-b266 Lambda function has been updated.
+[21:33:37.550504] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:33:37.550587] AWS-b266 Sent function updates enforcing cold starts.
+[21:33:37.550676] AWS-b266 Waiting for Lambda function to be updated...
+[21:33:37.630233] AWS-b266 Lambda function has been updated.
+[21:33:37.630443] AWS-b266 Finished function updates enforcing cold starts.
+[21:33:47.618069] Experiment.PerfCost-c046 Processed 24 samples out of 50, 0 errors
+[21:33:55.839042] AWS-b266 Waiting for Lambda function to be updated...
+[21:33:56.997418] AWS-b266 Lambda function has been updated.
+[21:33:56.997569] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:33:56.997636] AWS-b266 Sent function updates enforcing cold starts.
+[21:33:56.997708] AWS-b266 Waiting for Lambda function to be updated...
+[21:33:57.077215] AWS-b266 Lambda function has been updated.
+[21:33:57.077428] AWS-b266 Finished function updates enforcing cold starts.
+[21:34:06.927318] Experiment.PerfCost-c046 Processed 25 samples out of 50, 0 errors
+[21:34:12.225406] AWS-b266 Waiting for Lambda function to be updated...
+[21:34:13.392481] AWS-b266 Lambda function has been updated.
+[21:34:13.392621] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:34:13.392710] AWS-b266 Sent function updates enforcing cold starts.
+[21:34:13.392784] AWS-b266 Waiting for Lambda function to be updated...
+[21:34:13.472872] AWS-b266 Lambda function has been updated.
+[21:34:13.473022] AWS-b266 Finished function updates enforcing cold starts.
+[21:34:26.208323] Experiment.PerfCost-c046 Processed 26 samples out of 50, 0 errors
+[21:34:31.504519] AWS-b266 Waiting for Lambda function to be updated...
+[21:34:32.670662] AWS-b266 Lambda function has been updated.
+[21:34:32.670799] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:34:32.670919] AWS-b266 Sent function updates enforcing cold starts.
+[21:34:32.671068] AWS-b266 Waiting for Lambda function to be updated...
+[21:34:32.748928] AWS-b266 Lambda function has been updated.
+[21:34:32.749187] AWS-b266 Finished function updates enforcing cold starts.
+[21:34:42.005440] Experiment.PerfCost-c046 Processed 27 samples out of 50, 0 errors
+[21:34:47.312119] AWS-b266 Waiting for Lambda function to be updated...
+[21:34:48.472352] AWS-b266 Lambda function has been updated.
+[21:34:48.472527] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:34:48.472624] AWS-b266 Sent function updates enforcing cold starts.
+[21:34:48.472685] AWS-b266 Waiting for Lambda function to be updated...
+[21:34:48.552388] AWS-b266 Lambda function has been updated.
+[21:34:48.552537] AWS-b266 Finished function updates enforcing cold starts.
+[21:35:01.327297] Experiment.PerfCost-c046 Processed 28 samples out of 50, 0 errors
+[21:35:06.608375] AWS-b266 Waiting for Lambda function to be updated...
+[21:35:07.772670] AWS-b266 Lambda function has been updated.
+[21:35:07.772867] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:35:07.772962] AWS-b266 Sent function updates enforcing cold starts.
+[21:35:07.773105] AWS-b266 Waiting for Lambda function to be updated...
+[21:35:07.850290] AWS-b266 Lambda function has been updated.
+[21:35:07.850535] AWS-b266 Finished function updates enforcing cold starts.
+[21:35:17.647034] Experiment.PerfCost-c046 Processed 29 samples out of 50, 0 errors
+[21:35:22.939726] AWS-b266 Waiting for Lambda function to be updated...
+[21:35:24.102702] AWS-b266 Lambda function has been updated.
+[21:35:24.102842] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:35:24.102957] AWS-b266 Sent function updates enforcing cold starts.
+[21:35:24.103054] AWS-b266 Waiting for Lambda function to be updated...
+[21:35:24.193266] AWS-b266 Lambda function has been updated.
+[21:35:24.193413] AWS-b266 Finished function updates enforcing cold starts.
+[21:35:36.883958] Experiment.PerfCost-c046 Processed 30 samples out of 50, 0 errors
+[21:35:42.199059] AWS-b266 Waiting for Lambda function to be updated...
+[21:35:43.365981] AWS-b266 Lambda function has been updated.
+[21:35:43.366139] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:35:43.366209] AWS-b266 Sent function updates enforcing cold starts.
+[21:35:43.366269] AWS-b266 Waiting for Lambda function to be updated...
+[21:35:43.447418] AWS-b266 Lambda function has been updated.
+[21:35:43.447596] AWS-b266 Finished function updates enforcing cold starts.
+[21:35:53.304478] Experiment.PerfCost-c046 Processed 31 samples out of 50, 0 errors
+[21:35:58.594369] AWS-b266 Waiting for Lambda function to be updated...
+[21:35:59.798067] AWS-b266 Lambda function has been updated.
+[21:35:59.798229] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:35:59.798348] AWS-b266 Sent function updates enforcing cold starts.
+[21:35:59.798471] AWS-b266 Waiting for Lambda function to be updated...
+[21:35:59.881116] AWS-b266 Lambda function has been updated.
+[21:35:59.881265] AWS-b266 Finished function updates enforcing cold starts.
+[21:36:09.939026] Experiment.PerfCost-c046 Processed 32 samples out of 50, 0 errors
+[21:36:15.268556] AWS-b266 Waiting for Lambda function to be updated...
+[21:36:16.430216] AWS-b266 Lambda function has been updated.
+[21:36:16.430419] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:36:16.430512] AWS-b266 Sent function updates enforcing cold starts.
+[21:36:16.430572] AWS-b266 Waiting for Lambda function to be updated...
+[21:36:16.516484] AWS-b266 Lambda function has been updated.
+[21:36:16.516627] AWS-b266 Finished function updates enforcing cold starts.
+[21:36:30.822095] Experiment.PerfCost-c046 Processed 33 samples out of 50, 0 errors
+[21:36:36.114363] AWS-b266 Waiting for Lambda function to be updated...
+[21:36:37.280481] AWS-b266 Lambda function has been updated.
+[21:36:37.280632] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:36:37.280699] AWS-b266 Sent function updates enforcing cold starts.
+[21:36:37.280771] AWS-b266 Waiting for Lambda function to be updated...
+[21:36:37.362001] AWS-b266 Lambda function has been updated.
+[21:36:37.362148] AWS-b266 Finished function updates enforcing cold starts.
+[21:36:47.319530] Experiment.PerfCost-c046 Processed 34 samples out of 50, 0 errors
+[21:36:52.615605] AWS-b266 Waiting for Lambda function to be updated...
+[21:36:53.783038] AWS-b266 Lambda function has been updated.
+[21:36:53.783246] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:36:53.783339] AWS-b266 Sent function updates enforcing cold starts.
+[21:36:53.783398] AWS-b266 Waiting for Lambda function to be updated...
+[21:36:53.870829] AWS-b266 Lambda function has been updated.
+[21:36:53.870978] AWS-b266 Finished function updates enforcing cold starts.
+[21:37:06.724451] Experiment.PerfCost-c046 Processed 35 samples out of 50, 0 errors
+[21:37:12.022268] AWS-b266 Waiting for Lambda function to be updated...
+[21:37:13.181486] AWS-b266 Lambda function has been updated.
+[21:37:13.181677] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:37:13.181768] AWS-b266 Sent function updates enforcing cold starts.
+[21:37:13.181887] AWS-b266 Waiting for Lambda function to be updated...
+[21:37:13.259672] AWS-b266 Lambda function has been updated.
+[21:37:13.259821] AWS-b266 Finished function updates enforcing cold starts.
+[21:37:23.037387] Experiment.PerfCost-c046 Processed 36 samples out of 50, 0 errors
+[21:37:28.342800] AWS-b266 Waiting for Lambda function to be updated...
+[21:37:29.506812] AWS-b266 Lambda function has been updated.
+[21:37:29.506990] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:37:29.507098] AWS-b266 Sent function updates enforcing cold starts.
+[21:37:29.507198] AWS-b266 Waiting for Lambda function to be updated...
+[21:37:29.595363] AWS-b266 Lambda function has been updated.
+[21:37:29.595533] AWS-b266 Finished function updates enforcing cold starts.
+[21:37:42.344712] Experiment.PerfCost-c046 Processed 37 samples out of 50, 0 errors
+[21:37:47.624001] AWS-b266 Waiting for Lambda function to be updated...
+[21:37:48.790636] AWS-b266 Lambda function has been updated.
+[21:37:48.790790] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:37:48.790858] AWS-b266 Sent function updates enforcing cold starts.
+[21:37:48.790919] AWS-b266 Waiting for Lambda function to be updated...
+[21:37:48.876338] AWS-b266 Lambda function has been updated.
+[21:37:48.876485] AWS-b266 Finished function updates enforcing cold starts.
+[21:37:58.699449] Experiment.PerfCost-c046 Processed 38 samples out of 50, 0 errors
+[21:38:03.995000] AWS-b266 Waiting for Lambda function to be updated...
+[21:38:05.171581] AWS-b266 Lambda function has been updated.
+[21:38:05.171765] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:38:05.171877] AWS-b266 Sent function updates enforcing cold starts.
+[21:38:05.171956] AWS-b266 Waiting for Lambda function to be updated...
+[21:38:05.251353] AWS-b266 Lambda function has been updated.
+[21:38:05.251533] AWS-b266 Finished function updates enforcing cold starts.
+[21:38:18.067631] Experiment.PerfCost-c046 Processed 39 samples out of 50, 0 errors
+[21:38:23.368163] AWS-b266 Waiting for Lambda function to be updated...
+[21:38:24.559689] AWS-b266 Lambda function has been updated.
+[21:38:24.559882] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:38:24.559967] AWS-b266 Sent function updates enforcing cold starts.
+[21:38:24.560080] AWS-b266 Waiting for Lambda function to be updated...
+[21:38:24.639197] AWS-b266 Lambda function has been updated.
+[21:38:24.639343] AWS-b266 Finished function updates enforcing cold starts.
+[21:38:34.418248] Experiment.PerfCost-c046 Processed 40 samples out of 50, 0 errors
+[21:38:39.699415] AWS-b266 Waiting for Lambda function to be updated...
+[21:38:40.860080] AWS-b266 Lambda function has been updated.
+[21:38:40.860247] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:38:40.860315] AWS-b266 Sent function updates enforcing cold starts.
+[21:38:40.860454] AWS-b266 Waiting for Lambda function to be updated...
+[21:38:40.941726] AWS-b266 Lambda function has been updated.
+[21:38:40.941870] AWS-b266 Finished function updates enforcing cold starts.
+[21:38:53.804494] Experiment.PerfCost-c046 Processed 41 samples out of 50, 0 errors
+[21:38:59.125435] AWS-b266 Waiting for Lambda function to be updated...
+[21:39:00.284621] AWS-b266 Lambda function has been updated.
+[21:39:00.284771] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:39:00.284838] AWS-b266 Sent function updates enforcing cold starts.
+[21:39:00.284912] AWS-b266 Waiting for Lambda function to be updated...
+[21:39:00.364097] AWS-b266 Lambda function has been updated.
+[21:39:00.364248] AWS-b266 Finished function updates enforcing cold starts.
+[21:39:10.215648] Experiment.PerfCost-c046 Processed 42 samples out of 50, 0 errors
+[21:39:15.532059] AWS-b266 Waiting for Lambda function to be updated...
+[21:39:16.689737] AWS-b266 Lambda function has been updated.
+[21:39:16.689895] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:39:16.689981] AWS-b266 Sent function updates enforcing cold starts.
+[21:39:16.690062] AWS-b266 Waiting for Lambda function to be updated...
+[21:39:16.773804] AWS-b266 Lambda function has been updated.
+[21:39:16.773961] AWS-b266 Finished function updates enforcing cold starts.
+[21:39:26.655993] Experiment.PerfCost-c046 Processed 43 samples out of 50, 0 errors
+[21:39:31.961903] AWS-b266 Waiting for Lambda function to be updated...
+[21:39:33.125840] AWS-b266 Lambda function has been updated.
+[21:39:33.126006] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:39:33.126123] AWS-b266 Sent function updates enforcing cold starts.
+[21:39:33.126279] AWS-b266 Waiting for Lambda function to be updated...
+[21:39:33.206148] AWS-b266 Lambda function has been updated.
+[21:39:33.206336] AWS-b266 Finished function updates enforcing cold starts.
+[21:39:47.365440] Experiment.PerfCost-c046 Processed 44 samples out of 50, 0 errors
+[21:39:52.700243] AWS-b266 Waiting for Lambda function to be updated...
+[21:39:53.882916] AWS-b266 Lambda function has been updated.
+[21:39:53.883147] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:39:53.883264] AWS-b266 Sent function updates enforcing cold starts.
+[21:39:53.883322] AWS-b266 Waiting for Lambda function to be updated...
+[21:39:53.967002] AWS-b266 Lambda function has been updated.
+[21:39:53.967149] AWS-b266 Finished function updates enforcing cold starts.
+[21:40:03.679444] Experiment.PerfCost-c046 Processed 45 samples out of 50, 0 errors
+[21:40:08.986157] AWS-b266 Waiting for Lambda function to be updated...
+[21:40:10.152819] AWS-b266 Lambda function has been updated.
+[21:40:10.152962] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:40:10.153042] AWS-b266 Sent function updates enforcing cold starts.
+[21:40:10.153121] AWS-b266 Waiting for Lambda function to be updated...
+[21:40:10.235937] AWS-b266 Lambda function has been updated.
+[21:40:10.236082] AWS-b266 Finished function updates enforcing cold starts.
+[21:40:22.874601] Experiment.PerfCost-c046 Processed 46 samples out of 50, 0 errors
+[21:40:28.177427] AWS-b266 Waiting for Lambda function to be updated...
+[21:40:29.340916] AWS-b266 Lambda function has been updated.
+[21:40:29.341061] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:40:29.341124] AWS-b266 Sent function updates enforcing cold starts.
+[21:40:29.341207] AWS-b266 Waiting for Lambda function to be updated...
+[21:40:29.423058] AWS-b266 Lambda function has been updated.
+[21:40:29.423283] AWS-b266 Finished function updates enforcing cold starts.
+[21:40:39.345997] Experiment.PerfCost-c046 Processed 47 samples out of 50, 0 errors
+[21:40:44.632214] AWS-b266 Waiting for Lambda function to be updated...
+[21:40:45.791535] AWS-b266 Lambda function has been updated.
+[21:40:45.791679] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:40:45.791791] AWS-b266 Sent function updates enforcing cold starts.
+[21:40:45.791890] AWS-b266 Waiting for Lambda function to be updated...
+[21:40:45.882056] AWS-b266 Lambda function has been updated.
+[21:40:45.882203] AWS-b266 Finished function updates enforcing cold starts.
+[21:40:58.905496] Experiment.PerfCost-c046 Processed 48 samples out of 50, 0 errors
+[21:41:04.207077] AWS-b266 Waiting for Lambda function to be updated...
+[21:41:05.373630] AWS-b266 Lambda function has been updated.
+[21:41:05.373766] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:41:05.373882] AWS-b266 Sent function updates enforcing cold starts.
+[21:41:05.373976] AWS-b266 Waiting for Lambda function to be updated...
+[21:41:05.456089] AWS-b266 Lambda function has been updated.
+[21:41:05.456231] AWS-b266 Finished function updates enforcing cold starts.
+[21:41:15.406031] Experiment.PerfCost-c046 Processed 49 samples out of 50, 0 errors
+[21:41:20.682121] AWS-b266 Waiting for Lambda function to be updated...
+[21:41:21.847831] AWS-b266 Lambda function has been updated.
+[21:41:21.847976] AWS-b266 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:41:21.848043] AWS-b266 Sent function updates enforcing cold starts.
+[21:41:21.848082] AWS-b266 Waiting for Lambda function to be updated...
+[21:41:21.930138] AWS-b266 Lambda function has been updated.
+[21:41:21.930286] AWS-b266 Finished function updates enforcing cold starts.
+[21:41:34.675567] Experiment.PerfCost-c046 Processed 50 samples out of 50, 0 errors
+[21:41:39.679570] Experiment.PerfCost-c046 Mean 5323.37732 [ms], median 4877.5075 [ms], std 1156.5794997051164, CV 21.72642347480859
+[21:41:39.680787] Experiment.PerfCost-c046 Parametric CI (Student's t-distribution) 0.95 from 4991.343959660181 to 5655.410680339818, within 6.237268943765543% of mean
+[21:41:39.680890] Experiment.PerfCost-c046 Non-parametric CI 0.95 from 4823.265 to 5029.549, within 2.1146456463675314% of median
+[21:41:39.681543] Experiment.PerfCost-c046 Parametric CI (Student's t-distribution) 0.99 from 4880.580532443354 to 5766.174107556645, within 8.317967353038307% of mean
+[21:41:39.681689] Experiment.PerfCost-c046 Non-parametric CI 0.99 from 4785.868 to 5083.648, within 3.0525837223212857% of median
+[21:41:40.893606] Experiment.PerfCost-c046 Begin warm experiments
+[21:41:49.239376] Experiment.PerfCost-c046 Processed 0 warm-up samples, ignoring these results.
+[21:42:02.377096] Experiment.PerfCost-c046 Processed 1 samples out of 50, 0 errors
+[21:42:15.545151] Experiment.PerfCost-c046 Processed 2 samples out of 50, 0 errors
+[21:42:28.684924] Experiment.PerfCost-c046 Processed 3 samples out of 50, 0 errors
+[21:42:41.804011] Experiment.PerfCost-c046 Processed 4 samples out of 50, 0 errors
+[21:43:01.964886] Experiment.PerfCost-c046 Processed 5 samples out of 50, 0 errors
+[21:43:15.066345] Experiment.PerfCost-c046 Processed 6 samples out of 50, 0 errors
+[21:43:31.223643] Experiment.PerfCost-c046 Processed 7 samples out of 50, 0 errors
+[21:43:44.378891] Experiment.PerfCost-c046 Processed 8 samples out of 50, 0 errors
+[21:43:57.531994] Experiment.PerfCost-c046 Processed 9 samples out of 50, 0 errors
+[21:44:13.602322] Experiment.PerfCost-c046 Processed 10 samples out of 50, 0 errors
+[21:44:26.754490] Experiment.PerfCost-c046 Processed 11 samples out of 50, 0 errors
+[21:44:42.871825] Experiment.PerfCost-c046 Processed 12 samples out of 50, 0 errors
+[21:44:56.026792] Experiment.PerfCost-c046 Processed 13 samples out of 50, 0 errors
+[21:45:12.229667] Experiment.PerfCost-c046 Processed 14 samples out of 50, 0 errors
+[21:45:25.421052] Experiment.PerfCost-c046 Processed 15 samples out of 50, 0 errors
+[21:45:38.616021] Experiment.PerfCost-c046 Processed 16 samples out of 50, 0 errors
+[21:45:54.776827] Experiment.PerfCost-c046 Processed 17 samples out of 50, 0 errors
+[21:46:08.022808] Experiment.PerfCost-c046 Processed 18 samples out of 50, 0 errors
+[21:46:24.140108] Experiment.PerfCost-c046 Processed 19 samples out of 50, 0 errors
+[21:46:37.338235] Experiment.PerfCost-c046 Processed 20 samples out of 50, 0 errors
+[21:46:50.588076] Experiment.PerfCost-c046 Processed 21 samples out of 50, 0 errors
+[21:47:06.759511] Experiment.PerfCost-c046 Processed 22 samples out of 50, 0 errors
+[21:47:19.933223] Experiment.PerfCost-c046 Processed 23 samples out of 50, 0 errors
+[21:47:36.073869] Experiment.PerfCost-c046 Processed 24 samples out of 50, 0 errors
+[21:47:49.304615] Experiment.PerfCost-c046 Processed 25 samples out of 50, 0 errors
+[21:48:02.455527] Experiment.PerfCost-c046 Processed 26 samples out of 50, 0 errors
+[21:48:18.529442] Experiment.PerfCost-c046 Processed 27 samples out of 50, 0 errors
+[21:48:31.705071] Experiment.PerfCost-c046 Processed 28 samples out of 50, 0 errors
+[21:48:47.829305] Experiment.PerfCost-c046 Processed 29 samples out of 50, 0 errors
+[21:49:00.993121] Experiment.PerfCost-c046 Processed 30 samples out of 50, 0 errors
+[21:49:14.161090] Experiment.PerfCost-c046 Processed 31 samples out of 50, 0 errors
+[21:49:30.205788] Experiment.PerfCost-c046 Processed 32 samples out of 50, 0 errors
+[21:49:43.322749] Experiment.PerfCost-c046 Processed 33 samples out of 50, 0 errors
+[21:49:59.403890] Experiment.PerfCost-c046 Processed 34 samples out of 50, 0 errors
+[21:50:12.513653] Experiment.PerfCost-c046 Processed 35 samples out of 50, 0 errors
+[21:50:28.694664] Experiment.PerfCost-c046 Processed 36 samples out of 50, 0 errors
+[21:50:41.925272] Experiment.PerfCost-c046 Processed 37 samples out of 50, 0 errors
+[21:50:55.159165] Experiment.PerfCost-c046 Processed 38 samples out of 50, 0 errors
+[21:51:11.288456] Experiment.PerfCost-c046 Processed 39 samples out of 50, 0 errors
+[21:51:24.559090] Experiment.PerfCost-c046 Processed 40 samples out of 50, 0 errors
+[21:51:37.713816] Experiment.PerfCost-c046 Processed 41 samples out of 50, 0 errors
+[21:51:50.843288] Experiment.PerfCost-c046 Processed 42 samples out of 50, 0 errors
+[21:52:04.031840] Experiment.PerfCost-c046 Processed 43 samples out of 50, 0 errors
+[21:52:23.357238] Experiment.PerfCost-c046 Processed 44 samples out of 50, 0 errors
+[21:52:36.474758] Experiment.PerfCost-c046 Processed 45 samples out of 50, 0 errors
+[21:52:49.656909] Experiment.PerfCost-c046 Processed 46 samples out of 50, 0 errors
+[21:53:02.907379] Experiment.PerfCost-c046 Processed 47 samples out of 50, 0 errors
+[21:53:20.433552] Experiment.PerfCost-c046 Processed 48 samples out of 50, 0 errors
+[21:53:33.614137] Experiment.PerfCost-c046 Processed 49 samples out of 50, 0 errors
+[21:53:46.801122] Experiment.PerfCost-c046 Processed 50 samples out of 50, 0 errors
+[21:53:51.806486] Experiment.PerfCost-c046 Mean 3342.0987200000004 [ms], median 3163.4535 [ms], std 711.772175148707, CV 21.29716189678284
+[21:53:51.807434] Experiment.PerfCost-c046 Parametric CI (Student's t-distribution) 0.95 from 3137.7616146205064 to 3546.4358253794944, within 6.11403559555817% of mean
+[21:53:51.807567] Experiment.PerfCost-c046 Non-parametric CI 0.95 from 3145.557 to 3183.877, within 0.6056671925160297% of median
+[21:53:51.808272] Experiment.PerfCost-c046 Parametric CI (Student's t-distribution) 0.99 from 3069.596542062029 to 3614.6008979379717, within 8.153624436861975% of mean
+[21:53:51.808396] Experiment.PerfCost-c046 Non-parametric CI 0.99 from 3141.615 to 3198.671, within 0.9017992519883734% of median
+[21:53:53.062861] Benchmark-54b1 Update cached config /home/zia/serverless-benchmarks/experiments/perf_cost/aws/cache/aws.json
+Execute benchmark 4_dynamic-html, Python, Concurrent: 25
+[21:53:53.875202] SeBS-140c Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/aws/4_dynamic-html
+[21:53:54.653069] AWS.Resources-b148 Using cached resources for AWS
+[21:53:54.653475] AWS.Config-5707 Using cached config for AWS
+[21:53:54.721451] AWS-e075 Using existing resource name: 3e0b343e.
+[21:53:54.727419] Benchmark-99d2 Using cached benchmark 110.dynamic-html at /home/zia/serverless-benchmarks/experiments/perf_cost/aws/cache/110.dynamic-html/aws/python/3.11/x64/package/110.dynamic-html.zip
+[21:53:54.727922] AWS-e075 Using cached function sebs_3e0b343e_110_dynamic_html_python_3_11_x64 in /home/zia/serverless-benchmarks/experiments/perf_cost/aws/cache/110.dynamic-html/aws/python/3.11/x64/package/110.dynamic-html.zip
+[21:53:54.728264] AWS-e075 Cached function sebs_3e0b343e_110_dynamic_html_python_3_11_x64 is up to date.
+[21:53:54.728593] Experiment.PerfCost-c8c9 Begin experiment on memory size 128
+[21:53:55.476447] AWS-e075 Waiting for Lambda function to be updated...
+[21:53:56.641438] AWS-e075 Lambda function has been updated.
+[21:53:56.641582] AWS-e075 Updated code of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:53:56.842531] AWS-e075 Waiting for Lambda function to be updated...
+[21:54:02.321616] AWS-e075 Lambda function has been updated.
+[21:54:02.321831] AWS-e075 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:54:02.322324] Experiment.PerfCost-c8c9 Begin cold experiments
+[21:54:02.619312] AWS-e075 Waiting for Lambda function to be updated...
+[21:54:03.789849] AWS-e075 Lambda function has been updated.
+[21:54:03.790046] AWS-e075 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:54:03.790115] AWS-e075 Sent function updates enforcing cold starts.
+[21:54:03.790190] AWS-e075 Waiting for Lambda function to be updated...
+[21:54:03.869831] AWS-e075 Lambda function has been updated.
+[21:54:03.870031] AWS-e075 Finished function updates enforcing cold starts.
+[21:54:19.167611] Experiment.PerfCost-c8c9 Processed 0 warm-up samples, ignoring these results.
+[21:54:24.453447] AWS-e075 Waiting for Lambda function to be updated...
+[21:54:25.624854] AWS-e075 Lambda function has been updated.
+[21:54:25.624996] AWS-e075 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:54:25.625135] AWS-e075 Sent function updates enforcing cold starts.
+[21:54:25.625219] AWS-e075 Waiting for Lambda function to be updated...
+[21:54:25.708652] AWS-e075 Lambda function has been updated.
+[21:54:25.708794] AWS-e075 Finished function updates enforcing cold starts.
+[21:54:44.762150] Experiment.PerfCost-c8c9 Processed 25 samples out of 125, 0 errors
+[21:54:50.056164] AWS-e075 Waiting for Lambda function to be updated...
+[21:54:51.221802] AWS-e075 Lambda function has been updated.
+[21:54:51.221966] AWS-e075 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:54:51.222035] AWS-e075 Sent function updates enforcing cold starts.
+[21:54:51.222107] AWS-e075 Waiting for Lambda function to be updated...
+[21:54:51.300193] AWS-e075 Lambda function has been updated.
+[21:54:51.300350] AWS-e075 Finished function updates enforcing cold starts.
+[21:55:08.553869] Experiment.PerfCost-c8c9 Processed 50 samples out of 125, 0 errors
+[21:55:16.810748] AWS-e075 Waiting for Lambda function to be updated...
+[21:55:17.980623] AWS-e075 Lambda function has been updated.
+[21:55:17.980767] AWS-e075 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:55:17.980840] AWS-e075 Sent function updates enforcing cold starts.
+[21:55:17.980911] AWS-e075 Waiting for Lambda function to be updated...
+[21:55:18.061848] AWS-e075 Lambda function has been updated.
+[21:55:18.062047] AWS-e075 Finished function updates enforcing cold starts.
+[21:55:35.437692] Experiment.PerfCost-c8c9 Processed 75 samples out of 125, 0 errors
+[21:55:40.732521] AWS-e075 Waiting for Lambda function to be updated...
+[21:55:41.900591] AWS-e075 Lambda function has been updated.
+[21:55:41.900766] AWS-e075 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:55:41.900846] AWS-e075 Sent function updates enforcing cold starts.
+[21:55:41.900918] AWS-e075 Waiting for Lambda function to be updated...
+[21:55:41.995622] AWS-e075 Lambda function has been updated.
+[21:55:41.995765] AWS-e075 Finished function updates enforcing cold starts.
+[21:56:00.922855] Experiment.PerfCost-c8c9 Processed 100 samples out of 125, 0 errors
+[21:56:06.234775] AWS-e075 Waiting for Lambda function to be updated...
+[21:56:07.431066] AWS-e075 Lambda function has been updated.
+[21:56:07.431214] AWS-e075 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:56:07.431296] AWS-e075 Sent function updates enforcing cold starts.
+[21:56:07.431386] AWS-e075 Waiting for Lambda function to be updated...
+[21:56:07.521138] AWS-e075 Lambda function has been updated.
+[21:56:07.521283] AWS-e075 Finished function updates enforcing cold starts.
+[21:56:26.514494] Experiment.PerfCost-c8c9 Processed 125 samples out of 125, 0 errors
+[21:56:31.517141] Experiment.PerfCost-c8c9 Mean 11438.273464000004 [ms], median 11869.318 [ms], std 1766.3637188094895, CV 15.442572905507243
+[21:56:31.517962] Experiment.PerfCost-c8c9 Parametric CI (Student's t-distribution) 0.95 from 11124.311848577909 to 11752.235079422098, within 2.7448339682578404% of mean
+[21:56:31.518071] Experiment.PerfCost-c8c9 Non-parametric CI 0.95 from 11515.859 to 12062.995, within 2.3048333526829445% of median
+[21:56:31.518557] Experiment.PerfCost-c8c9 Parametric CI (Student's t-distribution) 0.99 from 11023.303202818766 to 11853.24372518124, within 3.627909950634461% of mean
+[21:56:31.518656] Experiment.PerfCost-c8c9 Non-parametric CI 0.99 from 11407.119 to 12088.242, within 2.869259211017851% of median
+[21:56:34.595063] Experiment.PerfCost-c8c9 Begin warm experiments
+[21:56:48.853228] Experiment.PerfCost-c8c9 Processed 0 warm-up samples, ignoring these results.
+[21:57:11.033316] Experiment.PerfCost-c8c9 Processed 25 samples out of 125, 0 errors
+[21:57:33.096625] Experiment.PerfCost-c8c9 Processed 50 samples out of 125, 0 errors
+[21:57:52.264464] Experiment.PerfCost-c8c9 Processed 75 samples out of 125, 0 errors
+[21:58:14.243271] Experiment.PerfCost-c8c9 Processed 100 samples out of 125, 0 errors
+[21:58:33.486738] Experiment.PerfCost-c8c9 Processed 125 samples out of 125, 0 errors
+[21:58:38.487764] Experiment.PerfCost-c8c9 Mean 8832.157104 [ms], median 8580.39 [ms], std 1722.1955185288243, CV 19.499149508435014
+[21:58:38.488764] Experiment.PerfCost-c8c9 Parametric CI (Student's t-distribution) 0.95 from 8526.046147738722 to 9138.268060261278, within 3.465868560271007% of mean
+[21:58:38.488876] Experiment.PerfCost-c8c9 Non-parametric CI 0.95 from 8414.577 to 8699.046, within 1.6576694066353685% of median
+[21:58:38.489494] Experiment.PerfCost-c8c9 Parametric CI (Student's t-distribution) 0.99 from 8427.563238920651 to 9236.750969079349, within 4.580917892596272% of mean
+[21:58:38.489607] Experiment.PerfCost-c8c9 Non-parametric CI 0.99 from 8387.017 to 8778.937, within 2.283812274267254% of median
+[21:58:44.438236] Benchmark-ea73 Update cached config /home/zia/serverless-benchmarks/experiments/perf_cost/aws/cache/aws.json
+Execute benchmark 5_dynamic-html, Python, Burst
+[21:58:45.309438] SeBS-55fa Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/aws/5_dynamic-html
+[21:58:45.994472] AWS.Resources-9bc8 Using cached resources for AWS
+[21:58:45.994816] AWS.Config-258c Using cached config for AWS
+[21:58:46.063510] AWS-5138 Using existing resource name: 3e0b343e.
+[21:58:46.069262] Benchmark-5b5d Using cached benchmark 110.dynamic-html at /home/zia/serverless-benchmarks/experiments/perf_cost/aws/cache/110.dynamic-html/aws/python/3.11/x64/package/110.dynamic-html.zip
+[21:58:46.069708] AWS-5138 Using cached function sebs_3e0b343e_110_dynamic_html_python_3_11_x64 in /home/zia/serverless-benchmarks/experiments/perf_cost/aws/cache/110.dynamic-html/aws/python/3.11/x64/package/110.dynamic-html.zip
+[21:58:46.069972] AWS-5138 Cached function sebs_3e0b343e_110_dynamic_html_python_3_11_x64 is up to date.
+[21:58:46.070198] Experiment.PerfCost-2265 Begin experiment on memory size 128
+[21:58:46.757505] AWS-5138 Waiting for Lambda function to be updated...
+[21:58:47.924253] AWS-5138 Lambda function has been updated.
+[21:58:47.924427] AWS-5138 Updated code of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:58:48.105377] AWS-5138 Waiting for Lambda function to be updated...
+[21:58:49.268106] AWS-5138 Lambda function has been updated.
+[21:58:49.268263] AWS-5138 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:58:49.268756] Experiment.PerfCost-2265 Begin burst experiments
+[21:58:49.562832] AWS-5138 Waiting for Lambda function to be updated...
+[21:58:50.732183] AWS-5138 Lambda function has been updated.
+[21:58:50.732322] AWS-5138 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:58:50.732414] AWS-5138 Sent function updates enforcing cold starts.
+[21:58:50.732498] AWS-5138 Waiting for Lambda function to be updated...
+[21:58:50.815557] AWS-5138 Lambda function has been updated.
+[21:58:50.815699] AWS-5138 Finished function updates enforcing cold starts.
+[21:59:12.659400] Experiment.PerfCost-2265 Processed 0 warm-up samples, ignoring these results.
+[21:59:17.919244] AWS-5138 Waiting for Lambda function to be updated...
+[21:59:19.079636] AWS-5138 Lambda function has been updated.
+[21:59:19.079783] AWS-5138 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:59:19.079850] AWS-5138 Sent function updates enforcing cold starts.
+[21:59:19.079921] AWS-5138 Waiting for Lambda function to be updated...
+[21:59:19.159602] AWS-5138 Lambda function has been updated.
+[21:59:19.159815] AWS-5138 Finished function updates enforcing cold starts.
+[21:59:45.614172] Experiment.PerfCost-2265 Processed 50 samples out of 250, 0 errors
+[21:59:50.911298] AWS-5138 Waiting for Lambda function to be updated...
+[21:59:52.083343] AWS-5138 Lambda function has been updated.
+[21:59:52.083489] AWS-5138 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[21:59:52.083626] AWS-5138 Sent function updates enforcing cold starts.
+[21:59:52.083713] AWS-5138 Waiting for Lambda function to be updated...
+[21:59:52.165676] AWS-5138 Lambda function has been updated.
+[21:59:52.165854] AWS-5138 Finished function updates enforcing cold starts.
+[22:00:17.489097] Experiment.PerfCost-2265 Processed 100 samples out of 250, 0 errors
+[22:00:22.801063] AWS-5138 Waiting for Lambda function to be updated...
+[22:00:23.965704] AWS-5138 Lambda function has been updated.
+[22:00:23.965858] AWS-5138 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[22:00:23.965926] AWS-5138 Sent function updates enforcing cold starts.
+[22:00:23.966057] AWS-5138 Waiting for Lambda function to be updated...
+[22:00:24.044070] AWS-5138 Lambda function has been updated.
+[22:00:24.044215] AWS-5138 Finished function updates enforcing cold starts.
+[22:00:49.246041] Experiment.PerfCost-2265 Processed 150 samples out of 250, 0 errors
+[22:00:54.551382] AWS-5138 Waiting for Lambda function to be updated...
+[22:00:55.728499] AWS-5138 Lambda function has been updated.
+[22:00:55.728652] AWS-5138 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[22:00:55.728763] AWS-5138 Sent function updates enforcing cold starts.
+[22:00:55.728844] AWS-5138 Waiting for Lambda function to be updated...
+[22:00:55.809693] AWS-5138 Lambda function has been updated.
+[22:00:55.809898] AWS-5138 Finished function updates enforcing cold starts.
+[22:01:20.805569] Experiment.PerfCost-2265 Processed 200 samples out of 250, 0 errors
+[22:01:26.097338] AWS-5138 Waiting for Lambda function to be updated...
+[22:01:27.261088] AWS-5138 Lambda function has been updated.
+[22:01:27.261235] AWS-5138 Updated configuration of sebs_3e0b343e_110_dynamic_html_python_3_11_x64 function.
+[22:01:27.261299] AWS-5138 Sent function updates enforcing cold starts.
+[22:01:27.261408] AWS-5138 Waiting for Lambda function to be updated...
+[22:01:27.346188] AWS-5138 Lambda function has been updated.
+[22:01:27.346329] AWS-5138 Finished function updates enforcing cold starts.
+[22:01:49.018315] Experiment.PerfCost-2265 Processed 250 samples out of 250, 0 errors
+[22:01:56.956063] Experiment.PerfCost-2265 Mean 17087.253152 [ms], median 17665.8735 [ms], std 2822.866496885639, CV 16.52030593668142
+[22:01:56.956883] Experiment.PerfCost-2265 Parametric CI (Student's t-distribution) 0.95 from 16734.918968477134 to 17439.58733552287, within 2.0619708761184246% of mean
+[22:01:56.957026] Experiment.PerfCost-2265 Non-parametric CI 0.95 from 17244.012 to 18183.87, within 2.660094899921026% of median
+[22:01:56.957610] Experiment.PerfCost-2265 Parametric CI (Student's t-distribution) 0.99 from 16622.900282022987 to 17551.606021977015, within 2.717539594259849% of mean
+[22:01:56.957711] Experiment.PerfCost-2265 Non-parametric CI 0.99 from 17043.052 to 18389.79, within 3.8116937721760573% of median
+[22:02:03.024962] Benchmark-2770 Update cached config /home/zia/serverless-benchmarks/experiments/perf_cost/aws/cache/aws.json
+Execute benchmark 6_thumbnailer, Python, Concurrent: 50
+[22:02:03.908213] SeBS-6298 Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/aws/6_thumbnailer
+[22:02:04.575616] AWS.Resources-83cc Using cached resources for AWS
+[22:02:04.575966] AWS.Config-5014 Using cached config for AWS
+[22:02:04.648101] AWS-3b89 Using existing resource name: 3e0b343e.
+[22:02:04.656136] AWS.SystemResources-0d4a Initialize S3 storage instance.
+[22:02:04.844958] AWS.S3-2bca Upload /home/zia/serverless-benchmarks/sebs/../benchmarks-data/200.multimedia/210.thumbnailer/7_beach-bird-s-eye-view-coast-2499700.jpg to sebs-benchmarks-3e0b343e
+[22:02:05.289820] AWS.S3-2bca Upload /home/zia/serverless-benchmarks/sebs/../benchmarks-data/200.multimedia/210.thumbnailer/4_altitude-astrology-astronomy-1819650.jpg to sebs-benchmarks-3e0b343e
+[22:02:05.826831] AWS.S3-2bca Upload /home/zia/serverless-benchmarks/sebs/../benchmarks-data/200.multimedia/210.thumbnailer/0_action-adrenaline-adventure-1047051.jpg to sebs-benchmarks-3e0b343e
+[22:02:06.829901] AWS.S3-2bca Upload /home/zia/serverless-benchmarks/sebs/../benchmarks-data/200.multimedia/210.thumbnailer/8_close-up-elder-elderly-2050990.jpg to sebs-benchmarks-3e0b343e
+[22:02:07.719640] AWS.S3-2bca Upload /home/zia/serverless-benchmarks/sebs/../benchmarks-data/200.multimedia/210.thumbnailer/6_astronomy-desktop-wallpaper-evening-1624438.jpg to sebs-benchmarks-3e0b343e
+[22:02:08.150929] AWS.S3-2bca Upload /home/zia/serverless-benchmarks/sebs/../benchmarks-data/200.multimedia/210.thumbnailer/5_asphalt-atmosphere-cloudy-sky-2739010.jpg to sebs-benchmarks-3e0b343e
+[22:02:08.857330] AWS.S3-2bca Upload /home/zia/serverless-benchmarks/sebs/../benchmarks-data/200.multimedia/210.thumbnailer/3_aerial-shot-architecture-bridge-2887493.jpg to sebs-benchmarks-3e0b343e
+[22:02:09.134609] AWS.S3-2bca Upload /home/zia/serverless-benchmarks/sebs/../benchmarks-data/200.multimedia/210.thumbnailer/9_cobblestone-granite-pebbles-1029604.jpg to sebs-benchmarks-3e0b343e
+[22:02:09.969123] AWS.S3-2bca Upload /home/zia/serverless-benchmarks/sebs/../benchmarks-data/200.multimedia/210.thumbnailer/2_aerial-shot-architecture-bird-s-eye-view-2440013.jpg to sebs-benchmarks-3e0b343e
+[22:02:10.640734] AWS.S3-2bca Upload /home/zia/serverless-benchmarks/sebs/../benchmarks-data/200.multimedia/210.thumbnailer/1_adult-adventure-back-view-2819546.jpg to sebs-benchmarks-3e0b343e
+[22:02:10.948438] Benchmark-df6f Building benchmark 210.thumbnailer. Reason: no cached code package.
+[22:02:10.954141] Benchmark-df6f Docker build of benchmark dependencies in container of image spcleth/serverless-benchmarks:build.aws.python.3.11-1.2.0
+[22:02:10.954260] Benchmark-df6f Docker mount of benchmark code from path /home/zia/serverless-benchmarks/experiments/perf_cost/aws/6_thumbnailer/210.thumbnailer_code/python/3.11/x64/package
+[22:02:14.819369] AWS-3b89 Created /home/zia/serverless-benchmarks/experiments/perf_cost/aws/6_thumbnailer/210.thumbnailer_code/python/3.11/x64/package/210.thumbnailer.zip archive
+[22:02:14.819537] AWS-3b89 Zip archive size 4.808820 MB
+[22:02:14.820173] Benchmark-df6f Created code package (source hash: 9adc50f18ca9cfa4adeb504e4c121660), for run on aws with python:3.11
+[22:02:14.823090] AWS-3b89 Creating new function! Reason: function sebs_3e0b343e_210_thumbnailer_python_3_11_x64 not found in cache.
+[22:02:14.987685] AWS-3b89 Creating function sebs_3e0b343e_210_thumbnailer_python_3_11_x64 from /home/zia/serverless-benchmarks/experiments/perf_cost/aws/cache/210.thumbnailer/aws/python/3.11/x64/package/210.thumbnailer.zip
+[22:02:16.516964] AWS-3b89 Waiting for Lambda function to be created...
+[22:02:19.826888] AWS-3b89 Lambda function has been created.
+[22:02:19.998224] AWS-3b89 Waiting for Lambda function to be updated...
+[22:02:21.137930] AWS-3b89 Lambda function has been updated.
+[22:02:21.138141] AWS-3b89 Updated configuration of sebs_3e0b343e_210_thumbnailer_python_3_11_x64 function.
+[22:02:21.391789] AWS.Resources-83cc Creating HTTP API sebs_3e0b343e_210_thumbnailer_python_3_11_x64-http-api
+[22:02:22.443961] AWS-3b89 Created HTTP trigger for sebs_3e0b343e_210_thumbnailer_python_3_11_x64 function. Sleep 5 seconds to avoid cloud errors.
+[22:02:27.446529] Experiment.PerfCost-d578 Begin experiment on memory size 128
+[22:02:31.767359] AWS-3b89 Waiting for Lambda function to be updated...
+[22:02:32.912674] AWS-3b89 Lambda function has been updated.
+[22:02:32.912815] AWS-3b89 Updated code of sebs_3e0b343e_210_thumbnailer_python_3_11_x64 function.
+[22:02:33.089915] AWS-3b89 Waiting for Lambda function to be updated...
+[22:02:34.228811] AWS-3b89 Lambda function has been updated.
+[22:02:34.228999] AWS-3b89 Updated configuration of sebs_3e0b343e_210_thumbnailer_python_3_11_x64 function.
+[22:02:34.229591] Experiment.PerfCost-d578 Begin cold experiments
+[22:02:34.547651] AWS-3b89 Waiting for Lambda function to be updated...
+[22:02:35.714579] AWS-3b89 Lambda function has been updated.
+[22:02:35.714718] AWS-3b89 Updated configuration of sebs_3e0b343e_210_thumbnailer_python_3_11_x64 function.
+[22:02:35.714782] AWS-3b89 Sent function updates enforcing cold starts.
+[22:02:35.714896] AWS-3b89 Waiting for Lambda function to be updated...
+[22:02:35.796089] AWS-3b89 Lambda function has been updated.
+[22:02:35.796266] AWS-3b89 Finished function updates enforcing cold starts.
+[22:02:49.305985] Experiment.PerfCost-d578 Processed 0 warm-up samples, ignoring these results.
+[22:02:54.649218] AWS-3b89 Waiting for Lambda function to be updated...
+[22:02:55.834491] AWS-3b89 Lambda function has been updated.
+[22:02:55.834635] AWS-3b89 Updated configuration of sebs_3e0b343e_210_thumbnailer_python_3_11_x64 function.
+[22:02:55.834718] AWS-3b89 Sent function updates enforcing cold starts.
+[22:02:55.834776] AWS-3b89 Waiting for Lambda function to be updated...
+[22:02:55.915180] AWS-3b89 Lambda function has been updated.
+[22:02:55.915337] AWS-3b89 Finished function updates enforcing cold starts.
+[22:03:09.645514] Experiment.PerfCost-d578 Processed 50 samples out of 250, 0 errors
+[22:03:14.930333] AWS-3b89 Waiting for Lambda function to be updated...
+[22:03:16.093543] AWS-3b89 Lambda function has been updated.
+[22:03:16.093686] AWS-3b89 Updated configuration of sebs_3e0b343e_210_thumbnailer_python_3_11_x64 function.
+[22:03:16.093770] AWS-3b89 Sent function updates enforcing cold starts.
+[22:03:16.093880] AWS-3b89 Waiting for Lambda function to be updated...
+[22:03:16.176635] AWS-3b89 Lambda function has been updated.
+[22:03:16.176780] AWS-3b89 Finished function updates enforcing cold starts.
+[22:03:34.136337] Experiment.PerfCost-d578 Processed 100 samples out of 250, 0 errors
+[22:03:39.412452] AWS-3b89 Waiting for Lambda function to be updated...
+[22:03:40.595273] AWS-3b89 Lambda function has been updated.
+[22:03:40.595423] AWS-3b89 Updated configuration of sebs_3e0b343e_210_thumbnailer_python_3_11_x64 function.
+[22:03:40.595510] AWS-3b89 Sent function updates enforcing cold starts.
+[22:03:40.595575] AWS-3b89 Waiting for Lambda function to be updated...
+[22:03:40.675289] AWS-3b89 Lambda function has been updated.
+[22:03:40.675433] AWS-3b89 Finished function updates enforcing cold starts.
+[22:03:54.204444] Experiment.PerfCost-d578 Processed 150 samples out of 250, 0 errors
+[22:04:02.429679] AWS-3b89 Waiting for Lambda function to be updated...
+[22:04:03.595328] AWS-3b89 Lambda function has been updated.
+[22:04:03.595487] AWS-3b89 Updated configuration of sebs_3e0b343e_210_thumbnailer_python_3_11_x64 function.
+[22:04:03.595563] AWS-3b89 Sent function updates enforcing cold starts.
+[22:04:03.595636] AWS-3b89 Waiting for Lambda function to be updated...
+[22:04:03.676209] AWS-3b89 Lambda function has been updated.
+[22:04:03.676371] AWS-3b89 Finished function updates enforcing cold starts.
+[22:04:17.441231] Experiment.PerfCost-d578 Processed 200 samples out of 250, 0 errors
+[22:04:22.735979] AWS-3b89 Waiting for Lambda function to be updated...
+[22:04:23.901938] AWS-3b89 Lambda function has been updated.
+[22:04:23.902086] AWS-3b89 Updated configuration of sebs_3e0b343e_210_thumbnailer_python_3_11_x64 function.
+[22:04:23.902169] AWS-3b89 Sent function updates enforcing cold starts.
+[22:04:23.902242] AWS-3b89 Waiting for Lambda function to be updated...
+[22:04:23.984087] AWS-3b89 Lambda function has been updated.
+[22:04:23.984233] AWS-3b89 Finished function updates enforcing cold starts.
+[22:04:40.492570] Experiment.PerfCost-d578 Processed 250 samples out of 250, 0 errors
+[22:04:45.494220] Experiment.PerfCost-d578 Mean 8605.00394 [ms], median 8093.381 [ms], std 1195.1434082558997, CV 13.888935049760123
+[22:04:45.495257] Experiment.PerfCost-d578 Parametric CI (Student's t-distribution) 0.95 from 8455.832919193614 to 8754.174960806387, within 1.733538088378689% of mean
+[22:04:45.495402] Experiment.PerfCost-d578 Non-parametric CI 0.95 from 8061.257 to 8124.81, within 0.39262330538992785% of median
+[22:04:45.496064] Experiment.PerfCost-d578 Parametric CI (Student's t-distribution) 0.99 from 8408.406519516244 to 8801.601360483757, within 2.2846871640567388% of mean
+[22:04:45.496244] Experiment.PerfCost-d578 Non-parametric CI 0.99 from 8047.913 to 8139.253, within 0.5642882745789438% of median
+[22:04:45.526061] Experiment.PerfCost-d578 Begin warm experiments
+[22:04:51.796040] Experiment.PerfCost-d578 Processed 0 warm-up samples, ignoring these results.
+[22:05:03.061143] Experiment.PerfCost-d578 Processed 50 samples out of 250, 0 errors
+[22:05:17.218160] Experiment.PerfCost-d578 Processed 100 samples out of 250, 0 errors
+[22:05:29.316866] Experiment.PerfCost-d578 Processed 150 samples out of 250, 0 errors
+[22:05:43.472754] Experiment.PerfCost-d578 Processed 200 samples out of 250, 0 errors
+[22:05:54.745738] Experiment.PerfCost-d578 Processed 250 samples out of 250, 0 errors
+[22:05:59.748211] Experiment.PerfCost-d578 Mean 1763.486348 [ms], median 1197.3829999999998 [ms], std 1166.4157600006727, CV 66.14260219953077
+[22:05:59.749194] Experiment.PerfCost-d578 Parametric CI (Student's t-distribution) 0.95 from 1617.90094929218 to 1909.0717467078198, within 8.255544414785563% of mean
+[22:05:59.749390] Experiment.PerfCost-d578 Non-parametric CI 0.95 from 1189.391 to 1205.983, within 0.6928443113022263% of median
+[22:05:59.750105] Experiment.PerfCost-d578 Parametric CI (Student's t-distribution) 0.99 from 1571.6145374342896 to 1955.3581585657103, within 10.880254944038294% of mean
+[22:05:59.750275] Experiment.PerfCost-d578 Non-parametric CI 0.99 from 1186.573 to 1209.474, within 0.9562938508396998% of median
+[22:05:59.781757] Benchmark-6a3a Update cached config /home/zia/serverless-benchmarks/experiments/perf_cost/aws/cache/aws.json
+Execute benchmark 7_thumbnailer, Node.js, Concurrent: 50
+[22:06:00.632311] SeBS-bbd3 Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/aws/7_thumbnailer
+[22:06:01.271785] AWS.Resources-b26e Using cached resources for AWS
+[22:06:01.272127] AWS.Config-db59 Using cached config for AWS
+[22:06:01.347093] AWS-608d Using existing resource name: 3e0b343e.
+[22:06:01.354451] AWS.SystemResources-1be6 Initialize S3 storage instance.
+ERROR:root:Unsupported nodejs version 16.x in aws!
+Traceback (most recent call last):
+  File "/home/zia/serverless-benchmarks/experiments/perf_cost/aws/../../../sebs.py", line 31, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/zia/serverless-benchmarks/python-venv/lib/python3.10/site-packages/click/core.py", line 1082, in main
+    rv = self.invoke(ctx)
+  File "/home/zia/serverless-benchmarks/python-venv/lib/python3.10/site-packages/click/core.py", line 1697, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/zia/serverless-benchmarks/python-venv/lib/python3.10/site-packages/click/core.py", line 1697, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/zia/serverless-benchmarks/python-venv/lib/python3.10/site-packages/click/core.py", line 1443, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/zia/serverless-benchmarks/python-venv/lib/python3.10/site-packages/click/core.py", line 788, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/zia/serverless-benchmarks/experiments/perf_cost/aws/../../../sebs.py", line 73, in wrapper
+    return func(*args, **kwargs)
+  File "/home/zia/serverless-benchmarks/experiments/perf_cost/aws/../../../sebs.py", line 116, in wrapper
+    return func(*args, **kwargs)
+  File "/home/zia/serverless-benchmarks/experiments/perf_cost/aws/../../../sebs.py", line 594, in experiment_invoke
+    experiment.prepare(sebs_client, deployment_client)
+  File "/home/zia/serverless-benchmarks/sebs/experiments/perf_cost.py", line 57, in prepare
+    self._function = deployment_client.get_function(self._benchmark)
+  File "/home/zia/serverless-benchmarks/sebs/faas/system.py", line 254, in get_function
+    raise Exception(
+Exception: Unsupported nodejs version 16.x in aws!
+[22:06:01.379141] Benchmark-9cdb Update cached config /home/zia/serverless-benchmarks/experiments/perf_cost/aws/cache/aws.json
+(python-venv) zia@Zia:~/serverless-benchmarks/experiments/perf_cost/aws$ echo "Execute benchmark 2_dynamic-html, Node.js, Concurrent: 50"
+../../../sebs.py experiment invoke perf-cost --config 2_dynamic-html.json --output-dir 2_dynamic-html --output-file run.log
+Execute benchmark 2_dynamic-html, Node.js, Concurrent: 50
+[22:26:29.410069] SeBS-1c3c Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/aws/2_dynamic-html
+[22:26:30.184424] AWS.Resources-e4e0 Using cached resources for AWS
+[22:26:30.184771] AWS.Config-ae4c Using cached config for AWS
+[22:26:30.253876] AWS-1210 Using existing resource name: 3e0b343e.
+[22:26:30.259241] Benchmark-3487 Building benchmark 110.dynamic-html. Reason: no cached code package.
+[22:26:30.270118] Benchmark-3487 Docker build of benchmark dependencies in container of image spcleth/serverless-benchmarks:build.aws.nodejs.16-1.2.0
+[22:26:30.270291] Benchmark-3487 Docker mount of benchmark code from path /home/zia/serverless-benchmarks/experiments/perf_cost/aws/2_dynamic-html/110.dynamic-html_code/nodejs/16/x64/package
+[22:26:31.957334] AWS-1210 Created /home/zia/serverless-benchmarks/experiments/perf_cost/aws/2_dynamic-html/110.dynamic-html_code/nodejs/16/x64/package/110.dynamic-html.zip archive
+[22:26:31.957479] AWS-1210 Zip archive size 0.061261 MB
+[22:26:31.957900] Benchmark-3487 Created code package (source hash: e24104f4dbb49102ff345288854228d5), for run on aws with nodejs:16
+[22:26:31.959029] AWS-1210 Creating new function! Reason: function sebs_3e0b343e_110_dynamic_html_nodejs_16_x64 not found in cache.
+[22:26:32.194444] AWS-1210 Creating function sebs_3e0b343e_110_dynamic_html_nodejs_16_x64 from /home/zia/serverless-benchmarks/experiments/perf_cost/aws/cache/110.dynamic-html/aws/nodejs/16/x64/package/110.dynamic-html.zip
+[22:26:32.565130] AWS-1210 Waiting for Lambda function to be created...
+[22:26:33.697602] AWS-1210 Lambda function has been created.
+[22:26:33.868525] AWS-1210 Waiting for Lambda function to be updated...
+[22:26:35.046991] AWS-1210 Lambda function has been updated.
+[22:26:35.047134] AWS-1210 Updated configuration of sebs_3e0b343e_110_dynamic_html_nodejs_16_x64 function.
+[22:26:35.249565] AWS.Resources-e4e0 Creating HTTP API sebs_3e0b343e_110_dynamic_html_nodejs_16_x64-http-api
+[22:26:36.017755] AWS-1210 Created HTTP trigger for sebs_3e0b343e_110_dynamic_html_nodejs_16_x64 function. Sleep 5 seconds to avoid cloud errors.
+[22:26:41.021882] Experiment.PerfCost-1db5 Begin experiment on memory size 128
+[22:26:47.495513] AWS-1210 Waiting for Lambda function to be updated...
+[22:26:48.631757] AWS-1210 Lambda function has been updated.
+[22:26:48.631894] AWS-1210 Updated code of sebs_3e0b343e_110_dynamic_html_nodejs_16_x64 function.
+[22:26:48.838561] AWS-1210 Waiting for Lambda function to be updated...
+[22:26:50.037697] AWS-1210 Lambda function has been updated.
+[22:26:50.037850] AWS-1210 Updated configuration of sebs_3e0b343e_110_dynamic_html_nodejs_16_x64 function.
+[22:26:50.038305] Experiment.PerfCost-1db5 Begin cold experiments
+[22:26:50.345502] AWS-1210 Waiting for Lambda function to be updated...
+[22:26:51.566911] AWS-1210 Lambda function has been updated.
+[22:26:51.567067] AWS-1210 Updated configuration of sebs_3e0b343e_110_dynamic_html_nodejs_16_x64 function.
+[22:26:51.567154] AWS-1210 Sent function updates enforcing cold starts.
+[22:26:51.567210] AWS-1210 Waiting for Lambda function to be updated...
+[22:26:51.683789] AWS-1210 Lambda function has been updated.
+[22:26:51.683936] AWS-1210 Finished function updates enforcing cold starts.
+[22:27:07.618075] Experiment.PerfCost-1db5 Processed 0 warm-up samples, ignoring these results.
+[22:27:12.948762] AWS-1210 Waiting for Lambda function to be updated...
+[22:27:14.109927] AWS-1210 Lambda function has been updated.
+[22:27:14.110071] AWS-1210 Updated configuration of sebs_3e0b343e_110_dynamic_html_nodejs_16_x64 function.
+[22:27:14.110137] AWS-1210 Sent function updates enforcing cold starts.
+[22:27:14.110233] AWS-1210 Waiting for Lambda function to be updated...
+[22:27:14.190426] AWS-1210 Lambda function has been updated.
+[22:27:14.190567] AWS-1210 Finished function updates enforcing cold starts.
+[22:27:33.079125] Experiment.PerfCost-1db5 Processed 50 samples out of 250, 0 errors
+[22:27:38.369340] AWS-1210 Waiting for Lambda function to be updated...
+[22:27:39.537681] AWS-1210 Lambda function has been updated.
+[22:27:39.537837] AWS-1210 Updated configuration of sebs_3e0b343e_110_dynamic_html_nodejs_16_x64 function.
+[22:27:39.537908] AWS-1210 Sent function updates enforcing cold starts.
+[22:27:39.537969] AWS-1210 Waiting for Lambda function to be updated...
+[22:27:39.631681] AWS-1210 Lambda function has been updated.
+[22:27:39.631827] AWS-1210 Finished function updates enforcing cold starts.
+[22:27:58.758858] Experiment.PerfCost-1db5 Processed 100 samples out of 250, 0 errors
+[22:28:04.036983] AWS-1210 Waiting for Lambda function to be updated...
+[22:28:05.200589] AWS-1210 Lambda function has been updated.
+[22:28:05.200728] AWS-1210 Updated configuration of sebs_3e0b343e_110_dynamic_html_nodejs_16_x64 function.
+[22:28:05.200797] AWS-1210 Sent function updates enforcing cold starts.
+[22:28:05.200870] AWS-1210 Waiting for Lambda function to be updated...
+[22:28:05.284682] AWS-1210 Lambda function has been updated.
+[22:28:05.284832] AWS-1210 Finished function updates enforcing cold starts.
+[22:28:21.141647] Experiment.PerfCost-1db5 Processed 150 samples out of 250, 0 errors
+[22:28:26.428615] AWS-1210 Waiting for Lambda function to be updated...
+[22:28:27.643756] AWS-1210 Lambda function has been updated.
+[22:28:27.643902] AWS-1210 Updated configuration of sebs_3e0b343e_110_dynamic_html_nodejs_16_x64 function.
+[22:28:27.643970] AWS-1210 Sent function updates enforcing cold starts.
+[22:28:27.644053] AWS-1210 Waiting for Lambda function to be updated...
+[22:28:27.728616] AWS-1210 Lambda function has been updated.
+[22:28:27.728764] AWS-1210 Finished function updates enforcing cold starts.
+[22:28:43.930471] Experiment.PerfCost-1db5 Processed 200 samples out of 250, 0 errors
+[22:28:53.538907] AWS-1210 Waiting for Lambda function to be updated...
+[22:28:54.696043] AWS-1210 Lambda function has been updated.
+[22:28:54.696191] AWS-1210 Updated configuration of sebs_3e0b343e_110_dynamic_html_nodejs_16_x64 function.
+[22:28:54.696259] AWS-1210 Sent function updates enforcing cold starts.
+[22:28:54.696331] AWS-1210 Waiting for Lambda function to be updated...
+[22:28:54.776378] AWS-1210 Lambda function has been updated.
+[22:28:54.776526] AWS-1210 Finished function updates enforcing cold starts.
+[22:29:10.780615] Experiment.PerfCost-1db5 Processed 250 samples out of 250, 0 errors
+[22:29:15.782224] Experiment.PerfCost-1db5 Mean 10553.3676 [ms], median 10280.6795 [ms], std 1641.200062873935, CV 15.55143462333232
+[22:29:15.783035] Experiment.PerfCost-1db5 Parametric CI (Student's t-distribution) 0.95 from 10348.522317806057 to 10758.212882193942, within 1.9410418546772% of mean
+[22:29:15.783156] Experiment.PerfCost-1db5 Non-parametric CI 0.95 from 10074.666 to 10426.685, within 1.7120415046495723% of median
+[22:29:15.783735] Experiment.PerfCost-1db5 Parametric CI (Student's t-distribution) 0.99 from 10283.395229630109 to 10823.33997036989, within 2.558163238527681% of mean
+[22:29:15.783840] Experiment.PerfCost-1db5 Non-parametric CI 0.99 from 10051.962 to 10456.868, within 1.9692569931783246% of median
+[22:29:19.571534] Experiment.PerfCost-1db5 Begin warm experiments
+[22:29:37.316489] Experiment.PerfCost-1db5 Processed 0 warm-up samples, ignoring these results.
+[22:30:00.603077] Experiment.PerfCost-1db5 Processed 50 samples out of 250, 0 errors
+[22:30:20.176445] Experiment.PerfCost-1db5 Processed 100 samples out of 250, 0 errors
+[22:30:42.535578] Experiment.PerfCost-1db5 Processed 150 samples out of 250, 0 errors
+[22:31:02.188298] Experiment.PerfCost-1db5 Processed 200 samples out of 250, 0 errors
+[22:31:24.885026] Experiment.PerfCost-1db5 Processed 250 samples out of 250, 0 errors
+[22:31:29.889891] Experiment.PerfCost-1db5 Mean 8969.416315999999 [ms], median 8891.949499999999 [ms], std 1818.962223073902, CV 20.279605260703143
+[22:31:29.890694] Experiment.PerfCost-1db5 Parametric CI (Student's t-distribution) 0.95 from 8742.383769319968 to 9196.44886268003, within 2.53118529323967% of mean
+[22:31:29.890815] Experiment.PerfCost-1db5 Non-parametric CI 0.95 from 8669.033 to 8999.667, within 1.85917610080894% of median
+[22:31:29.891359] Experiment.PerfCost-1db5 Parametric CI (Student's t-distribution) 0.99 from 8670.202616168288 to 9268.63001583171, within 3.3359327886025514% of mean
+[22:31:29.891475] Experiment.PerfCost-1db5 Non-parametric CI 0.99 from 8607.959 to 9066.783, within 2.5799966587754395% of median
+[22:31:33.384419] Benchmark-e0c9 Update cached config /home/zia/serverless-benchmarks/experiments/perf_cost/aws/cache/aws.json
+(python-venv) zia@Zia:~/serverless-benchmarks/experiments/perf_cost/aws$ echo "Execute benchmark 7_thumbnailer, Node.js, Concurrent: 50"
+../../../sebs.py experiment invoke perf-cost --config 7_thumbnailer.json --output-dir 7_thumbnailer --output-file run.log
+Execute benchmark 7_thumbnailer, Node.js, Concurrent: 50
+[22:31:59.619192] SeBS-30c5 Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/aws/7_thumbnailer
+[22:32:00.277559] AWS.Resources-a4bf Using cached resources for AWS
+[22:32:00.277903] AWS.Config-a389 Using cached config for AWS
+[22:32:00.344810] AWS-a51c Using existing resource name: 3e0b343e.
+[22:32:00.350139] AWS.SystemResources-c28a Initialize S3 storage instance.
+[22:32:00.371456] Benchmark-a627 Building benchmark 210.thumbnailer. Reason: no cached code package.
+[22:32:00.374783] Benchmark-a627 Docker build of benchmark dependencies in container of image spcleth/serverless-benchmarks:build.aws.nodejs.16-1.2.0
+[22:32:00.374901] Benchmark-a627 Docker mount of benchmark code from path /home/zia/serverless-benchmarks/experiments/perf_cost/aws/7_thumbnailer/210.thumbnailer_code/nodejs/16/x64/package
+[22:32:06.817128] AWS-a51c Created /home/zia/serverless-benchmarks/experiments/perf_cost/aws/7_thumbnailer/210.thumbnailer_code/nodejs/16/x64/package/210.thumbnailer.zip archive
+[22:32:06.817303] AWS-a51c Zip archive size 8.060721 MB
+[22:32:06.817967] Benchmark-a627 Created code package (source hash: 6fab797cc4d9991dbd7cbb4355e832a7), for run on aws with nodejs:16
+[22:32:06.822185] AWS-a51c Creating new function! Reason: function sebs_3e0b343e_210_thumbnailer_nodejs_16_x64 not found in cache.
+[22:32:07.006207] AWS-a51c Creating function sebs_3e0b343e_210_thumbnailer_nodejs_16_x64 from /home/zia/serverless-benchmarks/experiments/perf_cost/aws/cache/210.thumbnailer/aws/nodejs/16/x64/package/210.thumbnailer.zip
+[22:32:09.150036] AWS-a51c Waiting for Lambda function to be created...
+[22:32:12.497117] AWS-a51c Lambda function has been created.
+[22:32:12.671805] AWS-a51c Waiting for Lambda function to be updated...
+[22:32:13.812318] AWS-a51c Lambda function has been updated.
+[22:32:13.812509] AWS-a51c Updated configuration of sebs_3e0b343e_210_thumbnailer_nodejs_16_x64 function.
+[22:32:14.017440] AWS.Resources-a4bf Creating HTTP API sebs_3e0b343e_210_thumbnailer_nodejs_16_x64-http-api
+[22:32:15.290507] AWS-a51c Created HTTP trigger for sebs_3e0b343e_210_thumbnailer_nodejs_16_x64 function. Sleep 5 seconds to avoid cloud errors.
+[22:32:23.227557] Experiment.PerfCost-93a2 Begin experiment on memory size 128
+[22:32:25.199398] AWS-a51c Waiting for Lambda function to be updated...
+[22:32:26.332013] AWS-a51c Lambda function has been updated.
+[22:32:26.332151] AWS-a51c Updated code of sebs_3e0b343e_210_thumbnailer_nodejs_16_x64 function.
+[22:32:26.531429] AWS-a51c Waiting for Lambda function to be updated...
+[22:32:27.668735] AWS-a51c Lambda function has been updated.
+[22:32:27.668884] AWS-a51c Updated configuration of sebs_3e0b343e_210_thumbnailer_nodejs_16_x64 function.
+[22:32:27.669346] Experiment.PerfCost-93a2 Begin cold experiments
+[22:32:27.966973] AWS-a51c Waiting for Lambda function to be updated...
+[22:32:29.130341] AWS-a51c Lambda function has been updated.
+[22:32:29.130510] AWS-a51c Updated configuration of sebs_3e0b343e_210_thumbnailer_nodejs_16_x64 function.
+[22:32:29.130608] AWS-a51c Sent function updates enforcing cold starts.
+[22:32:29.130697] AWS-a51c Waiting for Lambda function to be updated...
+[22:32:29.208425] AWS-a51c Lambda function has been updated.
+[22:32:29.208612] AWS-a51c Finished function updates enforcing cold starts.
+[22:32:45.840634] Experiment.PerfCost-93a2 Processed 0 warm-up samples, ignoring these results.
+[22:32:51.121664] AWS-a51c Waiting for Lambda function to be updated...
+[22:32:52.322531] AWS-a51c Lambda function has been updated.
+[22:32:52.322685] AWS-a51c Updated configuration of sebs_3e0b343e_210_thumbnailer_nodejs_16_x64 function.
+[22:32:52.322760] AWS-a51c Sent function updates enforcing cold starts.
+[22:32:52.322840] AWS-a51c Waiting for Lambda function to be updated...
+[22:32:52.441260] AWS-a51c Lambda function has been updated.
+[22:32:52.441408] AWS-a51c Finished function updates enforcing cold starts.
+[22:33:11.692337] Experiment.PerfCost-93a2 Processed 50 samples out of 250, 0 errors
+[22:33:16.989520] AWS-a51c Waiting for Lambda function to be updated...
+[22:33:18.168385] AWS-a51c Lambda function has been updated.
+[22:33:18.168536] AWS-a51c Updated configuration of sebs_3e0b343e_210_thumbnailer_nodejs_16_x64 function.
+[22:33:18.168605] AWS-a51c Sent function updates enforcing cold starts.
+[22:33:18.168663] AWS-a51c Waiting for Lambda function to be updated...
+[22:33:18.312225] AWS-a51c Lambda function has been updated.
+[22:33:18.312376] AWS-a51c Finished function updates enforcing cold starts.
+[22:33:37.531989] Experiment.PerfCost-93a2 Processed 100 samples out of 250, 0 errors
+[22:33:42.819201] AWS-a51c Waiting for Lambda function to be updated...
+[22:33:43.986448] AWS-a51c Lambda function has been updated.
+[22:33:43.986599] AWS-a51c Updated configuration of sebs_3e0b343e_210_thumbnailer_nodejs_16_x64 function.
+[22:33:43.986668] AWS-a51c Sent function updates enforcing cold starts.
+[22:33:43.986740] AWS-a51c Waiting for Lambda function to be updated...
+[22:33:44.066554] AWS-a51c Lambda function has been updated.
+[22:33:44.066728] AWS-a51c Finished function updates enforcing cold starts.
+[22:34:00.282817] Experiment.PerfCost-93a2 Processed 150 samples out of 250, 0 errors
+[22:34:08.527056] AWS-a51c Waiting for Lambda function to be updated...
+[22:34:09.695522] AWS-a51c Lambda function has been updated.
+[22:34:09.695668] AWS-a51c Updated configuration of sebs_3e0b343e_210_thumbnailer_nodejs_16_x64 function.
+[22:34:09.695757] AWS-a51c Sent function updates enforcing cold starts.
+[22:34:09.695923] AWS-a51c Waiting for Lambda function to be updated...
+[22:34:09.774749] AWS-a51c Lambda function has been updated.
+[22:34:09.774899] AWS-a51c Finished function updates enforcing cold starts.
+[22:34:26.397193] Experiment.PerfCost-93a2 Processed 200 samples out of 250, 0 errors
+[22:34:31.694715] AWS-a51c Waiting for Lambda function to be updated...
+[22:34:32.900721] AWS-a51c Lambda function has been updated.
+[22:34:32.900870] AWS-a51c Updated configuration of sebs_3e0b343e_210_thumbnailer_nodejs_16_x64 function.
+[22:34:32.900936] AWS-a51c Sent function updates enforcing cold starts.
+[22:34:32.901015] AWS-a51c Waiting for Lambda function to be updated...
+[22:34:32.982485] AWS-a51c Lambda function has been updated.
+[22:34:32.982688] AWS-a51c Finished function updates enforcing cold starts.
+[22:34:49.626667] Experiment.PerfCost-93a2 Processed 250 samples out of 250, 0 errors
+[22:34:58.950816] Experiment.PerfCost-93a2 Mean 11034.885124000002 [ms], median 10636.581 [ms], std 1236.1040718728163, CV 11.20178468540998
+[22:34:58.951800] Experiment.PerfCost-93a2 Parametric CI (Student's t-distribution) 0.95 from 10880.601625508983 to 11189.16862249102, within 1.3981432226735582% of mean
+[22:34:58.951918] Experiment.PerfCost-93a2 Non-parametric CI 0.95 from 10544.533 to 10708.074, within 0.7687667681936567% of median
+[22:34:58.952596] Experiment.PerfCost-93a2 Parametric CI (Student's t-distribution) 0.99 from 10831.549800137653 to 11238.220447862352, within 1.8426591811101978% of mean
+[22:34:58.952721] Experiment.PerfCost-93a2 Non-parametric CI 0.99 from 10534.074 to 10728.786, within 0.915294115656147% of median
+[22:34:58.978327] Experiment.PerfCost-93a2 Begin warm experiments
+[22:35:05.999235] Experiment.PerfCost-93a2 Processed 0 warm-up samples, ignoring these results.
+[22:35:18.077388] Experiment.PerfCost-93a2 Processed 50 samples out of 250, 0 errors
+[22:35:30.112633] Experiment.PerfCost-93a2 Processed 100 samples out of 250, 0 errors
+[22:35:45.067652] Experiment.PerfCost-93a2 Processed 150 samples out of 250, 0 errors
+[22:35:57.022723] Experiment.PerfCost-93a2 Processed 200 samples out of 250, 0 errors
+[22:36:11.849252] Experiment.PerfCost-93a2 Processed 250 samples out of 250, 0 errors
+[22:36:16.853759] Experiment.PerfCost-93a2 Mean 1574.0121159999999 [ms], median 1536.8780000000002 [ms], std 163.12093452274772, CV 10.363384936151771
+[22:36:16.854757] Experiment.PerfCost-93a2 Parametric CI (Student's t-distribution) 0.95 from 1553.6522862510665 to 1594.3719457489333, within 1.2934989217664579% of mean
+[22:36:16.854912] Experiment.PerfCost-93a2 Non-parametric CI 0.95 from 1524.732 to 1546.084, within 0.6946550084001492% of median
+[22:36:16.855580] Experiment.PerfCost-93a2 Parametric CI (Student's t-distribution) 0.99 from 1547.1792232002385 to 1600.8450087997612, within 1.704744997004924% of mean
+[22:36:16.855751] Experiment.PerfCost-93a2 Non-parametric CI 0.99 from 1517.114 to 1547.806, within 0.9985177743451336% of median
+[22:36:16.882029] Benchmark-3315 Update cached config /home/zia/serverless-benchmarks/experiments/perf_cost/aws/cache/aws.json
+(python-venv) zia@Zia:~/serverless-benchmarks/experiments/perf_cost/aws$
