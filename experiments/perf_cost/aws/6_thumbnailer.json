@@ -1,0 +1,36 @@
+{
+  "experiments": {
+    "deployment": "aws",
+    "update_code": false,
+    "update_storage": false,
+    "download_results": false,
+    "architecture": "x64",
+    "container_deployment": false,
+    "runtime": {
+      "language": "python",
+      "version": "3.11"
+    },
+    "type": "perf-cost",
+    "perf-cost": {
+      "benchmark": "210.thumbnailer",
+      "experiments": ["cold", "warm"],
+      "input-size": "large",
+      "repetitions": 250,
+      "concurrent-invocations": 50,
+      "memory-sizes": [128]
+    },
+    "eviction-model": {
+      "invocations": 1,
+      "function_copy_idx": 0,
+      "repetitions": 5,
+      "sleep": 1
+    }
+  },
+  "deployment": {
+    "name": "aws",
+    "aws": {
+      "region": "eu-central-1",
+      "lambda-role": ""
+    }
+  }
+}
