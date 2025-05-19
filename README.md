@@ -1,5 +1,8 @@
-## Benchmark configs
-change the settings if needed and push the changes.
+## Benchmark Configs II142X
+This repo contains the configs used with SeBS, also result of experiments.
+
+### To run all selected experiments for a provider
+Copy the "experiments" folder to your SeBS root directory, then run the scripts under each provider.
 
 ### Command used to run the experiment:
 ```bash
