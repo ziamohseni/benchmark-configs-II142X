@@ -1,0 +1,97 @@
+(python-venv) zia@Zia:~/serverless-benchmarks/experiments/perf_cost/gcp$ ./process.sh
+**** Processing results for GCP with perf-cost ****
+Process benchmark 1_dynamic-html, Python, Concurrent: 50
+[00:43:44.678407] SeBS-cfcb Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/gcp/1_dynamic-html
+[00:43:44.883848] GCPResources-5203 Using cached resources for GCP
+[00:43:44.884034] GCPConfig-f1c7 Loading cached config for GCP
+[00:43:45.327235] GCP-f327 Using existing resource name: d9b9fac8.
+[00:43:45.328244] Experiment.PerfCost-f602 Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/gcp/1_dynamic-html/perf-cost/cold_results_128.json
+[00:43:47.212219] GCPResources-c990 Using cached resources for GCP
+[00:43:47.212393] GCPConfig-b764 Loading cached config for GCP
+[00:43:49.700691] GCP-f327 GCP: Received 703 entries, found time metrics for 284 out of 284 invocations.
+[00:43:51.238840] Experiment.PerfCost-f602 Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/gcp/1_dynamic-html/perf-cost/warm_results_128.json
+[00:43:52.934996] GCPResources-6c9b Using cached resources for GCP
+[00:43:52.935201] GCPConfig-bdfa Loading cached config for GCP
+[00:43:54.781059] GCP-f327 GCP: Received 820 entries, found time metrics for 282 out of 282 invocations.
+[00:43:55.544709] Benchmark-b053 Update cached config /home/zia/serverless-benchmarks/experiments/perf_cost/gcp/cache/gcp.json
+Process benchmark 2_dynamic-html, Node.js, Concurrent: 50
+[00:43:56.393272] SeBS-b3d8 Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/gcp/2_dynamic-html
+[00:43:56.606515] GCPResources-f820 Using cached resources for GCP
+[00:43:56.606712] GCPConfig-32d8 Loading cached config for GCP
+[00:43:57.018102] GCP-35dc Using existing resource name: d9b9fac8.
+[00:43:57.019122] Experiment.PerfCost-abda Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/gcp/2_dynamic-html/perf-cost/cold_results_128.json
+[00:43:58.142240] GCPResources-53c7 Using cached resources for GCP
+[00:43:58.142458] GCPConfig-4304 Loading cached config for GCP
+[00:44:02.518924] GCP-35dc GCP: Received 700 entries, found time metrics for 286 out of 286 invocations.
+[00:44:03.607451] Experiment.PerfCost-abda Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/gcp/2_dynamic-html/perf-cost/warm_results_128.json
+[00:44:04.633273] GCPResources-4956 Using cached resources for GCP
+[00:44:04.633469] GCPConfig-88e2 Loading cached config for GCP
+[00:44:05.746129] GCP-35dc GCP: Received 700 entries, found time metrics for 251 out of 251 invocations.
+[00:44:06.458957] Benchmark-e8ac Update cached config /home/zia/serverless-benchmarks/experiments/perf_cost/gcp/cache/gcp.json
+Process benchmark 3_dynamic-html, Python, Concurrent: 1
+[00:44:07.294202] SeBS-ea43 Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/gcp/3_dynamic-html
+[00:44:07.496480] GCPResources-d767 Using cached resources for GCP
+[00:44:07.496656] GCPConfig-0140 Loading cached config for GCP
+[00:44:07.907429] GCP-d52e Using existing resource name: d9b9fac8.
+[00:44:07.908352] Experiment.PerfCost-b16b Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/gcp/3_dynamic-html/perf-cost/cold_results_128.json
+[00:44:08.228122] GCPResources-89f7 Using cached resources for GCP
+[00:44:08.228301] GCPConfig-1b32 Loading cached config for GCP
+[00:44:09.390102] GCP-d52e GCP: Received 103 entries, found time metrics for 50 out of 50 invocations.
+[00:44:10.016833] Experiment.PerfCost-b16b Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/gcp/3_dynamic-html/perf-cost/warm_results_128.json
+[00:44:10.373915] GCPResources-9fa3 Using cached resources for GCP
+[00:44:10.374106] GCPConfig-59c8 Loading cached config for GCP
+[00:44:11.700076] GCP-d52e GCP: Received 102 entries, found time metrics for 50 out of 50 invocations.
+[00:44:12.246853] Benchmark-f589 Update cached config /home/zia/serverless-benchmarks/experiments/perf_cost/gcp/cache/gcp.json
+Process benchmark 4_dynamic-html, Python, Concurrent: 25
+[00:44:13.074552] SeBS-404a Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/gcp/4_dynamic-html
+[00:44:13.277782] GCPResources-4228 Using cached resources for GCP
+[00:44:13.277960] GCPConfig-f7ca Loading cached config for GCP
+[00:44:13.713401] GCP-bd59 Using existing resource name: d9b9fac8.
+[00:44:13.714389] Experiment.PerfCost-94ce Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/gcp/4_dynamic-html/perf-cost/cold_results_128.json
+[00:44:14.688205] GCPResources-6a3e Using cached resources for GCP
+[00:44:14.688399] GCPConfig-f128 Loading cached config for GCP
+[00:44:17.998281] GCP-bd59 GCP: Received 350 entries, found time metrics for 138 out of 138 invocations.
+[00:44:18.948721] Experiment.PerfCost-94ce Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/gcp/4_dynamic-html/perf-cost/warm_results_128.json
+[00:44:19.719579] GCPResources-291d Using cached resources for GCP
+[00:44:19.719758] GCPConfig-c3e3 Loading cached config for GCP
+[00:44:21.286358] GCP-bd59 GCP: Received 359 entries, found time metrics for 126 out of 126 invocations.
+[00:44:21.715935] Benchmark-6c77 Update cached config /home/zia/serverless-benchmarks/experiments/perf_cost/gcp/cache/gcp.json
+Process benchmark 5_dynamic-html, Python, Burst
+[00:44:22.600109] SeBS-745b Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/gcp/5_dynamic-html
+[00:44:22.811428] GCPResources-bb3d Using cached resources for GCP
+[00:44:22.811603] GCPConfig-5c46 Loading cached config for GCP
+[00:44:23.219306] GCP-893f Using existing resource name: d9b9fac8.
+[00:44:23.220270] Experiment.PerfCost-1ab2 Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/gcp/5_dynamic-html/perf-cost/burst_results_128.json
+[00:44:25.145244] GCPResources-c949 Using cached resources for GCP
+[00:44:25.145423] GCPConfig-0b6e Loading cached config for GCP
+[00:44:27.022575] GCP-893f GCP: Received 704 entries, found time metrics for 297 out of 297 invocations.
+[00:44:27.535033] Benchmark-8b16 Update cached config /home/zia/serverless-benchmarks/experiments/perf_cost/gcp/cache/gcp.json
+Process benchmark 6_thumbnailer, Python, Concurrent: 50
+[00:44:28.364576] SeBS-daf3 Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/gcp/6_thumbnailer
+[00:44:28.564737] GCPResources-dd3a Using cached resources for GCP
+[00:44:28.564910] GCPConfig-df24 Loading cached config for GCP
+[00:44:28.983653] GCP-ed51 Using existing resource name: d9b9fac8.
+[00:44:28.984740] Experiment.PerfCost-6641 Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/gcp/6_thumbnailer/perf-cost/cold_results_128.json
+[00:44:28.988092] GCPResources-c560 Using cached resources for GCP
+[00:44:28.988223] GCPConfig-255a Loading cached config for GCP
+[00:44:32.296915] GCP-ed51 GCP: Received 600 entries, found time metrics for 250 out of 250 invocations.
+[00:44:32.891764] Experiment.PerfCost-6641 Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/gcp/6_thumbnailer/perf-cost/warm_results_128.json
+[00:44:32.894861] GCPResources-54c8 Using cached resources for GCP
+[00:44:32.895092] GCPConfig-c8d1 Loading cached config for GCP
+[00:44:37.482907] GCP-ed51 GCP: Received 700 entries, found time metrics for 255 out of 255 invocations.
+[00:44:38.012780] Benchmark-2641 Update cached config /home/zia/serverless-benchmarks/experiments/perf_cost/gcp/cache/gcp.json
+Process benchmark 7_thumbnailer, Node.js, Concurrent: 50
+[00:44:38.836389] SeBS-42eb Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/gcp/7_thumbnailer
+[00:44:39.042395] GCPResources-4089 Using cached resources for GCP
+[00:44:39.042572] GCPConfig-b302 Loading cached config for GCP
+[00:44:39.453364] GCP-61a5 Using existing resource name: d9b9fac8.
+[00:44:39.454242] Experiment.PerfCost-c5a4 Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/gcp/7_thumbnailer/perf-cost/cold_results_128.json
+[00:44:39.457624] GCPResources-2464 Using cached resources for GCP
+[00:44:39.457766] GCPConfig-4f99 Loading cached config for GCP
+[00:44:41.172837] GCP-61a5 GCP: Received 700 entries, found time metrics for 299 out of 299 invocations.
+[00:44:41.618600] Experiment.PerfCost-c5a4 Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/gcp/7_thumbnailer/perf-cost/warm_results_128.json
+[00:44:41.621433] GCPResources-eb2d Using cached resources for GCP
+[00:44:41.621625] GCPConfig-3bf2 Loading cached config for GCP
+[00:44:43.503074] GCP-61a5 GCP: Received 700 entries, found time metrics for 272 out of 272 invocations.
+[00:44:43.997926] Benchmark-1ddd Update cached config /home/zia/serverless-benchmarks/experiments/perf_cost/gcp/cache/gcp.json
+(python-venv) zia@Zia:~/serverless-benchmarks/experiments/perf_cost/gcp$

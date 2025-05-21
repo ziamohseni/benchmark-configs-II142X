@@ -1,0 +1,93 @@
+00:21:32,223 INFO SeBS-d3e6: Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/gcp/7_thumbnailer
+00:21:32,427 INFO GCPResources-cf12: Using cached resources for GCP
+00:21:32,427 INFO GCPConfig-43f0: Loading cached config for GCP
+00:21:32,891 INFO GCP-92c3: Using existing resource name: d9b9fac8.
+00:21:32,943 INFO Benchmark-adaa: Building benchmark 210.thumbnailer. Reason: no cached code package.
+00:21:32,946 INFO Benchmark-adaa: Docker build of benchmark dependencies in container of image spcleth/serverless-benchmarks:build.gcp.nodejs.20-1.2.0
+00:21:32,946 INFO Benchmark-adaa: Docker mount of benchmark code from path /home/zia/serverless-benchmarks/experiments/perf_cost/gcp/7_thumbnailer/210.thumbnailer_code/nodejs/20/x64/package
+00:24:48,245 INFO Benchmark-adaa: Created code package (source hash: e5742c0cea0467204378397d214d81ec), for run on gcp with nodejs:20
+00:24:48,250 INFO GCP-92c3: Creating new function! Reason: function sebs_d9b9fac8_210_thumbnailer_nodejs_20 not found in cache.
+00:24:51,646 INFO GCP-92c3: Uploading function sebs_d9b9fac8_210_thumbnailer_nodejs_20 code to sebs-deployment-d9b9fac8
+00:24:52,774 INFO GCP-92c3: Function sebs_d9b9fac8_210_thumbnailer_nodejs_20 has been created!
+00:24:53,36 INFO GCP-92c3: Sleeping for 5 seconds because the created functions is not yet available!
+00:24:58,645 INFO GCP-92c3: Function sebs_d9b9fac8_210_thumbnailer_nodejs_20 accepts now unauthenticated invocations!
+00:24:58,647 INFO GCP-92c3: Function sebs_d9b9fac8_210_thumbnailer_nodejs_20 - waiting for deployment...
+00:25:52,372 INFO GCP-92c3: Function sebs_d9b9fac8_210_thumbnailer_nodejs_20 - deployed!
+00:25:52,373 INFO Experiment.PerfCost-aa2e: Begin experiment on memory size 128
+00:25:55,616 INFO GCP-92c3: Uploaded new code package to sebs-deployment-d9b9fac8/x64-210.thumbnailer.zip
+00:26:50,531 INFO GCP-92c3: Waiting for function deployment, 10 retries.
+00:26:55,862 INFO GCP-92c3: Published new function code and configuration.
+00:26:55,863 INFO Experiment.PerfCost-aa2e: Begin cold experiments
+00:27:48,168 INFO GCP-92c3: Published new function configuration.
+00:27:48,250 INFO GCP-92c3: Redeployed 1 out of 1
+00:28:14,691 INFO Experiment.PerfCost-aa2e: Processed 0 warm-up samples, ignoring these results.
+00:29:14,500 INFO GCP-92c3: Waiting for function deployment, 10 retries.
+00:29:32,906 INFO GCP-92c3: Published new function configuration.
+00:29:32,987 INFO GCP-92c3: Redeployed 1 out of 1
+00:29:59,308 INFO Experiment.PerfCost-aa2e: Processed 50 samples out of 250, 0 errors
+00:30:58,774 INFO GCP-92c3: Waiting for function deployment, 10 retries.
+00:31:17,205 INFO GCP-92c3: Published new function configuration.
+00:31:17,287 INFO GCP-92c3: Redeployed 1 out of 1
+00:31:48,960 INFO Experiment.PerfCost-aa2e: Processed 100 samples out of 250, 0 errors
+00:32:43,433 INFO GCP-92c3: Published new function configuration.
+00:32:43,513 INFO GCP-92c3: Redeployed 1 out of 1
+00:33:13,844 INFO Experiment.PerfCost-aa2e: Processed 150 samples out of 250, 0 errors
+00:34:16,646 INFO GCP-92c3: Waiting for function deployment, 10 retries.
+00:34:26,914 INFO GCP-92c3: Published new function configuration.
+00:34:27,137 INFO GCP-92c3: Redeployed 1 out of 1
+00:35:05,27 INFO Experiment.PerfCost-aa2e: Processed 200 samples out of 250, 0 errors
+00:36:07,400 INFO GCP-92c3: Waiting for function deployment, 10 retries.
+00:36:25,818 INFO GCP-92c3: Published new function configuration.
+00:36:26,44 INFO GCP-92c3: Redeployed 1 out of 1
+00:36:55,552 INFO Experiment.PerfCost-aa2e: Invocation d88n4np4g9md is not cold!
+00:36:55,553 INFO Experiment.PerfCost-aa2e: Processed 249 samples out of 250, 0 errors
+00:37:57,985 INFO GCP-92c3: Waiting for function deployment, 10 retries.
+00:38:11,178 INFO GCP-92c3: Published new function configuration.
+00:38:11,263 INFO GCP-92c3: Redeployed 1 out of 1
+00:38:39,918 INFO Experiment.PerfCost-aa2e: Processed 299 samples out of 250, 0 errors
+00:38:47,855 INFO Experiment.PerfCost-aa2e: Mean 16533.39647491639 [ms], median 15858.823 [ms], std 3790.8665992514225, CV 22.928541059320317
+00:38:47,856 INFO Experiment.PerfCost-aa2e: Parametric CI (Student's t-distribution) 0.95 from 16101.23518239887 to 16965.557767433907, within 2.6138688028994603% of mean
+00:38:47,856 INFO Experiment.PerfCost-aa2e: Non-parametric CI 0.95 from 15539.461 to 16544.912, within 3.1700051132420133% of median
+00:38:47,856 INFO Experiment.PerfCost-aa2e: Parametric CI (Student's t-distribution) 0.99 from 15964.101922066673 to 17102.691027766105, within 3.4433006775916843% of mean
+00:38:47,857 INFO Experiment.PerfCost-aa2e: Non-parametric CI 0.99 from 15459.043 to 16881.568, within 4.48496398503218% of median
+00:38:47,887 INFO Experiment.PerfCost-aa2e: Begin warm experiments
+00:39:10,657 INFO Experiment.PerfCost-aa2e: Processed 0 warm-up samples, ignoring these results.
+00:39:36,511 INFO Experiment.PerfCost-aa2e: Invocation brh2yo95wuar is cold!
+00:39:37,363 INFO Experiment.PerfCost-aa2e: Invocation bdglxuxmchrn is cold!
+00:39:37,364 INFO Experiment.PerfCost-aa2e: Invocation yhmxkiu7nfo4 is cold!
+00:39:38,515 INFO Experiment.PerfCost-aa2e: Invocation o3ftjn25kbvv is cold!
+00:39:38,516 INFO Experiment.PerfCost-aa2e: Invocation okwky1aa3cti is cold!
+00:39:38,516 INFO Experiment.PerfCost-aa2e: Processed 45 samples out of 250, 0 errors
+00:40:06,278 INFO Experiment.PerfCost-aa2e: Invocation oz8fm2wm1ppz is cold!
+00:40:06,278 INFO Experiment.PerfCost-aa2e: Invocation mashj04g2dve is cold!
+00:40:06,278 INFO Experiment.PerfCost-aa2e: Invocation juz0mf28n8al is cold!
+00:40:06,714 INFO Experiment.PerfCost-aa2e: Invocation rhmwzdecusqs is cold!
+00:40:06,715 INFO Experiment.PerfCost-aa2e: Processed 91 samples out of 250, 0 errors
+00:40:33,566 INFO Experiment.PerfCost-aa2e: Invocation av2enb2boex4 is cold!
+00:40:38,938 INFO Experiment.PerfCost-aa2e: Invocation b4cjkzwcu9ha is cold!
+00:40:38,939 INFO Experiment.PerfCost-aa2e: Invocation gf0uy3xvnd6t is cold!
+00:40:38,939 INFO Experiment.PerfCost-aa2e: Invocation svgnp8qs77kr is cold!
+00:40:38,939 INFO Experiment.PerfCost-aa2e: Invocation ckq74m3ckoir is cold!
+00:40:38,939 INFO Experiment.PerfCost-aa2e: Invocation 8augqvkozvko is cold!
+00:40:38,939 INFO Experiment.PerfCost-aa2e: Processed 135 samples out of 250, 0 errors
+00:41:01,666 INFO Experiment.PerfCost-aa2e: Invocation 25vgr3h82rmm is cold!
+00:41:06,473 INFO Experiment.PerfCost-aa2e: Invocation 6cxmoxr805ya is cold!
+00:41:06,473 INFO Experiment.PerfCost-aa2e: Invocation uk3to4pz2lu8 is cold!
+00:41:06,473 INFO Experiment.PerfCost-aa2e: Invocation 6urnz4zrhstz is cold!
+00:41:06,473 INFO Experiment.PerfCost-aa2e: Processed 181 samples out of 250, 0 errors
+00:41:32,522 INFO Experiment.PerfCost-aa2e: Invocation 19iw4tnwnn7g is cold!
+00:41:32,522 INFO Experiment.PerfCost-aa2e: Invocation a9yqzi7wxorw is cold!
+00:41:32,522 INFO Experiment.PerfCost-aa2e: Invocation 5qwdgi3154vu is cold!
+00:41:32,522 INFO Experiment.PerfCost-aa2e: Invocation 2u7czhhxzk07 is cold!
+00:41:32,522 INFO Experiment.PerfCost-aa2e: Invocation 90i7yva0efsm is cold!
+00:41:32,522 INFO Experiment.PerfCost-aa2e: Processed 226 samples out of 250, 0 errors
+00:41:57,712 INFO Experiment.PerfCost-aa2e: Invocation bzmxtn9elna3 is cold!
+00:41:58,684 INFO Experiment.PerfCost-aa2e: Invocation zglobdsg2frx is cold!
+00:41:59,357 INFO Experiment.PerfCost-aa2e: Invocation va3v7uqlvezi is cold!
+00:41:59,358 INFO Experiment.PerfCost-aa2e: Invocation 7tcj69w6hljj is cold!
+00:41:59,358 INFO Experiment.PerfCost-aa2e: Processed 272 samples out of 250, 0 errors
+00:42:04,361 INFO Experiment.PerfCost-aa2e: Mean 5744.0900110294115 [ms], median 5451.818 [ms], std 1549.2025130679915, CV 26.9703732026016
+00:42:04,362 INFO Experiment.PerfCost-aa2e: Parametric CI (Student's t-distribution) 0.95 from 5558.81557016236 to 5929.364451896463, within 3.2254794146905787% of mean
+00:42:04,362 INFO Experiment.PerfCost-aa2e: Non-parametric CI 0.95 from 5263.367 to 5706.3, within 4.062250427288658% of median
+00:42:04,363 INFO Experiment.PerfCost-aa2e: Parametric CI (Student's t-distribution) 0.99 from 5499.966842577631 to 5988.213179481192, within 4.24998856186153% of mean
+00:42:04,363 INFO Experiment.PerfCost-aa2e: Non-parametric CI 0.99 from 5093.654 to 5830.1, within 6.754132291283383% of median

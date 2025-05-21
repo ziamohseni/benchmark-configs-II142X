@@ -1,0 +1,92 @@
+23:40:23,702 INFO SeBS-c06e: Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/gcp/4_dynamic-html
+23:40:23,941 INFO GCPResources-ef0d: Using cached resources for GCP
+23:40:23,941 INFO GCPConfig-e451: Loading cached config for GCP
+23:40:24,231 INFO GCP-aac2: Using existing resource name: d9b9fac8.
+23:40:24,233 INFO Benchmark-f52e: Using cached benchmark 110.dynamic-html at /home/zia/serverless-benchmarks/experiments/perf_cost/gcp/cache/110.dynamic-html/gcp/python/3.11/x64/package/110.dynamic-html.zip
+23:40:24,233 INFO GCP-aac2: Using cached function sebs_d9b9fac8_110_dynamic_html_python_3_11 in /home/zia/serverless-benchmarks/experiments/perf_cost/gcp/cache/110.dynamic-html/gcp/python/3.11/x64/package/110.dynamic-html.zip
+23:40:24,234 INFO GCP-aac2: Cached function sebs_d9b9fac8_110_dynamic_html_python_3_11 is up to date.
+23:40:24,234 INFO Experiment.PerfCost-a800: Begin experiment on memory size 128
+23:40:25,245 INFO GCP-aac2: Uploaded new code package to sebs-deployment-d9b9fac8/x64-110.dynamic-html.zip
+23:41:23,694 INFO GCP-aac2: Waiting for function deployment, 10 retries.
+23:41:29,196 INFO GCP-aac2: Published new function code and configuration.
+23:41:29,196 INFO Experiment.PerfCost-a800: Begin cold experiments
+23:42:27,253 INFO GCP-aac2: Waiting for function deployment, 10 retries.
+23:42:32,591 INFO GCP-aac2: Published new function configuration.
+23:42:32,836 INFO GCP-aac2: Redeployed 1 out of 1
+23:42:48,218 INFO Experiment.PerfCost-a800: Processed 0 warm-up samples, ignoring these results.
+23:43:40,999 INFO GCP-aac2: Published new function configuration.
+23:43:41,262 INFO GCP-aac2: Redeployed 1 out of 1
+23:43:54,80 INFO Experiment.PerfCost-a800: Invocation qnzbc8gvuzm8 is not cold!
+23:43:54,220 INFO Experiment.PerfCost-a800: Processed 24 samples out of 125, 1 errors
+23:44:56,829 INFO GCP-aac2: Waiting for function deployment, 10 retries.
+23:45:02,16 INFO GCP-aac2: Published new function configuration.
+23:45:02,107 INFO GCP-aac2: Redeployed 1 out of 1
+23:45:14,848 INFO Experiment.PerfCost-a800: Invocation 3v0qm6xchl5k is not cold!
+23:45:14,848 INFO Experiment.PerfCost-a800: Invocation h0zpq36x6dvz is not cold!
+23:45:17,338 INFO Experiment.PerfCost-a800: Invocation stp5a8ppnctv is not cold!
+23:45:17,339 INFO Experiment.PerfCost-a800: Invocation stp5fizd89mq is not cold!
+23:45:17,339 INFO Experiment.PerfCost-a800: Processed 45 samples out of 125, 1 errors
+23:46:14,474 INFO GCP-aac2: Published new function configuration.
+23:46:14,559 INFO GCP-aac2: Redeployed 1 out of 1
+23:46:27,512 INFO Experiment.PerfCost-a800: Invocation da4sw3dq12rp is not cold!
+23:46:27,579 INFO Experiment.PerfCost-a800: Processed 69 samples out of 125, 1 errors
+23:47:30,60 INFO GCP-aac2: Waiting for function deployment, 10 retries.
+23:47:48,421 INFO GCP-aac2: Published new function configuration.
+23:47:48,499 INFO GCP-aac2: Redeployed 1 out of 1
+23:48:01,867 INFO Experiment.PerfCost-a800: Invocation qcoji8t81ui3 is not cold!
+23:48:01,868 INFO Experiment.PerfCost-a800: Invocation nknwukfaq2l2 is not cold!
+23:48:01,868 INFO Experiment.PerfCost-a800: Processed 92 samples out of 125, 1 errors
+23:49:04,433 INFO GCP-aac2: Waiting for function deployment, 10 retries.
+23:49:09,613 INFO GCP-aac2: Published new function configuration.
+23:49:09,839 INFO GCP-aac2: Redeployed 1 out of 1
+23:49:22,972 INFO Experiment.PerfCost-a800: Invocation 7v87fz5txvmm is not cold!
+23:49:22,973 INFO Experiment.PerfCost-a800: Invocation 0uv4jdzo8syi is not cold!
+23:49:22,973 INFO Experiment.PerfCost-a800: Processed 115 samples out of 125, 1 errors
+23:50:25,279 INFO GCP-aac2: Waiting for function deployment, 10 retries.
+23:50:30,458 INFO GCP-aac2: Published new function configuration.
+23:50:30,538 INFO GCP-aac2: Redeployed 1 out of 1
+23:50:46,444 INFO Experiment.PerfCost-a800: Invocation 4cw64rudk35b is not cold!
+23:50:46,504 INFO Experiment.PerfCost-a800: Invocation panlv13sdpoo is not cold!
+23:50:46,504 INFO Experiment.PerfCost-a800: Processed 138 samples out of 125, 1 errors
+23:50:51,509 INFO Experiment.PerfCost-a800: Mean 5885.868956521741 [ms], median 6040.155 [ms], std 2397.6767835507476, CV 40.73615639869183
+23:50:51,509 INFO Experiment.PerfCost-a800: Parametric CI (Student's t-distribution) 0.95 from 5480.797408771844 to 6290.940504271638, within 6.882102723355132% of mean
+23:50:51,510 INFO Experiment.PerfCost-a800: Non-parametric CI 0.95 from 5028.809 to 7123.327, within 17.338280226252472% of median
+23:50:51,510 INFO Experiment.PerfCost-a800: Parametric CI (Student's t-distribution) 0.99 from 5350.7683463181465 to 6420.969566725335, within 9.09127631206748% of mean
+23:50:51,510 INFO Experiment.PerfCost-a800: Non-parametric CI 0.99 from 4554.168 to 7229.782, within 22.14855413478628% of median
+23:50:55,7 INFO Experiment.PerfCost-a800: Begin warm experiments
+23:51:09,27 INFO Experiment.PerfCost-a800: Processed 0 warm-up samples, ignoring these results.
+23:51:31,348 INFO Experiment.PerfCost-a800: Invocation s9c6gh1dbvk9 is cold!
+23:51:31,348 INFO Experiment.PerfCost-a800: Invocation h1j281z188dn is cold!
+23:51:31,348 INFO Experiment.PerfCost-a800: Invocation k7evhdoybae8 is cold!
+23:51:31,348 INFO Experiment.PerfCost-a800: Invocation gl0ifdeq5z2z is cold!
+23:51:31,348 INFO Experiment.PerfCost-a800: Invocation 164mqgalmu98 is cold!
+23:51:31,348 INFO Experiment.PerfCost-a800: Processed 20 samples out of 125, 0 errors
+23:51:53,42 INFO Experiment.PerfCost-a800: Invocation ehtfw97ewc1p is cold!
+23:51:53,283 INFO Experiment.PerfCost-a800: Invocation 0ierd9qetld3 is cold!
+23:51:53,284 INFO Experiment.PerfCost-a800: Invocation 2y0g2ugxwadv is cold!
+23:51:53,284 INFO Experiment.PerfCost-a800: Invocation x8s7tuwrzq20 is cold!
+23:51:53,284 INFO Experiment.PerfCost-a800: Processed 41 samples out of 125, 0 errors
+23:52:12,545 INFO Experiment.PerfCost-a800: Invocation qtfd0mn4t33q is cold!
+23:52:12,567 INFO Experiment.PerfCost-a800: Invocation y160q8q82zz3 is cold!
+23:52:12,567 INFO Experiment.PerfCost-a800: Invocation yw3ycl6byzbb is cold!
+23:52:12,567 INFO Experiment.PerfCost-a800: Invocation uarlsbzx9dop is cold!
+23:52:12,567 INFO Experiment.PerfCost-a800: Invocation fhy26393bokt is cold!
+23:52:12,691 INFO Experiment.PerfCost-a800: Invocation rg4j3pc6pi4z is cold!
+23:52:12,691 INFO Experiment.PerfCost-a800: Processed 60 samples out of 125, 0 errors
+23:52:34,545 INFO Experiment.PerfCost-a800: Invocation g4sca5kewu1k is cold!
+23:52:34,545 INFO Experiment.PerfCost-a800: Processed 84 samples out of 125, 0 errors
+23:52:53,94 INFO Experiment.PerfCost-a800: Invocation x7adslz2ad7w is cold!
+23:52:53,171 INFO Experiment.PerfCost-a800: Invocation 8ul2uj1blpjt is cold!
+23:52:53,313 INFO Experiment.PerfCost-a800: Processed 107 samples out of 125, 0 errors
+23:53:15,81 INFO Experiment.PerfCost-a800: Invocation nl8hv6mq6eol is cold!
+23:53:15,81 INFO Experiment.PerfCost-a800: Invocation n6k9hg3jmmz8 is cold!
+23:53:15,81 INFO Experiment.PerfCost-a800: Invocation 51yl7oxxk653 is cold!
+23:53:15,81 INFO Experiment.PerfCost-a800: Invocation wa7yr8eoxh3b is cold!
+23:53:15,154 INFO Experiment.PerfCost-a800: Invocation 9rjt5rn9ksdj is cold!
+23:53:15,154 INFO Experiment.PerfCost-a800: Invocation fmvm1jwqp2g4 is cold!
+23:53:15,154 INFO Experiment.PerfCost-a800: Processed 126 samples out of 125, 0 errors
+23:53:20,159 INFO Experiment.PerfCost-a800: Mean 8451.563650793649 [ms], median 8587.072 [ms], std 1790.5605483759687, CV 21.186145219504144
+23:53:20,160 INFO Experiment.PerfCost-a800: Parametric CI (Student's t-distribution) 0.95 from 8134.601770717621 to 8768.525530869678, within 3.7503341768746443% of mean
+23:53:20,160 INFO Experiment.PerfCost-a800: Non-parametric CI 0.95 from 8372.657 to 8752.666, within 2.2126808765548955% of median
+23:53:20,161 INFO Experiment.PerfCost-a800: Parametric CI (Student's t-distribution) 0.99 from 8032.647138735911 to 8870.480162851387, within 4.956674638762255% of mean
+23:53:20,161 INFO Experiment.PerfCost-a800: Non-parametric CI 0.99 from 8291.367 to 8824.06, within 3.1017149966833824% of median

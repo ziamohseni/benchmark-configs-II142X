@@ -1,0 +1,103 @@
+00:04:23,695 INFO SeBS-d6f1: Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/gcp/6_thumbnailer
+00:04:23,898 INFO GCPResources-13bc: Using cached resources for GCP
+00:04:23,898 INFO GCPConfig-c40b: Loading cached config for GCP
+00:04:24,327 INFO GCP-529f: Using existing resource name: d9b9fac8.
+00:04:35,589 INFO Benchmark-16ae: Building benchmark 210.thumbnailer. Reason: no cached code package.
+00:04:35,593 INFO Benchmark-16ae: Docker build of benchmark dependencies in container of image spcleth/serverless-benchmarks:build.gcp.python.3.11-1.2.0
+00:04:35,593 INFO Benchmark-16ae: Docker mount of benchmark code from path /home/zia/serverless-benchmarks/experiments/perf_cost/gcp/6_thumbnailer/210.thumbnailer_code/python/3.11/x64/package
+00:04:45,779 INFO Benchmark-16ae: Created code package (source hash: 31929ac7cd041b1e05b3952ff60c2ed1), for run on gcp with python:3.11
+00:04:45,784 INFO GCP-529f: Creating new function! Reason: function sebs_d9b9fac8_210_thumbnailer_python_3_11 not found in cache.
+00:04:49,118 INFO GCP-529f: Uploading function sebs_d9b9fac8_210_thumbnailer_python_3_11 code to sebs-deployment-d9b9fac8
+00:04:50,273 INFO GCP-529f: Function sebs_d9b9fac8_210_thumbnailer_python_3_11 has been created!
+00:04:50,500 INFO GCP-529f: Sleeping for 5 seconds because the created functions is not yet available!
+00:04:56,274 INFO GCP-529f: Function sebs_d9b9fac8_210_thumbnailer_python_3_11 accepts now unauthenticated invocations!
+00:04:56,275 INFO GCP-529f: Function sebs_d9b9fac8_210_thumbnailer_python_3_11 - waiting for deployment...
+00:05:40,636 INFO GCP-529f: Function sebs_d9b9fac8_210_thumbnailer_python_3_11 - deployed!
+00:05:40,637 INFO Experiment.PerfCost-ae56: Begin experiment on memory size 128
+00:05:43,948 INFO GCP-529f: Uploaded new code package to sebs-deployment-d9b9fac8/x64-210.thumbnailer.zip
+00:06:41,862 INFO GCP-529f: Waiting for function deployment, 10 retries.
+00:06:52,412 INFO GCP-529f: Published new function code and configuration.
+00:06:52,412 INFO Experiment.PerfCost-ae56: Begin cold experiments
+00:07:45,631 INFO GCP-529f: Published new function configuration.
+00:07:45,886 INFO GCP-529f: Redeployed 1 out of 1
+00:08:39,287 INFO Experiment.PerfCost-ae56: Processed 0 warm-up samples, ignoring these results.
+00:09:42,246 INFO GCP-529f: Waiting for function deployment, 10 retries.
+00:09:47,408 INFO GCP-529f: Published new function configuration.
+00:09:47,544 INFO GCP-529f: Redeployed 1 out of 1
+00:10:40,434 INFO Experiment.PerfCost-ae56: Processed 50 samples out of 250, 0 errors
+00:11:35,371 INFO GCP-529f: Published new function configuration.
+00:11:35,456 INFO GCP-529f: Redeployed 1 out of 1
+00:12:10,597 INFO Experiment.PerfCost-ae56: Processed 100 samples out of 250, 0 errors
+00:13:03,512 INFO GCP-529f: Published new function configuration.
+00:13:03,592 INFO GCP-529f: Redeployed 1 out of 1
+00:13:35,882 INFO Experiment.PerfCost-ae56: Processed 150 samples out of 250, 0 errors
+00:14:35,288 INFO GCP-529f: Waiting for function deployment, 10 retries.
+00:14:48,829 INFO GCP-529f: Published new function configuration.
+00:14:48,919 INFO GCP-529f: Redeployed 1 out of 1
+00:15:24,802 INFO Experiment.PerfCost-ae56: Processed 200 samples out of 250, 0 errors
+00:16:19,319 INFO GCP-529f: Published new function configuration.
+00:16:19,397 INFO GCP-529f: Redeployed 1 out of 1
+00:17:10,818 INFO Experiment.PerfCost-ae56: Processed 250 samples out of 250, 0 errors
+00:17:15,819 INFO Experiment.PerfCost-ae56: Mean 20441.662991999998 [ms], median 19555.394500000002 [ms], std 5415.720969017553, CV 26.493543950592656
+00:17:15,820 INFO Experiment.PerfCost-ae56: Parametric CI (Student's t-distribution) 0.95 from 19765.703421148293 to 21117.622562851702, within 3.3067738721465396% of mean
+00:17:15,820 INFO Experiment.PerfCost-ae56: Non-parametric CI 0.95 from 19116.05 to 20183.087, within 2.7282420715163793% of median
+00:17:15,821 INFO Experiment.PerfCost-ae56: Parametric CI (Student's t-distribution) 0.99 from 19550.793523772405 to 21332.53246022759, within 4.358106620661154% of mean
+00:17:15,821 INFO Experiment.PerfCost-ae56: Non-parametric CI 0.99 from 18978.755 to 20382.332, within 3.588720749151845% of median
+00:17:15,851 INFO Experiment.PerfCost-ae56: Begin warm experiments
+00:17:56,562 INFO Experiment.PerfCost-ae56: Processed 0 warm-up samples, ignoring these results.
+00:18:29,43 INFO Experiment.PerfCost-ae56: Invocation s6r60gbrsijv is cold!
+00:18:32,967 INFO Experiment.PerfCost-ae56: Invocation ks3feva0wbky is cold!
+00:18:32,967 INFO Experiment.PerfCost-ae56: Invocation cfpsnrtyhdu5 is cold!
+00:18:32,967 INFO Experiment.PerfCost-ae56: Invocation zx73u0jh8ic3 is cold!
+00:18:32,967 INFO Experiment.PerfCost-ae56: Invocation lwo9s3ch2eg6 is cold!
+00:18:32,967 INFO Experiment.PerfCost-ae56: Invocation mhfgb5qemm4w is cold!
+00:18:32,967 INFO Experiment.PerfCost-ae56: Invocation zbzl5w5lsjbw is cold!
+00:18:32,967 INFO Experiment.PerfCost-ae56: Invocation e6o164o4gqdb is cold!
+00:18:32,967 INFO Experiment.PerfCost-ae56: Invocation e78i146sjmwe is cold!
+00:18:32,967 INFO Experiment.PerfCost-ae56: Processed 41 samples out of 250, 0 errors
+00:19:10,971 INFO Experiment.PerfCost-ae56: Invocation tgzz6ry7ygnf is cold!
+00:19:10,971 INFO Experiment.PerfCost-ae56: Invocation 4vsmowkagajo is cold!
+00:19:10,972 INFO Experiment.PerfCost-ae56: Invocation ttsuw126r1by is cold!
+00:19:10,972 INFO Experiment.PerfCost-ae56: Invocation xq4423aj7qey is cold!
+00:19:10,972 INFO Experiment.PerfCost-ae56: Invocation f2dxzzm32gu3 is cold!
+00:19:10,972 INFO Experiment.PerfCost-ae56: Invocation iudpg3nsqxcw is cold!
+00:19:10,973 INFO Experiment.PerfCost-ae56: Invocation fypr4mqghg4m is cold!
+00:19:10,973 INFO Experiment.PerfCost-ae56: Invocation h7t37ts139fr is cold!
+00:19:10,973 INFO Experiment.PerfCost-ae56: Processed 83 samples out of 250, 0 errors
+00:19:42,68 INFO Experiment.PerfCost-ae56: Invocation gvet005hxuei is cold!
+00:19:42,68 INFO Experiment.PerfCost-ae56: Invocation nhayq9xk0st5 is cold!
+00:19:45,614 INFO Experiment.PerfCost-ae56: Invocation f53nk9uvf1vb is cold!
+00:19:45,614 INFO Experiment.PerfCost-ae56: Invocation 34egx1t4ql9u is cold!
+00:19:45,614 INFO Experiment.PerfCost-ae56: Invocation 1khaelrouagc is cold!
+00:19:45,615 INFO Experiment.PerfCost-ae56: Invocation s2v79q7z27qs is cold!
+00:19:45,615 INFO Experiment.PerfCost-ae56: Invocation ruku1tn47umo is cold!
+00:19:45,615 INFO Experiment.PerfCost-ae56: Invocation k2znye62wkq3 is cold!
+00:19:45,615 INFO Experiment.PerfCost-ae56: Invocation zbm7bc8tdek0 is cold!
+00:19:45,615 INFO Experiment.PerfCost-ae56: Processed 124 samples out of 250, 0 errors
+00:20:18,388 INFO Experiment.PerfCost-ae56: Invocation t22m33ciwh6d is cold!
+00:20:18,388 INFO Experiment.PerfCost-ae56: Invocation c0bl9djcemju is cold!
+00:20:18,388 INFO Experiment.PerfCost-ae56: Invocation k874h3frer89 is cold!
+00:20:20,600 INFO Experiment.PerfCost-ae56: Invocation uo69uxnxxv7r is cold!
+00:20:20,601 INFO Experiment.PerfCost-ae56: Invocation ghjyu99vi22y is cold!
+00:20:25,995 INFO Experiment.PerfCost-ae56: Invocation 6zewsgy2cina is cold!
+00:20:25,995 INFO Experiment.PerfCost-ae56: Invocation d6juy8mpfifo is cold!
+00:20:25,996 INFO Experiment.PerfCost-ae56: Invocation 0rlxmfmx39xq is cold!
+00:20:25,996 INFO Experiment.PerfCost-ae56: Invocation mjaxrkh6bkb2 is cold!
+00:20:25,996 INFO Experiment.PerfCost-ae56: Invocation o4ifwsthnunm is cold!
+00:20:25,996 INFO Experiment.PerfCost-ae56: Processed 164 samples out of 250, 0 errors
+00:20:54,831 INFO Experiment.PerfCost-ae56: Invocation wjs1hvb8p0ve is cold!
+00:20:55,277 INFO Experiment.PerfCost-ae56: Invocation uhpyudcjvjkp is cold!
+00:20:55,277 INFO Experiment.PerfCost-ae56: Invocation dbgnxwnhz0qz is cold!
+00:20:55,277 INFO Experiment.PerfCost-ae56: Invocation zl4s2xu43oif is cold!
+00:20:55,278 INFO Experiment.PerfCost-ae56: Invocation n3ks560iwt7w is cold!
+00:20:55,278 INFO Experiment.PerfCost-ae56: Invocation 5k7x7etl7arf is cold!
+00:20:55,278 INFO Experiment.PerfCost-ae56: Processed 208 samples out of 250, 0 errors
+00:21:22,828 INFO Experiment.PerfCost-ae56: Invocation dqxinyt3zham is cold!
+00:21:25,602 INFO Experiment.PerfCost-ae56: Invocation b9s9af0uiemy is cold!
+00:21:26,385 INFO Experiment.PerfCost-ae56: Invocation 198wq575ajnk is cold!
+00:21:26,385 INFO Experiment.PerfCost-ae56: Processed 255 samples out of 250, 0 errors
+00:21:31,390 INFO Experiment.PerfCost-ae56: Mean 3197.4879450980397 [ms], median 2318.926 [ms], std 1422.4633996232487, CV 44.486904221295944
+00:21:31,391 INFO Experiment.PerfCost-ae56: Parametric CI (Student's t-distribution) 0.95 from 3021.717194496324 to 3373.2586956997557, within 5.497151314399296% of mean
+00:21:31,391 INFO Experiment.PerfCost-ae56: Non-parametric CI 0.95 from 2244.964 to 2429.183, within 3.9720758661552815% of median
+00:21:31,392 INFO Experiment.PerfCost-ae56: Parametric CI (Student's t-distribution) 0.99 from 2965.8467819068455 to 3429.129108289234, within 7.244473385624969% of mean
+00:21:31,392 INFO Experiment.PerfCost-ae56: Non-parametric CI 0.99 from 2231.075 to 2448.194, within 4.681455984365179% of median

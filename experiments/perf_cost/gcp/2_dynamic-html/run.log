@@ -1,0 +1,128 @@
+22:08:03,964 INFO SeBS-e9b3: Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/gcp/2_dynamic-html
+22:08:04,186 INFO GCPResources-474d: Using cached resources for GCP
+22:08:04,186 INFO GCPConfig-06a7: Loading cached config for GCP
+22:08:04,627 INFO GCP-ad83: Using existing resource name: d9b9fac8.
+22:08:04,628 INFO Benchmark-d31e: Building benchmark 110.dynamic-html. Reason: no cached code package.
+22:08:04,637 INFO Benchmark-d31e: Docker build of benchmark dependencies in container of image spcleth/serverless-benchmarks:build.gcp.nodejs.20-1.2.0
+22:08:04,637 INFO Benchmark-d31e: Docker mount of benchmark code from path /home/zia/serverless-benchmarks/experiments/perf_cost/gcp/2_dynamic-html/110.dynamic-html_code/nodejs/20/x64/package
+22:08:13,42 INFO Benchmark-d31e: Created code package (source hash: 9765d181f1bf6bd52f9860d69d8d9c6c), for run on gcp with nodejs:20
+22:08:13,44 INFO GCP-ad83: Creating new function! Reason: function sebs_d9b9fac8_110_dynamic_html_nodejs_20 not found in cache.
+22:08:14,368 INFO GCP-ad83: Uploading function sebs_d9b9fac8_110_dynamic_html_nodejs_20 code to sebs-deployment-d9b9fac8
+22:08:15,415 INFO GCP-ad83: Function sebs_d9b9fac8_110_dynamic_html_nodejs_20 has been created!
+22:08:15,661 INFO GCP-ad83: Sleeping for 5 seconds because the created functions is not yet available!
+22:08:21,245 INFO GCP-ad83: Function sebs_d9b9fac8_110_dynamic_html_nodejs_20 accepts now unauthenticated invocations!
+22:08:21,247 INFO GCP-ad83: Function sebs_d9b9fac8_110_dynamic_html_nodejs_20 - waiting for deployment...
+22:09:02,959 INFO GCP-ad83: Function sebs_d9b9fac8_110_dynamic_html_nodejs_20 - deployed!
+22:09:02,960 INFO Experiment.PerfCost-9989: Begin experiment on memory size 128
+22:09:04,58 INFO GCP-ad83: Uploaded new code package to sebs-deployment-d9b9fac8/x64-110.dynamic-html.zip
+22:10:02,209 INFO GCP-ad83: Waiting for function deployment, 10 retries.
+22:10:07,403 INFO GCP-ad83: Published new function code and configuration.
+22:10:07,403 INFO Experiment.PerfCost-9989: Begin cold experiments
+22:11:05,361 INFO GCP-ad83: Waiting for function deployment, 10 retries.
+22:11:15,784 INFO GCP-ad83: Published new function configuration.
+22:11:15,867 INFO GCP-ad83: Redeployed 1 out of 1
+22:11:30,560 INFO Experiment.PerfCost-9989: Processed 0 warm-up samples, ignoring these results.
+22:12:33,89 INFO GCP-ad83: Waiting for function deployment, 10 retries.
+22:12:33,182 INFO GCP-ad83: Published new function configuration.
+22:12:33,272 INFO GCP-ad83: Redeployed 1 out of 1
+22:12:50,283 INFO Experiment.PerfCost-9989: Processed 50 samples out of 250, 0 errors
+22:13:49,895 INFO GCP-ad83: Waiting for function deployment, 10 retries.
+22:13:55,328 INFO GCP-ad83: Published new function configuration.
+22:13:55,410 INFO GCP-ad83: Redeployed 1 out of 1
+22:14:11,869 INFO Experiment.PerfCost-9989: Invocation uobv3d2kfa94 is not cold!
+22:14:12,92 INFO Experiment.PerfCost-9989: Invocation k201ej05owox is not cold!
+22:14:12,158 INFO Experiment.PerfCost-9989: Invocation yub84csqf07t is not cold!
+22:14:12,158 INFO Experiment.PerfCost-9989: Invocation ukpg2h45a1xm is not cold!
+22:14:12,158 INFO Experiment.PerfCost-9989: Invocation p1eglbiiaqt5 is not cold!
+22:14:12,158 INFO Experiment.PerfCost-9989: Processed 95 samples out of 250, 0 errors
+22:15:14,476 INFO GCP-ad83: Waiting for function deployment, 10 retries.
+22:15:24,743 INFO GCP-ad83: Published new function configuration.
+22:15:24,826 INFO GCP-ad83: Redeployed 1 out of 1
+22:15:38,679 INFO Experiment.PerfCost-9989: Invocation 4g4vo7me5sr6 is not cold!
+22:15:38,679 INFO Experiment.PerfCost-9989: Invocation 15554ztj7xge is not cold!
+22:15:38,679 INFO Experiment.PerfCost-9989: Invocation pdn2yakphi83 is not cold!
+22:15:38,679 INFO Experiment.PerfCost-9989: Invocation jxq7ai6n7jjs is not cold!
+22:15:38,705 INFO Experiment.PerfCost-9989: Processed 141 samples out of 250, 0 errors
+22:16:40,837 INFO GCP-ad83: Waiting for function deployment, 10 retries.
+22:16:46,4 INFO GCP-ad83: Published new function configuration.
+22:16:46,189 INFO GCP-ad83: Redeployed 1 out of 1
+22:17:03,100 INFO Experiment.PerfCost-9989: Invocation wif1epv0lx5c is not cold!
+22:17:03,100 INFO Experiment.PerfCost-9989: Invocation ugqn2jqtw7rp is not cold!
+22:17:04,154 INFO Experiment.PerfCost-9989: Invocation nrltxw9it1sj is not cold!
+22:17:04,154 INFO Experiment.PerfCost-9989: Invocation es1gfsrm2iau is not cold!
+22:17:04,154 INFO Experiment.PerfCost-9989: Processed 187 samples out of 250, 0 errors
+22:17:58,694 INFO GCP-ad83: Published new function configuration.
+22:17:58,775 INFO GCP-ad83: Redeployed 1 out of 1
+22:18:15,790 INFO Experiment.PerfCost-9989: Invocation zdk64ycoztyn is not cold!
+22:18:15,790 INFO Experiment.PerfCost-9989: Processed 236 samples out of 250, 0 errors
+22:19:15,220 INFO GCP-ad83: Waiting for function deployment, 10 retries.
+22:19:25,495 INFO GCP-ad83: Published new function configuration.
+22:19:25,604 INFO GCP-ad83: Redeployed 1 out of 1
+22:19:43,938 INFO Experiment.PerfCost-9989: Processed 286 samples out of 250, 0 errors
+22:19:48,942 INFO Experiment.PerfCost-9989: Mean 7771.209185314686 [ms], median 8284.748 [ms], std 2842.0161458585712, CV 36.57109309615743
+22:19:48,943 INFO Experiment.PerfCost-9989: Parametric CI (Student's t-distribution) 0.95 from 7439.848949545687 to 8102.569421083685, within 4.26394693370464% of mean
+22:19:48,943 INFO Experiment.PerfCost-9989: Non-parametric CI 0.95 from 8052.773 to 8496.865, within 2.680178081457636% of median
+22:19:48,943 INFO Experiment.PerfCost-9989: Parametric CI (Student's t-distribution) 0.99 from 7334.6547657086885 to 8207.763604920683, within 5.617586776983916% of mean
+22:19:48,944 INFO Experiment.PerfCost-9989: Non-parametric CI 0.99 from 7842.086 to 8527.649, within 4.137500621624214% of median
+22:19:53,306 INFO Experiment.PerfCost-9989: Begin warm experiments
+22:20:11,894 INFO Experiment.PerfCost-9989: Processed 0 warm-up samples, ignoring these results.
+22:20:31,515 INFO Experiment.PerfCost-9989: Invocation ucsvfiq6d6mg is cold!
+22:20:31,515 INFO Experiment.PerfCost-9989: Invocation cgemg21d2d8m is cold!
+22:20:31,515 INFO Experiment.PerfCost-9989: Invocation v0dd0akzvfq5 is cold!
+22:20:31,515 INFO Experiment.PerfCost-9989: Invocation 6fke3f4e3ajk is cold!
+22:20:31,515 INFO Experiment.PerfCost-9989: Invocation f7x481kezhgb is cold!
+22:20:31,515 INFO Experiment.PerfCost-9989: Invocation q0jhk6gna2hf is cold!
+22:20:31,516 INFO Experiment.PerfCost-9989: Invocation kt8qnsworfsf is cold!
+22:20:31,516 INFO Experiment.PerfCost-9989: Invocation tsxaaplq7l29 is cold!
+22:20:31,516 INFO Experiment.PerfCost-9989: Invocation mddnnubd4br3 is cold!
+22:20:31,516 INFO Experiment.PerfCost-9989: Invocation u1pwldia9zur is cold!
+22:20:31,516 INFO Experiment.PerfCost-9989: Invocation a6hyod9gfcr1 is cold!
+22:20:31,516 INFO Experiment.PerfCost-9989: Invocation 6itl10jpvlih is cold!
+22:20:31,516 INFO Experiment.PerfCost-9989: Invocation e2jnsbq7vx2u is cold!
+22:20:31,516 INFO Experiment.PerfCost-9989: Invocation sxwidq8w5sdc is cold!
+22:20:31,636 INFO Experiment.PerfCost-9989: Invocation bv42p8sfc2o0 is cold!
+22:20:31,637 INFO Experiment.PerfCost-9989: Invocation otgeelf70l89 is cold!
+22:20:31,637 INFO Experiment.PerfCost-9989: Invocation ej1m6ut4w0ng is cold!
+22:20:31,637 INFO Experiment.PerfCost-9989: Invocation fyohwq2s9dlr is cold!
+22:20:31,637 INFO Experiment.PerfCost-9989: Processed 32 samples out of 250, 0 errors
+22:20:54,263 INFO Experiment.PerfCost-9989: Invocation r1avyi8up1bm is cold!
+22:20:54,263 INFO Experiment.PerfCost-9989: Invocation o5nt4jveqhkn is cold!
+22:20:54,263 INFO Experiment.PerfCost-9989: Invocation 9es0l7uwjwhv is cold!
+22:20:54,281 INFO Experiment.PerfCost-9989: Invocation pjf4y3kzj6o9 is cold!
+22:20:54,281 INFO Experiment.PerfCost-9989: Invocation b45pwc5ekyy3 is cold!
+22:20:54,282 INFO Experiment.PerfCost-9989: Invocation qtgw095mzohf is cold!
+22:20:54,282 INFO Experiment.PerfCost-9989: Processed 76 samples out of 250, 0 errors
+22:21:14,549 INFO Experiment.PerfCost-9989: Invocation exezjahrd65k is cold!
+22:21:14,549 INFO Experiment.PerfCost-9989: Invocation b4f3yjw7kmwl is cold!
+22:21:14,550 INFO Experiment.PerfCost-9989: Invocation yu77abvi8uqi is cold!
+22:21:14,550 INFO Experiment.PerfCost-9989: Invocation 5d3fl25vm46a is cold!
+22:21:14,550 INFO Experiment.PerfCost-9989: Invocation 7up8lxqs957f is cold!
+22:21:14,550 INFO Experiment.PerfCost-9989: Invocation 3m7930jd3ah8 is cold!
+22:21:14,550 INFO Experiment.PerfCost-9989: Invocation zpk0uva92c86 is cold!
+22:21:14,550 INFO Experiment.PerfCost-9989: Processed 119 samples out of 250, 0 errors
+22:21:38,729 INFO Experiment.PerfCost-9989: Invocation 4kz8irxamtjy is cold!
+22:21:38,729 INFO Experiment.PerfCost-9989: Invocation wpt8291honqb is cold!
+22:21:38,729 INFO Experiment.PerfCost-9989: Invocation 2e2vqoaz0n8o is cold!
+22:21:38,729 INFO Experiment.PerfCost-9989: Invocation p6rt1m6ml2mx is cold!
+22:21:38,729 INFO Experiment.PerfCost-9989: Invocation aidm05gdk09z is cold!
+22:21:38,729 INFO Experiment.PerfCost-9989: Processed 164 samples out of 250, 0 errors
+22:21:58,683 INFO Experiment.PerfCost-9989: Invocation epjcxajing83 is cold!
+22:21:58,683 INFO Experiment.PerfCost-9989: Invocation 5en72y27bta3 is cold!
+22:21:58,683 INFO Experiment.PerfCost-9989: Invocation l6ayli9qirmb is cold!
+22:21:58,684 INFO Experiment.PerfCost-9989: Invocation hcg5q1f8a4vv is cold!
+22:21:58,684 INFO Experiment.PerfCost-9989: Invocation 9z5e7iq0c6aq is cold!
+22:21:58,684 INFO Experiment.PerfCost-9989: Invocation y421qqt5dhgq is cold!
+22:21:58,684 INFO Experiment.PerfCost-9989: Invocation ovvqqoolrg9j is cold!
+22:21:58,684 INFO Experiment.PerfCost-9989: Invocation q1d6uan7k7vp is cold!
+22:21:58,684 INFO Experiment.PerfCost-9989: Processed 206 samples out of 250, 0 errors
+22:22:21,120 INFO Experiment.PerfCost-9989: Invocation 2r6f0i7pgumn is cold!
+22:22:21,120 INFO Experiment.PerfCost-9989: Invocation 6980ily5pgwy is cold!
+22:22:21,121 INFO Experiment.PerfCost-9989: Invocation fpo5l59lzdng is cold!
+22:22:21,121 INFO Experiment.PerfCost-9989: Invocation k8w5b9fahv6w is cold!
+22:22:21,121 INFO Experiment.PerfCost-9989: Invocation dbet9e58huws is cold!
+22:22:21,121 INFO Experiment.PerfCost-9989: Processed 251 samples out of 250, 0 errors
+22:22:26,126 INFO Experiment.PerfCost-9989: Mean 9503.451007968128 [ms], median 9286.866 [ms], std 2057.8299897769075, CV 21.6535023756268
+22:22:26,127 INFO Experiment.PerfCost-9989: Parametric CI (Student's t-distribution) 0.95 from 9247.123557039475 to 9759.77845889678, within 2.6972038969184595% of mean
+22:22:26,127 INFO Experiment.PerfCost-9989: Non-parametric CI 0.95 from 9148.173 to 9434.505, within 1.5415964869095695% of median
+22:22:26,128 INFO Experiment.PerfCost-9989: Parametric CI (Student's t-distribution) 0.99 from 9165.632414374768 to 9841.269601561487, within 3.5546939034053757% of mean
+22:22:26,128 INFO Experiment.PerfCost-9989: Non-parametric CI 0.99 from 9140.381 to 9446.127, within 1.6461204457994818% of median

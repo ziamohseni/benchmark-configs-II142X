@@ -1,0 +1,12 @@
+00:44:07,294 INFO SeBS-ea43: Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/gcp/3_dynamic-html
+00:44:07,496 INFO GCPResources-d767: Using cached resources for GCP
+00:44:07,496 INFO GCPConfig-0140: Loading cached config for GCP
+00:44:07,907 INFO GCP-d52e: Using existing resource name: d9b9fac8.
+00:44:07,908 INFO Experiment.PerfCost-b16b: Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/gcp/3_dynamic-html/perf-cost/cold_results_128.json
+00:44:08,228 INFO GCPResources-89f7: Using cached resources for GCP
+00:44:08,228 INFO GCPConfig-1b32: Loading cached config for GCP
+00:44:09,390 INFO GCP-d52e: GCP: Received 103 entries, found time metrics for 50 out of 50 invocations.
+00:44:10,16 INFO Experiment.PerfCost-b16b: Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/gcp/3_dynamic-html/perf-cost/warm_results_128.json
+00:44:10,373 INFO GCPResources-9fa3: Using cached resources for GCP
+00:44:10,374 INFO GCPConfig-59c8: Loading cached config for GCP
+00:44:11,700 INFO GCP-d52e: GCP: Received 102 entries, found time metrics for 50 out of 50 invocations.

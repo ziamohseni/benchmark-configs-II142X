@@ -1,0 +1,161 @@
+21:51:40,688 INFO SeBS-41c8: Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/gcp/1_dynamic-html
+21:51:40,899 INFO GCPResources-9384: No resources for GCP found, initialize!
+21:51:40,900 INFO GCPConfig-f620: Using user-provided config for GCP
+21:51:41,674 WARNING GCP-03ab: We found 3 existing deployments! If you want to use any of them, please abort, and provide the resource id in your input config.
+21:51:41,674 WARNING GCP-03ab: Deployment resource IDs in the cloud: ['2b487156', 'bbfe86a4', 'c43d440e']
+21:51:41,674 INFO GCP-03ab: Generating unique resource name d9b9fac8
+21:51:42,51 INFO GCP.GCPStorage-5478: Initialize a new bucket for benchmarks
+21:51:45,786 INFO Benchmark-7abc: Building benchmark 110.dynamic-html. Reason: no cached code package.
+21:51:45,794 INFO Benchmark-7abc: Docker build of benchmark dependencies in container of image spcleth/serverless-benchmarks:build.gcp.python.3.11-1.2.0
+21:51:45,794 INFO Benchmark-7abc: Docker mount of benchmark code from path /home/zia/serverless-benchmarks/experiments/perf_cost/gcp/1_dynamic-html/110.dynamic-html_code/python/3.11/x64/package
+21:51:47,464 INFO Benchmark-7abc: Created code package (source hash: 5b32e29247d7b60c8e4a0d3c0b1bc637), for run on gcp with python:3.11
+21:51:47,465 INFO GCP-03ab: Creating new function! Reason: function sebs_d9b9fac8_110_dynamic_html_python_3_11 not found in cache.
+21:51:47,818 INFO GCP.GCPStorage-5478: Initialize a new bucket for code deployment
+21:51:49,737 INFO GCP-03ab: Uploading function sebs_d9b9fac8_110_dynamic_html_python_3_11 code to sebs-deployment-d9b9fac8
+21:51:50,869 INFO GCP-03ab: Function sebs_d9b9fac8_110_dynamic_html_python_3_11 has been created!
+21:51:51,132 INFO GCP-03ab: Sleeping for 5 seconds because the created functions is not yet available!
+21:51:56,763 INFO GCP-03ab: Function sebs_d9b9fac8_110_dynamic_html_python_3_11 accepts now unauthenticated invocations!
+21:51:56,765 INFO GCP-03ab: Function sebs_d9b9fac8_110_dynamic_html_python_3_11 - waiting for deployment...
+21:52:32,232 INFO GCP-03ab: Function sebs_d9b9fac8_110_dynamic_html_python_3_11 - deployed!
+21:52:32,233 INFO Experiment.PerfCost-a104: Begin experiment on memory size 128
+21:52:33,10 INFO GCP-03ab: Uploaded new code package to sebs-deployment-d9b9fac8/x64-110.dynamic-html.zip
+21:53:27,996 INFO GCP-03ab: Waiting for function deployment, 10 retries.
+21:53:36,146 INFO GCP-03ab: Published new function code and configuration.
+21:53:36,146 INFO Experiment.PerfCost-a104: Begin cold experiments
+21:54:31,164 INFO GCP-03ab: Waiting for function deployment, 10 retries.
+21:54:36,410 INFO GCP-03ab: Published new function configuration.
+21:54:36,681 INFO GCP-03ab: Redeployed 1 out of 1
+21:54:58,791 INFO Experiment.PerfCost-a104: Processed 0 warm-up samples, ignoring these results.
+21:56:02,46 INFO GCP-03ab: Waiting for function deployment, 10 retries.
+21:56:07,223 INFO GCP-03ab: Published new function configuration.
+21:56:07,451 INFO GCP-03ab: Redeployed 1 out of 1
+21:56:22,930 ERROR GCP.HTTPTrigger-8a80: Invocation on URL https://europe-west1-grounded-braid-458419-c5.cloudfunctions.net/sebs_d9b9fac8_110_dynamic_html_python_3_11 failed!
+21:56:22,930 ERROR GCP.HTTPTrigger-8a80: Output: upstream request timeout
+21:56:30,480 INFO Experiment.PerfCost-a104: Invocation gh5tdrl1df19 is not cold!
+21:56:30,480 INFO Experiment.PerfCost-a104: Invocation fzltukigib41 is not cold!
+21:56:30,582 INFO Experiment.PerfCost-a104: Invocation 3uplwyyykqhn is not cold!
+21:56:30,583 INFO Experiment.PerfCost-a104: Invocation jgix7mx8ysjw is not cold!
+21:56:30,583 INFO Experiment.PerfCost-a104: Invocation 8ltoziymrmfm is not cold!
+21:56:30,583 INFO Experiment.PerfCost-a104: Processed 44 samples out of 250, 1 errors
+21:57:30,144 INFO GCP-03ab: Waiting for function deployment, 10 retries.
+21:57:43,493 INFO GCP-03ab: Published new function configuration.
+21:57:43,575 INFO GCP-03ab: Redeployed 1 out of 1
+21:58:02,307 INFO Experiment.PerfCost-a104: Invocation tiohq3g3goc2 is not cold!
+21:58:02,367 INFO Experiment.PerfCost-a104: Processed 93 samples out of 250, 1 errors
+21:59:04,869 INFO GCP-03ab: Waiting for function deployment, 10 retries.
+21:59:10,68 INFO GCP-03ab: Published new function configuration.
+21:59:10,162 INFO GCP-03ab: Redeployed 1 out of 1
+21:59:29,420 INFO Experiment.PerfCost-a104: Invocation ckiuiomvoqrp is not cold!
+21:59:29,433 INFO Experiment.PerfCost-a104: Invocation 8aejo3p0nicj is not cold!
+21:59:29,433 INFO Experiment.PerfCost-a104: Processed 141 samples out of 250, 1 errors
+22:00:33,263 INFO GCP-03ab: Waiting for function deployment, 10 retries.
+22:00:38,590 INFO GCP-03ab: Published new function configuration.
+22:00:38,677 INFO GCP-03ab: Redeployed 1 out of 1
+22:00:58,888 ERROR GCP.HTTPTrigger-8a80: Invocation on URL https://europe-west1-grounded-braid-458419-c5.cloudfunctions.net/sebs_d9b9fac8_110_dynamic_html_python_3_11 failed!
+22:00:58,888 ERROR GCP.HTTPTrigger-8a80: No output provided!
+22:00:59,114 ERROR GCP.HTTPTrigger-8a80: Invocation on URL https://europe-west1-grounded-braid-458419-c5.cloudfunctions.net/sebs_d9b9fac8_110_dynamic_html_python_3_11 failed!
+22:00:59,114 ERROR GCP.HTTPTrigger-8a80: No output provided!
+22:01:00,33 INFO Experiment.PerfCost-a104: Invocation ojhashufu7x3 is not cold!
+22:01:00,34 INFO Experiment.PerfCost-a104: Processed 188 samples out of 250, 3 errors
+22:02:02,402 INFO GCP-03ab: Waiting for function deployment, 10 retries.
+22:02:12,866 INFO GCP-03ab: Published new function configuration.
+22:02:12,961 INFO GCP-03ab: Redeployed 1 out of 1
+22:02:31,890 INFO Experiment.PerfCost-a104: Invocation 2gohmt0hwosw is not cold!
+22:02:31,890 INFO Experiment.PerfCost-a104: Invocation 79y7vvyct82s is not cold!
+22:02:31,890 INFO Experiment.PerfCost-a104: Processed 236 samples out of 250, 3 errors
+22:03:34,154 INFO GCP-03ab: Waiting for function deployment, 10 retries.
+22:03:39,330 INFO GCP-03ab: Published new function configuration.
+22:03:39,418 INFO GCP-03ab: Redeployed 1 out of 1
+22:04:02,113 INFO Experiment.PerfCost-a104: Invocation m2xcdp2szti2 is not cold!
+22:04:02,114 INFO Experiment.PerfCost-a104: Invocation 2n37kh7xof09 is not cold!
+22:04:02,114 INFO Experiment.PerfCost-a104: Processed 284 samples out of 250, 3 errors
+22:04:07,117 INFO Experiment.PerfCost-a104: Mean 12592.310302816903 [ms], median 13157.554 [ms], std 3182.686331604939, CV 25.274840399167825
+22:04:07,118 INFO Experiment.PerfCost-a104: Parametric CI (Student's t-distribution) 0.95 from 12219.910031004081 to 12964.710574629724, within 2.9573625717396377% of mean
+22:04:07,118 INFO Experiment.PerfCost-a104: Non-parametric CI 0.95 from 12904.434 to 13502.028, within 2.2709160076409374% of median
+22:04:07,119 INFO Experiment.PerfCost-a104: Parametric CI (Student's t-distribution) 0.99 from 12101.67863393689 to 13082.941971696915, within 3.8962800080479125% of mean
+22:04:07,119 INFO Experiment.PerfCost-a104: Non-parametric CI 0.99 from 12717.792 to 13591.458, within 3.3200167751544134% of median
+22:04:14,183 INFO Experiment.PerfCost-a104: Begin warm experiments
+22:04:37,691 INFO Experiment.PerfCost-a104: Processed 0 warm-up samples, ignoring these results.
+22:04:54,260 ERROR GCP.HTTPTrigger-8a80: Invocation on URL https://europe-west1-grounded-braid-458419-c5.cloudfunctions.net/sebs_d9b9fac8_110_dynamic_html_python_3_11 failed!
+22:04:54,260 ERROR GCP.HTTPTrigger-8a80: Output: Service Unavailable
+22:04:59,324 ERROR GCP.HTTPTrigger-8a80: Invocation on URL https://europe-west1-grounded-braid-458419-c5.cloudfunctions.net/sebs_d9b9fac8_110_dynamic_html_python_3_11 failed!
+22:04:59,324 ERROR GCP.HTTPTrigger-8a80: No output provided!
+22:05:02,601 INFO Experiment.PerfCost-a104: Invocation 5etxpu69kt50 is cold!
+22:05:02,601 INFO Experiment.PerfCost-a104: Invocation 0e52sg1om5os is cold!
+22:05:02,601 INFO Experiment.PerfCost-a104: Invocation a6sthk7fbs6q is cold!
+22:05:02,602 INFO Experiment.PerfCost-a104: Invocation 9b1rswledvx2 is cold!
+22:05:02,602 INFO Experiment.PerfCost-a104: Invocation pdzej47kpqrr is cold!
+22:05:02,602 INFO Experiment.PerfCost-a104: Invocation qaj0p8wz2tsc is cold!
+22:05:02,602 INFO Experiment.PerfCost-a104: Invocation arek9yvp34sk is cold!
+22:05:02,602 INFO Experiment.PerfCost-a104: Invocation 6s9aiqln9dkh is cold!
+22:05:02,602 INFO Experiment.PerfCost-a104: Invocation ak5mijnxyr56 is cold!
+22:05:02,602 INFO Experiment.PerfCost-a104: Invocation a5gnyaoajp33 is cold!
+22:05:02,602 INFO Experiment.PerfCost-a104: Invocation 648dt2pvj23j is cold!
+22:05:02,602 INFO Experiment.PerfCost-a104: Invocation 6cscb3ytxxhe is cold!
+22:05:02,602 INFO Experiment.PerfCost-a104: Invocation hcdybh154n34 is cold!
+22:05:02,602 INFO Experiment.PerfCost-a104: Invocation 45hkl9q1xkbf is cold!
+22:05:02,602 INFO Experiment.PerfCost-a104: Processed 34 samples out of 250, 2 errors
+22:05:32,586 INFO Experiment.PerfCost-a104: Invocation o4oljo8ixpcq is cold!
+22:05:32,586 INFO Experiment.PerfCost-a104: Invocation gdd4z99oyj24 is cold!
+22:05:32,586 INFO Experiment.PerfCost-a104: Invocation 09fef84vonkr is cold!
+22:05:32,586 INFO Experiment.PerfCost-a104: Invocation 5jws384raubh is cold!
+22:05:32,586 INFO Experiment.PerfCost-a104: Invocation 3rzy8wrvmswm is cold!
+22:05:32,587 INFO Experiment.PerfCost-a104: Invocation 629fq6x93ycn is cold!
+22:05:32,587 INFO Experiment.PerfCost-a104: Processed 78 samples out of 250, 2 errors
+22:06:00,851 INFO Experiment.PerfCost-a104: Invocation pcn4dsoys689 is cold!
+22:06:00,852 INFO Experiment.PerfCost-a104: Invocation 7d7el3tj3tla is cold!
+22:06:00,852 INFO Experiment.PerfCost-a104: Invocation thnrpeucnp0z is cold!
+22:06:00,852 INFO Experiment.PerfCost-a104: Invocation 7kjzcy752pzq is cold!
+22:06:00,852 INFO Experiment.PerfCost-a104: Invocation e93c52e74v3t is cold!
+22:06:00,852 INFO Experiment.PerfCost-a104: Invocation f7ejl4dcoht9 is cold!
+22:06:00,852 INFO Experiment.PerfCost-a104: Invocation cunabpzaax57 is cold!
+22:06:00,852 INFO Experiment.PerfCost-a104: Processed 121 samples out of 250, 2 errors
+22:06:29,142 INFO Experiment.PerfCost-a104: Invocation 2y2zzxh0ncum is cold!
+22:06:29,142 INFO Experiment.PerfCost-a104: Invocation 27azxv8mq826 is cold!
+22:06:29,143 INFO Experiment.PerfCost-a104: Invocation pqv0m2fizyoe is cold!
+22:06:29,143 INFO Experiment.PerfCost-a104: Invocation z4aa86fhske3 is cold!
+22:06:29,143 INFO Experiment.PerfCost-a104: Invocation wb49ofiepgxl is cold!
+22:06:29,143 INFO Experiment.PerfCost-a104: Invocation wy0r6chl9vxh is cold!
+22:06:29,143 INFO Experiment.PerfCost-a104: Invocation 3xvggru9osfy is cold!
+22:06:29,143 INFO Experiment.PerfCost-a104: Invocation jzw4z5w9c5j9 is cold!
+22:06:29,143 INFO Experiment.PerfCost-a104: Invocation sa24zspfe14z is cold!
+22:06:29,143 INFO Experiment.PerfCost-a104: Invocation 80hzlzff4bfg is cold!
+22:06:29,143 INFO Experiment.PerfCost-a104: Processed 161 samples out of 250, 2 errors
+22:06:54,166 INFO Experiment.PerfCost-a104: Invocation m9ts8068jepy is cold!
+22:06:54,166 INFO Experiment.PerfCost-a104: Invocation c9waom06j5x5 is cold!
+22:06:54,166 INFO Experiment.PerfCost-a104: Invocation mqmzl0tox9my is cold!
+22:06:54,211 INFO Experiment.PerfCost-a104: Invocation astjwbkmmkyn is cold!
+22:06:54,211 INFO Experiment.PerfCost-a104: Invocation njw2eh1p07pa is cold!
+22:06:54,211 INFO Experiment.PerfCost-a104: Invocation z1madst4cu85 is cold!
+22:06:54,313 INFO Experiment.PerfCost-a104: Invocation n0jypm4y6bx1 is cold!
+22:06:54,313 INFO Experiment.PerfCost-a104: Invocation wcysvydssrj4 is cold!
+22:06:54,314 INFO Experiment.PerfCost-a104: Invocation 4i613j5b9e90 is cold!
+22:06:54,314 INFO Experiment.PerfCost-a104: Invocation guqpyupu11uz is cold!
+22:06:54,314 INFO Experiment.PerfCost-a104: Processed 201 samples out of 250, 2 errors
+22:07:18,885 ERROR GCP.HTTPTrigger-8a80: Invocation on URL https://europe-west1-grounded-braid-458419-c5.cloudfunctions.net/sebs_d9b9fac8_110_dynamic_html_python_3_11 failed!
+22:07:18,885 ERROR GCP.HTTPTrigger-8a80: No output provided!
+22:07:22,111 INFO Experiment.PerfCost-a104: Invocation 6k4hyfihxt42 is cold!
+22:07:22,257 INFO Experiment.PerfCost-a104: Invocation xu7zou8952be is cold!
+22:07:22,257 INFO Experiment.PerfCost-a104: Invocation izjaidxi8puu is cold!
+22:07:22,257 INFO Experiment.PerfCost-a104: Invocation xvtttwbhv5j4 is cold!
+22:07:22,257 INFO Experiment.PerfCost-a104: Invocation 9r8ld1m0jhph is cold!
+22:07:22,257 INFO Experiment.PerfCost-a104: Invocation f07p5v20xidx is cold!
+22:07:22,258 INFO Experiment.PerfCost-a104: Invocation f6ivvviug4uj is cold!
+22:07:22,258 INFO Experiment.PerfCost-a104: Invocation 3kq7dp87oajq is cold!
+22:07:22,258 INFO Experiment.PerfCost-a104: Invocation ooullv2rwmnm is cold!
+22:07:22,258 INFO Experiment.PerfCost-a104: Processed 241 samples out of 250, 3 errors
+22:07:51,44 INFO Experiment.PerfCost-a104: Invocation kdu9e14ih78y is cold!
+22:07:51,44 INFO Experiment.PerfCost-a104: Invocation 5f2k7ry4d93t is cold!
+22:07:51,44 INFO Experiment.PerfCost-a104: Invocation xp9r012apz6b is cold!
+22:07:51,44 INFO Experiment.PerfCost-a104: Invocation ltueey5yrgpj is cold!
+22:07:51,124 INFO Experiment.PerfCost-a104: Invocation n19p9g7lw4ki is cold!
+22:07:51,124 INFO Experiment.PerfCost-a104: Invocation 7m00yv28e6i4 is cold!
+22:07:51,124 INFO Experiment.PerfCost-a104: Invocation 85cissjc847j is cold!
+22:07:51,125 INFO Experiment.PerfCost-a104: Invocation c6xgxj9jkw62 is cold!
+22:07:51,125 INFO Experiment.PerfCost-a104: Invocation jdxktsj1hl41 is cold!
+22:07:51,125 INFO Experiment.PerfCost-a104: Processed 282 samples out of 250, 3 errors
+22:07:56,130 INFO Experiment.PerfCost-a104: Mean 14732.35319503546 [ms], median 14788.622500000001 [ms], std 2463.850205313874, CV 16.724077767455015
+22:07:56,130 INFO Experiment.PerfCost-a104: Parametric CI (Student's t-distribution) 0.95 from 14443.029646092727 to 15021.676743978194, within 1.963865141654561% of mean
+22:07:56,130 INFO Experiment.PerfCost-a104: Non-parametric CI 0.95 from 14665.905 to 15000.805, within 1.132289366369314% of median
+22:07:56,131 INFO Experiment.PerfCost-a104: Parametric CI (Student's t-distribution) 0.99 from 14351.167083016482 to 15113.53930705444, within 2.5874081823359463% of mean
+22:07:56,131 INFO Experiment.PerfCost-a104: Non-parametric CI 0.99 from 14619.106 to 15069.981, within 1.52439823249258% of median
