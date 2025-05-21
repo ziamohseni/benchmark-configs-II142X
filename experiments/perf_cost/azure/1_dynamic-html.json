@@ -13,7 +13,7 @@
     "type": "perf-cost",
     "perf-cost": {
       "benchmark": "110.dynamic-html",
-      "experiments": ["warm"],
+      "experiments": ["burst", "warm"],
       "input-size": "large",
       "repetitions": 250,
       "concurrent-invocations": 50,
