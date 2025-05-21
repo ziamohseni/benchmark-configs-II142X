@@ -1,0 +1,13 @@
+21:19:01,878 INFO SeBS-d63d: Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/azure/6_thumbnailer
+21:19:02,85 INFO AzureConfig-9d59: Using cached config for Azure
+21:19:02,86 INFO Azure-b2ab: Using existing resource name: 8925ab84.
+21:19:03,803 INFO Experiment.PerfCost-a6b7: Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/azure/6_thumbnailer/perf-cost/warm_results_128.json
+21:19:03,807 INFO AzureConfig-18fa: Using cached config for Azure
+21:19:13,433 INFO Azure-b2ab: Azure: Running App Insights query.
+21:19:14,543 INFO Azure-b2ab: Azure: Found time metrics for 296 out of 296 invocations.
+21:19:14,543 INFO Azure-b2ab: Missing the requests: set()
+21:19:14,574 INFO Experiment.PerfCost-a6b7: Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/azure/6_thumbnailer/perf-cost/burst_results_128.json
+21:19:14,577 INFO AzureConfig-8e0c: Using cached config for Azure
+21:19:20,676 INFO Azure-b2ab: Azure: Running App Insights query.
+21:19:22,322 INFO Azure-b2ab: Azure: Found time metrics for 250 out of 250 invocations.
+21:19:22,322 INFO Azure-b2ab: Missing the requests: set()

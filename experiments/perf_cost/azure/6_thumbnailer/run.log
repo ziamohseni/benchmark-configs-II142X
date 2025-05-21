@@ -1,0 +1,67 @@
+20:51:17,396 INFO SeBS-9845: Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/azure/6_thumbnailer
+20:51:17,602 INFO AzureConfig-4545: Using cached config for Azure
+20:51:17,602 INFO Azure-221d: Using existing resource name: 8925ab84.
+20:51:20,71 INFO Azure.BlobStorage-dab4: Upload /home/zia/serverless-benchmarks/sebs/../benchmarks-data/200.multimedia/210.thumbnailer/7_beach-bird-s-eye-view-coast-2499700.jpg to sebs-benchmarks-8925ab84
+20:51:20,248 INFO Azure.BlobStorage-dab4: Upload /home/zia/serverless-benchmarks/sebs/../benchmarks-data/200.multimedia/210.thumbnailer/4_altitude-astrology-astronomy-1819650.jpg to sebs-benchmarks-8925ab84
+20:51:20,593 INFO Azure.BlobStorage-dab4: Upload /home/zia/serverless-benchmarks/sebs/../benchmarks-data/200.multimedia/210.thumbnailer/0_action-adrenaline-adventure-1047051.jpg to sebs-benchmarks-8925ab84
+20:51:21,115 INFO Azure.BlobStorage-dab4: Upload /home/zia/serverless-benchmarks/sebs/../benchmarks-data/200.multimedia/210.thumbnailer/8_close-up-elder-elderly-2050990.jpg to sebs-benchmarks-8925ab84
+20:51:21,415 INFO Azure.BlobStorage-dab4: Upload /home/zia/serverless-benchmarks/sebs/../benchmarks-data/200.multimedia/210.thumbnailer/6_astronomy-desktop-wallpaper-evening-1624438.jpg to sebs-benchmarks-8925ab84
+20:51:21,765 INFO Azure.BlobStorage-dab4: Upload /home/zia/serverless-benchmarks/sebs/../benchmarks-data/200.multimedia/210.thumbnailer/5_asphalt-atmosphere-cloudy-sky-2739010.jpg to sebs-benchmarks-8925ab84
+20:51:21,866 INFO Azure.BlobStorage-dab4: Upload /home/zia/serverless-benchmarks/sebs/../benchmarks-data/200.multimedia/210.thumbnailer/3_aerial-shot-architecture-bridge-2887493.jpg to sebs-benchmarks-8925ab84
+20:51:22,240 INFO Azure.BlobStorage-dab4: Upload /home/zia/serverless-benchmarks/sebs/../benchmarks-data/200.multimedia/210.thumbnailer/9_cobblestone-granite-pebbles-1029604.jpg to sebs-benchmarks-8925ab84
+20:51:22,661 INFO Azure.BlobStorage-dab4: Upload /home/zia/serverless-benchmarks/sebs/../benchmarks-data/200.multimedia/210.thumbnailer/2_aerial-shot-architecture-bird-s-eye-view-2440013.jpg to sebs-benchmarks-8925ab84
+20:51:22,844 INFO Azure.BlobStorage-dab4: Upload /home/zia/serverless-benchmarks/sebs/../benchmarks-data/200.multimedia/210.thumbnailer/1_adult-adventure-back-view-2819546.jpg to sebs-benchmarks-8925ab84
+20:51:22,845 INFO Benchmark-f64c: Building benchmark 210.thumbnailer. Reason: no cached code package.
+20:51:22,848 INFO Benchmark-f64c: Docker build of benchmark dependencies in container of image spcleth/serverless-benchmarks:build.azure.python.3.11-1.2.0
+20:51:22,848 INFO Benchmark-f64c: Docker mount of benchmark code from path /home/zia/serverless-benchmarks/experiments/perf_cost/azure/6_thumbnailer/210.thumbnailer_code/python/3.11/x64/package
+20:51:31,199 INFO Benchmark-f64c: Created code package (source hash: 7a2eb5a1d2d5005889b0de0e59d36732), for run on azure with python:3.11
+20:51:31,273 INFO Azure-221d: Creating new function! Reason: function sebs-8925ab84-210-thumbnailer-python-3-11 not found in cache.
+20:54:09,256 INFO Azure-221d: Azure: Created function app sebs-8925ab84-210-thumbnailer-python-3-11
+20:54:09,257 INFO Azure-221d: Retrieving existing environment variables for function sebs-8925ab84-210-thumbnailer-python-3-11
+20:54:11,331 INFO Azure-221d: Exporting environment variables for function sebs-8925ab84-210-thumbnailer-python-3-11
+20:54:18,835 INFO Azure-221d: Attempting publish of function sebs-8925ab84-210-thumbnailer-python-3-11
+20:54:32,509 INFO Experiment.PerfCost-0ed2: Begin experiment on memory size 128
+20:54:32,509 INFO Azure-221d: Retrieving existing environment variables for function sebs-8925ab84-210-thumbnailer-python-3-11
+20:54:34,539 INFO Azure-221d: Exporting environment variables for function sebs-8925ab84-210-thumbnailer-python-3-11
+20:54:45,215 INFO Azure-221d: Attempting publish of function sebs-8925ab84-210-thumbnailer-python-3-11
+20:55:03,552 INFO Experiment.PerfCost-0ed2: Begin burst experiments
+20:55:03,563 INFO Azure-221d: Retrieving existing environment variables for function sebs-8925ab84-210-thumbnailer-python-3-11
+20:55:11,542 INFO Azure-221d: Exporting environment variables for function sebs-8925ab84-210-thumbnailer-python-3-11
+20:55:50,166 INFO Experiment.PerfCost-0ed2: Processed 0 warm-up samples, ignoring these results.
+20:55:55,170 INFO Azure-221d: Retrieving existing environment variables for function sebs-8925ab84-210-thumbnailer-python-3-11
+20:55:56,570 INFO Azure-221d: Exporting environment variables for function sebs-8925ab84-210-thumbnailer-python-3-11
+20:56:31,453 INFO Experiment.PerfCost-0ed2: Processed 50 samples out of 250, 0 errors
+20:56:36,457 INFO Azure-221d: Retrieving existing environment variables for function sebs-8925ab84-210-thumbnailer-python-3-11
+20:56:38,135 INFO Azure-221d: Exporting environment variables for function sebs-8925ab84-210-thumbnailer-python-3-11
+20:57:12,481 INFO Experiment.PerfCost-0ed2: Processed 100 samples out of 250, 0 errors
+20:57:17,483 INFO Azure-221d: Retrieving existing environment variables for function sebs-8925ab84-210-thumbnailer-python-3-11
+20:57:22,431 INFO Azure-221d: Exporting environment variables for function sebs-8925ab84-210-thumbnailer-python-3-11
+20:57:53,837 INFO Experiment.PerfCost-0ed2: Processed 150 samples out of 250, 0 errors
+20:58:01,774 INFO Azure-221d: Retrieving existing environment variables for function sebs-8925ab84-210-thumbnailer-python-3-11
+20:58:03,38 INFO Azure-221d: Exporting environment variables for function sebs-8925ab84-210-thumbnailer-python-3-11
+20:58:35,657 INFO Experiment.PerfCost-0ed2: Processed 200 samples out of 250, 0 errors
+20:58:40,662 INFO Azure-221d: Retrieving existing environment variables for function sebs-8925ab84-210-thumbnailer-python-3-11
+20:58:44,67 INFO Azure-221d: Exporting environment variables for function sebs-8925ab84-210-thumbnailer-python-3-11
+20:59:16,947 INFO Experiment.PerfCost-0ed2: Processed 250 samples out of 250, 0 errors
+20:59:21,951 INFO Experiment.PerfCost-0ed2: Mean 2117.203488 [ms], median 1839.9975 [ms], std 1122.4318690718371, CV 53.014831849353016
+20:59:21,952 INFO Experiment.PerfCost-0ed2: Parametric CI (Student's t-distribution) 0.95 from 1977.1079090607268 to 2257.2990669392734, within 6.617010586526735% of mean
+20:59:21,952 INFO Experiment.PerfCost-0ed2: Non-parametric CI 0.95 from 1561.225 to 2217.106, within 17.822877476735712% of median
+20:59:21,953 INFO Experiment.PerfCost-0ed2: Parametric CI (Student's t-distribution) 0.99 from 1932.5668924216416 to 2301.8400835783586, within 8.720777035596804% of mean
+20:59:21,953 INFO Experiment.PerfCost-0ed2: Non-parametric CI 0.99 from 1505.72 to 2284.728, within 21.16872441402774% of median
+20:59:21,984 INFO Experiment.PerfCost-0ed2: Begin warm experiments
+20:59:29,442 INFO Experiment.PerfCost-0ed2: Processed 0 warm-up samples, ignoring these results.
+20:59:45,453 INFO Experiment.PerfCost-0ed2: Invocation b1f624b5-17f2-43a4-87c9-11bc7767219e is cold!
+20:59:45,453 INFO Experiment.PerfCost-0ed2: Invocation 419b0c8d-368d-4ffe-8a84-c928190265e1 is cold!
+20:59:45,453 INFO Experiment.PerfCost-0ed2: Invocation 49e46288-779a-4e30-b73d-dbe27fc25e6e is cold!
+20:59:45,636 INFO Experiment.PerfCost-0ed2: Processed 47 samples out of 250, 0 errors
+20:59:57,806 INFO Experiment.PerfCost-0ed2: Invocation ad795f2a-6bfe-4160-a28b-feb8660d9a2f is cold!
+20:59:57,809 INFO Experiment.PerfCost-0ed2: Processed 96 samples out of 250, 0 errors
+21:00:09,455 INFO Experiment.PerfCost-0ed2: Processed 146 samples out of 250, 0 errors
+21:00:24,80 INFO Experiment.PerfCost-0ed2: Processed 196 samples out of 250, 0 errors
+21:00:35,695 INFO Experiment.PerfCost-0ed2: Processed 246 samples out of 250, 0 errors
+21:00:47,489 INFO Experiment.PerfCost-0ed2: Processed 296 samples out of 250, 0 errors
+21:00:55,428 INFO Experiment.PerfCost-0ed2: Mean 1700.8443783783782 [ms], median 1186.6084999999998 [ms], std 1492.4243022665876, CV 87.74608196015541
+21:00:55,428 INFO Experiment.PerfCost-0ed2: Parametric CI (Student's t-distribution) 0.95 from 1529.8370155885814 to 1871.851741168175, within 10.054262751118884% of mean
+21:00:55,428 INFO Experiment.PerfCost-0ed2: Non-parametric CI 0.95 from 1100.58 to 1265.383, within 6.944287016315833% of median
+21:00:55,429 INFO Experiment.PerfCost-0ed2: Parametric CI (Student's t-distribution) 0.99 from 1475.5676073969005 to 1926.121149359856, within 13.244996064617123% of mean
+21:00:55,429 INFO Experiment.PerfCost-0ed2: Non-parametric CI 0.99 from 1073.863 to 1298.392, within 9.460955319298659% of median

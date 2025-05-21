@@ -1,0 +1,122 @@
+19:59:48,932 INFO SeBS-917b: Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/azure/3_dynamic-html
+19:59:49,132 INFO AzureConfig-84b8: Using cached config for Azure
+19:59:49,132 INFO Azure-18cf: Using existing resource name: 8925ab84.
+19:59:51,36 INFO Benchmark-9441: Using cached benchmark 110.dynamic-html at /home/zia/serverless-benchmarks/experiments/perf_cost/azure/cache/110.dynamic-html/azure/python/3.11/x64/package/code
+19:59:51,36 INFO Azure-18cf: Using cached function sebs-8925ab84-110-dynamic-html-python-3-11 in /home/zia/serverless-benchmarks/experiments/perf_cost/azure/cache/110.dynamic-html/azure/python/3.11/x64/package/code
+19:59:51,36 INFO Azure-18cf: Cached function sebs-8925ab84-110-dynamic-html-python-3-11 is up to date.
+19:59:51,37 INFO Experiment.PerfCost-0a4e: Begin experiment on memory size 128
+19:59:51,247 INFO Azure-18cf: Attempting publish of function sebs-8925ab84-110-dynamic-html-python-3-11
+20:00:11,90 INFO Experiment.PerfCost-0a4e: Begin burst experiments
+20:00:37,875 INFO Experiment.PerfCost-0a4e: Processed 0 warm-up samples, ignoring these results.
+20:01:11,733 INFO Experiment.PerfCost-0a4e: Processed 1 samples out of 50, 0 errors
+20:01:45,637 INFO Experiment.PerfCost-0a4e: Processed 2 samples out of 50, 0 errors
+20:02:19,454 INFO Experiment.PerfCost-0a4e: Processed 3 samples out of 50, 0 errors
+20:02:53,338 INFO Experiment.PerfCost-0a4e: Processed 4 samples out of 50, 0 errors
+20:03:27,193 INFO Experiment.PerfCost-0a4e: Processed 5 samples out of 50, 0 errors
+20:04:01,50 INFO Experiment.PerfCost-0a4e: Processed 6 samples out of 50, 0 errors
+20:04:34,818 INFO Experiment.PerfCost-0a4e: Processed 7 samples out of 50, 0 errors
+20:05:10,77 INFO Experiment.PerfCost-0a4e: Processed 8 samples out of 50, 0 errors
+20:05:43,946 INFO Experiment.PerfCost-0a4e: Processed 9 samples out of 50, 0 errors
+20:06:14,915 INFO Experiment.PerfCost-0a4e: Processed 10 samples out of 50, 0 errors
+20:06:50,616 INFO Experiment.PerfCost-0a4e: Processed 11 samples out of 50, 0 errors
+20:07:21,719 INFO Experiment.PerfCost-0a4e: Processed 12 samples out of 50, 0 errors
+20:07:58,751 INFO Experiment.PerfCost-0a4e: Processed 13 samples out of 50, 0 errors
+20:08:29,650 INFO Experiment.PerfCost-0a4e: Processed 14 samples out of 50, 0 errors
+20:09:04,882 INFO Experiment.PerfCost-0a4e: Processed 15 samples out of 50, 0 errors
+20:09:38,868 INFO Experiment.PerfCost-0a4e: Processed 16 samples out of 50, 0 errors
+20:10:09,727 INFO Experiment.PerfCost-0a4e: Processed 17 samples out of 50, 0 errors
+20:10:46,783 INFO Experiment.PerfCost-0a4e: Processed 18 samples out of 50, 0 errors
+20:11:21,137 INFO Experiment.PerfCost-0a4e: Processed 19 samples out of 50, 0 errors
+20:11:55,47 INFO Experiment.PerfCost-0a4e: Processed 20 samples out of 50, 0 errors
+20:12:30,287 INFO Experiment.PerfCost-0a4e: Processed 21 samples out of 50, 0 errors
+20:13:01,252 INFO Experiment.PerfCost-0a4e: Processed 22 samples out of 50, 0 errors
+20:13:36,499 INFO Experiment.PerfCost-0a4e: Processed 23 samples out of 50, 0 errors
+20:14:07,429 INFO Experiment.PerfCost-0a4e: Processed 24 samples out of 50, 0 errors
+20:14:44,587 INFO Experiment.PerfCost-0a4e: Processed 25 samples out of 50, 0 errors
+20:15:18,484 INFO Experiment.PerfCost-0a4e: Processed 26 samples out of 50, 0 errors
+20:15:49,313 INFO Experiment.PerfCost-0a4e: Processed 27 samples out of 50, 0 errors
+20:16:24,621 INFO Experiment.PerfCost-0a4e: Processed 28 samples out of 50, 0 errors
+20:16:58,584 INFO Experiment.PerfCost-0a4e: Processed 29 samples out of 50, 0 errors
+20:17:32,550 INFO Experiment.PerfCost-0a4e: Processed 30 samples out of 50, 0 errors
+20:18:06,394 INFO Experiment.PerfCost-0a4e: Processed 31 samples out of 50, 0 errors
+20:18:40,285 INFO Experiment.PerfCost-0a4e: Processed 32 samples out of 50, 0 errors
+20:19:14,260 INFO Experiment.PerfCost-0a4e: Processed 33 samples out of 50, 0 errors
+20:19:48,291 INFO Experiment.PerfCost-0a4e: Processed 34 samples out of 50, 0 errors
+20:20:19,190 INFO Experiment.PerfCost-0a4e: Processed 35 samples out of 50, 0 errors
+20:20:54,488 INFO Experiment.PerfCost-0a4e: Processed 36 samples out of 50, 0 errors
+20:21:28,281 INFO Experiment.PerfCost-0a4e: Processed 37 samples out of 50, 0 errors
+20:22:02,189 INFO Experiment.PerfCost-0a4e: Processed 38 samples out of 50, 0 errors
+20:22:36,503 INFO Experiment.PerfCost-0a4e: Processed 39 samples out of 50, 0 errors
+20:23:11,901 INFO Experiment.PerfCost-0a4e: Processed 40 samples out of 50, 0 errors
+20:23:45,695 INFO Experiment.PerfCost-0a4e: Processed 41 samples out of 50, 0 errors
+20:24:16,686 INFO Experiment.PerfCost-0a4e: Processed 42 samples out of 50, 0 errors
+20:24:51,907 INFO Experiment.PerfCost-0a4e: Processed 43 samples out of 50, 0 errors
+20:25:25,786 INFO Experiment.PerfCost-0a4e: Processed 44 samples out of 50, 0 errors
+20:25:59,644 INFO Experiment.PerfCost-0a4e: Processed 45 samples out of 50, 0 errors
+20:26:33,589 INFO Experiment.PerfCost-0a4e: Processed 46 samples out of 50, 0 errors
+20:27:07,370 INFO Experiment.PerfCost-0a4e: Processed 47 samples out of 50, 0 errors
+20:27:42,941 INFO Experiment.PerfCost-0a4e: Processed 48 samples out of 50, 0 errors
+20:28:17,20 INFO Experiment.PerfCost-0a4e: Processed 49 samples out of 50, 0 errors
+20:28:48,76 INFO Experiment.PerfCost-0a4e: Processed 50 samples out of 50, 0 errors
+20:28:56,10 INFO Experiment.PerfCost-0a4e: Mean 1020.7570399999998 [ms], median 929.946 [ms], std 451.55759405617175, CV 44.23751944499661
+20:28:56,11 INFO Experiment.PerfCost-0a4e: Parametric CI (Student's t-distribution) 0.95 from 891.1229029781512 to 1150.3911770218485, within 12.699803375526924% of mean
+20:28:56,12 INFO Experiment.PerfCost-0a4e: Non-parametric CI 0.95 from 902.442 to 959.682, within 3.07759805408056% of median
+20:28:56,12 INFO Experiment.PerfCost-0a4e: Parametric CI (Student's t-distribution) 0.99 from 847.878087800121 to 1193.6359921998787, within 16.93634679216897% of mean
+20:28:56,12 INFO Experiment.PerfCost-0a4e: Non-parametric CI 0.99 from 895.109 to 979.774, within 4.552146038587185% of median
+20:28:57,218 INFO Experiment.PerfCost-0a4e: Begin warm experiments
+20:29:03,416 INFO Experiment.PerfCost-0a4e: Processed 0 warm-up samples, ignoring these results.
+20:29:14,387 INFO Experiment.PerfCost-0a4e: Processed 1 samples out of 50, 0 errors
+20:29:28,247 INFO Experiment.PerfCost-0a4e: Processed 2 samples out of 50, 0 errors
+20:29:39,306 INFO Experiment.PerfCost-0a4e: Processed 3 samples out of 50, 0 errors
+20:29:50,172 INFO Experiment.PerfCost-0a4e: Processed 4 samples out of 50, 0 errors
+20:30:03,972 INFO Experiment.PerfCost-0a4e: Processed 5 samples out of 50, 0 errors
+20:30:14,834 INFO Experiment.PerfCost-0a4e: Processed 6 samples out of 50, 0 errors
+20:30:25,720 INFO Experiment.PerfCost-0a4e: Processed 7 samples out of 50, 0 errors
+20:30:39,486 INFO Experiment.PerfCost-0a4e: Processed 8 samples out of 50, 0 errors
+20:30:50,422 INFO Experiment.PerfCost-0a4e: Processed 9 samples out of 50, 0 errors
+20:31:01,417 INFO Experiment.PerfCost-0a4e: Processed 10 samples out of 50, 0 errors
+20:31:15,206 INFO Experiment.PerfCost-0a4e: Processed 11 samples out of 50, 0 errors
+20:31:26,83 INFO Experiment.PerfCost-0a4e: Processed 12 samples out of 50, 0 errors
+20:31:36,962 INFO Experiment.PerfCost-0a4e: Processed 13 samples out of 50, 0 errors
+20:31:50,767 INFO Experiment.PerfCost-0a4e: Processed 14 samples out of 50, 0 errors
+20:32:01,681 INFO Experiment.PerfCost-0a4e: Processed 15 samples out of 50, 0 errors
+20:32:12,618 INFO Experiment.PerfCost-0a4e: Processed 16 samples out of 50, 0 errors
+20:32:26,426 INFO Experiment.PerfCost-0a4e: Processed 17 samples out of 50, 0 errors
+20:32:37,294 INFO Experiment.PerfCost-0a4e: Processed 18 samples out of 50, 0 errors
+20:32:48,172 INFO Experiment.PerfCost-0a4e: Processed 19 samples out of 50, 0 errors
+20:33:01,918 INFO Experiment.PerfCost-0a4e: Processed 20 samples out of 50, 0 errors
+20:33:12,805 INFO Experiment.PerfCost-0a4e: Processed 21 samples out of 50, 0 errors
+20:33:23,751 INFO Experiment.PerfCost-0a4e: Processed 22 samples out of 50, 0 errors
+20:33:37,544 INFO Experiment.PerfCost-0a4e: Processed 23 samples out of 50, 0 errors
+20:33:48,494 INFO Experiment.PerfCost-0a4e: Processed 24 samples out of 50, 0 errors
+20:33:59,471 INFO Experiment.PerfCost-0a4e: Processed 25 samples out of 50, 0 errors
+20:34:13,356 INFO Experiment.PerfCost-0a4e: Processed 26 samples out of 50, 0 errors
+20:34:24,225 INFO Experiment.PerfCost-0a4e: Processed 27 samples out of 50, 0 errors
+20:34:35,190 INFO Experiment.PerfCost-0a4e: Processed 28 samples out of 50, 0 errors
+20:34:49,36 INFO Experiment.PerfCost-0a4e: Processed 29 samples out of 50, 0 errors
+20:34:59,895 INFO Experiment.PerfCost-0a4e: Processed 30 samples out of 50, 0 errors
+20:35:10,843 INFO Experiment.PerfCost-0a4e: Processed 31 samples out of 50, 0 errors
+20:35:21,727 INFO Experiment.PerfCost-0a4e: Processed 32 samples out of 50, 0 errors
+20:35:36,954 INFO Experiment.PerfCost-0a4e: Processed 33 samples out of 50, 0 errors
+20:35:47,870 INFO Experiment.PerfCost-0a4e: Processed 34 samples out of 50, 0 errors
+20:35:58,721 INFO Experiment.PerfCost-0a4e: Processed 35 samples out of 50, 0 errors
+20:36:12,470 INFO Experiment.PerfCost-0a4e: Processed 36 samples out of 50, 0 errors
+20:36:23,486 INFO Experiment.PerfCost-0a4e: Processed 37 samples out of 50, 0 errors
+20:36:34,385 INFO Experiment.PerfCost-0a4e: Processed 38 samples out of 50, 0 errors
+20:36:48,659 INFO Experiment.PerfCost-0a4e: Processed 39 samples out of 50, 0 errors
+20:36:59,601 INFO Experiment.PerfCost-0a4e: Processed 40 samples out of 50, 0 errors
+20:37:10,531 INFO Experiment.PerfCost-0a4e: Processed 41 samples out of 50, 0 errors
+20:37:21,354 INFO Experiment.PerfCost-0a4e: Processed 42 samples out of 50, 0 errors
+20:37:32,174 INFO Experiment.PerfCost-0a4e: Processed 43 samples out of 50, 0 errors
+20:37:43,36 INFO Experiment.PerfCost-0a4e: Processed 44 samples out of 50, 0 errors
+20:38:00,105 INFO Experiment.PerfCost-0a4e: Processed 45 samples out of 50, 0 errors
+20:38:11,117 INFO Experiment.PerfCost-0a4e: Processed 46 samples out of 50, 0 errors
+20:38:22,79 INFO Experiment.PerfCost-0a4e: Processed 47 samples out of 50, 0 errors
+20:38:36,417 INFO Experiment.PerfCost-0a4e: Processed 48 samples out of 50, 0 errors
+20:38:47,410 INFO Experiment.PerfCost-0a4e: Processed 49 samples out of 50, 0 errors
+20:38:58,296 INFO Experiment.PerfCost-0a4e: Processed 50 samples out of 50, 0 errors
+20:39:03,300 INFO Experiment.PerfCost-0a4e: Mean 912.7326999999999 [ms], median 891.2265 [ms], std 106.95061355284504, CV 11.717627028465733
+20:39:03,301 INFO Experiment.PerfCost-0a4e: Parametric CI (Student's t-distribution) 0.95 from 882.0290850583461 to 943.4363149416537, within 3.3639218734744323% of mean
+20:39:03,301 INFO Experiment.PerfCost-0a4e: Non-parametric CI 0.95 from 866.471 to 925.343, within 3.3028640867388903% of median
+20:39:03,301 INFO Experiment.PerfCost-0a4e: Parametric CI (Student's t-distribution) 0.99 from 871.7866274468496 to 953.6787725531502, within 4.486096811602161% of mean
+20:39:03,301 INFO Experiment.PerfCost-0a4e: Non-parametric CI 0.99 from 860.68 to 935.413, within 4.192705221399951% of median

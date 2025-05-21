@@ -1,0 +1,13 @@
+21:19:36,464 INFO SeBS-268b: Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/azure/7_thumbnailer
+21:19:36,667 INFO AzureConfig-ac49: Using cached config for Azure
+21:19:36,667 INFO Azure-05ef: Using existing resource name: 8925ab84.
+21:19:38,535 INFO Experiment.PerfCost-a2fc: Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/azure/7_thumbnailer/perf-cost/warm_results_128.json
+21:19:38,539 INFO AzureConfig-8c60: Using cached config for Azure
+21:20:49,748 INFO Azure-05ef: Azure: Running App Insights query.
+21:20:51,21 INFO Azure-05ef: Azure: Found time metrics for 272 out of 298 invocations.
+21:20:56,25 INFO Azure-05ef: Missing the requests: {'fdd67cc4-e15f-4248-b8a6-54b943044698', '3aa061b2-bd79-4482-a042-8c06eb52c586', 'b72cc303-fa62-4326-b53b-41b45a0bb850', 'c1b60ad3-4783-4906-a0ae-f83b97f9c0ba', '128118d1-caa2-4a91-a408-cbc52b187254', '0aa66724-735d-443b-9280-01b253ba2524', 'bce914db-f991-45ba-bb9a-4c12ebd5041e', '58a2cf40-9838-404f-9643-169200133f8f', '88fdab6f-5722-4199-9f97-f4bd5cc29d38', 'bec068e5-d1ab-4dbe-861d-ff4e1f9aeeff', 'fc28dd4a-13c6-484d-b166-82b369b4664e', '18043010-7b07-4cc7-bfc1-c0088df70859', '66c4967b-1918-4e66-a48a-ade42306edb3', '968c680b-67c7-4887-a257-67dfd9484967', 'b8260850-c8bc-4bae-97ca-ea232cd17aa6', '4ee63370-83e1-4ada-b2fc-fae7cc4f681e', 'e7d30cbf-dbe9-4820-b323-c6ae25e22c53', 'e696ba28-6c29-40c4-802e-121564f4df6e', '12c013ca-790d-41ab-87a7-f6c7b09363ea', 'e2aea4bc-fdd8-417d-aedc-52390b011857', '391bf8d7-f1e3-4990-9fb9-cb2259312a2c', '48cc6476-1082-4bff-b2ff-52239f9f7c22', '91e1796a-37ec-4a35-bbe6-64cf1d4c302e', 'ddf0bf8e-c383-47b0-af6a-27335b933338', 'f11eacfd-5a3f-4c09-a412-c7b86081b680', 'ef905aa0-06bd-4a7b-bd7b-e4fd09672439'}
+21:20:56,50 INFO Experiment.PerfCost-a2fc: Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/azure/7_thumbnailer/perf-cost/burst_results_128.json
+21:20:56,53 INFO AzureConfig-3da9: Using cached config for Azure
+21:21:02,642 INFO Azure-05ef: Azure: Running App Insights query.
+21:21:03,751 INFO Azure-05ef: Azure: Found time metrics for 250 out of 250 invocations.
+21:21:03,751 INFO Azure-05ef: Missing the requests: set()

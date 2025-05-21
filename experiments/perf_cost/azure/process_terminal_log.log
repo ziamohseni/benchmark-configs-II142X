@@ -1,0 +1,206 @@
+(python-venv) zia@Zia:~/serverless-benchmarks/experiments/perf_cost/azure$ ./process.sh
+**** Processing results for Azure with perf-cost ****
+Process benchmark 1_dynamic-html, Python, Concurrent: 50
+[21:16:27.265993] SeBS-f687 Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/azure/1_dynamic-html
+[21:16:27.476430] AzureConfig-63a3 Using cached config for Azure
+[21:16:27.476637] Azure-22dd Using existing resource name: 8925ab84.
+[21:16:27.732335] Azure.CLI-6580 Started Azure CLI container: 0f7b5c08b76a31187cbbd560dede2cceb06efc0106cc91a0f13a14950f978b0a.
+[21:16:29.430494] Azure.CLI-6580 Azure login succesful
+[21:16:29.431468] Experiment.PerfCost-57d6 Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/azure/1_dynamic-html/perf-cost/cold_results_128.json
+ERROR:root:Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/home/zia/serverless-benchmarks/experiments/perf_cost/azure/../../../sebs.py", line 31, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/zia/serverless-benchmarks/python-venv/lib/python3.10/site-packages/click/core.py", line 1082, in main
+    rv = self.invoke(ctx)
+  File "/home/zia/serverless-benchmarks/python-venv/lib/python3.10/site-packages/click/core.py", line 1697, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/zia/serverless-benchmarks/python-venv/lib/python3.10/site-packages/click/core.py", line 1697, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/zia/serverless-benchmarks/python-venv/lib/python3.10/site-packages/click/core.py", line 1443, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/zia/serverless-benchmarks/python-venv/lib/python3.10/site-packages/click/core.py", line 788, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/zia/serverless-benchmarks/experiments/perf_cost/azure/../../../sebs.py", line 73, in wrapper
+    return func(*args, **kwargs)
+  File "/home/zia/serverless-benchmarks/experiments/perf_cost/azure/../../../sebs.py", line 116, in wrapper
+    return func(*args, **kwargs)
+  File "/home/zia/serverless-benchmarks/experiments/perf_cost/azure/../../../sebs.py", line 611, in experiment_process
+    experiment.process(
+  File "/home/zia/serverless-benchmarks/sebs/experiments/perf_cost.py", line 320, in process
+    config = json.load(in_f)
+  File "/usr/lib/python3.10/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[21:16:29.433038] Azure.CLI-6580 Stopping Azure manage Docker instance
+[21:16:42.702746] Benchmark-07df Update cached config /home/zia/serverless-benchmarks/experiments/perf_cost/azure/cache/azure.json
+Process benchmark 2_dynamic-html, Node.js, Concurrent: 50
+[21:16:43.523006] SeBS-1707 Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/azure/2_dynamic-html
+[21:16:43.726619] AzureConfig-c07f Using cached config for Azure
+[21:16:43.726871] Azure-0f36 Using existing resource name: 8925ab84.
+[21:16:43.926287] Azure.CLI-ee9f Started Azure CLI container: 12644cb1a2fcc90d01c3e0812a55033cb72b2a93decc0f3f79271f72c2d37d4e.
+[21:16:45.546100] Azure.CLI-ee9f Azure login succesful
+[21:16:45.546914] Experiment.PerfCost-87c0 Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/azure/2_dynamic-html/perf-cost/warm_results_128.json
+[21:16:46.439249] AzureConfig-1f93 Using cached config for Azure
+[21:16:56.379739] Azure-0f36 Azure: Running App Insights query.
+[21:16:58.416496] Azure-0f36 Azure: Found time metrics for 250 out of 250 invocations.
+[21:16:58.416639] Azure-0f36 Missing the requests: set()
+[21:16:58.447443] Experiment.PerfCost-87c0 Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/azure/2_dynamic-html/perf-cost/burst_results_128.json
+[21:16:59.316754] AzureConfig-f68e Using cached config for Azure
+[21:17:05.185036] Azure-0f36 Azure: Running App Insights query.
+[21:17:06.000301] Azure-0f36 Azure: Found time metrics for 250 out of 250 invocations.
+[21:17:06.000446] Azure-0f36 Missing the requests: set()
+[21:17:06.030680] Azure.CLI-ee9f Stopping Azure manage Docker instance
+[21:17:19.348206] Benchmark-58b5 Update cached config /home/zia/serverless-benchmarks/experiments/perf_cost/azure/cache/azure.json
+Process benchmark 3_dynamic-html, Python, Concurrent: 1
+[21:17:20.169613] SeBS-5680 Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/azure/3_dynamic-html
+[21:17:20.374194] AzureConfig-084f Using cached config for Azure
+[21:17:20.374421] Azure-79b6 Using existing resource name: 8925ab84.
+[21:17:20.629104] Azure.CLI-137f Started Azure CLI container: 38890462d2e49edea5fa254d6d031ac1de2a949128fa28259decef3070b02833.
+[21:17:22.314549] Azure.CLI-137f Azure login succesful
+[21:17:22.315356] Experiment.PerfCost-de41 Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/azure/3_dynamic-html/perf-cost/warm_results_128.json
+[21:17:22.636023] AzureConfig-216c Using cached config for Azure
+[21:17:32.263009] Azure-79b6 Azure: Running App Insights query.
+[21:17:34.183088] Azure-79b6 Azure: Found time metrics for 50 out of 50 invocations.
+[21:17:34.183227] Azure-79b6 Missing the requests: set()
+[21:17:34.192106] Experiment.PerfCost-de41 Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/azure/3_dynamic-html/perf-cost/burst_results_128.json
+[21:17:34.500452] AzureConfig-4e8e Using cached config for Azure
+[21:17:40.741569] Azure-79b6 Azure: Running App Insights query.
+[21:17:45.931663] Azure-79b6 Azure: Found time metrics for 50 out of 50 invocations.
+[21:17:45.931842] Azure-79b6 Missing the requests: set()
+[21:17:45.939226] Azure.CLI-137f Stopping Azure manage Docker instance
+[21:17:56.318639] Benchmark-5dfa Update cached config /home/zia/serverless-benchmarks/experiments/perf_cost/azure/cache/azure.json
+Process benchmark 4_dynamic-html, Python, Concurrent: 25
+[21:17:57.133242] SeBS-4646 Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/azure/4_dynamic-html
+[21:17:57.347440] AzureConfig-dfdd Using cached config for Azure
+[21:17:57.347675] Azure-6856 Using existing resource name: 8925ab84.
+[21:17:57.538146] Azure.CLI-23a4 Started Azure CLI container: cc64fb9f494d29d930ce3361c5ce063c8103c5af0924af8348d6641e35005ce7.
+[21:17:59.128634] Azure.CLI-23a4 Azure login succesful
+[21:17:59.129439] Experiment.PerfCost-1712 Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/azure/4_dynamic-html/perf-cost/warm_results_128.json
+[21:17:59.902828] AzureConfig-77e4 Using cached config for Azure
+[21:18:10.093266] Azure-6856 Azure: Running App Insights query.
+[21:18:11.077596] Azure-6856 Azure: Found time metrics for 125 out of 125 invocations.
+[21:18:11.077743] Azure-6856 Missing the requests: set()
+[21:18:11.097488] Experiment.PerfCost-1712 Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/azure/4_dynamic-html/perf-cost/burst_results_128.json
+[21:18:11.930121] AzureConfig-400f Using cached config for Azure
+[21:18:21.194581] Azure-6856 Azure: Running App Insights query.
+[21:18:21.991614] Azure-6856 Azure: Found time metrics for 125 out of 125 invocations.
+[21:18:21.991749] Azure-6856 Missing the requests: set()
+[21:18:22.008219] Azure.CLI-23a4 Stopping Azure manage Docker instance
+[21:18:32.379683] Benchmark-21fc Update cached config /home/zia/serverless-benchmarks/experiments/perf_cost/azure/cache/azure.json
+Process benchmark 5_dynamic-html, Python, Burst
+[21:18:33.185311] SeBS-51c0 Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/azure/5_dynamic-html
+[21:18:33.412806] AzureConfig-011b Using cached config for Azure
+[21:18:33.413027] Azure-fa22 Using existing resource name: 8925ab84.
+[21:18:33.650507] Azure.CLI-77d2 Started Azure CLI container: 649bcaa81e8b954855b03bd9af3743883aebb41b8853e1aae20fcc6544dea90f.
+[21:18:35.256641] Azure.CLI-77d2 Azure login succesful
+[21:18:35.257639] Experiment.PerfCost-6356 Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/azure/5_dynamic-html/perf-cost/burst_results_128.json
+[21:18:36.797774] AzureConfig-faab Using cached config for Azure
+[21:18:46.018226] Azure-fa22 Azure: Running App Insights query.
+[21:18:47.660778] Azure-fa22 Azure: Found time metrics for 250 out of 250 invocations.
+[21:18:47.660980] Azure-fa22 Missing the requests: set()
+[21:18:47.702232] Azure.CLI-77d2 Stopping Azure manage Docker instance
+[21:19:01.062444] Benchmark-82fb Update cached config /home/zia/serverless-benchmarks/experiments/perf_cost/azure/cache/azure.json
+Process benchmark 6_thumbnailer, Python, Concurrent: 50
+[21:19:01.878525] SeBS-d63d Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/azure/6_thumbnailer
+[21:19:02.085838] AzureConfig-9d59 Using cached config for Azure
+[21:19:02.086085] Azure-b2ab Using existing resource name: 8925ab84.
+[21:19:02.288792] Azure.CLI-4a2b Started Azure CLI container: 4b02211da96db88f38afb483d5840ff15b62a90324930255ed0773a5c2ae9231.
+[21:19:03.802278] Azure.CLI-4a2b Azure login succesful
+[21:19:03.803093] Experiment.PerfCost-a6b7 Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/azure/6_thumbnailer/perf-cost/warm_results_128.json
+[21:19:03.806999] AzureConfig-18fa Using cached config for Azure
+[21:19:13.433868] Azure-b2ab Azure: Running App Insights query.
+[21:19:14.543656] Azure-b2ab Azure: Found time metrics for 296 out of 296 invocations.
+[21:19:14.543894] Azure-b2ab Missing the requests: set()
+[21:19:14.574372] Experiment.PerfCost-a6b7 Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/azure/6_thumbnailer/perf-cost/burst_results_128.json
+[21:19:14.577546] AzureConfig-8e0c Using cached config for Azure
+[21:19:20.676218] Azure-b2ab Azure: Running App Insights query.
+[21:19:22.322544] Azure-b2ab Azure: Found time metrics for 250 out of 250 invocations.
+[21:19:22.322685] Azure-b2ab Missing the requests: set()
+[21:19:22.348326] Azure.CLI-4a2b Stopping Azure manage Docker instance
+[21:19:35.664522] Benchmark-367a Update cached config /home/zia/serverless-benchmarks/experiments/perf_cost/azure/cache/azure.json
+Process benchmark 7_thumbnailer, Node.js, Concurrent: 50
+[21:19:36.464735] SeBS-268b Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/azure/7_thumbnailer
+[21:19:36.667513] AzureConfig-ac49 Using cached config for Azure
+[21:19:36.667728] Azure-05ef Using existing resource name: 8925ab84.
+[21:19:36.885547] Azure.CLI-0202 Started Azure CLI container: 17c6e1f256213d16d12a29d11620361ae37c379bb6e0547e153b58a15b345ef1.
+[21:19:38.534607] Azure.CLI-0202 Azure login succesful
+[21:19:38.535675] Experiment.PerfCost-a2fc Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/azure/7_thumbnailer/perf-cost/warm_results_128.json
+[21:19:38.539356] AzureConfig-8c60 Using cached config for Azure
+[21:20:49.748349] Azure-05ef Azure: Running App Insights query.
+[21:20:51.020934] Azure-05ef Azure: Found time metrics for 272 out of 298 invocations.
+[21:20:56.025810] Azure-05ef Missing the requests: {'fdd67cc4-e15f-4248-b8a6-54b943044698', '3aa061b2-bd79-4482-a042-8c06eb52c586', 'b72cc303-fa62-4326-b53b-41b45a0bb850', 'c1b60ad3-4783-4906-a0ae-f83b97f9c0ba', '128118d1-caa2-4a91-a408-cbc52b187254', '0aa66724-735d-443b-9280-01b253ba2524', 'bce914db-f991-45ba-bb9a-4c12ebd5041e', '58a2cf40-9838-404f-9643-169200133f8f', '88fdab6f-5722-4199-9f97-f4bd5cc29d38', 'bec068e5-d1ab-4dbe-861d-ff4e1f9aeeff', 'fc28dd4a-13c6-484d-b166-82b369b4664e', '18043010-7b07-4cc7-bfc1-c0088df70859', '66c4967b-1918-4e66-a48a-ade42306edb3', '968c680b-67c7-4887-a257-67dfd9484967', 'b8260850-c8bc-4bae-97ca-ea232cd17aa6', '4ee63370-83e1-4ada-b2fc-fae7cc4f681e', 'e7d30cbf-dbe9-4820-b323-c6ae25e22c53', 'e696ba28-6c29-40c4-802e-121564f4df6e', '12c013ca-790d-41ab-87a7-f6c7b09363ea', 'e2aea4bc-fdd8-417d-aedc-52390b011857', '391bf8d7-f1e3-4990-9fb9-cb2259312a2c', '48cc6476-1082-4bff-b2ff-52239f9f7c22', '91e1796a-37ec-4a35-bbe6-64cf1d4c302e', 'ddf0bf8e-c383-47b0-af6a-27335b933338', 'f11eacfd-5a3f-4c09-a412-c7b86081b680', 'ef905aa0-06bd-4a7b-bd7b-e4fd09672439'}
+[21:20:56.050339] Experiment.PerfCost-a2fc Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/azure/7_thumbnailer/perf-cost/burst_results_128.json
+[21:20:56.053619] AzureConfig-3da9 Using cached config for Azure
+[21:21:02.642442] Azure-05ef Azure: Running App Insights query.
+[21:21:03.750960] Azure-05ef Azure: Found time metrics for 250 out of 250 invocations.
+[21:21:03.751234] Azure-05ef Missing the requests: set()
+[21:21:03.772845] Azure.CLI-0202 Stopping Azure manage Docker instance
+[21:21:17.091571] Benchmark-de35 Update cached config /home/zia/serverless-benchmarks/experiments/perf_cost/azure/cache/azure.json
+(python-venv) zia@Zia:~/serverless-benchmarks/experiments/perf_cost/azure$ echo "Process benchmark 1_dynamic-html, Python, Concurrent: 50"
+../../../sebs.py experiment process perf-cost --config 1_dynamic-html.json --output-dir 1_dynamic-html --output-file process.log
+Process benchmark 1_dynamic-html, Python, Concurrent: 50
+[21:42:25.962077] SeBS-eebf Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/azure/1_dynamic-html
+[21:42:26.166659] AzureConfig-c985 Using cached config for Azure
+[21:42:26.166890] Azure-0ac7 Using existing resource name: 8925ab84.
+[21:42:26.358511] Azure.CLI-0c57 Started Azure CLI container: 827c08ab8ba49d82b1aac2ac4e42e535c8d43c4ce5fbf4844995a403efd83932.
+[21:42:28.171074] Azure.CLI-0c57 Azure login succesful
+[21:42:28.172041] Experiment.PerfCost-6df4 Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/azure/1_dynamic-html/perf-cost/cold_results_128.json
+ERROR:root:Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/home/zia/serverless-benchmarks/experiments/perf_cost/azure/../../../sebs.py", line 31, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/zia/serverless-benchmarks/python-venv/lib/python3.10/site-packages/click/core.py", line 1082, in main
+    rv = self.invoke(ctx)
+  File "/home/zia/serverless-benchmarks/python-venv/lib/python3.10/site-packages/click/core.py", line 1697, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/zia/serverless-benchmarks/python-venv/lib/python3.10/site-packages/click/core.py", line 1697, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/zia/serverless-benchmarks/python-venv/lib/python3.10/site-packages/click/core.py", line 1443, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/zia/serverless-benchmarks/python-venv/lib/python3.10/site-packages/click/core.py", line 788, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/zia/serverless-benchmarks/experiments/perf_cost/azure/../../../sebs.py", line 73, in wrapper
+    return func(*args, **kwargs)
+  File "/home/zia/serverless-benchmarks/experiments/perf_cost/azure/../../../sebs.py", line 116, in wrapper
+    return func(*args, **kwargs)
+  File "/home/zia/serverless-benchmarks/experiments/perf_cost/azure/../../../sebs.py", line 611, in experiment_process
+    experiment.process(
+  File "/home/zia/serverless-benchmarks/sebs/experiments/perf_cost.py", line 320, in process
+    config = json.load(in_f)
+  File "/usr/lib/python3.10/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[21:42:28.172915] Azure.CLI-0c57 Stopping Azure manage Docker instance
+[21:42:38.457356] Benchmark-b5fb Update cached config /home/zia/serverless-benchmarks/experiments/perf_cost/azure/cache/azure.json
+(python-venv) zia@Zia:~/serverless-benchmarks/experiments/perf_cost/azure$ ../../../sebs.py experiment process perf-cost --config 1_dynamic-html.json --output-dir 1_dynamic-html --output-file process.log
+[21:43:53.511233] SeBS-8148 Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/azure/1_dynamic-html
+[21:43:53.719950] AzureConfig-250c Using cached config for Azure
+[21:43:53.720198] Azure-d041 Using existing resource name: 8925ab84.
+[21:43:53.969648] Azure.CLI-5cae Started Azure CLI container: 3d47ba697f79aa3328f9e6459f034d054b3861ea9d51f1c7454ef5ee4a0369df.
+[21:43:55.621002] Azure.CLI-5cae Azure login succesful
+[21:43:55.622082] Experiment.PerfCost-00d2 Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/azure/1_dynamic-html/perf-cost/warm_results_128.json
+[21:43:57.169984] AzureConfig-7117 Using cached config for Azure
+[21:44:06.835331] Azure-d041 Azure: Running App Insights query.
+[21:44:08.405467] Azure-d041 Azure: Found time metrics for 250 out of 250 invocations.
+[21:44:08.405619] Azure-d041 Missing the requests: set()
+[21:44:08.443826] Experiment.PerfCost-00d2 Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/azure/1_dynamic-html/perf-cost/burst_results_128.json
+[21:44:09.955328] AzureConfig-63fe Using cached config for Azure
+[21:44:16.251953] Azure-d041 Azure: Running App Insights query.
+[21:44:17.036419] Azure-d041 Azure: Found time metrics for 250 out of 250 invocations.
+[21:44:17.036567] Azure-d041 Missing the requests: set()
+[21:44:17.069230] Azure.CLI-5cae Stopping Azure manage Docker instance
+[21:44:30.347699] Benchmark-709e Update cached config /home/zia/serverless-benchmarks/experiments/perf_cost/azure/cache/azure.json
+(python-venv) zia@Zia:~/serverless-benchmarks/experiments/perf_cost/azure$

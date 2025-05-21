@@ -1,0 +1,55 @@
+21:01:06,757 INFO SeBS-0f55: Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/azure/7_thumbnailer
+21:01:06,961 INFO AzureConfig-e9b1: Using cached config for Azure
+21:01:06,962 INFO Azure-2518: Using existing resource name: 8925ab84.
+21:01:08,824 INFO Benchmark-9f5c: Building benchmark 210.thumbnailer. Reason: no cached code package.
+21:01:08,826 INFO Benchmark-9f5c: Docker build of benchmark dependencies in container of image spcleth/serverless-benchmarks:build.azure.nodejs.20-1.2.0
+21:01:08,826 INFO Benchmark-9f5c: Docker mount of benchmark code from path /home/zia/serverless-benchmarks/experiments/perf_cost/azure/7_thumbnailer/210.thumbnailer_code/nodejs/20/x64/package
+21:04:09,150 INFO Benchmark-9f5c: Created code package (source hash: 9a955b48aab51d0c07efa31fe6837fcc), for run on azure with nodejs:20
+21:04:09,302 INFO Azure-2518: Creating new function! Reason: function sebs-8925ab84-210-thumbnailer-nodejs-20 not found in cache.
+21:05:21,310 INFO Azure-2518: Azure: Created function app sebs-8925ab84-210-thumbnailer-nodejs-20
+21:05:21,311 INFO Azure-2518: Retrieving existing environment variables for function sebs-8925ab84-210-thumbnailer-nodejs-20
+21:05:23,292 INFO Azure-2518: Exporting environment variables for function sebs-8925ab84-210-thumbnailer-nodejs-20
+21:05:28,214 INFO Azure-2518: Attempting publish of function sebs-8925ab84-210-thumbnailer-nodejs-20
+21:05:45,303 INFO Experiment.PerfCost-34fb: Begin experiment on memory size 128
+21:05:45,303 INFO Azure-2518: Retrieving existing environment variables for function sebs-8925ab84-210-thumbnailer-nodejs-20
+21:05:46,762 INFO Azure-2518: Exporting environment variables for function sebs-8925ab84-210-thumbnailer-nodejs-20
+21:05:52,513 INFO Azure-2518: Attempting publish of function sebs-8925ab84-210-thumbnailer-nodejs-20
+21:06:05,48 INFO Experiment.PerfCost-34fb: Begin burst experiments
+21:06:05,59 INFO Azure-2518: Retrieving existing environment variables for function sebs-8925ab84-210-thumbnailer-nodejs-20
+21:06:09,601 INFO Azure-2518: Exporting environment variables for function sebs-8925ab84-210-thumbnailer-nodejs-20
+21:06:48,108 INFO Experiment.PerfCost-34fb: Processed 0 warm-up samples, ignoring these results.
+21:06:53,109 INFO Azure-2518: Retrieving existing environment variables for function sebs-8925ab84-210-thumbnailer-nodejs-20
+21:06:54,736 INFO Azure-2518: Exporting environment variables for function sebs-8925ab84-210-thumbnailer-nodejs-20
+21:07:30,361 INFO Experiment.PerfCost-34fb: Processed 50 samples out of 250, 0 errors
+21:07:35,365 INFO Azure-2518: Retrieving existing environment variables for function sebs-8925ab84-210-thumbnailer-nodejs-20
+21:07:36,701 INFO Azure-2518: Exporting environment variables for function sebs-8925ab84-210-thumbnailer-nodejs-20
+21:08:15,315 INFO Experiment.PerfCost-34fb: Processed 100 samples out of 250, 0 errors
+21:08:20,318 INFO Azure-2518: Retrieving existing environment variables for function sebs-8925ab84-210-thumbnailer-nodejs-20
+21:08:22,2 INFO Azure-2518: Exporting environment variables for function sebs-8925ab84-210-thumbnailer-nodejs-20
+21:08:52,755 INFO Experiment.PerfCost-34fb: Processed 150 samples out of 250, 0 errors
+21:08:57,760 INFO Azure-2518: Retrieving existing environment variables for function sebs-8925ab84-210-thumbnailer-nodejs-20
+21:08:59,194 INFO Azure-2518: Exporting environment variables for function sebs-8925ab84-210-thumbnailer-nodejs-20
+21:09:39,4 INFO Experiment.PerfCost-34fb: Processed 200 samples out of 250, 0 errors
+21:09:44,7 INFO Azure-2518: Retrieving existing environment variables for function sebs-8925ab84-210-thumbnailer-nodejs-20
+21:09:49,563 INFO Azure-2518: Exporting environment variables for function sebs-8925ab84-210-thumbnailer-nodejs-20
+21:10:22,659 INFO Experiment.PerfCost-34fb: Processed 250 samples out of 250, 0 errors
+21:10:27,664 INFO Experiment.PerfCost-34fb: Mean 5562.768812 [ms], median 5728.344 [ms], std 1879.8067220083751, CV 33.792645093451625
+21:10:27,665 INFO Experiment.PerfCost-34fb: Parametric CI (Student's t-distribution) 0.95 from 5328.14200010141 to 5797.39562389859, within 4.217806272884345% of mean
+21:10:27,665 INFO Experiment.PerfCost-34fb: Non-parametric CI 0.95 from 5465.689 to 5924.358, within 4.003504328650653% of median
+21:10:27,665 INFO Experiment.PerfCost-34fb: Parametric CI (Student's t-distribution) 0.99 from 5253.54637894137 to 5871.991245058631, within 5.558786343800161% of mean
+21:10:27,666 INFO Experiment.PerfCost-34fb: Non-parametric CI 0.99 from 5444.624 to 5933.519, within 4.267332757948898% of median
+21:10:27,690 INFO Experiment.PerfCost-34fb: Begin warm experiments
+21:10:35,476 INFO Experiment.PerfCost-34fb: Processed 0 warm-up samples, ignoring these results.
+21:10:48,719 INFO Experiment.PerfCost-34fb: Invocation f0419c97-76e3-47cc-8981-c09d74f671ab is cold!
+21:10:48,719 INFO Experiment.PerfCost-34fb: Processed 49 samples out of 250, 0 errors
+21:11:07,541 INFO Experiment.PerfCost-34fb: Invocation e14db5ea-300e-4db5-8f18-5af536009274 is cold!
+21:11:07,849 INFO Experiment.PerfCost-34fb: Processed 98 samples out of 250, 0 errors
+21:11:20,269 INFO Experiment.PerfCost-34fb: Processed 148 samples out of 250, 0 errors
+21:11:33,321 INFO Experiment.PerfCost-34fb: Processed 198 samples out of 250, 0 errors
+21:11:45,552 INFO Experiment.PerfCost-34fb: Processed 248 samples out of 250, 0 errors
+21:12:02,591 INFO Experiment.PerfCost-34fb: Processed 298 samples out of 250, 0 errors
+21:12:07,594 INFO Experiment.PerfCost-34fb: Mean 1544.783432885906 [ms], median 1513.4325 [ms], std 725.883275532651, CV 46.989322909592794
+21:12:07,595 INFO Experiment.PerfCost-34fb: Parametric CI (Student's t-distribution) 0.95 from 1461.8919280263756 to 1627.6749377454364, within 5.365898099041342% of mean
+21:12:07,595 INFO Experiment.PerfCost-34fb: Non-parametric CI 0.95 from 1272.394 to 1691.834, within 13.85724173360887% of median
+21:12:07,596 INFO Experiment.PerfCost-34fb: Parametric CI (Student's t-distribution) 0.99 from 1435.5879574959185 to 1653.9789082758934, within 7.068659144407873% of mean
+21:12:07,596 INFO Experiment.PerfCost-34fb: Non-parametric CI 0.99 from 1229.93 to 1764.247, within 17.652488630976276% of median

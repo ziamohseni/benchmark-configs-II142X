@@ -1,0 +1,36 @@
+19:49:58,744 INFO SeBS-90a2: Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/azure/2_dynamic-html
+19:49:58,959 INFO AzureConfig-7cc0: Using cached config for Azure
+19:49:58,959 INFO Azure-8e20: Using existing resource name: 8925ab84.
+19:50:00,969 INFO Benchmark-b6b1: Building benchmark 110.dynamic-html. Reason: no cached code package.
+19:50:00,977 INFO Benchmark-b6b1: Docker build of benchmark dependencies in container of image spcleth/serverless-benchmarks:build.azure.nodejs.20-1.2.0
+19:50:00,977 INFO Benchmark-b6b1: Docker mount of benchmark code from path /home/zia/serverless-benchmarks/experiments/perf_cost/azure/2_dynamic-html/110.dynamic-html_code/nodejs/20/x64/package
+19:50:07,938 INFO Benchmark-b6b1: Created code package (source hash: 42bcfdf6cb03dc709995dec0a23048c6), for run on azure with nodejs:20
+19:50:08,79 INFO Azure-8e20: Creating new function! Reason: function sebs-8925ab84-110-dynamic-html-nodejs-20 not found in cache.
+19:52:18,381 INFO Azure-8e20: Azure: Created function app sebs-8925ab84-110-dynamic-html-nodejs-20
+19:52:19,488 INFO Azure-8e20: Attempting publish of function sebs-8925ab84-110-dynamic-html-nodejs-20
+19:52:37,849 INFO Experiment.PerfCost-a762: Begin experiment on memory size 128
+19:52:38,965 INFO Azure-8e20: Attempting publish of function sebs-8925ab84-110-dynamic-html-nodejs-20
+19:52:49,928 INFO Experiment.PerfCost-a762: Begin burst experiments
+19:53:28,509 INFO Experiment.PerfCost-a762: Processed 0 warm-up samples, ignoring these results.
+19:54:17,651 INFO Experiment.PerfCost-a762: Processed 50 samples out of 250, 0 errors
+19:55:01,844 INFO Experiment.PerfCost-a762: Processed 100 samples out of 250, 0 errors
+19:55:44,655 INFO Experiment.PerfCost-a762: Processed 150 samples out of 250, 0 errors
+19:56:27,436 INFO Experiment.PerfCost-a762: Processed 200 samples out of 250, 0 errors
+19:57:13,172 INFO Experiment.PerfCost-a762: Processed 250 samples out of 250, 0 errors
+19:57:18,177 INFO Experiment.PerfCost-a762: Mean 9360.689692000002 [ms], median 9355.6315 [ms], std 3325.581325566568, CV 35.527097201061316
+19:57:18,178 INFO Experiment.PerfCost-a762: Parametric CI (Student's t-distribution) 0.95 from 8945.609495194696 to 9775.769888805307, within 4.434290746333027% of mean
+19:57:18,178 INFO Experiment.PerfCost-a762: Non-parametric CI 0.95 from 9126.68 to 9638.471, within 2.735202856162084% of median
+19:57:18,179 INFO Experiment.PerfCost-a762: Parametric CI (Student's t-distribution) 0.99 from 8813.641776495495 to 9907.737607504509, within 5.844098389160733% of mean
+19:57:18,179 INFO Experiment.PerfCost-a762: Non-parametric CI 0.99 from 9016.577 to 9813.556, within 4.2593543792313815% of median
+19:57:21,939 INFO Experiment.PerfCost-a762: Begin warm experiments
+19:57:36,556 INFO Experiment.PerfCost-a762: Processed 0 warm-up samples, ignoring these results.
+19:57:59,136 INFO Experiment.PerfCost-a762: Processed 50 samples out of 250, 0 errors
+19:58:22,44 INFO Experiment.PerfCost-a762: Processed 100 samples out of 250, 0 errors
+19:58:42,4 INFO Experiment.PerfCost-a762: Processed 150 samples out of 250, 0 errors
+19:59:04,494 INFO Experiment.PerfCost-a762: Processed 200 samples out of 250, 0 errors
+19:59:25,793 INFO Experiment.PerfCost-a762: Processed 250 samples out of 250, 0 errors
+19:59:33,730 INFO Experiment.PerfCost-a762: Mean 9116.348408 [ms], median 8944.098 [ms], std 2076.846681110165, CV 22.7815632768888
+19:59:33,731 INFO Experiment.PerfCost-a762: Parametric CI (Student's t-distribution) 0.95 from 8857.128186109085 to 9375.568629890915, within 2.8434655005444713% of mean
+19:59:33,731 INFO Experiment.PerfCost-a762: Non-parametric CI 0.95 from 8568.687 to 9328.174, within 4.245743953163309% of median
+19:59:33,732 INFO Experiment.PerfCost-a762: Parametric CI (Student's t-distribution) 0.99 from 8774.713506760527 to 9457.983309239473, within 3.7474971989845547% of mean
+19:59:33,732 INFO Experiment.PerfCost-a762: Non-parametric CI 0.99 from 8487.304 to 9549.849, within 5.9399226171269595% of median

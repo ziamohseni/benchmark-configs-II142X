@@ -1,0 +1,32 @@
+20:39:18,664 INFO SeBS-57d6: Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/azure/4_dynamic-html
+20:39:18,874 INFO AzureConfig-fae3: Using cached config for Azure
+20:39:18,875 INFO Azure-2983: Using existing resource name: 8925ab84.
+20:39:20,770 INFO Benchmark-0962: Using cached benchmark 110.dynamic-html at /home/zia/serverless-benchmarks/experiments/perf_cost/azure/cache/110.dynamic-html/azure/python/3.11/x64/package/code
+20:39:20,771 INFO Azure-2983: Using cached function sebs-8925ab84-110-dynamic-html-python-3-11 in /home/zia/serverless-benchmarks/experiments/perf_cost/azure/cache/110.dynamic-html/azure/python/3.11/x64/package/code
+20:39:20,771 INFO Azure-2983: Cached function sebs-8925ab84-110-dynamic-html-python-3-11 is up to date.
+20:39:20,771 INFO Experiment.PerfCost-8b2e: Begin experiment on memory size 128
+20:39:20,980 INFO Azure-2983: Attempting publish of function sebs-8925ab84-110-dynamic-html-python-3-11
+20:39:31,933 INFO Experiment.PerfCost-8b2e: Begin burst experiments
+20:40:11,245 INFO Experiment.PerfCost-8b2e: Processed 0 warm-up samples, ignoring these results.
+20:40:56,989 INFO Experiment.PerfCost-8b2e: Processed 25 samples out of 125, 0 errors
+20:41:38,670 INFO Experiment.PerfCost-8b2e: Processed 50 samples out of 125, 0 errors
+20:42:19,812 INFO Experiment.PerfCost-8b2e: Processed 75 samples out of 125, 0 errors
+20:43:00,282 INFO Experiment.PerfCost-8b2e: Processed 100 samples out of 125, 0 errors
+20:43:40,838 INFO Experiment.PerfCost-8b2e: Processed 125 samples out of 125, 0 errors
+20:43:45,843 INFO Experiment.PerfCost-8b2e: Mean 7008.065472 [ms], median 6914.968 [ms], std 2547.985577525639, CV 36.35790201598218
+20:43:45,844 INFO Experiment.PerfCost-8b2e: Parametric CI (Student's t-distribution) 0.95 from 6555.174790724391 to 7460.95615327561, within 6.462420807640672% of mean
+20:43:45,844 INFO Experiment.PerfCost-8b2e: Non-parametric CI 0.95 from 6607.818 to 7226.46, within 4.473209420491894% of median
+20:43:45,845 INFO Experiment.PerfCost-8b2e: Parametric CI (Student's t-distribution) 0.99 from 6409.469481076639 to 7606.661462923362, within 8.541529660574517% of mean
+20:43:45,845 INFO Experiment.PerfCost-8b2e: Non-parametric CI 0.99 from 6538.96 to 7263.341, within 5.23777550380566% of median
+20:43:51,874 INFO Experiment.PerfCost-8b2e: Begin warm experiments
+20:44:04,513 INFO Experiment.PerfCost-8b2e: Processed 0 warm-up samples, ignoring these results.
+20:44:22,86 INFO Experiment.PerfCost-8b2e: Processed 25 samples out of 125, 0 errors
+20:44:43,26 INFO Experiment.PerfCost-8b2e: Processed 50 samples out of 125, 0 errors
+20:45:00,950 INFO Experiment.PerfCost-8b2e: Processed 75 samples out of 125, 0 errors
+20:45:22,859 INFO Experiment.PerfCost-8b2e: Processed 100 samples out of 125, 0 errors
+20:45:40,356 INFO Experiment.PerfCost-8b2e: Processed 125 samples out of 125, 0 errors
+20:45:45,359 INFO Experiment.PerfCost-8b2e: Mean 7021.191647999999 [ms], median 6946.726 [ms], std 2370.1876200181896, CV 33.75762603906905
+20:45:45,360 INFO Experiment.PerfCost-8b2e: Parametric CI (Student's t-distribution) 0.95 from 6599.903593840967 to 7442.479702159031, within 6.000235790160162% of mean
+20:45:45,360 INFO Experiment.PerfCost-8b2e: Non-parametric CI 0.95 from 6654.487 to 7110.864, within 3.2848351871082837% of median
+20:45:45,361 INFO Experiment.PerfCost-8b2e: Parametric CI (Student's t-distribution) 0.99 from 6464.36557347533 to 7578.017722524668, within 7.9306491325198625% of mean
+20:45:45,361 INFO Experiment.PerfCost-8b2e: Non-parametric CI 0.99 from 6626.078 to 7143.531, within 3.7244379582554394% of median

@@ -1,0 +1,84 @@
+20:46:02,785 INFO SeBS-4562: Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/azure/5_dynamic-html
+20:46:02,988 INFO AzureConfig-4a6b: Using cached config for Azure
+20:46:02,989 INFO Azure-ce6d: Using existing resource name: 8925ab84.
+20:46:04,907 INFO Benchmark-af79: Using cached benchmark 110.dynamic-html at /home/zia/serverless-benchmarks/experiments/perf_cost/azure/cache/110.dynamic-html/azure/python/3.11/x64/package/code
+20:46:04,907 INFO Azure-ce6d: Using cached function sebs-8925ab84-110-dynamic-html-python-3-11 in /home/zia/serverless-benchmarks/experiments/perf_cost/azure/cache/110.dynamic-html/azure/python/3.11/x64/package/code
+20:46:04,908 INFO Azure-ce6d: Cached function sebs-8925ab84-110-dynamic-html-python-3-11 is up to date.
+20:46:04,908 INFO Experiment.PerfCost-e3c6: Begin experiment on memory size 128
+20:46:05,114 INFO Azure-ce6d: Attempting publish of function sebs-8925ab84-110-dynamic-html-python-3-11
+20:46:16,55 INFO Experiment.PerfCost-e3c6: Begin burst experiments
+20:46:44,299 ERROR HTTPTrigger-b518: Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+20:46:44,300 ERROR HTTPTrigger-b518: Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+20:46:44,300 ERROR HTTPTrigger-b518: Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+20:46:44,301 ERROR HTTPTrigger-b518: Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+20:46:44,302 ERROR HTTPTrigger-b518: Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+20:46:44,302 ERROR HTTPTrigger-b518: Output: The service is unavailable.
+20:46:44,302 ERROR HTTPTrigger-b518: Output: The service is unavailable.
+20:46:44,302 ERROR HTTPTrigger-b518: Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+20:46:44,302 ERROR HTTPTrigger-b518: Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+20:46:44,303 ERROR HTTPTrigger-b518: Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+20:46:44,303 ERROR HTTPTrigger-b518: Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+20:46:44,303 ERROR HTTPTrigger-b518: Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+20:46:44,303 ERROR HTTPTrigger-b518: Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+20:46:44,303 ERROR HTTPTrigger-b518: Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+20:46:44,303 ERROR HTTPTrigger-b518: Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+20:46:44,303 ERROR HTTPTrigger-b518: Output: The service is unavailable.
+20:46:44,304 ERROR HTTPTrigger-b518: Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+20:46:44,304 ERROR HTTPTrigger-b518: Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+20:46:44,304 ERROR HTTPTrigger-b518: Output: The service is unavailable.
+20:46:44,304 ERROR HTTPTrigger-b518: Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+20:46:44,304 ERROR HTTPTrigger-b518: Output: The service is unavailable.
+20:46:44,304 ERROR HTTPTrigger-b518: Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+20:46:44,304 ERROR HTTPTrigger-b518: Output: The service is unavailable.
+20:46:44,305 ERROR HTTPTrigger-b518: Output: The service is unavailable.
+20:46:44,305 ERROR HTTPTrigger-b518: Output: The service is unavailable.
+20:46:44,305 ERROR HTTPTrigger-b518: Output: The service is unavailable.
+20:46:44,305 ERROR HTTPTrigger-b518: Output: The service is unavailable.
+20:46:44,305 ERROR HTTPTrigger-b518: Output: The service is unavailable.
+20:46:44,305 ERROR HTTPTrigger-b518: Output: The service is unavailable.
+20:46:44,306 ERROR HTTPTrigger-b518: Output: The service is unavailable.
+20:46:44,306 ERROR HTTPTrigger-b518: Output: The service is unavailable.
+20:46:44,306 ERROR HTTPTrigger-b518: Output: The service is unavailable.
+20:46:44,306 ERROR HTTPTrigger-b518: Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+20:46:44,307 ERROR HTTPTrigger-b518: Output: The service is unavailable.
+20:46:44,307 ERROR HTTPTrigger-b518: Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+20:46:44,307 ERROR HTTPTrigger-b518: Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+20:46:44,308 ERROR HTTPTrigger-b518: Output: The service is unavailable.
+20:46:44,308 ERROR HTTPTrigger-b518: Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+20:46:44,308 ERROR HTTPTrigger-b518: Output: The service is unavailable.
+20:46:44,308 ERROR HTTPTrigger-b518: Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+20:46:44,309 ERROR HTTPTrigger-b518: Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+20:46:44,309 ERROR HTTPTrigger-b518: Output: The service is unavailable.
+20:46:44,309 ERROR HTTPTrigger-b518: Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+20:46:44,309 ERROR HTTPTrigger-b518: Output: The service is unavailable.
+20:46:44,309 ERROR HTTPTrigger-b518: Output: The service is unavailable.
+20:46:44,310 ERROR HTTPTrigger-b518: Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+20:46:44,310 ERROR HTTPTrigger-b518: Output: The service is unavailable.
+20:46:44,310 ERROR HTTPTrigger-b518: Output: The service is unavailable.
+20:46:44,310 ERROR HTTPTrigger-b518: Output: The service is unavailable.
+20:46:44,311 ERROR HTTPTrigger-b518: Output: The service is unavailable.
+20:46:44,311 ERROR HTTPTrigger-b518: Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+20:46:44,312 ERROR HTTPTrigger-b518: Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+20:46:44,312 ERROR HTTPTrigger-b518: Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+20:46:44,312 ERROR HTTPTrigger-b518: Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+20:46:44,312 ERROR HTTPTrigger-b518: Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+20:46:44,312 ERROR HTTPTrigger-b518: Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+20:46:44,312 ERROR HTTPTrigger-b518: Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+20:46:44,312 ERROR HTTPTrigger-b518: Output: The service is unavailable.
+20:46:44,313 ERROR HTTPTrigger-b518: Output: The service is unavailable.
+20:46:44,313 ERROR HTTPTrigger-b518: Output: The service is unavailable.
+20:46:44,313 ERROR HTTPTrigger-b518: Output: The service is unavailable.
+20:46:44,313 ERROR HTTPTrigger-b518: Output: The service is unavailable.
+20:46:44,313 ERROR HTTPTrigger-b518: Output: The service is unavailable.
+20:46:44,313 ERROR HTTPTrigger-b518: Output: The service is unavailable.
+20:46:49,884 INFO Experiment.PerfCost-e3c6: Processed 0 warm-up samples, ignoring these results.
+20:47:34,248 INFO Experiment.PerfCost-e3c6: Processed 50 samples out of 250, 32 errors
+20:48:28,398 INFO Experiment.PerfCost-e3c6: Processed 100 samples out of 250, 32 errors
+20:49:15,209 INFO Experiment.PerfCost-e3c6: Processed 150 samples out of 250, 32 errors
+20:50:05,17 INFO Experiment.PerfCost-e3c6: Processed 200 samples out of 250, 32 errors
+20:50:52,87 INFO Experiment.PerfCost-e3c6: Processed 250 samples out of 250, 32 errors
+20:50:57,92 INFO Experiment.PerfCost-e3c6: Mean 12653.943792 [ms], median 13522.467499999999 [ms], std 3752.4093198499054, CV 29.654069762995398
+20:50:57,93 INFO Experiment.PerfCost-e3c6: Parametric CI (Student's t-distribution) 0.95 from 12185.589346116165 to 13122.298237883835, within 3.7012527760707714% of mean
+20:50:57,93 INFO Experiment.PerfCost-e3c6: Non-parametric CI 0.95 from 12997.264 to 14090.899, within 4.043770118138573% of median
+20:50:57,94 INFO Experiment.PerfCost-e3c6: Parametric CI (Student's t-distribution) 0.99 from 12036.683982184988 to 13271.203601815012, within 4.878003411120352% of mean
+20:50:57,94 INFO Experiment.PerfCost-e3c6: Non-parametric CI 0.99 from 12893.937 to 14226.914, within 4.928749135466589% of median

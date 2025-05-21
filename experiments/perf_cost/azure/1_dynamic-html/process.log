@@ -1,0 +1,13 @@
+21:43:53,511 INFO SeBS-8148: Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/azure/1_dynamic-html
+21:43:53,720 INFO AzureConfig-250c: Using cached config for Azure
+21:43:53,720 INFO Azure-d041: Using existing resource name: 8925ab84.
+21:43:55,622 INFO Experiment.PerfCost-00d2: Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/azure/1_dynamic-html/perf-cost/warm_results_128.json
+21:43:57,170 INFO AzureConfig-7117: Using cached config for Azure
+21:44:06,835 INFO Azure-d041: Azure: Running App Insights query.
+21:44:08,405 INFO Azure-d041: Azure: Found time metrics for 250 out of 250 invocations.
+21:44:08,405 INFO Azure-d041: Missing the requests: set()
+21:44:08,443 INFO Experiment.PerfCost-00d2: Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost/azure/1_dynamic-html/perf-cost/burst_results_128.json
+21:44:09,955 INFO AzureConfig-63fe: Using cached config for Azure
+21:44:16,252 INFO Azure-d041: Azure: Running App Insights query.
+21:44:17,36 INFO Azure-d041: Azure: Found time metrics for 250 out of 250 invocations.
+21:44:17,36 INFO Azure-d041: Missing the requests: set()

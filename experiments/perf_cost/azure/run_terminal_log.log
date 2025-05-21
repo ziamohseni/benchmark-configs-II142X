@@ -1,0 +1,472 @@
+(python-venv) zia@Zia:~/serverless-benchmarks/experiments/perf_cost/azure$ ./run.sh
+**** Running benchmarks for Azure with perf-cost ****
+Execute benchmark 1_dynamic-html, Python, Concurrent: 50
+[19:41:36.486312] SeBS-17d9 Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/azure/1_dynamic-html
+[19:41:36.684786] AzureConfig-d47e Using cached config for Azure
+[19:41:36.685039] Azure-81e2 Using existing resource name: 8925ab84.
+[19:41:36.872727] Azure.CLI-5d38 Started Azure CLI container: e20feb8b4effe4869bbbf474236e3fefeb9c6a98700180aa4dd1dd55c44ea732.
+[19:41:38.618783] Azure.CLI-5d38 Azure login succesful
+[19:41:38.620390] Benchmark-d204 Using cached benchmark 110.dynamic-html at /home/zia/serverless-benchmarks/experiments/perf_cost/azure/cache/110.dynamic-html/azure/python/3.11/x64/package/code
+[19:41:38.620623] Azure-81e2 Using cached function sebs-8925ab84-110-dynamic-html-python-3-11 in /home/zia/serverless-benchmarks/experiments/perf_cost/azure/cache/110.dynamic-html/azure/python/3.11/x64/package/code
+[19:41:38.620877] Azure-81e2 Cached function sebs-8925ab84-110-dynamic-html-python-3-11 is up to date.
+[19:41:38.620968] Experiment.PerfCost-4c0e Begin experiment on memory size 128
+[19:41:38.822918] Azure-81e2 Attempting publish of function sebs-8925ab84-110-dynamic-html-python-3-11
+[19:41:53.655502] Experiment.PerfCost-4c0e Begin burst experiments
+[19:42:37.191004] Experiment.PerfCost-4c0e Processed 0 warm-up samples, ignoring these results.
+[19:43:31.332160] Experiment.PerfCost-4c0e Processed 50 samples out of 250, 0 errors
+[19:44:21.944428] Experiment.PerfCost-4c0e Processed 100 samples out of 250, 0 errors
+[19:45:09.806225] Experiment.PerfCost-4c0e Processed 150 samples out of 250, 0 errors
+[19:46:00.605704] Experiment.PerfCost-4c0e Processed 200 samples out of 250, 0 errors
+[19:46:48.115252] Experiment.PerfCost-4c0e Processed 250 samples out of 250, 0 errors
+[19:46:53.120372] Experiment.PerfCost-4c0e Mean 11972.965224 [ms], median 12381.4775 [ms], std 4355.657214620355, CV 36.379101860994055
+[19:46:53.121469] Experiment.PerfCost-4c0e Parametric CI (Student's t-distribution) 0.95 from 11429.316797794982 to 12516.613650205018, within 4.540633135017098% of mean
+[19:46:53.121586] Experiment.PerfCost-4c0e Non-parametric CI 0.95 from 11873.165 to 13307.036, within 5.7903872942465835% of median
+[19:46:53.122252] Experiment.PerfCost-4c0e Parametric CI (Student's t-distribution) 0.99 from 11256.472988013473 to 12689.457459986526, within 5.984250539292528% of mean
+[19:46:53.122374] Experiment.PerfCost-4c0e Non-parametric CI 0.99 from 11751.145 to 13431.064, within 6.784000536284946% of median
+[19:46:59.184886] Experiment.PerfCost-4c0e Begin warm experiments
+[19:47:21.550281] Experiment.PerfCost-4c0e Processed 0 warm-up samples, ignoring these results.
+[19:47:49.340946] Experiment.PerfCost-4c0e Processed 50 samples out of 250, 0 errors
+[19:48:13.919399] Experiment.PerfCost-4c0e Processed 100 samples out of 250, 0 errors
+[19:48:41.890147] Experiment.PerfCost-4c0e Processed 150 samples out of 250, 0 errors
+[19:49:09.239174] Experiment.PerfCost-4c0e Processed 200 samples out of 250, 0 errors
+[19:49:36.573828] Experiment.PerfCost-4c0e Processed 250 samples out of 250, 0 errors
+[19:49:41.578769] Experiment.PerfCost-4c0e Mean 12947.676032 [ms], median 13709.5835 [ms], std 3533.9795746365653, CV 27.29431572046122
+[19:49:41.579586] Experiment.PerfCost-4c0e Parametric CI (Student's t-distribution) 0.95 from 12506.584747878067 to 13388.767316121932, within 3.4067216621097214% of mean
+[19:49:41.579707] Experiment.PerfCost-4c0e Non-parametric CI 0.95 from 13370.071 to 13917.368, within 1.996038026975803% of median
+[19:49:41.580285] Experiment.PerfCost-4c0e Parametric CI (Student's t-distribution) 0.99 from 12366.347244495135 to 13529.004819504864, within 4.489831117708835% of mean
+[19:49:41.580418] Experiment.PerfCost-4c0e Non-parametric CI 0.99 from 13282.977 to 13979.427, within 2.5400115182200786% of median
+[19:49:47.555172] Azure.CLI-5d38 Stopping Azure manage Docker instance
+[19:49:57.948377] Benchmark-8cb9 Update cached config /home/zia/serverless-benchmarks/experiments/perf_cost/azure/cache/azure.json
+Execute benchmark 2_dynamic-html, Node.js, Concurrent: 50
+[19:49:58.743923] SeBS-90a2 Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/azure/2_dynamic-html
+[19:49:58.959219] AzureConfig-7cc0 Using cached config for Azure
+[19:49:58.959435] Azure-8e20 Using existing resource name: 8925ab84.
+[19:49:59.229801] Azure.CLI-d8b2 Started Azure CLI container: a9b490955a4d3a7e90354dc56937546919dae32f4d32d4c1b11b6311bc01f418.
+[19:50:00.968499] Azure.CLI-d8b2 Azure login succesful
+[19:50:00.969831] Benchmark-b6b1 Building benchmark 110.dynamic-html. Reason: no cached code package.
+[19:50:00.977750] Benchmark-b6b1 Docker build of benchmark dependencies in container of image spcleth/serverless-benchmarks:build.azure.nodejs.20-1.2.0
+[19:50:00.977878] Benchmark-b6b1 Docker mount of benchmark code from path /home/zia/serverless-benchmarks/experiments/perf_cost/azure/2_dynamic-html/110.dynamic-html_code/nodejs/20/x64/package
+[19:50:07.937956] Benchmark-b6b1 Created code package (source hash: 42bcfdf6cb03dc709995dec0a23048c6), for run on azure with nodejs:20
+[19:50:08.079442] Azure-8e20 Creating new function! Reason: function sebs-8925ab84-110-dynamic-html-nodejs-20 not found in cache.
+[19:50:09.075670] AzureResources-7840 Starting allocation of storage account functiondeffa660.
+[19:51:16.036446] AzureResources-7840 Storage account functiondeffa660 created.
+[19:52:18.381658] Azure-8e20 Azure: Created function app sebs-8925ab84-110-dynamic-html-nodejs-20
+[19:52:19.488092] Azure-8e20 Attempting publish of function sebs-8925ab84-110-dynamic-html-nodejs-20
+[19:52:37.849621] Experiment.PerfCost-a762 Begin experiment on memory size 128
+[19:52:38.964933] Azure-8e20 Attempting publish of function sebs-8925ab84-110-dynamic-html-nodejs-20
+[19:52:49.928026] Experiment.PerfCost-a762 Begin burst experiments
+[19:53:28.509339] Experiment.PerfCost-a762 Processed 0 warm-up samples, ignoring these results.
+[19:54:17.651191] Experiment.PerfCost-a762 Processed 50 samples out of 250, 0 errors
+[19:55:01.844476] Experiment.PerfCost-a762 Processed 100 samples out of 250, 0 errors
+[19:55:44.655338] Experiment.PerfCost-a762 Processed 150 samples out of 250, 0 errors
+[19:56:27.436230] Experiment.PerfCost-a762 Processed 200 samples out of 250, 0 errors
+[19:57:13.172671] Experiment.PerfCost-a762 Processed 250 samples out of 250, 0 errors
+[19:57:18.177699] Experiment.PerfCost-a762 Mean 9360.689692000002 [ms], median 9355.6315 [ms], std 3325.581325566568, CV 35.527097201061316
+[19:57:18.178674] Experiment.PerfCost-a762 Parametric CI (Student's t-distribution) 0.95 from 8945.609495194696 to 9775.769888805307, within 4.434290746333027% of mean
+[19:57:18.178791] Experiment.PerfCost-a762 Non-parametric CI 0.95 from 9126.68 to 9638.471, within 2.735202856162084% of median
+[19:57:18.179463] Experiment.PerfCost-a762 Parametric CI (Student's t-distribution) 0.99 from 8813.641776495495 to 9907.737607504509, within 5.844098389160733% of mean
+[19:57:18.179590] Experiment.PerfCost-a762 Non-parametric CI 0.99 from 9016.577 to 9813.556, within 4.2593543792313815% of median
+[19:57:21.939140] Experiment.PerfCost-a762 Begin warm experiments
+[19:57:36.556160] Experiment.PerfCost-a762 Processed 0 warm-up samples, ignoring these results.
+[19:57:59.136518] Experiment.PerfCost-a762 Processed 50 samples out of 250, 0 errors
+[19:58:22.044753] Experiment.PerfCost-a762 Processed 100 samples out of 250, 0 errors
+[19:58:42.004826] Experiment.PerfCost-a762 Processed 150 samples out of 250, 0 errors
+[19:59:04.494686] Experiment.PerfCost-a762 Processed 200 samples out of 250, 0 errors
+[19:59:25.793281] Experiment.PerfCost-a762 Processed 250 samples out of 250, 0 errors
+[19:59:33.730599] Experiment.PerfCost-a762 Mean 9116.348408 [ms], median 8944.098 [ms], std 2076.846681110165, CV 22.7815632768888
+[19:59:33.731573] Experiment.PerfCost-a762 Parametric CI (Student's t-distribution) 0.95 from 8857.128186109085 to 9375.568629890915, within 2.8434655005444713% of mean
+[19:59:33.731741] Experiment.PerfCost-a762 Non-parametric CI 0.95 from 8568.687 to 9328.174, within 4.245743953163309% of median
+[19:59:33.732449] Experiment.PerfCost-a762 Parametric CI (Student's t-distribution) 0.99 from 8774.713506760527 to 9457.983309239473, within 3.7474971989845547% of mean
+[19:59:33.732571] Experiment.PerfCost-a762 Non-parametric CI 0.99 from 8487.304 to 9549.849, within 5.9399226171269595% of median
+[19:59:37.457781] Azure.CLI-d8b2 Stopping Azure manage Docker instance
+[19:59:48.088874] Benchmark-c325 Update cached config /home/zia/serverless-benchmarks/experiments/perf_cost/azure/cache/azure.json
+Execute benchmark 3_dynamic-html, Python, Concurrent: 1
+[19:59:48.931924] SeBS-917b Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/azure/3_dynamic-html
+[19:59:49.132344] AzureConfig-84b8 Using cached config for Azure
+[19:59:49.132562] Azure-18cf Using existing resource name: 8925ab84.
+[19:59:49.323578] Azure.CLI-99b4 Started Azure CLI container: 7f2c2300078e40870f8fbb4112f8c3e5869b255d5dc013a125f2bc519a6fd4db.
+[19:59:51.034727] Azure.CLI-99b4 Azure login succesful
+[19:59:51.036437] Benchmark-9441 Using cached benchmark 110.dynamic-html at /home/zia/serverless-benchmarks/experiments/perf_cost/azure/cache/110.dynamic-html/azure/python/3.11/x64/package/code
+[19:59:51.036682] Azure-18cf Using cached function sebs-8925ab84-110-dynamic-html-python-3-11 in /home/zia/serverless-benchmarks/experiments/perf_cost/azure/cache/110.dynamic-html/azure/python/3.11/x64/package/code
+[19:59:51.036942] Azure-18cf Cached function sebs-8925ab84-110-dynamic-html-python-3-11 is up to date.
+[19:59:51.037197] Experiment.PerfCost-0a4e Begin experiment on memory size 128
+[19:59:51.247437] Azure-18cf Attempting publish of function sebs-8925ab84-110-dynamic-html-python-3-11
+[20:00:11.089938] Experiment.PerfCost-0a4e Begin burst experiments
+[20:00:37.875835] Experiment.PerfCost-0a4e Processed 0 warm-up samples, ignoring these results.
+[20:01:11.733404] Experiment.PerfCost-0a4e Processed 1 samples out of 50, 0 errors
+[20:01:45.637529] Experiment.PerfCost-0a4e Processed 2 samples out of 50, 0 errors
+[20:02:19.454813] Experiment.PerfCost-0a4e Processed 3 samples out of 50, 0 errors
+[20:02:53.338520] Experiment.PerfCost-0a4e Processed 4 samples out of 50, 0 errors
+[20:03:27.193669] Experiment.PerfCost-0a4e Processed 5 samples out of 50, 0 errors
+[20:04:01.050596] Experiment.PerfCost-0a4e Processed 6 samples out of 50, 0 errors
+[20:04:34.818389] Experiment.PerfCost-0a4e Processed 7 samples out of 50, 0 errors
+[20:05:10.077105] Experiment.PerfCost-0a4e Processed 8 samples out of 50, 0 errors
+[20:05:43.946235] Experiment.PerfCost-0a4e Processed 9 samples out of 50, 0 errors
+[20:06:14.915613] Experiment.PerfCost-0a4e Processed 10 samples out of 50, 0 errors
+[20:06:50.616065] Experiment.PerfCost-0a4e Processed 11 samples out of 50, 0 errors
+[20:07:21.719604] Experiment.PerfCost-0a4e Processed 12 samples out of 50, 0 errors
+[20:07:58.751205] Experiment.PerfCost-0a4e Processed 13 samples out of 50, 0 errors
+[20:08:29.650781] Experiment.PerfCost-0a4e Processed 14 samples out of 50, 0 errors
+[20:09:04.882550] Experiment.PerfCost-0a4e Processed 15 samples out of 50, 0 errors
+[20:09:38.867923] Experiment.PerfCost-0a4e Processed 16 samples out of 50, 0 errors
+[20:10:09.727866] Experiment.PerfCost-0a4e Processed 17 samples out of 50, 0 errors
+[20:10:46.783570] Experiment.PerfCost-0a4e Processed 18 samples out of 50, 0 errors
+[20:11:21.137806] Experiment.PerfCost-0a4e Processed 19 samples out of 50, 0 errors
+[20:11:55.047342] Experiment.PerfCost-0a4e Processed 20 samples out of 50, 0 errors
+[20:12:30.287483] Experiment.PerfCost-0a4e Processed 21 samples out of 50, 0 errors
+[20:13:01.252233] Experiment.PerfCost-0a4e Processed 22 samples out of 50, 0 errors
+[20:13:36.499180] Experiment.PerfCost-0a4e Processed 23 samples out of 50, 0 errors
+[20:14:07.429690] Experiment.PerfCost-0a4e Processed 24 samples out of 50, 0 errors
+[20:14:44.587860] Experiment.PerfCost-0a4e Processed 25 samples out of 50, 0 errors
+[20:15:18.484133] Experiment.PerfCost-0a4e Processed 26 samples out of 50, 0 errors
+[20:15:49.313619] Experiment.PerfCost-0a4e Processed 27 samples out of 50, 0 errors
+[20:16:24.620899] Experiment.PerfCost-0a4e Processed 28 samples out of 50, 0 errors
+[20:16:58.583950] Experiment.PerfCost-0a4e Processed 29 samples out of 50, 0 errors
+[20:17:32.550345] Experiment.PerfCost-0a4e Processed 30 samples out of 50, 0 errors
+[20:18:06.394870] Experiment.PerfCost-0a4e Processed 31 samples out of 50, 0 errors
+[20:18:40.285494] Experiment.PerfCost-0a4e Processed 32 samples out of 50, 0 errors
+[20:19:14.260802] Experiment.PerfCost-0a4e Processed 33 samples out of 50, 0 errors
+[20:19:48.291567] Experiment.PerfCost-0a4e Processed 34 samples out of 50, 0 errors
+[20:20:19.189946] Experiment.PerfCost-0a4e Processed 35 samples out of 50, 0 errors
+[20:20:54.487992] Experiment.PerfCost-0a4e Processed 36 samples out of 50, 0 errors
+[20:21:28.281743] Experiment.PerfCost-0a4e Processed 37 samples out of 50, 0 errors
+[20:22:02.188914] Experiment.PerfCost-0a4e Processed 38 samples out of 50, 0 errors
+[20:22:36.503471] Experiment.PerfCost-0a4e Processed 39 samples out of 50, 0 errors
+[20:23:11.901236] Experiment.PerfCost-0a4e Processed 40 samples out of 50, 0 errors
+[20:23:45.695164] Experiment.PerfCost-0a4e Processed 41 samples out of 50, 0 errors
+[20:24:16.686104] Experiment.PerfCost-0a4e Processed 42 samples out of 50, 0 errors
+[20:24:51.907092] Experiment.PerfCost-0a4e Processed 43 samples out of 50, 0 errors
+[20:25:25.786555] Experiment.PerfCost-0a4e Processed 44 samples out of 50, 0 errors
+[20:25:59.644860] Experiment.PerfCost-0a4e Processed 45 samples out of 50, 0 errors
+[20:26:33.589297] Experiment.PerfCost-0a4e Processed 46 samples out of 50, 0 errors
+[20:27:07.370438] Experiment.PerfCost-0a4e Processed 47 samples out of 50, 0 errors
+[20:27:42.940930] Experiment.PerfCost-0a4e Processed 48 samples out of 50, 0 errors
+[20:28:17.020034] Experiment.PerfCost-0a4e Processed 49 samples out of 50, 0 errors
+[20:28:48.075828] Experiment.PerfCost-0a4e Processed 50 samples out of 50, 0 errors
+[20:28:56.010899] Experiment.PerfCost-0a4e Mean 1020.7570399999998 [ms], median 929.946 [ms], std 451.55759405617175, CV 44.23751944499661
+[20:28:56.011856] Experiment.PerfCost-0a4e Parametric CI (Student's t-distribution) 0.95 from 891.1229029781512 to 1150.3911770218485, within 12.699803375526924% of mean
+[20:28:56.011965] Experiment.PerfCost-0a4e Non-parametric CI 0.95 from 902.442 to 959.682, within 3.07759805408056% of median
+[20:28:56.012610] Experiment.PerfCost-0a4e Parametric CI (Student's t-distribution) 0.99 from 847.878087800121 to 1193.6359921998787, within 16.93634679216897% of mean
+[20:28:56.012718] Experiment.PerfCost-0a4e Non-parametric CI 0.99 from 895.109 to 979.774, within 4.552146038587185% of median
+[20:28:57.218162] Experiment.PerfCost-0a4e Begin warm experiments
+[20:29:03.416217] Experiment.PerfCost-0a4e Processed 0 warm-up samples, ignoring these results.
+[20:29:14.387321] Experiment.PerfCost-0a4e Processed 1 samples out of 50, 0 errors
+[20:29:28.246903] Experiment.PerfCost-0a4e Processed 2 samples out of 50, 0 errors
+[20:29:39.306018] Experiment.PerfCost-0a4e Processed 3 samples out of 50, 0 errors
+[20:29:50.172765] Experiment.PerfCost-0a4e Processed 4 samples out of 50, 0 errors
+[20:30:03.972502] Experiment.PerfCost-0a4e Processed 5 samples out of 50, 0 errors
+[20:30:14.834084] Experiment.PerfCost-0a4e Processed 6 samples out of 50, 0 errors
+[20:30:25.720293] Experiment.PerfCost-0a4e Processed 7 samples out of 50, 0 errors
+[20:30:39.486188] Experiment.PerfCost-0a4e Processed 8 samples out of 50, 0 errors
+[20:30:50.422526] Experiment.PerfCost-0a4e Processed 9 samples out of 50, 0 errors
+[20:31:01.416888] Experiment.PerfCost-0a4e Processed 10 samples out of 50, 0 errors
+[20:31:15.206654] Experiment.PerfCost-0a4e Processed 11 samples out of 50, 0 errors
+[20:31:26.083068] Experiment.PerfCost-0a4e Processed 12 samples out of 50, 0 errors
+[20:31:36.961942] Experiment.PerfCost-0a4e Processed 13 samples out of 50, 0 errors
+[20:31:50.767206] Experiment.PerfCost-0a4e Processed 14 samples out of 50, 0 errors
+[20:32:01.681161] Experiment.PerfCost-0a4e Processed 15 samples out of 50, 0 errors
+[20:32:12.618489] Experiment.PerfCost-0a4e Processed 16 samples out of 50, 0 errors
+[20:32:26.426851] Experiment.PerfCost-0a4e Processed 17 samples out of 50, 0 errors
+[20:32:37.294573] Experiment.PerfCost-0a4e Processed 18 samples out of 50, 0 errors
+[20:32:48.172596] Experiment.PerfCost-0a4e Processed 19 samples out of 50, 0 errors
+[20:33:01.918634] Experiment.PerfCost-0a4e Processed 20 samples out of 50, 0 errors
+[20:33:12.805786] Experiment.PerfCost-0a4e Processed 21 samples out of 50, 0 errors
+[20:33:23.751724] Experiment.PerfCost-0a4e Processed 22 samples out of 50, 0 errors
+[20:33:37.544101] Experiment.PerfCost-0a4e Processed 23 samples out of 50, 0 errors
+[20:33:48.494480] Experiment.PerfCost-0a4e Processed 24 samples out of 50, 0 errors
+[20:33:59.471653] Experiment.PerfCost-0a4e Processed 25 samples out of 50, 0 errors
+[20:34:13.356323] Experiment.PerfCost-0a4e Processed 26 samples out of 50, 0 errors
+[20:34:24.225335] Experiment.PerfCost-0a4e Processed 27 samples out of 50, 0 errors
+[20:34:35.190077] Experiment.PerfCost-0a4e Processed 28 samples out of 50, 0 errors
+[20:34:49.036541] Experiment.PerfCost-0a4e Processed 29 samples out of 50, 0 errors
+[20:34:59.895118] Experiment.PerfCost-0a4e Processed 30 samples out of 50, 0 errors
+[20:35:10.843828] Experiment.PerfCost-0a4e Processed 31 samples out of 50, 0 errors
+[20:35:21.727887] Experiment.PerfCost-0a4e Processed 32 samples out of 50, 0 errors
+[20:35:36.954732] Experiment.PerfCost-0a4e Processed 33 samples out of 50, 0 errors
+[20:35:47.870661] Experiment.PerfCost-0a4e Processed 34 samples out of 50, 0 errors
+[20:35:58.721289] Experiment.PerfCost-0a4e Processed 35 samples out of 50, 0 errors
+[20:36:12.470522] Experiment.PerfCost-0a4e Processed 36 samples out of 50, 0 errors
+[20:36:23.486068] Experiment.PerfCost-0a4e Processed 37 samples out of 50, 0 errors
+[20:36:34.385023] Experiment.PerfCost-0a4e Processed 38 samples out of 50, 0 errors
+[20:36:48.659772] Experiment.PerfCost-0a4e Processed 39 samples out of 50, 0 errors
+[20:36:59.601059] Experiment.PerfCost-0a4e Processed 40 samples out of 50, 0 errors
+[20:37:10.531596] Experiment.PerfCost-0a4e Processed 41 samples out of 50, 0 errors
+[20:37:21.354165] Experiment.PerfCost-0a4e Processed 42 samples out of 50, 0 errors
+[20:37:32.174757] Experiment.PerfCost-0a4e Processed 43 samples out of 50, 0 errors
+[20:37:43.035996] Experiment.PerfCost-0a4e Processed 44 samples out of 50, 0 errors
+[20:38:00.104947] Experiment.PerfCost-0a4e Processed 45 samples out of 50, 0 errors
+[20:38:11.117621] Experiment.PerfCost-0a4e Processed 46 samples out of 50, 0 errors
+[20:38:22.079149] Experiment.PerfCost-0a4e Processed 47 samples out of 50, 0 errors
+[20:38:36.417462] Experiment.PerfCost-0a4e Processed 48 samples out of 50, 0 errors
+[20:38:47.410350] Experiment.PerfCost-0a4e Processed 49 samples out of 50, 0 errors
+[20:38:58.296836] Experiment.PerfCost-0a4e Processed 50 samples out of 50, 0 errors
+[20:39:03.300067] Experiment.PerfCost-0a4e Mean 912.7326999999999 [ms], median 891.2265 [ms], std 106.95061355284504, CV 11.717627028465733
+[20:39:03.300993] Experiment.PerfCost-0a4e Parametric CI (Student's t-distribution) 0.95 from 882.0290850583461 to 943.4363149416537, within 3.3639218734744323% of mean
+[20:39:03.301095] Experiment.PerfCost-0a4e Non-parametric CI 0.95 from 866.471 to 925.343, within 3.3028640867388903% of median
+[20:39:03.301569] Experiment.PerfCost-0a4e Parametric CI (Student's t-distribution) 0.99 from 871.7866274468496 to 953.6787725531502, within 4.486096811602161% of mean
+[20:39:03.301659] Experiment.PerfCost-0a4e Non-parametric CI 0.99 from 860.68 to 935.413, within 4.192705221399951% of median
+[20:39:04.501538] Azure.CLI-99b4 Stopping Azure manage Docker instance
+[20:39:17.844285] Benchmark-b138 Update cached config /home/zia/serverless-benchmarks/experiments/perf_cost/azure/cache/azure.json
+Execute benchmark 4_dynamic-html, Python, Concurrent: 25
+[20:39:18.664459] SeBS-57d6 Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/azure/4_dynamic-html
+[20:39:18.874864] AzureConfig-fae3 Using cached config for Azure
+[20:39:18.875213] Azure-2983 Using existing resource name: 8925ab84.
+[20:39:19.059922] Azure.CLI-cec3 Started Azure CLI container: 5f5e40d3be003189e541b93a8c7bd38a9c9adba181d8831b5426ce96d86b3026.
+[20:39:20.768984] Azure.CLI-cec3 Azure login succesful
+[20:39:20.770770] Benchmark-0962 Using cached benchmark 110.dynamic-html at /home/zia/serverless-benchmarks/experiments/perf_cost/azure/cache/110.dynamic-html/azure/python/3.11/x64/package/code
+[20:39:20.771051] Azure-2983 Using cached function sebs-8925ab84-110-dynamic-html-python-3-11 in /home/zia/serverless-benchmarks/experiments/perf_cost/azure/cache/110.dynamic-html/azure/python/3.11/x64/package/code
+[20:39:20.771416] Azure-2983 Cached function sebs-8925ab84-110-dynamic-html-python-3-11 is up to date.
+[20:39:20.771661] Experiment.PerfCost-8b2e Begin experiment on memory size 128
+[20:39:20.980809] Azure-2983 Attempting publish of function sebs-8925ab84-110-dynamic-html-python-3-11
+[20:39:31.933867] Experiment.PerfCost-8b2e Begin burst experiments
+[20:40:11.245121] Experiment.PerfCost-8b2e Processed 0 warm-up samples, ignoring these results.
+[20:40:56.989746] Experiment.PerfCost-8b2e Processed 25 samples out of 125, 0 errors
+[20:41:38.670817] Experiment.PerfCost-8b2e Processed 50 samples out of 125, 0 errors
+[20:42:19.812021] Experiment.PerfCost-8b2e Processed 75 samples out of 125, 0 errors
+[20:43:00.282582] Experiment.PerfCost-8b2e Processed 100 samples out of 125, 0 errors
+[20:43:40.838631] Experiment.PerfCost-8b2e Processed 125 samples out of 125, 0 errors
+[20:43:45.843648] Experiment.PerfCost-8b2e Mean 7008.065472 [ms], median 6914.968 [ms], std 2547.985577525639, CV 36.35790201598218
+[20:43:45.844537] Experiment.PerfCost-8b2e Parametric CI (Student's t-distribution) 0.95 from 6555.174790724391 to 7460.95615327561, within 6.462420807640672% of mean
+[20:43:45.844659] Experiment.PerfCost-8b2e Non-parametric CI 0.95 from 6607.818 to 7226.46, within 4.473209420491894% of median
+[20:43:45.845416] Experiment.PerfCost-8b2e Parametric CI (Student's t-distribution) 0.99 from 6409.469481076639 to 7606.661462923362, within 8.541529660574517% of mean
+[20:43:45.845540] Experiment.PerfCost-8b2e Non-parametric CI 0.99 from 6538.96 to 7263.341, within 5.23777550380566% of median
+[20:43:51.874745] Experiment.PerfCost-8b2e Begin warm experiments
+[20:44:04.513526] Experiment.PerfCost-8b2e Processed 0 warm-up samples, ignoring these results.
+[20:44:22.086726] Experiment.PerfCost-8b2e Processed 25 samples out of 125, 0 errors
+[20:44:43.026850] Experiment.PerfCost-8b2e Processed 50 samples out of 125, 0 errors
+[20:45:00.950367] Experiment.PerfCost-8b2e Processed 75 samples out of 125, 0 errors
+[20:45:22.859247] Experiment.PerfCost-8b2e Processed 100 samples out of 125, 0 errors
+[20:45:40.355994] Experiment.PerfCost-8b2e Processed 125 samples out of 125, 0 errors
+[20:45:45.359896] Experiment.PerfCost-8b2e Mean 7021.191647999999 [ms], median 6946.726 [ms], std 2370.1876200181896, CV 33.75762603906905
+[20:45:45.360657] Experiment.PerfCost-8b2e Parametric CI (Student's t-distribution) 0.95 from 6599.903593840967 to 7442.479702159031, within 6.000235790160162% of mean
+[20:45:45.360800] Experiment.PerfCost-8b2e Non-parametric CI 0.95 from 6654.487 to 7110.864, within 3.2848351871082837% of median
+[20:45:45.361545] Experiment.PerfCost-8b2e Parametric CI (Student's t-distribution) 0.99 from 6464.36557347533 to 7578.017722524668, within 7.9306491325198625% of mean
+[20:45:45.361679] Experiment.PerfCost-8b2e Non-parametric CI 0.99 from 6626.078 to 7143.531, within 3.7244379582554394% of median
+[20:45:48.447682] Azure.CLI-cec3 Stopping Azure manage Docker instance
+[20:46:01.965559] Benchmark-41ba Update cached config /home/zia/serverless-benchmarks/experiments/perf_cost/azure/cache/azure.json
+Execute benchmark 5_dynamic-html, Python, Burst
+[20:46:02.785251] SeBS-4562 Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/azure/5_dynamic-html
+[20:46:02.988774] AzureConfig-4a6b Using cached config for Azure
+[20:46:02.989001] Azure-ce6d Using existing resource name: 8925ab84.
+[20:46:03.221096] Azure.CLI-71b4 Started Azure CLI container: f4d6fbfc0e68cf234e4e8e3a2087cd168f6c8ab3d7f0a721fe91939d316f1661.
+[20:46:04.905928] Azure.CLI-71b4 Azure login succesful
+[20:46:04.907650] Benchmark-af79 Using cached benchmark 110.dynamic-html at /home/zia/serverless-benchmarks/experiments/perf_cost/azure/cache/110.dynamic-html/azure/python/3.11/x64/package/code
+[20:46:04.907884] Azure-ce6d Using cached function sebs-8925ab84-110-dynamic-html-python-3-11 in /home/zia/serverless-benchmarks/experiments/perf_cost/azure/cache/110.dynamic-html/azure/python/3.11/x64/package/code
+[20:46:04.908134] Azure-ce6d Cached function sebs-8925ab84-110-dynamic-html-python-3-11 is up to date.
+[20:46:04.908359] Experiment.PerfCost-e3c6 Begin experiment on memory size 128
+[20:46:05.114770] Azure-ce6d Attempting publish of function sebs-8925ab84-110-dynamic-html-python-3-11
+[20:46:16.055808] Experiment.PerfCost-e3c6 Begin burst experiments
+[20:46:44.299066] HTTPTrigger-b518 Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+[20:46:44.299336] HTTPTrigger-b518 Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+[20:46:44.299587] HTTPTrigger-b518 Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+[20:46:44.299426] HTTPTrigger-b518 Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+[20:46:44.299222] HTTPTrigger-b518 Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+[20:46:44.300184] HTTPTrigger-b518 Output: The service is unavailable.
+[20:46:44.299935] HTTPTrigger-b518 Output: The service is unavailable.
+[20:46:44.301201] HTTPTrigger-b518 Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+[20:46:44.301342] HTTPTrigger-b518 Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+[20:46:44.300415] HTTPTrigger-b518 Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+[20:46:44.300503] HTTPTrigger-b518 Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+[20:46:44.300880] HTTPTrigger-b518 Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+[20:46:44.300667] HTTPTrigger-b518 Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+[20:46:44.301656] HTTPTrigger-b518 Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+[20:46:44.301927] HTTPTrigger-b518 Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+[20:46:44.301832] HTTPTrigger-b518 Output: The service is unavailable.
+[20:46:44.302284] HTTPTrigger-b518 Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+[20:46:44.301446] HTTPTrigger-b518 Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+[20:46:44.300342] HTTPTrigger-b518 Output: The service is unavailable.
+[20:46:44.302004] HTTPTrigger-b518 Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+[20:46:44.302180] HTTPTrigger-b518 Output: The service is unavailable.
+[20:46:44.301011] HTTPTrigger-b518 Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+[20:46:44.303351] HTTPTrigger-b518 Output: The service is unavailable.
+[20:46:44.303491] HTTPTrigger-b518 Output: The service is unavailable.
+[20:46:44.303646] HTTPTrigger-b518 Output: The service is unavailable.
+[20:46:44.304586] HTTPTrigger-b518 Output: The service is unavailable.
+[20:46:44.304111] HTTPTrigger-b518 Output: The service is unavailable.
+[20:46:44.304249] HTTPTrigger-b518 Output: The service is unavailable.
+[20:46:44.303799] HTTPTrigger-b518 Output: The service is unavailable.
+[20:46:44.304893] HTTPTrigger-b518 Output: The service is unavailable.
+[20:46:44.303080] HTTPTrigger-b518 Output: The service is unavailable.
+[20:46:44.302790] HTTPTrigger-b518 Output: The service is unavailable.
+[20:46:44.301537] HTTPTrigger-b518 Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+[20:46:44.302935] HTTPTrigger-b518 Output: The service is unavailable.
+[20:46:44.306755] HTTPTrigger-b518 Output: The service is unavailable.
+[20:46:44.307024] HTTPTrigger-b518 Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+[20:46:44.307476] HTTPTrigger-b518 Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+[20:46:44.303208] HTTPTrigger-b518 Output: The service is unavailable.
+[20:46:44.307379] HTTPTrigger-b518 Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+[20:46:44.308013] HTTPTrigger-b518 Output: The service is unavailable.
+[20:46:44.308534] HTTPTrigger-b518 Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+[20:46:44.308631] HTTPTrigger-b518 Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+[20:46:44.308465] HTTPTrigger-b518 Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+[20:46:44.307879] HTTPTrigger-b518 Output: The service is unavailable.
+[20:46:44.307543] HTTPTrigger-b518 Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+[20:46:44.309527] HTTPTrigger-b518 Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+[20:46:44.309217] HTTPTrigger-b518 Output: The service is unavailable.
+[20:46:44.308885] HTTPTrigger-b518 Output: The service is unavailable.
+[20:46:44.309803] HTTPTrigger-b518 Output: The service is unavailable.
+[20:46:44.309379] HTTPTrigger-b518 Output: The service is unavailable.
+[20:46:44.310385] HTTPTrigger-b518 Output: The service is unavailable.
+[20:46:44.311050] HTTPTrigger-b518 Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+[20:46:44.311737] HTTPTrigger-b518 Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+[20:46:44.311468] HTTPTrigger-b518 Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+[20:46:44.307308] HTTPTrigger-b518 Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+[20:46:44.311141] HTTPTrigger-b518 Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+[20:46:44.311583] HTTPTrigger-b518 Invocation on URL https://sebs-8925ab84-110-dynamic-html-python-3-11.azurewebsites.net/api/handler failed!
+[20:46:44.312407] HTTPTrigger-b518 Output: The service is unavailable.
+[20:46:44.312260] HTTPTrigger-b518 Output: The service is unavailable.
+[20:46:44.312743] HTTPTrigger-b518 Output: The service is unavailable.
+[20:46:44.312562] HTTPTrigger-b518 Output: The service is unavailable.
+[20:46:44.312855] HTTPTrigger-b518 Output: The service is unavailable.
+[20:46:44.312131] HTTPTrigger-b518 Output: The service is unavailable.
+[20:46:44.311996] HTTPTrigger-b518 Output: The service is unavailable.
+[20:46:49.884128] Experiment.PerfCost-e3c6 Processed 0 warm-up samples, ignoring these results.
+[20:47:34.248183] Experiment.PerfCost-e3c6 Processed 50 samples out of 250, 32 errors
+[20:48:28.397980] Experiment.PerfCost-e3c6 Processed 100 samples out of 250, 32 errors
+[20:49:15.209128] Experiment.PerfCost-e3c6 Processed 150 samples out of 250, 32 errors
+[20:50:05.017080] Experiment.PerfCost-e3c6 Processed 200 samples out of 250, 32 errors
+[20:50:52.087533] Experiment.PerfCost-e3c6 Processed 250 samples out of 250, 32 errors
+[20:50:57.092720] Experiment.PerfCost-e3c6 Mean 12653.943792 [ms], median 13522.467499999999 [ms], std 3752.4093198499054, CV 29.654069762995398
+[20:50:57.093704] Experiment.PerfCost-e3c6 Parametric CI (Student's t-distribution) 0.95 from 12185.589346116165 to 13122.298237883835, within 3.7012527760707714% of mean
+[20:50:57.093844] Experiment.PerfCost-e3c6 Non-parametric CI 0.95 from 12997.264 to 14090.899, within 4.043770118138573% of median
+[20:50:57.094809] Experiment.PerfCost-e3c6 Parametric CI (Student's t-distribution) 0.99 from 12036.683982184988 to 13271.203601815012, within 4.878003411120352% of mean
+[20:50:57.094960] Experiment.PerfCost-e3c6 Non-parametric CI 0.99 from 12893.937 to 14226.914, within 4.928749135466589% of median
+[20:51:03.171293] Azure.CLI-71b4 Stopping Azure manage Docker instance
+[20:51:16.534724] Benchmark-9116 Update cached config /home/zia/serverless-benchmarks/experiments/perf_cost/azure/cache/azure.json
+Execute benchmark 6_thumbnailer, Python, Concurrent: 50
+[20:51:17.396085] SeBS-9845 Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/azure/6_thumbnailer
+[20:51:17.602120] AzureConfig-4545 Using cached config for Azure
+[20:51:17.602375] Azure-221d Using existing resource name: 8925ab84.
+[20:51:17.804225] Azure.CLI-c34e Started Azure CLI container: 30c3ece1d19003c01d7970079a3831574ccf6b2dd916fd1b9ecc35ef3627c745.
+[20:51:19.524986] Azure.CLI-c34e Azure login succesful
+[20:51:20.071404] Azure.BlobStorage-dab4 Upload /home/zia/serverless-benchmarks/sebs/../benchmarks-data/200.multimedia/210.thumbnailer/7_beach-bird-s-eye-view-coast-2499700.jpg to sebs-benchmarks-8925ab84
+[20:51:20.248059] Azure.BlobStorage-dab4 Upload /home/zia/serverless-benchmarks/sebs/../benchmarks-data/200.multimedia/210.thumbnailer/4_altitude-astrology-astronomy-1819650.jpg to sebs-benchmarks-8925ab84
+[20:51:20.593028] Azure.BlobStorage-dab4 Upload /home/zia/serverless-benchmarks/sebs/../benchmarks-data/200.multimedia/210.thumbnailer/0_action-adrenaline-adventure-1047051.jpg to sebs-benchmarks-8925ab84
+[20:51:21.115509] Azure.BlobStorage-dab4 Upload /home/zia/serverless-benchmarks/sebs/../benchmarks-data/200.multimedia/210.thumbnailer/8_close-up-elder-elderly-2050990.jpg to sebs-benchmarks-8925ab84
+[20:51:21.415021] Azure.BlobStorage-dab4 Upload /home/zia/serverless-benchmarks/sebs/../benchmarks-data/200.multimedia/210.thumbnailer/6_astronomy-desktop-wallpaper-evening-1624438.jpg to sebs-benchmarks-8925ab84
+[20:51:21.765913] Azure.BlobStorage-dab4 Upload /home/zia/serverless-benchmarks/sebs/../benchmarks-data/200.multimedia/210.thumbnailer/5_asphalt-atmosphere-cloudy-sky-2739010.jpg to sebs-benchmarks-8925ab84
+[20:51:21.866341] Azure.BlobStorage-dab4 Upload /home/zia/serverless-benchmarks/sebs/../benchmarks-data/200.multimedia/210.thumbnailer/3_aerial-shot-architecture-bridge-2887493.jpg to sebs-benchmarks-8925ab84
+[20:51:22.240153] Azure.BlobStorage-dab4 Upload /home/zia/serverless-benchmarks/sebs/../benchmarks-data/200.multimedia/210.thumbnailer/9_cobblestone-granite-pebbles-1029604.jpg to sebs-benchmarks-8925ab84
+[20:51:22.661332] Azure.BlobStorage-dab4 Upload /home/zia/serverless-benchmarks/sebs/../benchmarks-data/200.multimedia/210.thumbnailer/2_aerial-shot-architecture-bird-s-eye-view-2440013.jpg to sebs-benchmarks-8925ab84
+[20:51:22.844926] Azure.BlobStorage-dab4 Upload /home/zia/serverless-benchmarks/sebs/../benchmarks-data/200.multimedia/210.thumbnailer/1_adult-adventure-back-view-2819546.jpg to sebs-benchmarks-8925ab84
+[20:51:22.845302] Benchmark-f64c Building benchmark 210.thumbnailer. Reason: no cached code package.
+[20:51:22.848499] Benchmark-f64c Docker build of benchmark dependencies in container of image spcleth/serverless-benchmarks:build.azure.python.3.11-1.2.0
+[20:51:22.848607] Benchmark-f64c Docker mount of benchmark code from path /home/zia/serverless-benchmarks/experiments/perf_cost/azure/6_thumbnailer/210.thumbnailer_code/python/3.11/x64/package
+[20:51:31.199437] Benchmark-f64c Created code package (source hash: 7a2eb5a1d2d5005889b0de0e59d36732), for run on azure with python:3.11
+[20:51:31.273809] Azure-221d Creating new function! Reason: function sebs-8925ab84-210-thumbnailer-python-3-11 not found in cache.
+[20:51:32.435732] AzureResources-de64 Starting allocation of storage account function7273cc20.
+[20:53:25.125873] AzureResources-de64 Storage account function7273cc20 created.
+[20:54:09.256742] Azure-221d Azure: Created function app sebs-8925ab84-210-thumbnailer-python-3-11
+[20:54:09.257369] Azure-221d Retrieving existing environment variables for function sebs-8925ab84-210-thumbnailer-python-3-11
+[20:54:11.331155] Azure-221d Exporting environment variables for function sebs-8925ab84-210-thumbnailer-python-3-11
+[20:54:18.835819] Azure-221d Attempting publish of function sebs-8925ab84-210-thumbnailer-python-3-11
+[20:54:32.509055] Experiment.PerfCost-0ed2 Begin experiment on memory size 128
+[20:54:32.509233] Azure-221d Retrieving existing environment variables for function sebs-8925ab84-210-thumbnailer-python-3-11
+[20:54:34.539302] Azure-221d Exporting environment variables for function sebs-8925ab84-210-thumbnailer-python-3-11
+[20:54:45.215757] Azure-221d Attempting publish of function sebs-8925ab84-210-thumbnailer-python-3-11
+[20:55:03.552666] Experiment.PerfCost-0ed2 Begin burst experiments
+[20:55:03.563584] Azure-221d Retrieving existing environment variables for function sebs-8925ab84-210-thumbnailer-python-3-11
+[20:55:11.542014] Azure-221d Exporting environment variables for function sebs-8925ab84-210-thumbnailer-python-3-11
+[20:55:50.166823] Experiment.PerfCost-0ed2 Processed 0 warm-up samples, ignoring these results.
+[20:55:55.170554] Azure-221d Retrieving existing environment variables for function sebs-8925ab84-210-thumbnailer-python-3-11
+[20:55:56.569969] Azure-221d Exporting environment variables for function sebs-8925ab84-210-thumbnailer-python-3-11
+[20:56:31.453582] Experiment.PerfCost-0ed2 Processed 50 samples out of 250, 0 errors
+[20:56:36.457606] Azure-221d Retrieving existing environment variables for function sebs-8925ab84-210-thumbnailer-python-3-11
+[20:56:38.135704] Azure-221d Exporting environment variables for function sebs-8925ab84-210-thumbnailer-python-3-11
+[20:57:12.481297] Experiment.PerfCost-0ed2 Processed 100 samples out of 250, 0 errors
+[20:57:17.483031] Azure-221d Retrieving existing environment variables for function sebs-8925ab84-210-thumbnailer-python-3-11
+[20:57:22.431571] Azure-221d Exporting environment variables for function sebs-8925ab84-210-thumbnailer-python-3-11
+[20:57:53.837245] Experiment.PerfCost-0ed2 Processed 150 samples out of 250, 0 errors
+[20:58:01.774762] Azure-221d Retrieving existing environment variables for function sebs-8925ab84-210-thumbnailer-python-3-11
+[20:58:03.038113] Azure-221d Exporting environment variables for function sebs-8925ab84-210-thumbnailer-python-3-11
+[20:58:35.656926] Experiment.PerfCost-0ed2 Processed 200 samples out of 250, 0 errors
+[20:58:40.661954] Azure-221d Retrieving existing environment variables for function sebs-8925ab84-210-thumbnailer-python-3-11
+[20:58:44.067176] Azure-221d Exporting environment variables for function sebs-8925ab84-210-thumbnailer-python-3-11
+[20:59:16.946973] Experiment.PerfCost-0ed2 Processed 250 samples out of 250, 0 errors
+[20:59:21.951461] Experiment.PerfCost-0ed2 Mean 2117.203488 [ms], median 1839.9975 [ms], std 1122.4318690718371, CV 53.014831849353016
+[20:59:21.952333] Experiment.PerfCost-0ed2 Parametric CI (Student's t-distribution) 0.95 from 1977.1079090607268 to 2257.2990669392734, within 6.617010586526735% of mean
+[20:59:21.952461] Experiment.PerfCost-0ed2 Non-parametric CI 0.95 from 1561.225 to 2217.106, within 17.822877476735712% of median
+[20:59:21.953294] Experiment.PerfCost-0ed2 Parametric CI (Student's t-distribution) 0.99 from 1932.5668924216416 to 2301.8400835783586, within 8.720777035596804% of mean
+[20:59:21.953493] Experiment.PerfCost-0ed2 Non-parametric CI 0.99 from 1505.72 to 2284.728, within 21.16872441402774% of median
+[20:59:21.984153] Experiment.PerfCost-0ed2 Begin warm experiments
+[20:59:29.442143] Experiment.PerfCost-0ed2 Processed 0 warm-up samples, ignoring these results.
+[20:59:45.453334] Experiment.PerfCost-0ed2 Invocation b1f624b5-17f2-43a4-87c9-11bc7767219e is cold!
+[20:59:45.453517] Experiment.PerfCost-0ed2 Invocation 419b0c8d-368d-4ffe-8a84-c928190265e1 is cold!
+[20:59:45.453647] Experiment.PerfCost-0ed2 Invocation 49e46288-779a-4e30-b73d-dbe27fc25e6e is cold!
+[20:59:45.635780] Experiment.PerfCost-0ed2 Processed 47 samples out of 250, 0 errors
+[20:59:57.806091] Experiment.PerfCost-0ed2 Invocation ad795f2a-6bfe-4160-a28b-feb8660d9a2f is cold!
+[20:59:57.809502] Experiment.PerfCost-0ed2 Processed 96 samples out of 250, 0 errors
+[21:00:09.455882] Experiment.PerfCost-0ed2 Processed 146 samples out of 250, 0 errors
+[21:00:24.080146] Experiment.PerfCost-0ed2 Processed 196 samples out of 250, 0 errors
+[21:00:35.695078] Experiment.PerfCost-0ed2 Processed 246 samples out of 250, 0 errors
+[21:00:47.489751] Experiment.PerfCost-0ed2 Processed 296 samples out of 250, 0 errors
+[21:00:55.427975] Experiment.PerfCost-0ed2 Mean 1700.8443783783782 [ms], median 1186.6084999999998 [ms], std 1492.4243022665876, CV 87.74608196015541
+[21:00:55.428769] Experiment.PerfCost-0ed2 Parametric CI (Student's t-distribution) 0.95 from 1529.8370155885814 to 1871.851741168175, within 10.054262751118884% of mean
+[21:00:55.428954] Experiment.PerfCost-0ed2 Non-parametric CI 0.95 from 1100.58 to 1265.383, within 6.944287016315833% of median
+[21:00:55.429545] Experiment.PerfCost-0ed2 Parametric CI (Student's t-distribution) 0.99 from 1475.5676073969005 to 1926.121149359856, within 13.244996064617123% of mean
+[21:00:55.429656] Experiment.PerfCost-0ed2 Non-parametric CI 0.99 from 1073.863 to 1298.392, within 9.460955319298659% of median
+[21:00:55.505226] Azure.CLI-c34e Stopping Azure manage Docker instance
+[21:01:05.937821] Benchmark-85fa Update cached config /home/zia/serverless-benchmarks/experiments/perf_cost/azure/cache/azure.json
+Execute benchmark 7_thumbnailer, Node.js, Concurrent: 50
+[21:01:06.757358] SeBS-0f55 Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost/azure/7_thumbnailer
+[21:01:06.961780] AzureConfig-e9b1 Using cached config for Azure
+[21:01:06.961999] Azure-2518 Using existing resource name: 8925ab84.
+[21:01:07.184501] Azure.CLI-4478 Started Azure CLI container: 767fed570130c54d1a09626ed9a232d17fa29dc153b7d4d2187e3a7220f5a43a.
+[21:01:08.821646] Azure.CLI-4478 Azure login succesful
+[21:01:08.824128] Benchmark-9f5c Building benchmark 210.thumbnailer. Reason: no cached code package.
+[21:01:08.826692] Benchmark-9f5c Docker build of benchmark dependencies in container of image spcleth/serverless-benchmarks:build.azure.nodejs.20-1.2.0
+[21:01:08.826804] Benchmark-9f5c Docker mount of benchmark code from path /home/zia/serverless-benchmarks/experiments/perf_cost/azure/7_thumbnailer/210.thumbnailer_code/nodejs/20/x64/package
+[21:04:09.150632] Benchmark-9f5c Created code package (source hash: 9a955b48aab51d0c07efa31fe6837fcc), for run on azure with nodejs:20
+[21:04:09.302441] Azure-2518 Creating new function! Reason: function sebs-8925ab84-210-thumbnailer-nodejs-20 not found in cache.
+[21:04:10.179845] AzureResources-44cb Starting allocation of storage account function361a5f9e.
+[21:04:40.766823] AzureResources-44cb Storage account function361a5f9e created.
+[21:05:21.310759] Azure-2518 Azure: Created function app sebs-8925ab84-210-thumbnailer-nodejs-20
+[21:05:21.311193] Azure-2518 Retrieving existing environment variables for function sebs-8925ab84-210-thumbnailer-nodejs-20
+[21:05:23.292704] Azure-2518 Exporting environment variables for function sebs-8925ab84-210-thumbnailer-nodejs-20
+[21:05:28.214318] Azure-2518 Attempting publish of function sebs-8925ab84-210-thumbnailer-nodejs-20
+[21:05:45.303504] Experiment.PerfCost-34fb Begin experiment on memory size 128
+[21:05:45.303632] Azure-2518 Retrieving existing environment variables for function sebs-8925ab84-210-thumbnailer-nodejs-20
+[21:05:46.762627] Azure-2518 Exporting environment variables for function sebs-8925ab84-210-thumbnailer-nodejs-20
+[21:05:52.513755] Azure-2518 Attempting publish of function sebs-8925ab84-210-thumbnailer-nodejs-20
+[21:06:05.048017] Experiment.PerfCost-34fb Begin burst experiments
+[21:06:05.059165] Azure-2518 Retrieving existing environment variables for function sebs-8925ab84-210-thumbnailer-nodejs-20
+[21:06:09.601399] Azure-2518 Exporting environment variables for function sebs-8925ab84-210-thumbnailer-nodejs-20
+[21:06:48.108384] Experiment.PerfCost-34fb Processed 0 warm-up samples, ignoring these results.
+[21:06:53.109663] Azure-2518 Retrieving existing environment variables for function sebs-8925ab84-210-thumbnailer-nodejs-20
+[21:06:54.736644] Azure-2518 Exporting environment variables for function sebs-8925ab84-210-thumbnailer-nodejs-20
+[21:07:30.360849] Experiment.PerfCost-34fb Processed 50 samples out of 250, 0 errors
+[21:07:35.365012] Azure-2518 Retrieving existing environment variables for function sebs-8925ab84-210-thumbnailer-nodejs-20
+[21:07:36.701793] Azure-2518 Exporting environment variables for function sebs-8925ab84-210-thumbnailer-nodejs-20
+[21:08:15.315295] Experiment.PerfCost-34fb Processed 100 samples out of 250, 0 errors
+[21:08:20.318482] Azure-2518 Retrieving existing environment variables for function sebs-8925ab84-210-thumbnailer-nodejs-20
+[21:08:22.002730] Azure-2518 Exporting environment variables for function sebs-8925ab84-210-thumbnailer-nodejs-20
+[21:08:52.755271] Experiment.PerfCost-34fb Processed 150 samples out of 250, 0 errors
+[21:08:57.760206] Azure-2518 Retrieving existing environment variables for function sebs-8925ab84-210-thumbnailer-nodejs-20
+[21:08:59.194187] Azure-2518 Exporting environment variables for function sebs-8925ab84-210-thumbnailer-nodejs-20
+[21:09:39.004123] Experiment.PerfCost-34fb Processed 200 samples out of 250, 0 errors
+[21:09:44.007652] Azure-2518 Retrieving existing environment variables for function sebs-8925ab84-210-thumbnailer-nodejs-20
+[21:09:49.562945] Azure-2518 Exporting environment variables for function sebs-8925ab84-210-thumbnailer-nodejs-20
+[21:10:22.659308] Experiment.PerfCost-34fb Processed 250 samples out of 250, 0 errors
+[21:10:27.664000] Experiment.PerfCost-34fb Mean 5562.768812 [ms], median 5728.344 [ms], std 1879.8067220083751, CV 33.792645093451625
+[21:10:27.664955] Experiment.PerfCost-34fb Parametric CI (Student's t-distribution) 0.95 from 5328.14200010141 to 5797.39562389859, within 4.217806272884345% of mean
+[21:10:27.665094] Experiment.PerfCost-34fb Non-parametric CI 0.95 from 5465.689 to 5924.358, within 4.003504328650653% of median
+[21:10:27.665911] Experiment.PerfCost-34fb Parametric CI (Student's t-distribution) 0.99 from 5253.54637894137 to 5871.991245058631, within 5.558786343800161% of mean
+[21:10:27.666072] Experiment.PerfCost-34fb Non-parametric CI 0.99 from 5444.624 to 5933.519, within 4.267332757948898% of median
+[21:10:27.690754] Experiment.PerfCost-34fb Begin warm experiments
+[21:10:35.476886] Experiment.PerfCost-34fb Processed 0 warm-up samples, ignoring these results.
+[21:10:48.719215] Experiment.PerfCost-34fb Invocation f0419c97-76e3-47cc-8981-c09d74f671ab is cold!
+[21:10:48.719683] Experiment.PerfCost-34fb Processed 49 samples out of 250, 0 errors
+[21:11:07.541833] Experiment.PerfCost-34fb Invocation e14db5ea-300e-4db5-8f18-5af536009274 is cold!
+[21:11:07.849537] Experiment.PerfCost-34fb Processed 98 samples out of 250, 0 errors
+[21:11:20.269727] Experiment.PerfCost-34fb Processed 148 samples out of 250, 0 errors
+[21:11:33.320946] Experiment.PerfCost-34fb Processed 198 samples out of 250, 0 errors
+[21:11:45.552847] Experiment.PerfCost-34fb Processed 248 samples out of 250, 0 errors
+[21:12:02.591777] Experiment.PerfCost-34fb Processed 298 samples out of 250, 0 errors
+[21:12:07.594209] Experiment.PerfCost-34fb Mean 1544.783432885906 [ms], median 1513.4325 [ms], std 725.883275532651, CV 46.989322909592794
+[21:12:07.595129] Experiment.PerfCost-34fb Parametric CI (Student's t-distribution) 0.95 from 1461.8919280263756 to 1627.6749377454364, within 5.365898099041342% of mean
+[21:12:07.595261] Experiment.PerfCost-34fb Non-parametric CI 0.95 from 1272.394 to 1691.834, within 13.85724173360887% of median
+[21:12:07.596001] Experiment.PerfCost-34fb Parametric CI (Student's t-distribution) 0.99 from 1435.5879574959185 to 1653.9789082758934, within 7.068659144407873% of mean
+[21:12:07.596155] Experiment.PerfCost-34fb Non-parametric CI 0.99 from 1229.93 to 1764.247, within 17.652488630976276% of median
+[21:12:07.627165] Azure.CLI-4478 Stopping Azure manage Docker instance
+[21:12:18.030180] Benchmark-1072 Update cached config /home/zia/serverless-benchmarks/experiments/perf_cost/azure/cache/azure.json
+(python-venv) zia@Zia:~/serverless-benchmarks/experiments/perf_cost/azure$
