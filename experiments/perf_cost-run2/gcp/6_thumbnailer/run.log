@@ -1,0 +1,120 @@
+11:09:14,144 INFO SeBS-476d: Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost-run2/gcp/6_thumbnailer
+11:09:14,363 INFO GCPResources-2247: Using cached resources for GCP
+11:09:14,363 INFO GCPConfig-4088: Loading cached config for GCP
+11:09:14,787 INFO GCP-d42b: Using existing resource name: d9b9fac8.
+11:09:14,842 INFO Benchmark-8a32: Using cached benchmark 210.thumbnailer at /home/zia/serverless-benchmarks/experiments/perf_cost-run2/gcp/cache/210.thumbnailer/gcp/python/3.11/x64/package/210.thumbnailer.zip
+11:09:14,843 INFO GCP-d42b: Using cached function sebs_d9b9fac8_210_thumbnailer_python_3_11 in /home/zia/serverless-benchmarks/experiments/perf_cost-run2/gcp/cache/210.thumbnailer/gcp/python/3.11/x64/package/210.thumbnailer.zip
+11:09:14,843 INFO GCP-d42b: Updating function configuration due to changed attribute memory: cached function has value 128 whereas 256 has been requested.
+11:10:15,8 INFO GCP-d42b: Waiting for function deployment, 10 retries.
+11:10:25,474 INFO GCP-d42b: Published new function configuration.
+11:10:25,475 INFO Experiment.PerfCost-5fa7: Begin experiment on memory size 128
+11:10:28,962 INFO GCP-d42b: Uploaded new code package to sebs-deployment-d9b9fac8/x64-210.thumbnailer.zip
+11:11:28,648 INFO GCP-d42b: Waiting for function deployment, 10 retries.
+11:11:28,730 INFO GCP-d42b: Published new function code and configuration.
+11:11:28,730 INFO Experiment.PerfCost-5fa7: Begin cold experiments
+11:12:22,863 INFO GCP-d42b: Published new function configuration.
+11:12:22,943 INFO GCP-d42b: Redeployed 1 out of 1
+11:13:12,564 INFO Experiment.PerfCost-5fa7: Processed 0 warm-up samples, ignoring these results.
+11:14:16,497 INFO GCP-d42b: Waiting for function deployment, 10 retries.
+11:14:26,808 INFO GCP-d42b: Published new function configuration.
+11:14:27,29 INFO GCP-d42b: Redeployed 1 out of 1
+11:14:55,333 INFO Experiment.PerfCost-5fa7: Invocation 45fs13cjmhf7 is not cold!
+11:15:04,611 INFO Experiment.PerfCost-5fa7: Invocation cjab1bc4z2ea is not cold!
+11:15:04,611 INFO Experiment.PerfCost-5fa7: Invocation cy3kzqjjdar8 is not cold!
+11:15:04,611 INFO Experiment.PerfCost-5fa7: Processed 47 samples out of 250, 0 errors
+11:16:03,671 INFO GCP-d42b: Published new function configuration.
+11:16:03,768 INFO GCP-d42b: Redeployed 1 out of 1
+11:16:56,918 INFO Experiment.PerfCost-5fa7: Processed 97 samples out of 250, 0 errors
+11:17:50,348 INFO GCP-d42b: Published new function configuration.
+11:17:50,424 INFO GCP-d42b: Redeployed 1 out of 1
+11:18:48,80 INFO Experiment.PerfCost-5fa7: Processed 147 samples out of 250, 0 errors
+11:19:41,960 INFO GCP-d42b: Published new function configuration.
+11:19:42,50 INFO GCP-d42b: Redeployed 1 out of 1
+11:20:24,348 INFO Experiment.PerfCost-5fa7: Invocation 7r97xfqtpnt0 is not cold!
+11:20:24,348 INFO Experiment.PerfCost-5fa7: Processed 196 samples out of 250, 0 errors
+11:21:29,18 INFO GCP-d42b: Waiting for function deployment, 10 retries.
+11:21:34,456 INFO GCP-d42b: Published new function configuration.
+11:21:34,684 INFO GCP-d42b: Redeployed 1 out of 1
+11:22:11,73 INFO Experiment.PerfCost-5fa7: Processed 246 samples out of 250, 0 errors
+11:23:15,640 INFO GCP-d42b: Waiting for function deployment, 10 retries.
+11:23:15,717 INFO GCP-d42b: Published new function configuration.
+11:23:15,793 INFO GCP-d42b: Redeployed 1 out of 1
+11:24:10,296 INFO Experiment.PerfCost-5fa7: Processed 296 samples out of 250, 0 errors
+11:24:18,884 INFO Experiment.PerfCost-5fa7: Mean 19229.30451689189 [ms], median 18974.7155 [ms], std 6084.756408433015, CV 31.643143427719345
+11:24:18,885 INFO Experiment.PerfCost-5fa7: Parametric CI (Student's t-distribution) 0.95 from 18532.091167414703 to 19926.51786636908, within 3.6257855756807227% of mean
+11:24:18,885 INFO Experiment.PerfCost-5fa7: Non-parametric CI 0.95 from 18342.148 to 19841.587, within 3.9511501503145032% of median
+11:24:18,885 INFO Experiment.PerfCost-5fa7: Parametric CI (Student's t-distribution) 0.99 from 18310.8296074316 to 20147.779426352183, within 4.776433326818774% of mean
+11:24:18,885 INFO Experiment.PerfCost-5fa7: Non-parametric CI 0.99 from 17952.273 to 20385.175, within 6.410905080500413% of median
+11:24:18,920 INFO Experiment.PerfCost-5fa7: Begin warm experiments
+11:25:22,194 INFO Experiment.PerfCost-5fa7: Processed 0 warm-up samples, ignoring these results.
+11:25:54,518 INFO Experiment.PerfCost-5fa7: Invocation 4lkkc2r4o0ly is cold!
+11:25:54,518 INFO Experiment.PerfCost-5fa7: Invocation v4pw2q43v6v2 is cold!
+11:25:55,848 INFO Experiment.PerfCost-5fa7: Invocation fu47nj7slq8z is cold!
+11:25:55,848 INFO Experiment.PerfCost-5fa7: Invocation nr4xqbq4omt6 is cold!
+11:25:55,849 INFO Experiment.PerfCost-5fa7: Invocation ftall3wsqf2e is cold!
+11:25:55,849 INFO Experiment.PerfCost-5fa7: Invocation exupg6950593 is cold!
+11:25:55,849 INFO Experiment.PerfCost-5fa7: Invocation 73swsi9ap3k5 is cold!
+11:25:55,849 INFO Experiment.PerfCost-5fa7: Invocation uguhpq4uk8tb is cold!
+11:25:55,849 INFO Experiment.PerfCost-5fa7: Invocation 6823099uvjh0 is cold!
+11:25:55,849 INFO Experiment.PerfCost-5fa7: Invocation 0t6bgd024x94 is cold!
+11:25:55,849 INFO Experiment.PerfCost-5fa7: Invocation uqoet5htpexu is cold!
+11:25:55,849 INFO Experiment.PerfCost-5fa7: Invocation oi2escdigcma is cold!
+11:25:55,849 INFO Experiment.PerfCost-5fa7: Invocation d9yob7qon4w9 is cold!
+11:25:55,850 INFO Experiment.PerfCost-5fa7: Invocation g8vp48fqeg6h is cold!
+11:25:55,850 INFO Experiment.PerfCost-5fa7: Invocation esxza9qgdals is cold!
+11:25:55,850 INFO Experiment.PerfCost-5fa7: Processed 35 samples out of 250, 1 errors
+11:26:25,496 INFO Experiment.PerfCost-5fa7: Invocation nux41pdgfeez is cold!
+11:26:26,811 INFO Experiment.PerfCost-5fa7: Invocation jd0kcdjkpvou is cold!
+11:26:26,811 INFO Experiment.PerfCost-5fa7: Invocation o2yn7uduzgvj is cold!
+11:26:26,811 INFO Experiment.PerfCost-5fa7: Invocation e4qm4lme92yk is cold!
+11:26:26,811 INFO Experiment.PerfCost-5fa7: Invocation qm3zvq0yj9hl is cold!
+11:26:26,811 INFO Experiment.PerfCost-5fa7: Invocation huj0k1kv4l1u is cold!
+11:26:26,811 INFO Experiment.PerfCost-5fa7: Invocation 7qo9fhorta60 is cold!
+11:26:26,811 INFO Experiment.PerfCost-5fa7: Invocation 32h872avcuoa is cold!
+11:26:33,231 INFO Experiment.PerfCost-5fa7: Invocation sgi015qlq7ul is cold!
+11:26:33,232 INFO Experiment.PerfCost-5fa7: Processed 76 samples out of 250, 1 errors
+11:27:05,602 INFO Experiment.PerfCost-5fa7: Invocation coizpbh4wdic is cold!
+11:27:05,602 INFO Experiment.PerfCost-5fa7: Invocation b4rjladhuy74 is cold!
+11:27:06,76 INFO Experiment.PerfCost-5fa7: Invocation 8juq2akco3g2 is cold!
+11:27:06,76 INFO Experiment.PerfCost-5fa7: Invocation pedxw6t07ztp is cold!
+11:27:06,76 INFO Experiment.PerfCost-5fa7: Invocation lhp3whc57xh6 is cold!
+11:27:06,76 INFO Experiment.PerfCost-5fa7: Invocation ttlu1i6je69o is cold!
+11:27:06,76 INFO Experiment.PerfCost-5fa7: Invocation wsj6k2z4yznb is cold!
+11:27:06,76 INFO Experiment.PerfCost-5fa7: Processed 119 samples out of 250, 1 errors
+11:27:36,825 INFO Experiment.PerfCost-5fa7: Invocation su67sz6sbwc2 is cold!
+11:27:36,825 INFO Experiment.PerfCost-5fa7: Invocation a4rnihdg8zbb is cold!
+11:27:36,825 INFO Experiment.PerfCost-5fa7: Invocation fjvmlj7yseac is cold!
+11:27:36,825 INFO Experiment.PerfCost-5fa7: Invocation wqthm44qnre7 is cold!
+11:27:38,585 INFO Experiment.PerfCost-5fa7: Invocation jy7mf6tu4cji is cold!
+11:27:38,795 INFO Experiment.PerfCost-5fa7: Invocation tx5r9jq4lnx5 is cold!
+11:27:48,891 INFO Experiment.PerfCost-5fa7: Invocation hh63tf1eqaxu is cold!
+11:27:48,891 INFO Experiment.PerfCost-5fa7: Invocation 0me9yj0htrj3 is cold!
+11:27:48,891 INFO Experiment.PerfCost-5fa7: Invocation 9b99sqe71go7 is cold!
+11:27:48,892 INFO Experiment.PerfCost-5fa7: Processed 160 samples out of 250, 1 errors
+11:28:22,768 INFO Experiment.PerfCost-5fa7: Invocation 6azau89bld7d is cold!
+11:28:22,768 INFO Experiment.PerfCost-5fa7: Invocation ojoxh2ao0sit is cold!
+11:28:45,165 INFO Experiment.PerfCost-5fa7: Invocation cmjgjgt6zfhi is cold!
+11:28:45,165 INFO Experiment.PerfCost-5fa7: Invocation abqb3kmbyclj is cold!
+11:28:45,165 INFO Experiment.PerfCost-5fa7: Invocation g26ivoh2g01p is cold!
+11:28:45,165 INFO Experiment.PerfCost-5fa7: Invocation i52ziemkaebw is cold!
+11:28:45,165 INFO Experiment.PerfCost-5fa7: Invocation mctqqgjjzr7e is cold!
+11:28:45,165 INFO Experiment.PerfCost-5fa7: Invocation d67e9j9t42ih is cold!
+11:28:45,165 INFO Experiment.PerfCost-5fa7: Processed 202 samples out of 250, 1 errors
+11:29:13,961 INFO Experiment.PerfCost-5fa7: Invocation 2q1uvejithc6 is cold!
+11:29:13,961 INFO Experiment.PerfCost-5fa7: Invocation obew0lixn262 is cold!
+11:29:15,386 INFO Experiment.PerfCost-5fa7: Invocation zp0399a7fxdh is cold!
+11:29:15,387 INFO Experiment.PerfCost-5fa7: Invocation hca1i59d1k57 is cold!
+11:29:15,387 INFO Experiment.PerfCost-5fa7: Invocation koql5ene1wuc is cold!
+11:29:15,387 INFO Experiment.PerfCost-5fa7: Invocation nj52xvfauevr is cold!
+11:29:15,387 INFO Experiment.PerfCost-5fa7: Processed 246 samples out of 250, 1 errors
+11:29:45,79 INFO Experiment.PerfCost-5fa7: Invocation h6mo1c8y605a is cold!
+11:29:45,79 INFO Experiment.PerfCost-5fa7: Invocation 92jcn3p6uz9y is cold!
+11:29:46,893 INFO Experiment.PerfCost-5fa7: Invocation rywjdaomuj2t is cold!
+11:29:46,894 INFO Experiment.PerfCost-5fa7: Invocation 9jfy0k7zmxot is cold!
+11:29:46,894 INFO Experiment.PerfCost-5fa7: Invocation sn639z4mdxvx is cold!
+11:29:46,894 INFO Experiment.PerfCost-5fa7: Processed 291 samples out of 250, 1 errors
+11:29:51,898 INFO Experiment.PerfCost-5fa7: Mean 2105.791663230241 [ms], median 2092.725 [ms], std 371.20431775871265, CV 17.627779815088303
+11:29:51,899 INFO Experiment.PerfCost-5fa7: Parametric CI (Student's t-distribution) 0.95 from 2062.889581055192 to 2148.6937454052895, within 2.03733745005134% of mean
+11:29:51,899 INFO Experiment.PerfCost-5fa7: Non-parametric CI 0.95 from 2067.717 to 2111.981, within 1.0575684812863642% of median
+11:29:51,900 INFO Experiment.PerfCost-5fa7: Parametric CI (Student's t-distribution) 0.99 from 2049.272222454815 to 2162.3111040056665, within 2.6839996454694863% of mean
+11:29:51,900 INFO Experiment.PerfCost-5fa7: Non-parametric CI 0.99 from 2055.502 to 2116.799, within 1.464525917165419% of median

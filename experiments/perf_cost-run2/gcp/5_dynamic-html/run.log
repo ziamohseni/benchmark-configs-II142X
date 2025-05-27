@@ -1,0 +1,41 @@
+10:58:56,596 INFO SeBS-1a8f: Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost-run2/gcp/5_dynamic-html
+10:58:56,806 INFO GCPResources-933e: Using cached resources for GCP
+10:58:56,806 INFO GCPConfig-1952: Loading cached config for GCP
+10:59:00,179 INFO GCP-5311: Using existing resource name: d9b9fac8.
+10:59:00,181 INFO Benchmark-97d6: Using cached benchmark 110.dynamic-html at /home/zia/serverless-benchmarks/experiments/perf_cost-run2/gcp/cache/110.dynamic-html/gcp/python/3.11/x64/package/110.dynamic-html.zip
+10:59:00,181 INFO GCP-5311: Using cached function sebs_d9b9fac8_110_dynamic_html_python_3_11 in /home/zia/serverless-benchmarks/experiments/perf_cost-run2/gcp/cache/110.dynamic-html/gcp/python/3.11/x64/package/110.dynamic-html.zip
+10:59:00,182 INFO GCP-5311: Cached function sebs_d9b9fac8_110_dynamic_html_python_3_11 is up to date.
+10:59:00,182 INFO Experiment.PerfCost-29c2: Begin experiment on memory size 128
+10:59:01,279 INFO GCP-5311: Uploaded new code package to sebs-deployment-d9b9fac8/x64-110.dynamic-html.zip
+10:59:45,968 INFO GCP-5311: Published new function code and configuration.
+10:59:45,969 INFO Experiment.PerfCost-29c2: Begin burst experiments
+11:00:40,214 INFO GCP-5311: Waiting for function deployment, 10 retries.
+11:00:40,434 INFO GCP-5311: Published new function configuration.
+11:00:40,669 INFO GCP-5311: Redeployed 1 out of 1
+11:01:02,869 INFO Experiment.PerfCost-29c2: Processed 0 warm-up samples, ignoring these results.
+11:02:00,219 INFO GCP-5311: Published new function configuration.
+11:02:00,307 INFO GCP-5311: Redeployed 1 out of 1
+11:02:19,74 INFO Experiment.PerfCost-29c2: Processed 50 samples out of 250, 0 errors
+11:03:22,70 INFO GCP-5311: Waiting for function deployment, 10 retries.
+11:03:27,256 INFO GCP-5311: Published new function configuration.
+11:03:27,348 INFO GCP-5311: Redeployed 1 out of 1
+11:03:45,950 INFO Experiment.PerfCost-29c2: Processed 100 samples out of 250, 0 errors
+11:04:51,680 INFO GCP-5311: Waiting for function deployment, 10 retries.
+11:04:51,757 INFO GCP-5311: Published new function configuration.
+11:04:51,833 INFO GCP-5311: Redeployed 1 out of 1
+11:05:13,754 INFO Experiment.PerfCost-29c2: Processed 149 samples out of 250, 1 errors
+11:06:08,829 INFO GCP-5311: Published new function configuration.
+11:06:08,930 INFO GCP-5311: Redeployed 1 out of 1
+11:06:31,119 INFO Experiment.PerfCost-29c2: Processed 199 samples out of 250, 1 errors
+11:07:15,932 INFO GCP-5311: Published new function configuration.
+11:07:16,14 INFO GCP-5311: Redeployed 1 out of 1
+11:07:38,106 INFO Experiment.PerfCost-29c2: Processed 249 samples out of 250, 1 errors
+11:08:37,940 INFO GCP-5311: Waiting for function deployment, 10 retries.
+11:08:38,44 INFO GCP-5311: Published new function configuration.
+11:08:38,122 INFO GCP-5311: Redeployed 1 out of 1
+11:09:00,244 INFO Experiment.PerfCost-29c2: Processed 299 samples out of 250, 1 errors
+11:09:05,247 INFO Experiment.PerfCost-29c2: Mean 12314.637662207359 [ms], median 13184.651 [ms], std 4108.48735486811, CV 33.36263288912454
+11:09:05,248 INFO Experiment.PerfCost-29c2: Parametric CI (Student's t-distribution) 0.95 from 11846.267394068063 to 12783.007930346654, within 3.8033621531284365% of mean
+11:09:05,248 INFO Experiment.PerfCost-29c2: Non-parametric CI 0.95 from 12937.592 to 13381.314, within 1.6827218255530607% of median
+11:09:05,249 INFO Experiment.PerfCost-29c2: Parametric CI (Student's t-distribution) 0.99 from 11697.64431508187 to 12931.631009332847, within 5.010243614548169% of mean
+11:09:05,249 INFO Experiment.PerfCost-29c2: Non-parametric CI 0.99 from 12887.086 to 13457.424, within 2.1628862227752617% of median

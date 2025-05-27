@@ -1,0 +1,132 @@
+09:08:48,678 INFO SeBS-9672: Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost-run2/gcp/1_dynamic-html
+09:08:48,881 INFO GCPResources-e8b6: Using cached resources for GCP
+09:08:48,881 INFO GCPConfig-9c9c: Loading cached config for GCP
+09:08:49,300 INFO GCP-315b: Using existing resource name: d9b9fac8.
+09:08:49,301 INFO Benchmark-a305: Using cached benchmark 110.dynamic-html at /home/zia/serverless-benchmarks/experiments/perf_cost-run2/gcp/cache/110.dynamic-html/gcp/python/3.11/x64/package/110.dynamic-html.zip
+09:08:49,302 INFO GCP-315b: Using cached function sebs_d9b9fac8_110_dynamic_html_python_3_11 in /home/zia/serverless-benchmarks/experiments/perf_cost-run2/gcp/cache/110.dynamic-html/gcp/python/3.11/x64/package/110.dynamic-html.zip
+09:08:49,302 INFO GCP-315b: Cached function sebs_d9b9fac8_110_dynamic_html_python_3_11 is up to date.
+09:08:49,302 INFO Experiment.PerfCost-1511: Begin experiment on memory size 128
+09:08:50,325 INFO GCP-315b: Uploaded new code package to sebs-deployment-d9b9fac8/x64-110.dynamic-html.zip
+09:09:39,30 INFO GCP-315b: Published new function code and configuration.
+09:09:39,31 INFO Experiment.PerfCost-1511: Begin cold experiments
+09:10:24,268 INFO GCP-315b: Published new function configuration.
+09:10:24,502 INFO GCP-315b: Redeployed 1 out of 1
+09:10:43,515 INFO Experiment.PerfCost-1511: Processed 0 warm-up samples, ignoring these results.
+09:11:42,46 INFO GCP-315b: Published new function configuration.
+09:11:42,136 INFO GCP-315b: Redeployed 1 out of 1
+09:12:03,733 INFO Experiment.PerfCost-1511: Invocation 4arcn43rs59l is not cold!
+09:12:03,733 INFO Experiment.PerfCost-1511: Invocation tqv0gh3cm9ge is not cold!
+09:12:03,733 INFO Experiment.PerfCost-1511: Invocation bcd3xxp0isgi is not cold!
+09:12:03,748 INFO Experiment.PerfCost-1511: Processed 46 samples out of 250, 1 errors
+09:12:53,998 INFO GCP-315b: Published new function configuration.
+09:12:54,226 INFO GCP-315b: Redeployed 1 out of 1
+09:13:12,753 INFO Experiment.PerfCost-1511: Invocation hg0ubfg43z8s is not cold!
+09:13:12,879 INFO Experiment.PerfCost-1511: Processed 94 samples out of 250, 2 errors
+09:14:16,842 INFO GCP-315b: Waiting for function deployment, 10 retries.
+09:14:17,61 INFO GCP-315b: Published new function configuration.
+09:14:17,279 INFO GCP-315b: Redeployed 1 out of 1
+09:14:38,847 INFO Experiment.PerfCost-1511: Invocation 7tlfaqaih8ph is not cold!
+09:14:38,847 INFO Experiment.PerfCost-1511: Invocation 81atoow8ei7l is not cold!
+09:14:38,913 INFO Experiment.PerfCost-1511: Invocation q3ja63uwvx9z is not cold!
+09:14:38,913 INFO Experiment.PerfCost-1511: Invocation u6cs7aagbq8y is not cold!
+09:14:38,913 INFO Experiment.PerfCost-1511: Invocation m40gbc737d07 is not cold!
+09:14:38,913 INFO Experiment.PerfCost-1511: Processed 138 samples out of 250, 3 errors
+09:15:39,133 INFO GCP-315b: Waiting for function deployment, 10 retries.
+09:15:39,361 INFO GCP-315b: Published new function configuration.
+09:15:39,454 INFO GCP-315b: Redeployed 1 out of 1
+09:16:01,117 INFO Experiment.PerfCost-1511: Invocation f4zbe30frr5e is not cold!
+09:16:01,123 INFO Experiment.PerfCost-1511: Invocation 8j1zw0lmywaq is not cold!
+09:16:01,123 INFO Experiment.PerfCost-1511: Invocation 2btql3s60hen is not cold!
+09:16:01,167 INFO Experiment.PerfCost-1511: Invocation wdwegyz23c2m is not cold!
+09:16:01,167 INFO Experiment.PerfCost-1511: Processed 183 samples out of 250, 4 errors
+09:16:50,950 INFO GCP-315b: Published new function configuration.
+09:16:51,31 INFO GCP-315b: Redeployed 1 out of 1
+09:17:12,909 INFO Experiment.PerfCost-1511: Invocation 51v6rl8sirrz is not cold!
+09:17:12,909 INFO Experiment.PerfCost-1511: Invocation 1r6ieatk4zyz is not cold!
+09:17:12,909 INFO Experiment.PerfCost-1511: Invocation w59enrpwhg02 is not cold!
+09:17:12,909 INFO Experiment.PerfCost-1511: Invocation 1r6ir0bqz1i6 is not cold!
+09:17:12,909 INFO Experiment.PerfCost-1511: Invocation 51v6y0zo81ep is not cold!
+09:17:12,909 INFO Experiment.PerfCost-1511: Processed 228 samples out of 250, 4 errors
+09:18:02,350 INFO GCP-315b: Published new function configuration.
+09:18:02,433 INFO GCP-315b: Redeployed 1 out of 1
+09:18:24,19 INFO Experiment.PerfCost-1511: Invocation i8pg47metqnz is not cold!
+09:18:24,19 INFO Experiment.PerfCost-1511: Invocation i8pg5cjj4vq0 is not cold!
+09:18:24,118 INFO Experiment.PerfCost-1511: Invocation 8gy9q7xqtv8v is not cold!
+09:18:24,119 INFO Experiment.PerfCost-1511: Invocation r0hk35y7mj0t is not cold!
+09:18:24,119 INFO Experiment.PerfCost-1511: Processed 274 samples out of 250, 4 errors
+09:18:29,121 INFO Experiment.PerfCost-1511: Mean 11317.127430656936 [ms], median 12855.8925 [ms], std 4263.648053341838, CV 37.67429570327231
+09:18:29,122 INFO Experiment.PerfCost-1511: Parametric CI (Student's t-distribution) 0.95 from 10809.111048460698 to 11825.143812853174, within 4.488916337727837% of mean
+09:18:29,122 INFO Experiment.PerfCost-1511: Non-parametric CI 0.95 from 12525.652 to 13165.338, within 2.487909726998727% of median
+09:18:29,123 INFO Experiment.PerfCost-1511: Parametric CI (Student's t-distribution) 0.99 from 10647.762543061608 to 11986.492318252263, within 5.914618278328183% of mean
+09:18:29,123 INFO Experiment.PerfCost-1511: Non-parametric CI 0.99 from 12438.726 to 13264.98, within 3.2135225150645863% of median
+09:18:37,75 INFO Experiment.PerfCost-1511: Begin warm experiments
+09:18:59,750 INFO Experiment.PerfCost-1511: Processed 0 warm-up samples, ignoring these results.
+09:19:26,819 INFO Experiment.PerfCost-1511: Invocation d9ni6plju9yl is cold!
+09:19:26,973 INFO Experiment.PerfCost-1511: Invocation gbg2fmq9ynaq is cold!
+09:19:26,973 INFO Experiment.PerfCost-1511: Invocation hf0ihxr2spm6 is cold!
+09:19:26,973 INFO Experiment.PerfCost-1511: Invocation i3h5jc7lw60n is cold!
+09:19:26,973 INFO Experiment.PerfCost-1511: Invocation 76reinr4ktah is cold!
+09:19:26,974 INFO Experiment.PerfCost-1511: Invocation 9aa2z98qrbqh is cold!
+09:19:27,116 INFO Experiment.PerfCost-1511: Invocation ak9xz0ombn8o is cold!
+09:19:27,116 INFO Experiment.PerfCost-1511: Invocation 2wu7lzo9bi5p is cold!
+09:19:27,116 INFO Experiment.PerfCost-1511: Invocation 4oix84phnhd3 is cold!
+09:19:27,116 INFO Experiment.PerfCost-1511: Invocation 59ishrfbyp6t is cold!
+09:19:27,116 INFO Experiment.PerfCost-1511: Invocation sh9d8i3o8kdt is cold!
+09:19:27,116 INFO Experiment.PerfCost-1511: Processed 38 samples out of 250, 1 errors
+09:19:51,848 INFO Experiment.PerfCost-1511: Invocation fp9wnk255av6 is cold!
+09:19:51,848 INFO Experiment.PerfCost-1511: Invocation jmlvox9etc9f is cold!
+09:19:51,849 INFO Experiment.PerfCost-1511: Invocation niutv69s14hp is cold!
+09:19:51,849 INFO Experiment.PerfCost-1511: Invocation psz0unew6a5x is cold!
+09:19:51,849 INFO Experiment.PerfCost-1511: Invocation 23264ce18vkx is cold!
+09:19:51,849 INFO Experiment.PerfCost-1511: Invocation knhd6yc6wqi7 is cold!
+09:19:51,850 INFO Experiment.PerfCost-1511: Invocation i8mhzilg4mbs is cold!
+09:19:51,850 INFO Experiment.PerfCost-1511: Processed 81 samples out of 250, 1 errors
+09:20:20,783 INFO Experiment.PerfCost-1511: Invocation mtb0635r53dq is cold!
+09:20:20,871 INFO Experiment.PerfCost-1511: Invocation 6kh8tidls4e7 is cold!
+09:20:20,871 INFO Experiment.PerfCost-1511: Invocation jc1dp7n15bn5 is cold!
+09:20:20,952 INFO Experiment.PerfCost-1511: Invocation csmh70aqxlj4 is cold!
+09:20:20,952 INFO Experiment.PerfCost-1511: Processed 127 samples out of 250, 1 errors
+09:20:48,207 INFO Experiment.PerfCost-1511: Invocation 8d6q480xg8ph is cold!
+09:20:48,336 INFO Experiment.PerfCost-1511: Invocation p01de5nqoyu2 is cold!
+09:20:48,349 INFO Experiment.PerfCost-1511: Invocation hzgim8affh2r is cold!
+09:20:48,349 INFO Experiment.PerfCost-1511: Invocation p4edcj2vh3j1 is cold!
+09:20:48,402 INFO Experiment.PerfCost-1511: Invocation woqy3oiok20r is cold!
+09:20:48,402 INFO Experiment.PerfCost-1511: Invocation 0tu0ta6j21ql is cold!
+09:20:48,402 INFO Experiment.PerfCost-1511: Invocation 7gtwduh7l5ba is cold!
+09:20:48,403 INFO Experiment.PerfCost-1511: Invocation m89yzym31yyl is cold!
+09:20:48,403 INFO Experiment.PerfCost-1511: Invocation 5qkx13s2njk8 is cold!
+09:20:48,403 INFO Experiment.PerfCost-1511: Invocation z2rv7rqv39bl is cold!
+09:20:48,403 INFO Experiment.PerfCost-1511: Processed 166 samples out of 250, 2 errors
+09:21:12,903 INFO Experiment.PerfCost-1511: Invocation 6imauzu2mrep is cold!
+09:21:12,945 INFO Experiment.PerfCost-1511: Invocation psnxxnclzvxj is cold!
+09:21:12,945 INFO Experiment.PerfCost-1511: Invocation f5bkxyq2rfjp is cold!
+09:21:12,952 INFO Experiment.PerfCost-1511: Invocation apy12bd8niks is cold!
+09:21:12,952 INFO Experiment.PerfCost-1511: Invocation 86x2rm64bxf3 is cold!
+09:21:12,952 INFO Experiment.PerfCost-1511: Invocation d8uvup5psxow is cold!
+09:21:12,952 INFO Experiment.PerfCost-1511: Invocation iisr1owllxk9 is cold!
+09:21:12,952 INFO Experiment.PerfCost-1511: Processed 209 samples out of 250, 2 errors
+09:21:40,517 INFO Experiment.PerfCost-1511: Invocation 6ibi6lekjkms is cold!
+09:21:40,517 INFO Experiment.PerfCost-1511: Invocation 6rkcofsvck0m is cold!
+09:21:40,517 INFO Experiment.PerfCost-1511: Invocation 8ifihlwpxm9o is cold!
+09:21:40,517 INFO Experiment.PerfCost-1511: Invocation gbpsvty1ai7z is cold!
+09:21:40,517 INFO Experiment.PerfCost-1511: Invocation 92x27vihb93n is cold!
+09:21:40,518 INFO Experiment.PerfCost-1511: Invocation w31avktljfrw is cold!
+09:21:40,518 INFO Experiment.PerfCost-1511: Invocation ev59i3g4es19 is cold!
+09:21:40,518 INFO Experiment.PerfCost-1511: Invocation qpei4xosxb4n is cold!
+09:21:40,518 INFO Experiment.PerfCost-1511: Invocation 85xk80io4gee is cold!
+09:21:40,518 INFO Experiment.PerfCost-1511: Invocation 4wjo4jm50gsr is cold!
+09:21:40,518 INFO Experiment.PerfCost-1511: Invocation 6jutwiomr3mt is cold!
+09:21:40,518 INFO Experiment.PerfCost-1511: Processed 248 samples out of 250, 2 errors
+09:22:07,764 INFO Experiment.PerfCost-1511: Invocation x9qpyfeltvb9 is cold!
+09:22:07,964 INFO Experiment.PerfCost-1511: Invocation v2li73dfqvci is cold!
+09:22:07,964 INFO Experiment.PerfCost-1511: Invocation 64g179qzheni is cold!
+09:22:07,964 INFO Experiment.PerfCost-1511: Invocation 86eisaxwhfd9 is cold!
+09:22:07,992 INFO Experiment.PerfCost-1511: Invocation li4ihlomkg2e is cold!
+09:22:07,992 INFO Experiment.PerfCost-1511: Invocation aqtsffl7gbbq is cold!
+09:22:07,992 INFO Experiment.PerfCost-1511: Invocation pj0q6qh3ftuv is cold!
+09:22:07,992 INFO Experiment.PerfCost-1511: Processed 291 samples out of 250, 2 errors
+09:22:12,996 INFO Experiment.PerfCost-1511: Mean 14421.09266323024 [ms], median 14539.487 [ms], std 3553.4072002637745, CV 24.640346492772842
+09:22:12,998 INFO Experiment.PerfCost-1511: Parametric CI (Student's t-distribution) 0.95 from 14010.406255734786 to 14831.779070725694, within 2.847817548129272% of mean
+09:22:12,998 INFO Experiment.PerfCost-1511: Non-parametric CI 0.95 from 14404.215 to 15298.262, within 3.074547953445677% of median
+09:22:12,999 INFO Experiment.PerfCost-1511: Parametric CI (Student's t-distribution) 0.99 from 13880.05211440552 to 14962.13321205496, within 3.7517306175018352% of mean
+09:22:12,999 INFO Experiment.PerfCost-1511: Non-parametric CI 0.99 from 14378.27 to 15440.807, within 3.653970047223813% of median

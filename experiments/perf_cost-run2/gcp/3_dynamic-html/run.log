@@ -1,0 +1,252 @@
+09:35:26,779 INFO SeBS-f8c3: Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost-run2/gcp/3_dynamic-html
+09:35:26,995 INFO GCPResources-60c4: Using cached resources for GCP
+09:35:26,995 INFO GCPConfig-e201: Loading cached config for GCP
+09:35:27,433 INFO GCP-ba53: Using existing resource name: d9b9fac8.
+09:35:27,435 INFO Benchmark-39be: Using cached benchmark 110.dynamic-html at /home/zia/serverless-benchmarks/experiments/perf_cost-run2/gcp/cache/110.dynamic-html/gcp/python/3.11/x64/package/110.dynamic-html.zip
+09:35:27,436 INFO GCP-ba53: Using cached function sebs_d9b9fac8_110_dynamic_html_python_3_11 in /home/zia/serverless-benchmarks/experiments/perf_cost-run2/gcp/cache/110.dynamic-html/gcp/python/3.11/x64/package/110.dynamic-html.zip
+09:35:27,436 INFO GCP-ba53: Cached function sebs_d9b9fac8_110_dynamic_html_python_3_11 is up to date.
+09:35:27,436 INFO Experiment.PerfCost-6572: Begin experiment on memory size 128
+09:35:28,540 INFO GCP-ba53: Uploaded new code package to sebs-deployment-d9b9fac8/x64-110.dynamic-html.zip
+09:36:26,761 INFO GCP-ba53: Waiting for function deployment, 10 retries.
+09:36:32,242 INFO GCP-ba53: Published new function code and configuration.
+09:36:32,243 INFO Experiment.PerfCost-6572: Begin cold experiments
+09:37:17,504 INFO GCP-ba53: Published new function configuration.
+09:37:17,587 INFO GCP-ba53: Redeployed 1 out of 1
+09:37:29,422 INFO Experiment.PerfCost-6572: Processed 0 warm-up samples, ignoring these results.
+09:38:29,279 INFO GCP-ba53: Waiting for function deployment, 10 retries.
+09:38:29,360 INFO GCP-ba53: Published new function configuration.
+09:38:29,452 INFO GCP-ba53: Redeployed 1 out of 1
+09:38:40,875 INFO Experiment.PerfCost-6572: Processed 1 samples out of 50, 0 errors
+09:39:40,564 INFO GCP-ba53: Waiting for function deployment, 10 retries.
+09:39:48,823 INFO GCP-ba53: Published new function configuration.
+09:39:48,918 INFO GCP-ba53: Redeployed 1 out of 1
+09:39:58,761 INFO Experiment.PerfCost-6572: Processed 2 samples out of 50, 0 errors
+09:40:43,197 INFO GCP-ba53: Published new function configuration.
+09:40:43,430 INFO GCP-ba53: Redeployed 1 out of 1
+09:40:52,854 INFO Experiment.PerfCost-6572: Processed 3 samples out of 50, 0 errors
+09:41:55,264 INFO GCP-ba53: Waiting for function deployment, 10 retries.
+09:42:00,583 INFO GCP-ba53: Published new function configuration.
+09:42:00,674 INFO GCP-ba53: Redeployed 1 out of 1
+09:42:12,299 INFO Experiment.PerfCost-6572: Processed 4 samples out of 50, 0 errors
+09:43:11,491 INFO GCP-ba53: Waiting for function deployment, 10 retries.
+09:43:19,594 INFO GCP-ba53: Published new function configuration.
+09:43:19,666 INFO GCP-ba53: Redeployed 1 out of 1
+09:43:28,123 INFO Experiment.PerfCost-6572: Processed 5 samples out of 50, 0 errors
+09:44:22,477 INFO GCP-ba53: Published new function configuration.
+09:44:22,561 INFO GCP-ba53: Redeployed 1 out of 1
+09:44:34,293 INFO Experiment.PerfCost-6572: Processed 6 samples out of 50, 0 errors
+09:45:28,780 INFO GCP-ba53: Published new function configuration.
+09:45:29,6 INFO GCP-ba53: Redeployed 1 out of 1
+09:45:40,251 INFO Experiment.PerfCost-6572: Processed 7 samples out of 50, 0 errors
+09:46:39,406 INFO GCP-ba53: Waiting for function deployment, 10 retries.
+09:46:39,486 INFO GCP-ba53: Published new function configuration.
+09:46:39,571 INFO GCP-ba53: Redeployed 1 out of 1
+09:46:50,846 INFO Experiment.PerfCost-6572: Processed 8 samples out of 50, 0 errors
+09:47:45,121 INFO GCP-ba53: Published new function configuration.
+09:47:45,345 INFO GCP-ba53: Redeployed 1 out of 1
+09:47:53,985 INFO Experiment.PerfCost-6572: Processed 9 samples out of 50, 0 errors
+09:48:46,132 INFO GCP-ba53: Published new function configuration.
+09:48:46,216 INFO GCP-ba53: Redeployed 1 out of 1
+09:48:55,520 INFO Experiment.PerfCost-6572: Processed 10 samples out of 50, 0 errors
+09:49:47,503 INFO GCP-ba53: Published new function configuration.
+09:49:47,588 INFO GCP-ba53: Redeployed 1 out of 1
+09:49:58,313 INFO Experiment.PerfCost-6572: Processed 11 samples out of 50, 0 errors
+09:50:55,703 INFO GCP-ba53: Published new function configuration.
+09:50:55,792 INFO GCP-ba53: Redeployed 1 out of 1
+09:51:04,44 INFO Experiment.PerfCost-6572: Processed 12 samples out of 50, 0 errors
+09:51:53,174 INFO GCP-ba53: Published new function configuration.
+09:51:53,267 INFO GCP-ba53: Redeployed 1 out of 1
+09:52:01,900 INFO Experiment.PerfCost-6572: Processed 13 samples out of 50, 0 errors
+09:53:04,83 INFO GCP-ba53: Waiting for function deployment, 10 retries.
+09:53:04,322 INFO GCP-ba53: Published new function configuration.
+09:53:04,403 INFO GCP-ba53: Redeployed 1 out of 1
+09:53:17,315 INFO Experiment.PerfCost-6572: Processed 14 samples out of 50, 0 errors
+09:54:06,645 INFO GCP-ba53: Published new function configuration.
+09:54:06,733 INFO GCP-ba53: Redeployed 1 out of 1
+09:54:15,259 INFO Experiment.PerfCost-6572: Processed 15 samples out of 50, 0 errors
+09:55:17,527 INFO GCP-ba53: Waiting for function deployment, 10 retries.
+09:55:17,613 INFO GCP-ba53: Published new function configuration.
+09:55:17,698 INFO GCP-ba53: Redeployed 1 out of 1
+09:55:26,229 INFO Experiment.PerfCost-6572: Processed 16 samples out of 50, 0 errors
+09:56:13,131 INFO GCP-ba53: Published new function configuration.
+09:56:13,227 INFO GCP-ba53: Redeployed 1 out of 1
+09:56:22,105 INFO Experiment.PerfCost-6572: Processed 17 samples out of 50, 0 errors
+09:57:24,367 INFO GCP-ba53: Waiting for function deployment, 10 retries.
+09:57:34,626 INFO GCP-ba53: Published new function configuration.
+09:57:34,711 INFO GCP-ba53: Redeployed 1 out of 1
+09:57:43,478 INFO Experiment.PerfCost-6572: Processed 18 samples out of 50, 0 errors
+09:58:45,573 INFO GCP-ba53: Waiting for function deployment, 10 retries.
+09:58:50,745 INFO GCP-ba53: Published new function configuration.
+09:58:50,838 INFO GCP-ba53: Redeployed 1 out of 1
+09:58:59,770 INFO Experiment.PerfCost-6572: Processed 19 samples out of 50, 0 errors
+09:59:56,905 INFO GCP-ba53: Published new function configuration.
+09:59:57,1 INFO GCP-ba53: Redeployed 1 out of 1
+10:00:06,678 INFO Experiment.PerfCost-6572: Processed 20 samples out of 50, 0 errors
+10:01:08,809 INFO GCP-ba53: Waiting for function deployment, 10 retries.
+10:01:13,995 INFO GCP-ba53: Published new function configuration.
+10:01:14,86 INFO GCP-ba53: Redeployed 1 out of 1
+10:01:21,859 INFO Experiment.PerfCost-6572: Processed 21 samples out of 50, 0 errors
+10:02:08,798 INFO GCP-ba53: Published new function configuration.
+10:02:08,885 INFO GCP-ba53: Redeployed 1 out of 1
+10:02:18,913 INFO Experiment.PerfCost-6572: Processed 22 samples out of 50, 0 errors
+10:03:16,177 INFO GCP-ba53: Published new function configuration.
+10:03:16,291 INFO GCP-ba53: Redeployed 1 out of 1
+10:03:25,54 INFO Experiment.PerfCost-6572: Processed 23 samples out of 50, 0 errors
+10:04:19,254 INFO GCP-ba53: Published new function configuration.
+10:04:19,338 INFO GCP-ba53: Redeployed 1 out of 1
+10:04:31,303 INFO Experiment.PerfCost-6572: Processed 24 samples out of 50, 0 errors
+10:05:20,382 INFO GCP-ba53: Published new function configuration.
+10:05:20,492 INFO GCP-ba53: Redeployed 1 out of 1
+10:05:29,195 INFO Experiment.PerfCost-6572: Processed 25 samples out of 50, 0 errors
+10:06:31,281 INFO GCP-ba53: Waiting for function deployment, 10 retries.
+10:06:36,451 INFO GCP-ba53: Published new function configuration.
+10:06:36,533 INFO GCP-ba53: Redeployed 1 out of 1
+10:06:45,239 INFO Experiment.PerfCost-6572: Processed 26 samples out of 50, 0 errors
+10:07:32,498 INFO GCP-ba53: Published new function configuration.
+10:07:32,587 INFO GCP-ba53: Redeployed 1 out of 1
+10:07:41,509 INFO Experiment.PerfCost-6572: Processed 27 samples out of 50, 0 errors
+10:08:43,706 INFO GCP-ba53: Waiting for function deployment, 10 retries.
+10:08:43,808 INFO GCP-ba53: Published new function configuration.
+10:08:43,898 INFO GCP-ba53: Redeployed 1 out of 1
+10:08:52,278 INFO Experiment.PerfCost-6572: Processed 28 samples out of 50, 0 errors
+10:09:41,418 INFO GCP-ba53: Published new function configuration.
+10:09:41,499 INFO GCP-ba53: Redeployed 1 out of 1
+10:09:53,550 INFO Experiment.PerfCost-6572: Processed 29 samples out of 50, 0 errors
+10:10:42,929 INFO GCP-ba53: Published new function configuration.
+10:10:43,17 INFO GCP-ba53: Redeployed 1 out of 1
+10:10:51,837 INFO Experiment.PerfCost-6572: Processed 30 samples out of 50, 0 errors
+10:11:49,89 INFO GCP-ba53: Published new function configuration.
+10:11:49,187 INFO GCP-ba53: Redeployed 1 out of 1
+10:11:57,862 INFO Experiment.PerfCost-6572: Processed 31 samples out of 50, 0 errors
+10:12:49,865 INFO GCP-ba53: Published new function configuration.
+10:12:49,942 INFO GCP-ba53: Redeployed 1 out of 1
+10:12:58,285 INFO Experiment.PerfCost-6572: Processed 32 samples out of 50, 0 errors
+10:14:00,525 INFO GCP-ba53: Waiting for function deployment, 10 retries.
+10:14:00,628 INFO GCP-ba53: Published new function configuration.
+10:14:00,710 INFO GCP-ba53: Redeployed 1 out of 1
+10:14:08,696 INFO Experiment.PerfCost-6572: Processed 33 samples out of 50, 0 errors
+10:15:05,899 INFO GCP-ba53: Published new function configuration.
+10:15:05,995 INFO GCP-ba53: Redeployed 1 out of 1
+10:15:15,384 INFO Experiment.PerfCost-6572: Processed 34 samples out of 50, 0 errors
+10:16:17,493 INFO GCP-ba53: Waiting for function deployment, 10 retries.
+10:16:27,797 INFO GCP-ba53: Published new function configuration.
+10:16:28,10 INFO GCP-ba53: Redeployed 1 out of 1
+10:16:36,852 INFO Experiment.PerfCost-6572: Processed 35 samples out of 50, 0 errors
+10:17:34,58 INFO GCP-ba53: Published new function configuration.
+10:17:34,139 INFO GCP-ba53: Redeployed 1 out of 1
+10:17:42,753 INFO Experiment.PerfCost-6572: Processed 36 samples out of 50, 0 errors
+10:18:34,704 INFO GCP-ba53: Published new function configuration.
+10:18:34,782 INFO GCP-ba53: Redeployed 1 out of 1
+10:18:43,521 INFO Experiment.PerfCost-6572: Processed 37 samples out of 50, 0 errors
+10:19:37,713 INFO GCP-ba53: Published new function configuration.
+10:19:37,827 INFO GCP-ba53: Redeployed 1 out of 1
+10:19:49,639 INFO Experiment.PerfCost-6572: Processed 38 samples out of 50, 0 errors
+10:20:38,775 INFO GCP-ba53: Published new function configuration.
+10:20:38,854 INFO GCP-ba53: Redeployed 1 out of 1
+10:20:46,900 INFO Experiment.PerfCost-6572: Processed 39 samples out of 50, 0 errors
+10:21:39,64 INFO GCP-ba53: Published new function configuration.
+10:21:39,154 INFO GCP-ba53: Redeployed 1 out of 1
+10:21:48,126 INFO Experiment.PerfCost-6572: Processed 40 samples out of 50, 0 errors
+10:22:50,177 INFO GCP-ba53: Waiting for function deployment, 10 retries.
+10:23:00,429 INFO GCP-ba53: Published new function configuration.
+10:23:00,533 INFO GCP-ba53: Redeployed 1 out of 1
+10:23:09,933 INFO Experiment.PerfCost-6572: Processed 41 samples out of 50, 0 errors
+10:24:12,33 INFO GCP-ba53: Waiting for function deployment, 10 retries.
+10:24:25,218 INFO GCP-ba53: Published new function configuration.
+10:24:25,309 INFO GCP-ba53: Redeployed 1 out of 1
+10:24:33,722 INFO Experiment.PerfCost-6572: Processed 42 samples out of 50, 0 errors
+10:25:36,19 INFO GCP-ba53: Waiting for function deployment, 10 retries.
+10:25:36,101 INFO GCP-ba53: Published new function configuration.
+10:25:36,178 INFO GCP-ba53: Redeployed 1 out of 1
+10:25:44,965 INFO Experiment.PerfCost-6572: Processed 43 samples out of 50, 0 errors
+10:26:47,493 INFO GCP-ba53: Waiting for function deployment, 10 retries.
+10:26:52,666 INFO GCP-ba53: Published new function configuration.
+10:26:52,744 INFO GCP-ba53: Redeployed 1 out of 1
+10:27:00,982 INFO Experiment.PerfCost-6572: Processed 44 samples out of 50, 0 errors
+10:28:03,160 INFO GCP-ba53: Waiting for function deployment, 10 retries.
+10:28:03,250 INFO GCP-ba53: Published new function configuration.
+10:28:03,330 INFO GCP-ba53: Redeployed 1 out of 1
+10:28:11,869 INFO Experiment.PerfCost-6572: Processed 45 samples out of 50, 0 errors
+10:29:14,288 INFO GCP-ba53: Waiting for function deployment, 10 retries.
+10:29:19,463 INFO GCP-ba53: Published new function configuration.
+10:29:19,572 INFO GCP-ba53: Redeployed 1 out of 1
+10:29:28,54 INFO Experiment.PerfCost-6572: Processed 46 samples out of 50, 0 errors
+10:30:30,199 INFO GCP-ba53: Waiting for function deployment, 10 retries.
+10:30:30,285 INFO GCP-ba53: Published new function configuration.
+10:30:30,404 INFO GCP-ba53: Redeployed 1 out of 1
+10:30:39,130 INFO Experiment.PerfCost-6572: Processed 47 samples out of 50, 0 errors
+10:31:41,306 INFO GCP-ba53: Waiting for function deployment, 10 retries.
+10:31:41,388 INFO GCP-ba53: Published new function configuration.
+10:31:41,475 INFO GCP-ba53: Redeployed 1 out of 1
+10:31:50,183 INFO Experiment.PerfCost-6572: Processed 48 samples out of 50, 0 errors
+10:32:37,96 INFO GCP-ba53: Published new function configuration.
+10:32:37,193 INFO GCP-ba53: Redeployed 1 out of 1
+10:32:45,743 INFO Experiment.PerfCost-6572: Processed 49 samples out of 50, 0 errors
+10:33:48,37 INFO GCP-ba53: Waiting for function deployment, 10 retries.
+10:33:58,476 INFO GCP-ba53: Published new function configuration.
+10:33:58,563 INFO GCP-ba53: Redeployed 1 out of 1
+10:34:07,346 INFO Experiment.PerfCost-6572: Processed 50 samples out of 50, 0 errors
+10:34:12,353 INFO Experiment.PerfCost-6572: Mean 3976.9897599999995 [ms], median 3742.0865000000003 [ms], std 895.5028928023083, CV 22.51710330786239
+10:34:12,359 INFO Experiment.PerfCost-6572: Parametric CI (Student's t-distribution) 0.95 from 3719.9068402638395 to 4234.072679736159, within 6.46425903133731% of mean
+10:34:12,360 INFO Experiment.PerfCost-6572: Non-parametric CI 0.95 from 3663.829 to 3872.044, within 2.782070911508856% of median
+10:34:12,360 INFO Experiment.PerfCost-6572: Parametric CI (Student's t-distribution) 0.99 from 3634.1462250059553 to 4319.833294994043, within 8.620679350053042% of mean
+10:34:12,360 INFO Experiment.PerfCost-6572: Non-parametric CI 0.99 from 3602.553 to 3962.658, within 4.811553661306332% of median
+10:34:13,955 INFO Experiment.PerfCost-6572: Begin warm experiments
+10:34:25,4 INFO Experiment.PerfCost-6572: Processed 0 warm-up samples, ignoring these results.
+10:34:37,951 INFO Experiment.PerfCost-6572: Processed 1 samples out of 50, 0 errors
+10:34:50,912 INFO Experiment.PerfCost-6572: Processed 2 samples out of 50, 0 errors
+10:35:06,917 INFO Experiment.PerfCost-6572: Processed 3 samples out of 50, 0 errors
+10:35:20,618 INFO Experiment.PerfCost-6572: Invocation 5n9kt65ueh5z is cold!
+10:35:20,618 INFO Experiment.PerfCost-6572: Processed 3 samples out of 50, 0 errors
+10:35:36,530 INFO Experiment.PerfCost-6572: Processed 4 samples out of 50, 0 errors
+10:35:49,556 INFO Experiment.PerfCost-6572: Processed 5 samples out of 50, 0 errors
+10:36:02,497 INFO Experiment.PerfCost-6572: Processed 6 samples out of 50, 0 errors
+10:36:18,284 INFO Experiment.PerfCost-6572: Processed 7 samples out of 50, 0 errors
+10:36:31,244 INFO Experiment.PerfCost-6572: Processed 8 samples out of 50, 0 errors
+10:36:46,941 INFO Experiment.PerfCost-6572: Processed 9 samples out of 50, 0 errors
+10:37:00,126 INFO Experiment.PerfCost-6572: Processed 10 samples out of 50, 0 errors
+10:37:13,57 INFO Experiment.PerfCost-6572: Processed 11 samples out of 50, 0 errors
+10:37:28,760 INFO Experiment.PerfCost-6572: Processed 12 samples out of 50, 0 errors
+10:37:41,686 INFO Experiment.PerfCost-6572: Processed 13 samples out of 50, 0 errors
+10:37:57,575 INFO Experiment.PerfCost-6572: Processed 14 samples out of 50, 0 errors
+10:38:10,436 INFO Experiment.PerfCost-6572: Processed 15 samples out of 50, 0 errors
+10:38:23,342 INFO Experiment.PerfCost-6572: Processed 16 samples out of 50, 0 errors
+10:38:39,119 INFO Experiment.PerfCost-6572: Processed 17 samples out of 50, 0 errors
+10:38:51,983 INFO Experiment.PerfCost-6572: Processed 18 samples out of 50, 0 errors
+10:39:07,807 INFO Experiment.PerfCost-6572: Processed 19 samples out of 50, 0 errors
+10:39:20,913 INFO Experiment.PerfCost-6572: Processed 20 samples out of 50, 0 errors
+10:39:33,763 INFO Experiment.PerfCost-6572: Processed 21 samples out of 50, 0 errors
+10:39:49,532 INFO Experiment.PerfCost-6572: Processed 22 samples out of 50, 0 errors
+10:40:02,541 INFO Experiment.PerfCost-6572: Processed 23 samples out of 50, 0 errors
+10:40:18,359 INFO Experiment.PerfCost-6572: Processed 24 samples out of 50, 0 errors
+10:40:31,210 INFO Experiment.PerfCost-6572: Processed 25 samples out of 50, 0 errors
+10:40:44,54 INFO Experiment.PerfCost-6572: Processed 26 samples out of 50, 0 errors
+10:40:59,910 INFO Experiment.PerfCost-6572: Processed 27 samples out of 50, 0 errors
+10:41:13,140 INFO Experiment.PerfCost-6572: Processed 28 samples out of 50, 0 errors
+10:41:28,976 INFO Experiment.PerfCost-6572: Processed 29 samples out of 50, 0 errors
+10:41:41,738 INFO Experiment.PerfCost-6572: Processed 30 samples out of 50, 0 errors
+10:41:54,647 INFO Experiment.PerfCost-6572: Processed 31 samples out of 50, 0 errors
+10:42:10,407 INFO Experiment.PerfCost-6572: Processed 32 samples out of 50, 0 errors
+10:42:23,698 INFO Experiment.PerfCost-6572: Processed 33 samples out of 50, 0 errors
+10:42:39,505 INFO Experiment.PerfCost-6572: Processed 34 samples out of 50, 0 errors
+10:42:52,270 INFO Experiment.PerfCost-6572: Processed 35 samples out of 50, 0 errors
+10:43:05,272 INFO Experiment.PerfCost-6572: Processed 36 samples out of 50, 0 errors
+10:43:20,961 INFO Experiment.PerfCost-6572: Processed 37 samples out of 50, 0 errors
+10:43:34,94 INFO Experiment.PerfCost-6572: Processed 38 samples out of 50, 0 errors
+10:43:50,130 INFO Experiment.PerfCost-6572: Processed 39 samples out of 50, 0 errors
+10:44:03,65 INFO Experiment.PerfCost-6572: Processed 40 samples out of 50, 0 errors
+10:44:15,998 INFO Experiment.PerfCost-6572: Processed 41 samples out of 50, 0 errors
+10:44:31,844 INFO Experiment.PerfCost-6572: Processed 42 samples out of 50, 0 errors
+10:44:44,860 INFO Experiment.PerfCost-6572: Processed 43 samples out of 50, 0 errors
+10:45:00,449 INFO Experiment.PerfCost-6572: Processed 44 samples out of 50, 0 errors
+10:45:13,347 INFO Experiment.PerfCost-6572: Processed 45 samples out of 50, 0 errors
+10:45:26,164 INFO Experiment.PerfCost-6572: Processed 46 samples out of 50, 0 errors
+10:45:41,874 INFO Experiment.PerfCost-6572: Processed 47 samples out of 50, 0 errors
+10:45:54,826 INFO Experiment.PerfCost-6572: Processed 48 samples out of 50, 0 errors
+10:46:10,757 INFO Experiment.PerfCost-6572: Processed 49 samples out of 50, 0 errors
+10:46:23,666 INFO Experiment.PerfCost-6572: Processed 50 samples out of 50, 0 errors
+10:46:28,671 INFO Experiment.PerfCost-6572: Mean 2912.06042 [ms], median 2896.492 [ms], std 123.62247554034663, CV 4.24518923753466
+10:46:28,672 INFO Experiment.PerfCost-6572: Parametric CI (Student's t-distribution) 0.95 from 2876.570610628786 to 2947.5502293712134, within 1.2187181669538847% of mean
+10:46:28,672 INFO Experiment.PerfCost-6572: Non-parametric CI 0.95 from 2872.608 to 2934.546, within 1.069189902820371% of median
+10:46:28,673 INFO Experiment.PerfCost-6572: Parametric CI (Student's t-distribution) 0.99 from 2864.731520384347 to 2959.3893196156528, within 1.6252718965100654% of mean
+10:46:28,673 INFO Experiment.PerfCost-6572: Non-parametric CI 0.99 from 2847.883 to 2946.32, within 1.6992451558644102% of median
