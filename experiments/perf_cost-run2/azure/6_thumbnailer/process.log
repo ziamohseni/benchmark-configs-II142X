@@ -1,0 +1,13 @@
+09:35:00,839 INFO SeBS-717a: Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost-run2/azure/6_thumbnailer
+09:35:01,64 INFO AzureConfig-7b23: Using cached config for Azure
+09:35:01,64 INFO Azure-daca: Using existing resource name: 8bf1fd80.
+09:35:03,213 INFO Experiment.PerfCost-2e6b: Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost-run2/azure/6_thumbnailer/perf-cost/warm_results_128.json
+09:35:03,218 INFO AzureConfig-4373: Using cached config for Azure
+09:35:12,99 INFO Azure-daca: Azure: Running App Insights query.
+09:35:13,407 INFO Azure-daca: Azure: Found time metrics for 298 out of 298 invocations.
+09:35:13,407 INFO Azure-daca: Missing the requests: set()
+09:35:13,440 INFO Experiment.PerfCost-2e6b: Processing data in /home/zia/serverless-benchmarks/experiments/perf_cost-run2/azure/6_thumbnailer/perf-cost/burst_results_128.json
+09:35:13,444 INFO AzureConfig-91d5: Using cached config for Azure
+09:35:24,350 INFO Azure-daca: Azure: Running App Insights query.
+09:35:25,446 INFO Azure-daca: Azure: Found time metrics for 250 out of 250 invocations.
+09:35:25,446 INFO Azure-daca: Missing the requests: set()

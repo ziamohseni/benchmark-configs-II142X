@@ -1,0 +1,55 @@
+18:17:44,398 INFO SeBS-3ffe: Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost-run2/azure/7_thumbnailer
+18:17:44,605 INFO AzureConfig-06c0: Using cached config for Azure
+18:17:44,605 INFO Azure-1dfd: Using existing resource name: 8bf1fd80.
+18:17:46,661 INFO Benchmark-3c6d: Building benchmark 210.thumbnailer. Reason: no cached code package.
+18:17:46,664 INFO Benchmark-3c6d: Docker build of benchmark dependencies in container of image spcleth/serverless-benchmarks:build.azure.nodejs.20-1.2.0
+18:17:46,664 INFO Benchmark-3c6d: Docker mount of benchmark code from path /home/zia/serverless-benchmarks/experiments/perf_cost-run2/azure/7_thumbnailer/210.thumbnailer_code/nodejs/20/x64/package
+18:20:58,616 INFO Benchmark-3c6d: Created code package (source hash: 9a955b48aab51d0c07efa31fe6837fcc), for run on azure with nodejs:20
+18:20:58,818 INFO Azure-1dfd: Creating new function! Reason: function sebs-8bf1fd80-210-thumbnailer-nodejs-20 not found in cache.
+18:22:08,92 INFO Azure-1dfd: Azure: Created function app sebs-8bf1fd80-210-thumbnailer-nodejs-20
+18:22:08,93 INFO Azure-1dfd: Retrieving existing environment variables for function sebs-8bf1fd80-210-thumbnailer-nodejs-20
+18:22:09,868 INFO Azure-1dfd: Exporting environment variables for function sebs-8bf1fd80-210-thumbnailer-nodejs-20
+18:22:15,793 INFO Azure-1dfd: Attempting publish of function sebs-8bf1fd80-210-thumbnailer-nodejs-20
+18:22:34,868 INFO Experiment.PerfCost-83f7: Begin experiment on memory size 128
+18:22:34,868 INFO Azure-1dfd: Retrieving existing environment variables for function sebs-8bf1fd80-210-thumbnailer-nodejs-20
+18:22:36,104 INFO Azure-1dfd: Exporting environment variables for function sebs-8bf1fd80-210-thumbnailer-nodejs-20
+18:22:41,360 INFO Azure-1dfd: Attempting publish of function sebs-8bf1fd80-210-thumbnailer-nodejs-20
+18:22:53,971 INFO Experiment.PerfCost-83f7: Begin burst experiments
+18:22:53,982 INFO Azure-1dfd: Retrieving existing environment variables for function sebs-8bf1fd80-210-thumbnailer-nodejs-20
+18:22:55,250 INFO Azure-1dfd: Exporting environment variables for function sebs-8bf1fd80-210-thumbnailer-nodejs-20
+18:23:30,477 INFO Experiment.PerfCost-83f7: Processed 0 warm-up samples, ignoring these results.
+18:23:35,481 INFO Azure-1dfd: Retrieving existing environment variables for function sebs-8bf1fd80-210-thumbnailer-nodejs-20
+18:23:44,373 INFO Azure-1dfd: Exporting environment variables for function sebs-8bf1fd80-210-thumbnailer-nodejs-20
+18:24:18,131 INFO Experiment.PerfCost-83f7: Processed 50 samples out of 250, 0 errors
+18:24:23,136 INFO Azure-1dfd: Retrieving existing environment variables for function sebs-8bf1fd80-210-thumbnailer-nodejs-20
+18:24:24,428 INFO Azure-1dfd: Exporting environment variables for function sebs-8bf1fd80-210-thumbnailer-nodejs-20
+18:25:01,216 INFO Experiment.PerfCost-83f7: Processed 100 samples out of 250, 0 errors
+18:25:06,221 INFO Azure-1dfd: Retrieving existing environment variables for function sebs-8bf1fd80-210-thumbnailer-nodejs-20
+18:25:08,823 INFO Azure-1dfd: Exporting environment variables for function sebs-8bf1fd80-210-thumbnailer-nodejs-20
+18:25:44,188 INFO Experiment.PerfCost-83f7: Processed 150 samples out of 250, 0 errors
+18:25:49,191 INFO Azure-1dfd: Retrieving existing environment variables for function sebs-8bf1fd80-210-thumbnailer-nodejs-20
+18:25:50,862 INFO Azure-1dfd: Exporting environment variables for function sebs-8bf1fd80-210-thumbnailer-nodejs-20
+18:26:23,931 INFO Experiment.PerfCost-83f7: Processed 200 samples out of 250, 0 errors
+18:26:28,936 INFO Azure-1dfd: Retrieving existing environment variables for function sebs-8bf1fd80-210-thumbnailer-nodejs-20
+18:26:30,290 INFO Azure-1dfd: Exporting environment variables for function sebs-8bf1fd80-210-thumbnailer-nodejs-20
+18:27:04,889 INFO Experiment.PerfCost-83f7: Processed 250 samples out of 250, 0 errors
+18:27:12,826 INFO Experiment.PerfCost-83f7: Mean 4914.368056000001 [ms], median 4610.294 [ms], std 1295.109197816711, CV 26.35352466601477
+18:27:12,827 INFO Experiment.PerfCost-83f7: Parametric CI (Student's t-distribution) 0.95 from 4752.719872393324 to 5076.016239606678, within 3.289297459300367% of mean
+18:27:12,828 INFO Experiment.PerfCost-83f7: Non-parametric CI 0.95 from 4606.634 to 4616.353, within 0.10540542533730009% of median
+18:27:12,828 INFO Experiment.PerfCost-83f7: Parametric CI (Student's t-distribution) 0.99 from 4701.32657011914 to 5127.409541880862, within 4.335073878334292% of mean
+18:27:12,828 INFO Experiment.PerfCost-83f7: Non-parametric CI 0.99 from 4604.592 to 4617.238, within 0.13714960477575444% of median
+18:27:12,855 INFO Experiment.PerfCost-83f7: Begin warm experiments
+18:27:20,991 INFO Experiment.PerfCost-83f7: Processed 0 warm-up samples, ignoring these results.
+18:27:36,44 INFO Experiment.PerfCost-83f7: Invocation ebc9c4a1-7d9d-41d9-b2da-005ea21cee53 is cold!
+18:27:36,44 INFO Experiment.PerfCost-83f7: Processed 49 samples out of 250, 0 errors
+18:27:51,545 INFO Experiment.PerfCost-83f7: Invocation 5cec9054-d80e-465b-bc7f-788b8438ad4c is cold!
+18:27:51,657 INFO Experiment.PerfCost-83f7: Processed 98 samples out of 250, 0 errors
+18:28:04,81 INFO Experiment.PerfCost-83f7: Processed 148 samples out of 250, 0 errors
+18:28:18,170 INFO Experiment.PerfCost-83f7: Processed 198 samples out of 250, 0 errors
+18:28:33,495 INFO Experiment.PerfCost-83f7: Processed 248 samples out of 250, 0 errors
+18:28:45,437 INFO Experiment.PerfCost-83f7: Processed 298 samples out of 250, 0 errors
+18:28:50,442 INFO Experiment.PerfCost-83f7: Mean 2192.015577181208 [ms], median 1838.125 [ms], std 1251.8637675170767, CV 57.11016748917878
+18:28:50,443 INFO Experiment.PerfCost-83f7: Parametric CI (Student's t-distribution) 0.95 from 2049.0602631984375 to 2334.970891163978, within 6.52163768683623% of mean
+18:28:50,443 INFO Experiment.PerfCost-83f7: Non-parametric CI 0.95 from 1715.902 to 1892.229, within 4.796382182930976% of median
+18:28:50,444 INFO Experiment.PerfCost-83f7: Parametric CI (Student's t-distribution) 0.99 from 2003.6962373848482 to 2380.3349169775674, within 8.591149705173457% of mean
+18:28:50,444 INFO Experiment.PerfCost-83f7: Non-parametric CI 0.99 from 1698.22 to 1906.198, within 5.65734104046243% of median

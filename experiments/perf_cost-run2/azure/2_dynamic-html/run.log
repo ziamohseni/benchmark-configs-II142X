@@ -1,0 +1,37 @@
+17:09:10,267 INFO SeBS-22c2: Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost-run2/azure/2_dynamic-html
+17:09:10,484 INFO AzureConfig-cb3d: Using cached config for Azure
+17:09:10,484 INFO Azure-f175: Using existing resource name: 8bf1fd80.
+17:09:12,406 INFO Benchmark-fcc8: Building benchmark 110.dynamic-html. Reason: no cached code package.
+17:09:12,413 INFO Benchmark-fcc8: Docker build of benchmark dependencies in container of image spcleth/serverless-benchmarks:build.azure.nodejs.20-1.2.0
+17:09:12,413 INFO Benchmark-fcc8: Docker mount of benchmark code from path /home/zia/serverless-benchmarks/experiments/perf_cost-run2/azure/2_dynamic-html/110.dynamic-html_code/nodejs/20/x64/package
+17:09:16,28 INFO Benchmark-fcc8: Created code package (source hash: 42bcfdf6cb03dc709995dec0a23048c6), for run on azure with nodejs:20
+17:09:16,208 INFO Azure-f175: Creating new function! Reason: function sebs-8bf1fd80-110-dynamic-html-nodejs-20 not found in cache.
+17:10:22,995 INFO Azure-f175: Azure: Created function app sebs-8bf1fd80-110-dynamic-html-nodejs-20
+17:10:24,155 INFO Azure-f175: Attempting publish of function sebs-8bf1fd80-110-dynamic-html-nodejs-20
+17:10:58,381 INFO Azure-f175: Sleep 30 seconds for Azure to register function app sebs-8bf1fd80-110-dynamic-html-nodejs-20
+17:11:09,619 INFO Experiment.PerfCost-23bd: Begin experiment on memory size 128
+17:11:10,774 INFO Azure-f175: Attempting publish of function sebs-8bf1fd80-110-dynamic-html-nodejs-20
+17:11:22,278 INFO Experiment.PerfCost-23bd: Begin burst experiments
+17:12:05,487 INFO Experiment.PerfCost-23bd: Processed 0 warm-up samples, ignoring these results.
+17:12:51,964 INFO Experiment.PerfCost-23bd: Processed 50 samples out of 250, 0 errors
+17:13:35,474 INFO Experiment.PerfCost-23bd: Processed 100 samples out of 250, 0 errors
+17:14:17,426 INFO Experiment.PerfCost-23bd: Processed 150 samples out of 250, 0 errors
+17:15:02,520 INFO Experiment.PerfCost-23bd: Processed 200 samples out of 250, 0 errors
+17:15:44,536 INFO Experiment.PerfCost-23bd: Processed 250 samples out of 250, 0 errors
+17:15:49,540 INFO Experiment.PerfCost-23bd: Mean 9330.828236 [ms], median 9610.282500000001 [ms], std 3511.1913261901072, CV 37.630007083865344
+17:15:49,541 INFO Experiment.PerfCost-23bd: Parametric CI (Student's t-distribution) 0.95 from 8892.581251783557 to 9769.075220216442, within 4.696764029216697% of mean
+17:15:49,541 INFO Experiment.PerfCost-23bd: Non-parametric CI 0.95 from 9058.423 to 10127.975, within 5.5646231003094835% of median
+17:15:49,541 INFO Experiment.PerfCost-23bd: Parametric CI (Student's t-distribution) 0.99 from 8753.248045383983 to 9908.408426616015, within 6.190020607041168% of mean
+17:15:49,541 INFO Experiment.PerfCost-23bd: Non-parametric CI 0.99 from 8903.717 to 10293.084, within 7.228544010022598% of median
+17:15:53,341 INFO Experiment.PerfCost-23bd: Begin warm experiments
+17:16:07,553 INFO Experiment.PerfCost-23bd: Processed 0 warm-up samples, ignoring these results.
+17:16:29,739 INFO Experiment.PerfCost-23bd: Processed 50 samples out of 250, 0 errors
+17:16:51,684 INFO Experiment.PerfCost-23bd: Processed 100 samples out of 250, 0 errors
+17:17:10,814 INFO Experiment.PerfCost-23bd: Processed 150 samples out of 250, 0 errors
+17:17:33,256 INFO Experiment.PerfCost-23bd: Processed 200 samples out of 250, 0 errors
+17:17:52,529 INFO Experiment.PerfCost-23bd: Processed 250 samples out of 250, 0 errors
+17:18:00,463 INFO Experiment.PerfCost-23bd: Mean 7605.842799999999 [ms], median 7885.6175 [ms], std 2294.8115958029566, CV 30.171693737911028
+17:18:00,465 INFO Experiment.PerfCost-23bd: Parametric CI (Student's t-distribution) 0.95 from 7319.417433856019 to 7892.26816614398, within 3.7658596644145828% of mean
+17:18:00,465 INFO Experiment.PerfCost-23bd: Non-parametric CI 0.95 from 7728.066 to 8109.136, within 2.416234365919984% of median
+17:18:00,466 INFO Experiment.PerfCost-23bd: Parametric CI (Student's t-distribution) 0.99 from 7228.35333964356 to 7983.332260356439, within 4.963150965418847% of mean
+17:18:00,466 INFO Experiment.PerfCost-23bd: Non-parametric CI 0.99 from 7664.191 to 8158.356, within 3.1333310295610963% of median

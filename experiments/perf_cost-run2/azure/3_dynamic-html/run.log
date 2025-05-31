@@ -1,0 +1,122 @@
+17:18:15,821 INFO SeBS-7c39: Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost-run2/azure/3_dynamic-html
+17:18:16,51 INFO AzureConfig-4975: Using cached config for Azure
+17:18:16,51 INFO Azure-1aa8: Using existing resource name: 8bf1fd80.
+17:18:18,98 INFO Benchmark-3dac: Using cached benchmark 110.dynamic-html at /home/zia/serverless-benchmarks/experiments/perf_cost-run2/azure/cache/110.dynamic-html/azure/python/3.11/x64/package/code
+17:18:18,98 INFO Azure-1aa8: Using cached function sebs-8bf1fd80-110-dynamic-html-python-3-11 in /home/zia/serverless-benchmarks/experiments/perf_cost-run2/azure/cache/110.dynamic-html/azure/python/3.11/x64/package/code
+17:18:18,99 INFO Azure-1aa8: Cached function sebs-8bf1fd80-110-dynamic-html-python-3-11 is up to date.
+17:18:18,99 INFO Experiment.PerfCost-6359: Begin experiment on memory size 128
+17:18:18,310 INFO Azure-1aa8: Attempting publish of function sebs-8bf1fd80-110-dynamic-html-python-3-11
+17:18:28,554 INFO Experiment.PerfCost-6359: Begin burst experiments
+17:18:58,348 INFO Experiment.PerfCost-6359: Processed 0 warm-up samples, ignoring these results.
+17:19:32,143 INFO Experiment.PerfCost-6359: Processed 1 samples out of 50, 0 errors
+17:20:06,72 INFO Experiment.PerfCost-6359: Processed 2 samples out of 50, 0 errors
+17:20:39,901 INFO Experiment.PerfCost-6359: Processed 3 samples out of 50, 0 errors
+17:21:13,739 INFO Experiment.PerfCost-6359: Processed 4 samples out of 50, 0 errors
+17:21:47,619 INFO Experiment.PerfCost-6359: Processed 5 samples out of 50, 0 errors
+17:22:21,767 INFO Experiment.PerfCost-6359: Processed 6 samples out of 50, 0 errors
+17:22:55,568 INFO Experiment.PerfCost-6359: Processed 7 samples out of 50, 0 errors
+17:23:29,410 INFO Experiment.PerfCost-6359: Processed 8 samples out of 50, 0 errors
+17:24:03,268 INFO Experiment.PerfCost-6359: Processed 9 samples out of 50, 0 errors
+17:24:37,151 INFO Experiment.PerfCost-6359: Processed 10 samples out of 50, 0 errors
+17:25:10,928 INFO Experiment.PerfCost-6359: Processed 11 samples out of 50, 0 errors
+17:25:44,752 INFO Experiment.PerfCost-6359: Processed 12 samples out of 50, 0 errors
+17:26:18,740 INFO Experiment.PerfCost-6359: Processed 13 samples out of 50, 0 errors
+17:26:49,754 INFO Experiment.PerfCost-6359: Processed 14 samples out of 50, 0 errors
+17:27:25,23 INFO Experiment.PerfCost-6359: Processed 15 samples out of 50, 0 errors
+17:27:58,855 INFO Experiment.PerfCost-6359: Processed 16 samples out of 50, 0 errors
+17:28:33,146 INFO Experiment.PerfCost-6359: Processed 17 samples out of 50, 0 errors
+17:29:07,28 INFO Experiment.PerfCost-6359: Processed 18 samples out of 50, 0 errors
+17:29:40,823 INFO Experiment.PerfCost-6359: Processed 19 samples out of 50, 0 errors
+17:30:14,640 INFO Experiment.PerfCost-6359: Processed 20 samples out of 50, 0 errors
+17:30:48,467 INFO Experiment.PerfCost-6359: Processed 21 samples out of 50, 0 errors
+17:31:22,416 INFO Experiment.PerfCost-6359: Processed 22 samples out of 50, 0 errors
+17:31:56,196 INFO Experiment.PerfCost-6359: Processed 23 samples out of 50, 0 errors
+17:32:30,222 INFO Experiment.PerfCost-6359: Processed 24 samples out of 50, 0 errors
+17:33:04,162 INFO Experiment.PerfCost-6359: Processed 25 samples out of 50, 0 errors
+17:33:35,141 INFO Experiment.PerfCost-6359: Processed 26 samples out of 50, 0 errors
+17:34:10,313 INFO Experiment.PerfCost-6359: Processed 27 samples out of 50, 0 errors
+17:34:44,143 INFO Experiment.PerfCost-6359: Processed 28 samples out of 50, 0 errors
+17:35:17,918 INFO Experiment.PerfCost-6359: Processed 29 samples out of 50, 0 errors
+17:35:51,746 INFO Experiment.PerfCost-6359: Processed 30 samples out of 50, 0 errors
+17:36:25,528 INFO Experiment.PerfCost-6359: Processed 31 samples out of 50, 0 errors
+17:36:59,380 INFO Experiment.PerfCost-6359: Processed 32 samples out of 50, 0 errors
+17:37:33,199 INFO Experiment.PerfCost-6359: Processed 33 samples out of 50, 0 errors
+17:38:07,147 INFO Experiment.PerfCost-6359: Processed 34 samples out of 50, 0 errors
+17:38:41,388 INFO Experiment.PerfCost-6359: Processed 35 samples out of 50, 0 errors
+17:39:12,362 INFO Experiment.PerfCost-6359: Processed 36 samples out of 50, 0 errors
+17:39:47,550 INFO Experiment.PerfCost-6359: Processed 37 samples out of 50, 0 errors
+17:40:21,572 INFO Experiment.PerfCost-6359: Processed 38 samples out of 50, 0 errors
+17:40:55,373 INFO Experiment.PerfCost-6359: Processed 39 samples out of 50, 0 errors
+17:41:30,583 INFO Experiment.PerfCost-6359: Processed 40 samples out of 50, 0 errors
+17:42:04,651 INFO Experiment.PerfCost-6359: Processed 41 samples out of 50, 0 errors
+17:42:38,999 INFO Experiment.PerfCost-6359: Processed 42 samples out of 50, 0 errors
+17:43:12,807 INFO Experiment.PerfCost-6359: Processed 43 samples out of 50, 0 errors
+17:43:46,748 INFO Experiment.PerfCost-6359: Processed 44 samples out of 50, 0 errors
+17:44:20,557 INFO Experiment.PerfCost-6359: Processed 45 samples out of 50, 0 errors
+17:44:54,402 INFO Experiment.PerfCost-6359: Processed 46 samples out of 50, 0 errors
+17:45:28,203 INFO Experiment.PerfCost-6359: Processed 47 samples out of 50, 0 errors
+17:46:02,95 INFO Experiment.PerfCost-6359: Processed 48 samples out of 50, 0 errors
+17:46:32,974 INFO Experiment.PerfCost-6359: Processed 49 samples out of 50, 0 errors
+17:47:06,866 INFO Experiment.PerfCost-6359: Processed 50 samples out of 50, 0 errors
+17:47:14,804 INFO Experiment.PerfCost-6359: Mean 996.3422599999999 [ms], median 887.4455 [ms], std 428.64838625837893, CV 43.022202657385925
+17:47:14,805 INFO Experiment.PerfCost-6359: Parametric CI (Student's t-distribution) 0.95 from 873.2849482199645 to 1119.3995717800353, within 12.350907586719794% of mean
+17:47:14,805 INFO Experiment.PerfCost-6359: Non-parametric CI 0.95 from 869.253 to 953.299, within 4.735276701498848% of median
+17:47:14,806 INFO Experiment.PerfCost-6359: Parametric CI (Student's t-distribution) 0.99 from 832.2341044646969 to 1160.450415535303, within 16.47106241737684% of mean
+17:47:14,806 INFO Experiment.PerfCost-6359: Non-parametric CI 0.99 from 865.656 to 982.047, within 6.557642131263276% of median
+17:47:16,164 INFO Experiment.PerfCost-6359: Begin warm experiments
+17:47:22,16 INFO Experiment.PerfCost-6359: Processed 0 warm-up samples, ignoring these results.
+17:47:32,883 INFO Experiment.PerfCost-6359: Processed 1 samples out of 50, 0 errors
+17:47:43,790 INFO Experiment.PerfCost-6359: Processed 2 samples out of 50, 0 errors
+17:47:57,586 INFO Experiment.PerfCost-6359: Processed 3 samples out of 50, 0 errors
+17:48:08,516 INFO Experiment.PerfCost-6359: Processed 4 samples out of 50, 0 errors
+17:48:22,400 INFO Experiment.PerfCost-6359: Processed 5 samples out of 50, 0 errors
+17:48:33,270 INFO Experiment.PerfCost-6359: Processed 6 samples out of 50, 0 errors
+17:48:44,179 INFO Experiment.PerfCost-6359: Processed 7 samples out of 50, 0 errors
+17:48:57,985 INFO Experiment.PerfCost-6359: Processed 8 samples out of 50, 0 errors
+17:49:08,815 INFO Experiment.PerfCost-6359: Processed 9 samples out of 50, 0 errors
+17:49:19,747 INFO Experiment.PerfCost-6359: Processed 10 samples out of 50, 0 errors
+17:49:33,528 INFO Experiment.PerfCost-6359: Processed 11 samples out of 50, 0 errors
+17:49:44,493 INFO Experiment.PerfCost-6359: Processed 12 samples out of 50, 0 errors
+17:49:55,952 INFO Experiment.PerfCost-6359: Processed 13 samples out of 50, 0 errors
+17:50:06,811 INFO Experiment.PerfCost-6359: Processed 14 samples out of 50, 0 errors
+17:50:17,726 INFO Experiment.PerfCost-6359: Processed 15 samples out of 50, 0 errors
+17:50:33,39 INFO Experiment.PerfCost-6359: Processed 16 samples out of 50, 0 errors
+17:50:43,880 INFO Experiment.PerfCost-6359: Processed 17 samples out of 50, 0 errors
+17:50:54,775 INFO Experiment.PerfCost-6359: Processed 18 samples out of 50, 0 errors
+17:51:08,498 INFO Experiment.PerfCost-6359: Processed 19 samples out of 50, 0 errors
+17:51:19,405 INFO Experiment.PerfCost-6359: Processed 20 samples out of 50, 0 errors
+17:51:30,239 INFO Experiment.PerfCost-6359: Processed 21 samples out of 50, 0 errors
+17:51:44,53 INFO Experiment.PerfCost-6359: Processed 22 samples out of 50, 0 errors
+17:51:54,929 INFO Experiment.PerfCost-6359: Processed 23 samples out of 50, 0 errors
+17:52:05,786 INFO Experiment.PerfCost-6359: Processed 24 samples out of 50, 0 errors
+17:52:19,564 INFO Experiment.PerfCost-6359: Processed 25 samples out of 50, 0 errors
+17:52:30,468 INFO Experiment.PerfCost-6359: Processed 26 samples out of 50, 0 errors
+17:52:41,324 INFO Experiment.PerfCost-6359: Processed 27 samples out of 50, 0 errors
+17:52:55,168 INFO Experiment.PerfCost-6359: Processed 28 samples out of 50, 0 errors
+17:53:05,991 INFO Experiment.PerfCost-6359: Processed 29 samples out of 50, 0 errors
+17:53:16,833 INFO Experiment.PerfCost-6359: Processed 30 samples out of 50, 0 errors
+17:53:27,708 INFO Experiment.PerfCost-6359: Processed 31 samples out of 50, 0 errors
+17:53:42,891 INFO Experiment.PerfCost-6359: Processed 32 samples out of 50, 0 errors
+17:53:53,796 INFO Experiment.PerfCost-6359: Processed 33 samples out of 50, 0 errors
+17:54:04,806 INFO Experiment.PerfCost-6359: Processed 34 samples out of 50, 0 errors
+17:54:18,596 INFO Experiment.PerfCost-6359: Processed 35 samples out of 50, 0 errors
+17:54:29,467 INFO Experiment.PerfCost-6359: Processed 36 samples out of 50, 0 errors
+17:54:40,414 INFO Experiment.PerfCost-6359: Processed 37 samples out of 50, 0 errors
+17:54:54,206 INFO Experiment.PerfCost-6359: Processed 38 samples out of 50, 0 errors
+17:55:05,131 INFO Experiment.PerfCost-6359: Processed 39 samples out of 50, 0 errors
+17:55:16,86 INFO Experiment.PerfCost-6359: Processed 40 samples out of 50, 0 errors
+17:55:29,979 INFO Experiment.PerfCost-6359: Processed 41 samples out of 50, 0 errors
+17:55:40,881 INFO Experiment.PerfCost-6359: Processed 42 samples out of 50, 0 errors
+17:55:51,759 INFO Experiment.PerfCost-6359: Processed 43 samples out of 50, 0 errors
+17:56:05,646 INFO Experiment.PerfCost-6359: Processed 44 samples out of 50, 0 errors
+17:56:16,482 INFO Experiment.PerfCost-6359: Processed 45 samples out of 50, 0 errors
+17:56:27,488 INFO Experiment.PerfCost-6359: Processed 46 samples out of 50, 0 errors
+17:56:41,240 INFO Experiment.PerfCost-6359: Processed 47 samples out of 50, 0 errors
+17:56:52,205 INFO Experiment.PerfCost-6359: Processed 48 samples out of 50, 0 errors
+17:57:03,110 INFO Experiment.PerfCost-6359: Processed 49 samples out of 50, 0 errors
+17:57:17,369 INFO Experiment.PerfCost-6359: Processed 50 samples out of 50, 0 errors
+17:57:22,374 INFO Experiment.PerfCost-6359: Mean 1017.7278 [ms], median 885.4915 [ms], std 584.9276682514857, CV 57.47388135132848
+17:57:22,376 INFO Experiment.PerfCost-6359: Parametric CI (Student's t-distribution) 0.95 from 849.8054917671525 to 1185.6501082328475, within 16.499726963619104% of mean
+17:57:22,376 INFO Experiment.PerfCost-6359: Non-parametric CI 0.95 from 856.596 to 904.165, within 2.686022395471891% of median
+17:57:22,377 INFO Experiment.PerfCost-6359: Parametric CI (Student's t-distribution) 0.99 from 793.7880772911044 to 1241.6675227088956, within 22.00389167996547% of mean
+17:57:22,377 INFO Experiment.PerfCost-6359: Non-parametric CI 0.99 from 847.882 to 920.349, within 4.091908279187327% of median

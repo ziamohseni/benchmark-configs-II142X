@@ -1,0 +1,48 @@
+16:58:26,147 INFO SeBS-05d2: Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost-run2/azure/1_dynamic-html
+16:58:26,371 INFO AzureResources-ad78: No resources for Azure found, initialize!
+16:58:26,372 INFO AzureConfig-e3e4: Using user-provided config for Azure
+16:58:29,233 WARNING Azure-f0ce: We found 1 existing deployments! If you want to use any of them, please abort, and provide the resource id in your input config.
+16:58:29,233 WARNING Azure-f0ce: Deployment resource IDs in the cloud: ['b3130a90']
+16:58:29,233 INFO Azure-f0ce: Generating unique resource name 8bf1fd80
+16:58:29,233 INFO AzureResources-ad78: Starting allocation of storage account storage8bf1fd80.
+16:58:30,47 INFO AzureResources-ad78: Starting allocation of resource group sebs_resource_group_8bf1fd80.
+16:58:32,620 INFO AzureResources-ad78: Resource group sebs_resource_group_8bf1fd80 created.
+16:58:57,663 INFO AzureResources-ad78: Storage account storage8bf1fd80 created.
+16:58:59,124 INFO Azure.BlobStorage-cad1: Initialize a new bucket for benchmarks
+16:58:59,157 INFO Azure.BlobStorage-cad1: Created container sebs-benchmarks-8bf1fd80
+16:58:59,159 INFO Benchmark-f673: Building benchmark 110.dynamic-html. Reason: no cached code package.
+16:58:59,167 INFO Benchmark-f673: Docker build of benchmark dependencies in container of image spcleth/serverless-benchmarks:build.azure.python.3.11-1.2.0
+16:58:59,167 INFO Benchmark-f673: Docker mount of benchmark code from path /home/zia/serverless-benchmarks/experiments/perf_cost-run2/azure/1_dynamic-html/110.dynamic-html_code/python/3.11/x64/package
+16:59:00,830 INFO Benchmark-f673: Created code package (source hash: d866413fe7d30a86f35bd8974fe40f27), for run on azure with python:3.11
+16:59:00,839 INFO Azure-f0ce: Creating new function! Reason: function sebs-8bf1fd80-110-dynamic-html-python-3-11 not found in cache.
+16:59:01,581 INFO AzureResources-ad78: Starting allocation of storage account function9f39d444.
+16:59:25,881 INFO AzureResources-ad78: Storage account function9f39d444 created.
+17:00:23,51 INFO Azure-f0ce: Azure: Created function app sebs-8bf1fd80-110-dynamic-html-python-3-11
+17:00:23,267 INFO Azure-f0ce: Attempting publish of function sebs-8bf1fd80-110-dynamic-html-python-3-11
+17:00:54,620 INFO Azure-f0ce: Sleep 30 seconds for Azure to register function app sebs-8bf1fd80-110-dynamic-html-python-3-11
+17:01:07,925 INFO Experiment.PerfCost-cd58: Begin experiment on memory size 128
+17:01:08,132 INFO Azure-f0ce: Attempting publish of function sebs-8bf1fd80-110-dynamic-html-python-3-11
+17:01:17,578 INFO Experiment.PerfCost-cd58: Begin burst experiments
+17:02:00,108 INFO Experiment.PerfCost-cd58: Processed 0 warm-up samples, ignoring these results.
+17:02:47,685 INFO Experiment.PerfCost-cd58: Processed 50 samples out of 250, 0 errors
+17:03:38,925 INFO Experiment.PerfCost-cd58: Processed 100 samples out of 250, 0 errors
+17:04:25,160 INFO Experiment.PerfCost-cd58: Processed 150 samples out of 250, 0 errors
+17:05:11,820 INFO Experiment.PerfCost-cd58: Processed 200 samples out of 250, 0 errors
+17:06:01,591 INFO Experiment.PerfCost-cd58: Processed 250 samples out of 250, 0 errors
+17:06:06,595 INFO Experiment.PerfCost-cd58: Mean 11904.388192 [ms], median 12506.208999999999 [ms], std 3346.0197157111975, CV 28.107447957382583
+17:06:06,597 INFO Experiment.PerfCost-cd58: Parametric CI (Student's t-distribution) 0.95 from 11486.756991272947 to 12322.019392727054, within 3.5082122154560658% of mean
+17:06:06,597 INFO Experiment.PerfCost-cd58: Non-parametric CI 0.95 from 12156.306 to 12822.804, within 2.6646684059094152% of median
+17:06:06,597 INFO Experiment.PerfCost-cd58: Parametric CI (Student's t-distribution) 0.99 from 11353.9782240811 to 12454.7981599189, within 4.623588873628864% of mean
+17:06:06,598 INFO Experiment.PerfCost-cd58: Non-parametric CI 0.99 from 12064.603 to 12962.898, within 3.5913960817382793% of median
+17:06:13,432 INFO Experiment.PerfCost-cd58: Begin warm experiments
+17:06:32,422 INFO Experiment.PerfCost-cd58: Processed 0 warm-up samples, ignoring these results.
+17:07:00,587 INFO Experiment.PerfCost-cd58: Processed 50 samples out of 250, 0 errors
+17:07:27,33 INFO Experiment.PerfCost-cd58: Processed 100 samples out of 250, 0 errors
+17:07:50,817 INFO Experiment.PerfCost-cd58: Processed 150 samples out of 250, 0 errors
+17:08:17,494 INFO Experiment.PerfCost-cd58: Processed 200 samples out of 250, 0 errors
+17:08:44,17 INFO Experiment.PerfCost-cd58: Processed 250 samples out of 250, 0 errors
+17:08:49,22 INFO Experiment.PerfCost-cd58: Mean 13423.019708 [ms], median 13591.564 [ms], std 2866.2031986764437, CV 21.35289421476609
+17:08:49,24 INFO Experiment.PerfCost-cd58: Parametric CI (Student's t-distribution) 0.95 from 13065.276483185635 to 13780.762932814365, within 2.665147132289117% of mean
+17:08:49,24 INFO Experiment.PerfCost-cd58: Non-parametric CI 0.95 from 13186.993 to 14197.142, within 3.716088155859029% of median
+17:08:49,25 INFO Experiment.PerfCost-cd58: Parametric CI (Student's t-distribution) 0.99 from 12951.538083661382 to 13894.501332338617, within 3.512485525575283% of mean
+17:08:49,25 INFO Experiment.PerfCost-cd58: Non-parametric CI 0.99 from 13125.841 to 14411.952, within 4.731284052372482% of median

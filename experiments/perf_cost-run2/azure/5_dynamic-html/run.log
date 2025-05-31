@@ -1,0 +1,20 @@
+18:04:23,121 INFO SeBS-d955: Created experiment output at /home/zia/serverless-benchmarks/experiments/perf_cost-run2/azure/5_dynamic-html
+18:04:23,324 INFO AzureConfig-eea4: Using cached config for Azure
+18:04:23,324 INFO Azure-670f: Using existing resource name: 8bf1fd80.
+18:04:25,233 INFO Benchmark-c480: Using cached benchmark 110.dynamic-html at /home/zia/serverless-benchmarks/experiments/perf_cost-run2/azure/cache/110.dynamic-html/azure/python/3.11/x64/package/code
+18:04:25,233 INFO Azure-670f: Using cached function sebs-8bf1fd80-110-dynamic-html-python-3-11 in /home/zia/serverless-benchmarks/experiments/perf_cost-run2/azure/cache/110.dynamic-html/azure/python/3.11/x64/package/code
+18:04:25,233 INFO Azure-670f: Cached function sebs-8bf1fd80-110-dynamic-html-python-3-11 is up to date.
+18:04:25,233 INFO Experiment.PerfCost-d2ee: Begin experiment on memory size 128
+18:04:25,445 INFO Azure-670f: Attempting publish of function sebs-8bf1fd80-110-dynamic-html-python-3-11
+18:04:36,569 INFO Experiment.PerfCost-d2ee: Begin burst experiments
+18:05:25,15 INFO Experiment.PerfCost-d2ee: Processed 0 warm-up samples, ignoring these results.
+18:06:12,520 INFO Experiment.PerfCost-d2ee: Processed 50 samples out of 250, 0 errors
+18:06:59,601 INFO Experiment.PerfCost-d2ee: Processed 100 samples out of 250, 0 errors
+18:07:47,116 INFO Experiment.PerfCost-d2ee: Processed 150 samples out of 250, 0 errors
+18:08:31,980 INFO Experiment.PerfCost-d2ee: Processed 200 samples out of 250, 0 errors
+18:09:21,945 INFO Experiment.PerfCost-d2ee: Processed 250 samples out of 250, 0 errors
+18:09:26,950 INFO Experiment.PerfCost-d2ee: Mean 11483.409196 [ms], median 12320.949 [ms], std 3137.5206178892986, CV 27.322205142547624
+18:09:26,951 INFO Experiment.PerfCost-d2ee: Parametric CI (Student's t-distribution) 0.95 from 11091.801669958724 to 11875.016722041277, within 3.4102026615727006% of mean
+18:09:26,951 INFO Experiment.PerfCost-d2ee: Non-parametric CI 0.95 from 12111.429 to 12548.752, within 1.7747131328926056% of median
+18:09:26,952 INFO Experiment.PerfCost-d2ee: Parametric CI (Student's t-distribution) 0.99 from 10967.296689391449 to 11999.521702608552, within 4.494418841996227% of mean
+18:09:26,952 INFO Experiment.PerfCost-d2ee: Non-parametric CI 0.99 from 12016.968 to 12651.358, within 2.574436433427325% of median
